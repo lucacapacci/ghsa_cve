@@ -1,5 +1,4 @@
-name: Update CVE Database
-
+name: API-Only CVE Sync
 on:
   schedule:
     - cron: '*/30 * * * *'
@@ -9,31 +8,49 @@ permissions:
   contents: write
 
 jobs:
-  update-database:
+  sync:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-
-    - name: Run Fetcher Script
-      run: python3 fetch_and_organize.py
-
-    - name: Commit and push changes
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        
-        git add .
-        
-        if ! git diff-index --quiet HEAD; then
-          git commit -m "chore: automated CVE sync [$(date -u +'%Y-%m-%d %H:%M:%S' UTC)]"
-          git push
-        else
-          echo "No modifications detected."
-        fi
+      - uses: actions/checkout@v4
+      
+      - name: Fetch and Process
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 1. Get last processed SHA (default to a recent one if empty)
+          LAST_SHA=$(cat last_sync_sha.txt 2>/dev/null || echo "HEAD~10")
+          
+          # 2. Get all commits since that SHA
+          # We use the 'compare' API which is the most reliable way to get a list of changed files
+          # between two points without cloning.
+          curl -s -H "Authorization: token $GH_TOKEN" \
+            "https://api.github.com/repos/github/advisory-database/compare/$LAST_SHA...main" > diff.json
+          
+          # 3. Extract JSON file URLs from the 'files' array
+          jq -r '.files[] | select(.status != "removed" and (.filename | endswith(".json"))) | .raw_url' diff.json > files_to_download.txt
+          
+          # 4. Download and process
+          if [ -s files_to_download.txt ]; then
+            mkdir -p temp_data
+            while read -r url; do
+              curl -s -L -H "Authorization: token $GH_TOKEN" "$url" > "temp_data/$(basename "$url")"
+            done < files_to_download.txt
+            
+            # Run your python script
+            python3 sync_advisories.py temp_data/*.json
+            
+            # Update last_sync_sha
+            curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/github/advisory-database/commits/main?per_page=1" | jq -r '.sha' > last_sync_sha.txt
+            
+            # Cleanup
+            rm -rf temp_data diff.json files_to_download.txt
+            
+            # Commit results
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "Sync: Updated CVEs from API" || echo "No changes to commit"
+            git push
+          else
+            echo "No new changes found."
+          fi
