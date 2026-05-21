@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rqph-jjpv-24w4",
-  "modified": "2024-04-04T06:37:52Z",
+  "modified": "2026-05-21T15:33:58Z",
   "published": "2023-08-08T09:30:20Z",
   "aliases": [
     "CVE-2023-3898"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in mAyaNet E-Commerce Software allows SQL Injection.This issue affects E-Commerce Software: before 1.1.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in mAyaNet E-Commerce Software allows SQL Injection.This issue affects E-Commerce Software: before 1.1.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-3898"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0440"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7h9-pvj5-g9fp",
-  "modified": "2026-04-20T12:32:00Z",
+  "modified": "2026-05-21T15:34:02Z",
   "published": "2026-04-20T12:32:00Z",
   "aliases": [
     "CVE-2026-31430"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nX.509: Fix out-of-bounds access when parsing extensions\n\nLeo reports an out-of-bounds access when parsing a certificate with\nempty Basic Constraints or Key Usage extension because the first byte of\nthe extension is read before checking its length.  Fix it.\n\nThe bug can be triggered by an unprivileged user by submitting a\nspecially crafted certificate to the kernel through the keyrings(7) API.\nLeo has demonstrated this with a proof-of-concept program responsibly\ndisclosed off-list.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-20T10:16:16Z"

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfwh-2959-9h69",
-  "modified": "2023-12-05T09:33:26Z",
+  "modified": "2026-05-21T15:34:01Z",
   "published": "2023-09-15T09:30:20Z",
   "aliases": [
     "CVE-2023-4662"
   ],
-  "details": "Execution with Unnecessary Privileges vulnerability in Saphira Saphira Connect allows Remote Code Inclusion.This issue affects Saphira Connect: before 9.\n\n",
+  "details": "Execution with Unnecessary Privileges vulnerability in Saphira Saphira Connect allows Remote Code Inclusion.This issue affects Saphira Connect: before 9.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4662"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0535"
     },
     {
       "type": "WEB",

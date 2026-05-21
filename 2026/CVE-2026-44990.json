@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpr9-rxv7-x643",
-  "modified": "2026-05-14T18:26:27Z",
+  "modified": "2026-05-21T16:59:36Z",
   "published": "2026-05-14T18:26:27Z",
   "aliases": [
     "CVE-2026-44990"
@@ -25,13 +25,16 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.17.3"
             },
             {
-              "last_affected": "2.17.3"
+              "fixed": "2.17.4"
             }
           ]
         }
+      ],
+      "versions": [
+        "2.17.3"
       ]
     }
   ],
@@ -39,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/apostrophecms/apostrophe/security/advisories/GHSA-rpr9-rxv7-x643"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apostrophecms/apostrophe/issues/5418"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apostrophecms/apostrophe/commit/8d4c882b4ed3a7ce802cd87f89f0c1cb7482b8c2"
     },
     {
       "type": "PACKAGE",

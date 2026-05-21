@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4rp-r6mq-pf4f",
-  "modified": "2024-04-04T06:40:07Z",
+  "modified": "2026-05-21T15:33:59Z",
   "published": "2023-08-08T15:33:44Z",
   "aliases": [
     "CVE-2023-3653"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Digital Ant E-Commerce Software allows Stored XSS.This issue affects E-Commerce Software: before 11.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Digital Ant E-Commerce Software allows Stored XSS.This issue affects E-Commerce Software: before 11.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://https://www.usom.gov.tr/bildirim/tr-23-0443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.usom.gov.tr/bildirim/tr-23-0443"
     }
   ],
   "database_specific": {

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-34fc-3w36-5xqq",
-  "modified": "2023-11-23T12:30:24Z",
+  "modified": "2026-05-21T15:34:02Z",
   "published": "2023-11-23T12:30:24Z",
   "aliases": [
     "CVE-2023-4406"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in KC Group E-Commerce Software allows Reflected XSS.This issue affects E-Commerce Software: through 20231123. \n\nNOTE: The vendor was contacted early about this disclosure but did not respond in any way.\n\n\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in KC Group E-Commerce Software allows Reflected XSS.This issue affects E-Commerce Software: through 20231123. \n\nNOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://https://www.usom.gov.tr/bildirim/tr-23-0657"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0657"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.usom.gov.tr/bildirim/tr-23-0657"
     }
   ],
   "database_specific": {

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7jp-97jf-4496",
-  "modified": "2024-04-04T06:39:40Z",
+  "modified": "2026-05-21T15:33:58Z",
   "published": "2023-08-08T12:30:21Z",
   "aliases": [
     "CVE-2023-3716"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Oduyo Online Collection Software allows SQL Injection.This issue affects Online Collection Software: before 1.0.1.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Oduyo Online Collection Software allows SQL Injection.This issue affects Online Collection Software: before 1.0.1.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-3716"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0442"
     },
     {
       "type": "WEB",
