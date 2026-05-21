@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9r8r-x3vg-6xh4",
+  "modified": "2026-05-15T21:31:32Z",
+  "published": "2026-05-15T21:31:32Z",
+  "aliases": [
+    "CVE-2026-45009"
+  ],
+  "details": "phpMyFAQ before 4.1.2 contains an insufficient authorization vulnerability in admin-api routes that allows authenticated ordinary users to access administrative endpoints by only checking login status instead of verifying backend privileges. Attackers with valid frontend user accounts can access sensitive backend operational information including dashboard versions, LDAP configuration, Elasticsearch statistics, and health-check data.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-jrc5-w569-h7h5"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45009"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/phpmyfaq-insufficient-authorization-check-in-admin-api-endpoints"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-15T19:17:01Z"
+  }
+}

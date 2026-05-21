@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-r8rh-23j8-7gc8",
+  "modified": "2025-06-23T21:31:56Z",
+  "published": "2025-06-23T21:31:56Z",
+  "aliases": [
+    "CVE-2025-44528"
+  ],
+  "details": "An issue in Texas Instruments LP-CC2652RB SimpleLink CC13XX CC26XX SDK 7.41.00.17 allows attackers to cause a Denial of Service (DoS) via sending a crafted LL_Pause_Enc_Req packet during the authentication and connection phase, causing a Denial of Service (DoS).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-44528"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/yangting111/BLE_TEST/blob/main/result/PoC/TI/Accept_Pause_Enc_Req.md"
+    },
+    {
+      "type": "WEB",
+      "url": "http://lp-cc2652rb.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://texas.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-23T20:15:27Z"
+  }
+}

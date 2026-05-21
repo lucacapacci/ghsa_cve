@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v39h-62p7-jpjc",
+  "modified": "2026-05-08T19:13:01Z",
+  "published": "2026-05-08T19:13:01Z",
+  "aliases": [
+    "CVE-2026-6322"
+  ],
+  "summary": "fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
+  "details": "### Impact\n\n`fast-uri` v3.1.1 and earlier decodes percent-encoded authority delimiters (`%40` as `@`, `%3A` as `:`) inside the host component and serializes them back as raw characters. This changes the URI structure, turning a hostname into userinfo plus a different host.\n\nFor example, `http://trusted.com%40evil.com/` normalizes to `http://trusted.com@evil.com/`, which reparses as host `evil.com` with userinfo `trusted.com`.\n\nApplications that normalize untrusted URLs before host allowlist checks, redirect validation, or outbound request routing can be steered to a different authority than the original URL appeared to contain.\n\n### Patches\n\nUpgrade to `fast-uri` >= 3.1.2.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "fast-uri"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 3.1.1"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/fastify/fast-uri/security/advisories/GHSA-v39h-62p7-jpjc"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6322"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cna.openjsf.org/security-advisories.html"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/fastify/fast-uri"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-436"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-08T19:13:01Z",
+    "nvd_published_at": "2026-05-05T11:16:33Z"
+  }
+}

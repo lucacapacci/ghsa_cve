@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jgqr-738j-43cg",
+  "modified": "2026-04-02T18:31:38Z",
+  "published": "2026-04-02T18:31:38Z",
+  "aliases": [
+    "CVE-2026-35385"
+  ],
+  "details": "In OpenSSH before 10.3, a file downloaded by scp may be installed setuid or setgid, an outcome contrary to some users' expectations, if the download is performed as root with -O (legacy scp protocol) and without -p (preserve mode).",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35385"
+    },
+    {
+      "type": "WEB",
+      "url": "https://marc.info/?l=openssh-unix-dev&m=177513443901484&w=2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openssh.org/releasenotes.html#10.3p1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2026/04/02/3"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-281"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-02T17:16:27Z"
+  }
+}

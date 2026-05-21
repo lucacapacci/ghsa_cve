@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-g35w-4vfx-hjpg",
+  "modified": "2025-10-28T12:30:17Z",
+  "published": "2025-10-28T12:30:17Z",
+  "aliases": [
+    "CVE-2025-40074"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv4: start using dst_dev_rcu()\n\nChange icmpv4_xrlim_allow(), ip_defrag() to prevent possible UAF.\n\nChange ipmr_prepare_xmit(), ipmr_queue_fwd_xmit(), ip_mr_output(),\nipv4_neigh_lookup() to use lockdep enabled dst_dev_rcu().",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6ad8de3cefdb6ffa6708b21c567df0dbf82c43a8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/923e0734c386984d45de508528a7a7ad91d791cc"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-28T12:15:41Z"
+  }
+}

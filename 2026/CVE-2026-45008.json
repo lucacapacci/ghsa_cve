@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rmqr-h98c-qg2m",
+  "modified": "2026-05-15T21:31:32Z",
+  "published": "2026-05-15T21:31:32Z",
+  "aliases": [
+    "CVE-2026-45008"
+  ],
+  "details": "phpMyFAQ before 4.1.2 contains a path traversal vulnerability in Client::deleteClientFolder that allows admins with INSTANCE_DELETE permission to delete arbitrary directories. Attackers can submit traversal sequences like https://../../../<path> in the client URL parameter to recursively delete directories outside the intended clientFolder scope.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-gh9p-q46p-57g2"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45008"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/phpmyfaq-path-traversal-in-client-deleteclientfolder-via-url-parameter"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-73"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-15T19:17:01Z"
+  }
+}

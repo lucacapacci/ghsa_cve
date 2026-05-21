@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h5hj-56h4-rwcp",
+  "modified": "2026-04-28T15:30:50Z",
+  "published": "2026-04-28T12:31:30Z",
+  "aliases": [
+    "CVE-2026-41606"
+  ],
+  "details": "Uncontrolled Recursion vulnerability in Apache Thrift.\n\nThis issue affects Apache Thrift: before 0.23.0.\n\nUsers are recommended to upgrade to version 0.23.0, which fixes the issue.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41606"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/lb4j0zyd5f3g36cos0wql925przpnwql"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/28/3"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-674"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-28T10:16:03Z"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-56w8-48fp-6mgv",
+  "modified": "2025-11-14T00:30:27Z",
+  "published": "2025-11-14T00:30:27Z",
+  "aliases": [
+    "CVE-2025-47913"
+  ],
+  "details": "SSH clients receiving SSH_AGENT_SUCCESS when expecting a typed response will panic and cause early termination of the client process.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47913"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-hcg3-q754-cr77"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/700295"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75178"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4116"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-13T22:15:51Z"
+  }
+}
