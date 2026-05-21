@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch4j-vcf5-58x5",
-  "modified": "2026-05-15T18:30:34Z",
+  "modified": "2026-05-21T20:26:48Z",
   "published": "2026-05-15T18:30:34Z",
   "aliases": [
     "CVE-2026-23695"
   ],
+  "summary": "Cockpit CMS: Stored cross-site scripting vulnerability in the Set field type's Display template option",
   "details": "Cockpit CMS through version 2.14.0, patched in commit 72a83fc, contains a stored cross-site scripting vulnerability in the Set field type's Display template option, where the template string is processed by the $interpolate function using new Function() and rendered via Vue's v-html directive without sanitization. An attacker with content/:models/manage permission can inject arbitrary JavaScript into the Display template, which executes in the browser of any user viewing the collection items list.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "cockpit-hq/cockpit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.14.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Cockpit-HQ/Cockpit/commit/72a83fcfe85ad8330e9ae834bc02fa517b5749e9"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/Cockpit-HQ/Cockpit"
     },
     {
       "type": "WEB",
@@ -37,8 +62,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-21T20:26:48Z",
     "nvd_published_at": "2026-05-15T17:16:45Z"
   }
 }
