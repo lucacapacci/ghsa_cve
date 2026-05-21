@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75cm-x2w3-8mgf",
-  "modified": "2026-05-15T03:30:37Z",
+  "modified": "2026-05-21T19:35:52Z",
   "published": "2026-05-15T03:30:37Z",
   "aliases": [
     "CVE-2026-2652"
   ],
+  "summary": "MLflow: unauthenticated access to certain FastAPI routes",
   "details": "A vulnerability in mlflow/mlflow versions 3.9.0 and earlier allows unauthenticated access to certain FastAPI routes when the server is started with authentication enabled (`--app-name basic-auth`) and served via uvicorn (ASGI). The FastAPI permission middleware only enforces authentication on `/gateway/` routes, leaving other routes such as the Job API (`/ajax-api/3.0/jobs/*`) and the OpenTelemetry trace ingestion API (`/v1/traces`) unprotected. This allows unauthenticated remote attackers to submit jobs, read job results, cancel running jobs, and inject arbitrary trace data into experiments. The issue arises from an architectural mismatch between Flask and FastAPI authentication mechanisms, where the `_find_fastapi_validator()` function fails to handle non-`/gateway/` paths, resulting in a complete authentication bypass. This vulnerability is fixed in version 3.10.0.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "mlflow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mlflow/mlflow/commit/bb62e773263c14e9ba4d1a82fe72d0de2442c6aa"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/mlflow/mlflow"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-305"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-21T19:35:52Z",
     "nvd_published_at": "2026-05-15T03:16:23Z"
   }
 }
