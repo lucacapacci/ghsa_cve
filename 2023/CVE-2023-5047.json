@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfq8-cvv8-37wf",
-  "modified": "2023-11-22T12:30:26Z",
+  "modified": "2026-05-21T09:32:07Z",
   "published": "2023-11-22T12:30:26Z",
   "aliases": [
     "CVE-2023-5047"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in DRD Fleet Leasing DRDrive allows SQL Injection.This issue affects DRDrive: before 20231006.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in DRD Fleet Leasing DRDrive allows SQL Injection.This issue affects DRDrive: before 20231006.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-5047"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0651"
     },
     {
       "type": "WEB",

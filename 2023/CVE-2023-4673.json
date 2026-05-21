@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rq2p-p786-rwh5",
-  "modified": "2024-04-04T07:42:02Z",
+  "modified": "2026-05-21T09:32:06Z",
   "published": "2023-09-15T06:30:18Z",
   "aliases": [
     "CVE-2023-4673"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Sanalogy Turasistan allows SQL Injection.This issue affects Turasistan: before 20230911 .\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Sanalogy Turasistan allows SQL Injection.This issue affects Turasistan: before 20230911 .",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4673"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0528"
     },
     {
       "type": "WEB",

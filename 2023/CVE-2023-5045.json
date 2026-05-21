@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p937-7467-8f22",
-  "modified": "2023-11-30T09:30:31Z",
+  "modified": "2026-05-21T09:32:06Z",
   "published": "2023-10-12T12:30:24Z",
   "aliases": [
     "CVE-2023-5045"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Biltay Technology Kayisi allows SQL Injection, Command Line Execution through SQL Injection.This issue affects Kayisi: before 1286.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Biltay Technology Kayisi allows SQL Injection, Command Line Execution through SQL Injection.This issue affects Kayisi: before 1286.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-5045"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0580"
     },
     {
       "type": "WEB",

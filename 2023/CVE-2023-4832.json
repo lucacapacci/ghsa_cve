@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8w3-4ph8-m4qg",
-  "modified": "2024-04-04T07:40:54Z",
+  "modified": "2026-05-21T09:32:05Z",
   "published": "2023-09-14T18:32:41Z",
   "aliases": [
     "CVE-2023-4832"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Aceka Company Management allows SQL Injection.This issue affects Company Management: before 3072 .\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Aceka Company Management allows SQL Injection.This issue affects Company Management: before 3072 .",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4832"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0523"
     },
     {
       "type": "WEB",

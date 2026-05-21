@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gm2-5hwv-5pp2",
-  "modified": "2023-11-08T00:30:19Z",
+  "modified": "2026-05-21T09:32:07Z",
   "published": "2023-10-27T15:30:20Z",
   "aliases": [
     "CVE-2023-5443"
   ],
-  "details": "Improper Protection for Outbound Error Messages and Alert Signals vulnerability in EDM Informatics E-invoice allows Account Footprinting.This issue affects E-invoice: before 2.1.\n\n",
+  "details": "Improper Protection for Outbound Error Messages and Alert Signals vulnerability in EDM Informatics E-invoice allows Account Footprinting.This issue affects E-invoice: before 2.1.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-5443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0610"
     },
     {
       "type": "WEB",

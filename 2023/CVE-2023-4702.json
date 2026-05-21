@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w64-72gj-893r",
-  "modified": "2023-11-30T09:30:31Z",
+  "modified": "2026-05-21T09:32:05Z",
   "published": "2023-09-14T21:30:26Z",
   "aliases": [
     "CVE-2023-4702"
   ],
-  "details": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Yepas Digital Yepas allows Authentication Bypass.This issue affects Digital Yepas: before 1.0.1.\n\n",
+  "details": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Yepas Digital Yepas allows Authentication Bypass.This issue affects Digital Yepas: before 1.0.1.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4702"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0526"
     },
     {
       "type": "WEB",
