@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5f4-6rm7-58wm",
-  "modified": "2026-05-08T15:31:27Z",
+  "modified": "2026-05-26T15:32:08Z",
   "published": "2026-05-08T15:31:27Z",
   "aliases": [
     "CVE-2026-43394"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfsd: Fix cred ref leak in nfsd_nl_listener_set_doit().\n\nnfsd_nl_listener_set_doit() uses get_current_cred() without\nput_cred().\n\nAs we can see from other callers, svc_xprt_create_from_sa()\ndoes not require the extra refcount.\n\nnfsd_nl_listener_set_doit() is always in the process context,\nsendmsg(), and current->cred does not go away.\n\nLet's use current_cred() in nfsd_nl_listener_set_doit().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T15:16:50Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94ww-55m5-gmrg",
-  "modified": "2026-04-27T15:30:29Z",
+  "modified": "2026-05-26T15:32:06Z",
   "published": "2026-03-25T12:30:22Z",
   "aliases": [
     "CVE-2026-23313"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni40e: Fix preempt count leak in napi poll tracepoint\n\nUsing get_cpu() in the tracepoint assignment causes an obvious preempt\ncount leak because nothing invokes put_cpu() to undo it:\n\n  softirq: huh, entered softirq 3 NET_RX with preempt_count 00000100, exited with 00000101?\n\nThis clearly has seen a lot of testing in the last 3+ years...\n\nUse smp_processor_id() instead.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:27Z"

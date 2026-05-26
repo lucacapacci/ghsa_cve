@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vrx-35fp-7whc",
-  "modified": "2026-04-03T18:31:22Z",
+  "modified": "2026-05-26T15:32:07Z",
   "published": "2026-04-03T18:31:22Z",
   "aliases": [
     "CVE-2026-23470"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/imagination: Fix deadlock in soft reset sequence\n\nThe soft reset sequence is currently executed from the threaded IRQ\nhandler, hence it cannot call disable_irq() which internally waits\nfor IRQ handlers, i.e. itself, to complete.\n\nUse disable_irq_nosync() during a soft reset instead.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-03T16:16:34Z"
