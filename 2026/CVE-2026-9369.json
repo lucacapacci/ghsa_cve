@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cv5c-mh6j-wvp9",
+  "modified": "2026-05-26T13:30:32Z",
+  "published": "2026-05-26T13:30:32Z",
+  "aliases": [
+    "CVE-2026-9369"
+  ],
+  "details": "A security flaw has been discovered in NousResearch hermes-agent 2026.4.23. Affected is the function _discover_dashboard_plugins of the file hermes_cli/web_server.py of the component CLI web-dashboard Interface. Performing a manipulation of the argument HERMES_ENABLE_PROJECT_PLUGINS results in incorrect comparison. The attack is only possible with local access. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9369"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/YLChen-007/062b77ceac6aa9844842a616f5d2ef30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/812230"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/365332"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/365332/cti"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-697"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-24T09:16:33Z"
+  }
+}

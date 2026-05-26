@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2hvc-5c6v-f533",
+  "modified": "2026-05-26T13:30:16Z",
+  "published": "2026-05-26T13:30:15Z",
+  "aliases": [
+    "CVE-2026-44417"
+  ],
+  "details": "The fix for CVE-2025-48913: Apache CXF: Untrusted JMS configuration can lead to RCE was not complete, meaning that another path in the code might lead to code execution capabilities, if untrusted users are allowed to configure JMS for Apache CXF. \nUsers are recommended to upgrade to versions 4.2.1, 4.1.6 or 3.6.11, which fix this issue.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44417"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/bqg6gjy2cx7rfyqjxcpv3jwjvmclvz4o"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-22T13:16:22Z"
+  }
+}
