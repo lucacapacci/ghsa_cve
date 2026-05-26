@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36qq-553f-w4ww",
-  "modified": "2026-05-08T15:31:26Z",
+  "modified": "2026-05-26T18:31:37Z",
   "published": "2026-05-08T15:31:26Z",
   "aliases": [
     "CVE-2026-43382"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbatman-adv: Avoid double-rtnl_lock ELP metric worker\n\nbatadv_v_elp_get_throughput() might be called when the RTNL lock is already\nheld. This could be problematic when the work queue item is cancelled via\ncancel_delayed_work_sync() in batadv_v_elp_iface_disable(). In this case,\nan rtnl_lock() would cause a deadlock.\n\nTo avoid this, rtnl_trylock() was used in this function to skip the\nretrieval of the ethtool information in case the RTNL lock was already\nheld.\n\nBut for cfg80211 interfaces, batadv_get_real_netdev() was called - which\nalso uses rtnl_lock(). The approach for __ethtool_get_link_ksettings() must\nalso be used instead and the lockless version __batadv_get_real_netdev()\nhas to be called.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T15:16:49Z"

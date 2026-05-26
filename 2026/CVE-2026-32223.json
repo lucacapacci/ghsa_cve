@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gj4f-xcvc-q45w",
-  "modified": "2026-04-14T18:30:42Z",
+  "modified": "2026-05-26T18:31:37Z",
   "published": "2026-04-14T18:30:42Z",
   "aliases": [
     "CVE-2026-32223"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32223"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2026-32223-detection-script-heap-based-buffer-overflow-in-windows-usb-print-driver"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2026-32223-mitigation-script-heap-based-buffer-overflow-in-windows-usb-print-driver"
     }
   ],
   "database_specific": {

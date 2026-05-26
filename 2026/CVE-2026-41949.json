@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jv3f-qwf9-wvq9",
-  "modified": "2026-05-18T15:30:38Z",
+  "modified": "2026-05-26T18:31:38Z",
   "published": "2026-05-18T15:30:38Z",
   "aliases": [
     "CVE-2026-41949"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/langgenius/dify/pull/35797"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/langgenius/dify/commit/432a6412a3fdb30ce48003d699b90cc7d890df20"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.14.2"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfv9-gp3h-73xv",
-  "modified": "2026-05-20T15:35:30Z",
+  "modified": "2026-05-26T18:31:39Z",
   "published": "2026-05-20T15:35:30Z",
   "aliases": [
     "CVE-2026-29518"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/RsyncProject/rsync/releases/tag/v3.4.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://michael.stapelberg.ch/posts/2026-05-24-minimal-memory-safe-go-rsync-vulns"
     },
     {
       "type": "WEB",

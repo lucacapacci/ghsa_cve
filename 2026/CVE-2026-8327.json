@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmw3-3fv3-h54w",
-  "modified": "2026-05-22T00:31:16Z",
+  "modified": "2026-05-26T18:31:40Z",
   "published": "2026-05-22T00:31:16Z",
   "aliases": [
     "CVE-2026-8327"
   ],
   "details": "Concrete CMS below 9.5.0 and below is vulnerable to password change without reauthorization and session-hardening bypass. The user-profile edit controller passes the entire raw POST array to UserInfo::update() without field whitelisting resulting in password change without requiring the current password  and also resulting in registered users able to disable the per-user-IP-pinning in the session validator which is meant to detect hijacking.  The Concrete CMS security team gave this vulnerability a CVSS v.4.0 score of 5.3 with vector CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N. Thanks 0x4c616e for reporting.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

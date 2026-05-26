@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-phf8-w34q-995j",
+  "modified": "2026-05-26T18:31:47Z",
+  "published": "2026-05-26T18:31:47Z",
+  "aliases": [
+    "CVE-2026-48901"
+  ],
+  "details": "The InputFilter::getInstance() method omitted a security sensitive parameter from the instance cache key.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48901"
+    },
+    {
+      "type": "WEB",
+      "url": "https://developer.joomla.org/security-centre/1049-20260517-core-incorrect-cache-key-construction-for-inputfilter-objects.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-26T17:16:54Z"
+  }
+}

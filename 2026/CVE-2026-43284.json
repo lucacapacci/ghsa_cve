@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmw8-mxmc-8w2r",
-  "modified": "2026-05-14T18:32:46Z",
+  "modified": "2026-05-26T18:31:37Z",
   "published": "2026-05-08T09:31:30Z",
   "aliases": [
     "CVE-2026-43284"
@@ -62,6 +62,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/V4bel/dirtyfrag"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2026-43284-detection-script-dirty-frag-linux-kernel-local-privilege-escalation"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2026-43284-mitigation-script-dirty-frag-linux-kernel-local-privilege-escalation"
     },
     {
       "type": "WEB",
