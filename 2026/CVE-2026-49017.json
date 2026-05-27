@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7jq-j257-rww2",
-  "modified": "2026-05-27T03:30:31Z",
+  "modified": "2026-05-27T21:31:20Z",
   "published": "2026-05-27T03:30:31Z",
   "aliases": [
     "CVE-2026-49017"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://review.opendev.org/c/openstack/swift/+/988093"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/27/9"
     }
   ],
   "database_specific": {

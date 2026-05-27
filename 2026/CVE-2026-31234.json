@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf8f-x4r3-jm8c",
-  "modified": "2026-05-14T21:30:38Z",
+  "modified": "2026-05-27T21:45:19Z",
   "published": "2026-05-12T18:30:40Z",
   "aliases": [
     "CVE-2026-31234"
   ],
+  "summary": "Horovod contains an insecure deserialization vulnerability in its KVStore HTTP server component",
   "details": "Horovod thru 0.28.1 contains an insecure deserialization vulnerability (CWE-502) in its KVStore HTTP server component. The KVStore server, used for distributed task coordination, lacks authentication and authorization controls, allowing any remote attacker to write arbitrary data via HTTP PUT requests. When a Horovod worker reads data from the KVStore (via HTTP GET), it deserializes the data using cloudpickle.loads() without verifying its source or integrity. An attacker can exploit this by sending a malicious pickle payload to the server before the legitimate data is written, causing the victim worker to deserialize and execute arbitrary code, leading to remote code execution.",
   "severity": [
     {
@@ -13,14 +14,34 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "horovod"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.28.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31234"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/horovod/horovod"
     },
     {
@@ -33,8 +54,8 @@
       "CWE-502"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-27T21:45:19Z",
     "nvd_published_at": "2026-05-12T18:16:51Z"
   }
 }

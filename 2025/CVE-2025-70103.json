@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xm2-q73p-253r",
-  "modified": "2026-05-27T15:33:25Z",
+  "modified": "2026-05-27T21:31:25Z",
   "published": "2026-05-27T15:33:25Z",
   "aliases": [
     "CVE-2025-70103"
   ],
   "details": "Heap buffer overflow vulnerability in libjxl 0.12.0 via crafted PBM images to the jxl::extras::DecodeImagePNM function in file lib/extras/dec/pnm.cc.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-122"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T15:16:24Z"

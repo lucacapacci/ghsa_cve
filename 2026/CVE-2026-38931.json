@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxvc-h8gm-x6h3",
-  "modified": "2026-05-27T18:31:40Z",
+  "modified": "2026-05-27T21:31:25Z",
   "published": "2026-05-27T18:31:40Z",
   "aliases": [
     "CVE-2026-38931"
   ],
   "details": "A stored cross-site scripting (XSS) vulnerability in the /admin/config-module.php component of creatorsofcode simplephp GitHub commit 5184cff (Latest as of 2026-02-27) via injecting a crafted payload.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T17:16:34Z"
