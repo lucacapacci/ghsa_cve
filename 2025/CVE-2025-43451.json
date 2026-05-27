@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mgh-5qm5-mmhj",
-  "modified": "2026-05-27T00:31:26Z",
+  "modified": "2026-05-27T03:30:30Z",
   "published": "2026-05-27T00:31:26Z",
   "aliases": [
     "CVE-2025-43451"
   ],
   "details": "A permissions issue was addressed by removing the vulnerable code. This issue is fixed in macOS Tahoe 26. An app may be able to access sensitive user data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-26T22:16:41Z"
