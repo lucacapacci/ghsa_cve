@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2jc-h86g-63rm",
-  "modified": "2022-05-14T00:03:28Z",
+  "modified": "2026-05-27T15:32:50Z",
   "published": "2022-02-11T00:01:39Z",
   "aliases": [
     "CVE-2022-21341"
@@ -45,7 +45,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-502"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

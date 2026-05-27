@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q578-5vf7-89mr",
-  "modified": "2026-05-26T18:31:51Z",
+  "modified": "2026-05-27T15:33:00Z",
   "published": "2026-05-26T18:31:51Z",
   "aliases": [
     "CVE-2026-9170"
@@ -21,12 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.ibm.com/support/pages/node/7274065"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.ibm.com/support/pages/node/7274072"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-444"
+      "CWE-444",
+      "CWE-94"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

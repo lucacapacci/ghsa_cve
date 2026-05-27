@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76v6-f83q-pxvh",
-  "modified": "2026-05-26T13:30:46Z",
+  "modified": "2026-05-27T15:32:59Z",
   "published": "2026-05-26T13:30:46Z",
   "aliases": [
     "CVE-2026-47077"
   ],
   "details": "Allocation of Resources Without Limits or Throttling vulnerability in benoitc hackney allows Flooding. hackney_h3:await_response_loop/6 accumulates the HTTP/3 response body in memory without any size cap. The after Timeout clause is a per-message inactivity timer that resets on every received chunk, housekeeping message, or settings frame — it is not a wall-clock deadline. A malicious HTTP/3 server that emits one small chunk every Timeout - 1 ms with Fin = false and never sends a final frame keeps the loop alive indefinitely while the accumulation buffer grows linearly without bound, eventually exhausting the BEAM process heap and causing an out-of-memory condition.\n\nThis issue affects hackney: from 2.0.0 before 4.0.1.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

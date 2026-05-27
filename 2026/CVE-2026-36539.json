@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qj5w-m4qh-7h99",
+  "modified": "2026-05-27T15:33:11Z",
+  "published": "2026-05-27T15:33:11Z",
+  "aliases": [
+    "CVE-2026-36539"
+  ],
+  "details": "Netis AC1200 Router NC21 V4.0.1.4296 exposes a CGI endpoint /cgi-bin/skk_get.cgi that returns the entire router configuration as a JSON response with no authentication required. Any attacker on the LAN can send a single HTTP GET request and instantly retrieve administrator credentials, WiFi passwords, PPPoE credentials, DDNS credentials, and a full map of all connected devices.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36539"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sir3ns/cve-disclosure/blob/main/CVE-2026-36539/readme.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-27T14:16:45Z"
+  }
+}
