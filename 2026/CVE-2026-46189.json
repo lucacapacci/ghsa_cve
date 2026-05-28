@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xxxv-9j5g-vqfc",
+  "modified": "2026-05-28T12:30:32Z",
+  "published": "2026-05-28T12:30:32Z",
+  "aliases": [
+    "CVE-2026-46189"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/vmw_pvrdma: Fix double free on pvrdma_alloc_ucontext() error path\n\nSashiko points out that pvrdma_uar_free() is already called within\npvrdma_dealloc_ucontext(), so calling it before triggers a double free.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46189"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0c63333ff97bd1275294fd12840a0efe9d7a4c59"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/45d25e3ec17900bf5a9d6876ff16ceee31c4c0e0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/935ee27d0904aa944cbcc979094c20e5ef62eead"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e38e86995df27f1f854063dab1f0c6a513db3faf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ecc36a82ecfcfdf3c6606d209f22ec5543c410e0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-28T10:16:34Z"
+  }
+}

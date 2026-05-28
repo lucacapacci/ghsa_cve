@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pw2f-xmgc-f22m",
+  "modified": "2026-05-28T12:30:32Z",
+  "published": "2026-05-28T12:30:32Z",
+  "aliases": [
+    "CVE-2026-46181"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/mlx4: Fix mis-use of RCU in mlx4_srq_event()\n\nSashiko points out the radix_tree itself is RCU safe, but nothing ever\nfrees the mlx4_srq struct with RCU, and it isn't even accessed within the\nRCU critical section. It also will crash if an event is delivered before\nthe srq object is finished initializing.\n\nUse the spinlock since it isn't easy to make RCU work, use\nrefcount_inc_not_zero() to protect against partially initialized objects,\nand order the refcount_set() to be after the srq is fully initialized.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46181"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1e2a44875b6afb4add1115f7f3351dcbeb6f273d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8b7833f3bce35cb0d01c1503781523c099c675f0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c9341307ea16b9395c2e4c9c94d8499d91fe31d0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-28T10:16:33Z"
+  }
+}

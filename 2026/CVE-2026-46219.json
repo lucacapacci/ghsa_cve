@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-993q-fvmm-5hv9",
+  "modified": "2026-05-28T12:30:33Z",
+  "published": "2026-05-28T12:30:33Z",
+  "aliases": [
+    "CVE-2026-46219"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: mpc52xx: fix use-after-free on unbind\n\nThe state machine work is scheduled by the interrupt handler and\ntherefore needs to be cancelled after disabling interrupts to avoid a\npotential use-after-free.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46219"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6c3e413919a12627d04a31a4a5fccb9fc129bb02"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/706b3dc2ac7a998c55e14b3fd2e8f934c367e6e0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bb6b50f709c5a01906ff72a07fdc070bb3357188"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bbcd6dd8e9f264440eaf6167382bf404911c1c46"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ee52da0dd83ebcd89ecbbe2660c57b15a25489f2"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-28T10:16:37Z"
+  }
+}

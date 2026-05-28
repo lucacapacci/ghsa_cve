@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h8h4-4mrv-wh3h",
+  "modified": "2026-05-28T12:30:30Z",
+  "published": "2026-05-28T12:30:30Z",
+  "aliases": [
+    "CVE-2026-46145"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/mana: Validate rx_hash_key_len\n\nSashiko points out that rx_hash_key_len comes from a uAPI structure and is\nblindly passed to memcpy, allowing the userspace to trash kernel\nmemory. Bounds check it so the memcpy cannot overflow.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46145"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/012796f9541fcd0c1fa8ae4da7eb4d83931ef838"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/11c1431d641e0e4e0529e96957995820600c7287"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6dd2d4ad9c8429523b1c220c5132bd551c006425"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7d7c9f0fcd19c4d2f0164347c58d49cafa961b72"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7d94f155f354b961c598f71bafa804dceded513f"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-28T10:16:30Z"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pvph-jwxq-qcxw",
+  "modified": "2026-05-28T12:30:30Z",
+  "published": "2026-05-28T12:30:30Z",
+  "aliases": [
+    "CVE-2026-46146"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: usb-audio: Avoid potential endless loop in convert_chmap_v3()\n\nThe convert_chmap_v3() has a loop with its increment size of\ncs_desc->wLength, but we forgot to validate cs_desc->wLength itself,\nwhich may lead to potential endless loop by a malformed descriptor.\n\nAdd a proper size check to abort the loop for plugging the hole.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46146"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4e0ee232ebe3df04874125d7c7f3e6c25ea5483d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6e7247d8f5fefeceb0bb9cc80a5388a636b219cd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/be09b47ed8677d76962e3240c145502e2ad9f3c8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e0e3dcf48189603f3865f1a0b799b3b42baae96d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/fa5b19ce69067874b1413f3c2027563bae8c2cb3"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-28T10:16:30Z"
+  }
+}

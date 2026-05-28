@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3vv3-57g4-wh3p",
+  "modified": "2026-05-28T12:30:30Z",
+  "published": "2026-05-28T12:30:30Z",
+  "aliases": [
+    "CVE-2026-46127"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/ocrdma: Don't NULL deref uctx on errors in ocrdma_copy_pd_uresp()\n\nSashiko points out that pd->uctx isn't initialized until late in the\nfunction so all these error flow references are NULL and will crash. Use\nthe uctx that isn't NULL.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46127"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/34fbf48cf3b410d2a6e8c586fa952a36331ca5ba"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/75fc130664ae324e7b2f9ad3630e0f175e9ca6c8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8832626a483439e207734e027afff322ccdf726e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e01a957561f663d3b68d2fd233a4502e3367efcd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ec44c00a4fe1327efa35083f98b39c01cb535a51"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-28T10:16:28Z"
+  }
+}
