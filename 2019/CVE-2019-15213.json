@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55pq-996w-pmwq",
-  "modified": "2023-03-01T03:30:28Z",
+  "modified": "2026-05-28T21:31:49Z",
   "published": "2022-05-24T16:53:57Z",
   "aliases": [
     "CVE-2019-15213"

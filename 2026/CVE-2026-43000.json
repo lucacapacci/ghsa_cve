@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q623-f4j4-p4xj",
+  "modified": "2026-05-28T21:32:02Z",
+  "published": "2026-05-28T21:32:02Z",
+  "aliases": [
+    "CVE-2026-43000"
+  ],
+  "details": "An issue was discovered in OpenStack Keystone before 29.0.2. When combined with an application credential impersonation vulnerability, an attacker with the member role on a project can escalate to admin by chaining unrestricted application credentials with Keystone trusts. The impersonated token carries the victim's identity, which passes the trustor validation check. Keystone then validates the delegated roles against the victim's actual role assignments in the database, not the roles on the requesting token. This allows the attacker to create a trust delegating the victim's admin role to themselves. The trust persists independently, and additional trusts and application credentials can be created to maintain access. All actions are logged under the victim's identity.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43000"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.launchpad.net/keystone/+bug/2148477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.openstack.org/ossa/OSSA-2026-015.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-28T19:16:37Z"
+  }
+}
