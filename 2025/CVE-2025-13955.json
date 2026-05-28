@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wg5-mf39-8mh8",
-  "modified": "2025-12-10T09:30:24Z",
+  "modified": "2026-05-28T15:39:37Z",
   "published": "2025-12-10T09:30:24Z",
   "aliases": [
     "CVE-2025-13955"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cvd-cases/cvd-case-1-test.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.nimbletech.com.tw/index.php/release-note"
     }
   ],
   "database_specific": {

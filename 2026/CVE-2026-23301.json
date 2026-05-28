@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjww-hmp9-xppj",
-  "modified": "2026-03-25T12:30:22Z",
+  "modified": "2026-05-28T15:39:37Z",
   "published": "2026-03-25T12:30:22Z",
   "aliases": [
     "CVE-2026-23301"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: SDCA: Add allocation failure check for Entity name\n\nCurrently find_sdca_entity_iot() can allocate a string for the\nEntity name but it doesn't check if that allocation succeeded.\nAdd the missing NULL check after the allocation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-252"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:25Z"

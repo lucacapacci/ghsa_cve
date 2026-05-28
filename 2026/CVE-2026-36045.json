@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cv2p-68f4-f4pw",
-  "modified": "2026-05-27T15:33:11Z",
+  "modified": "2026-05-28T15:39:43Z",
   "published": "2026-05-27T15:33:11Z",
   "aliases": [
     "CVE-2026-36045"
   ],
   "details": "picoclaw <=v0.1.2 and earlier is vulnerable to OS command injection via the ExecTool component (pkg/tools/shell.go). The guardCommand() function attempts to restrict shell command execution using a denylist of 8 regular expressions, but the denylist is incomplete.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-78"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:16:45Z"
