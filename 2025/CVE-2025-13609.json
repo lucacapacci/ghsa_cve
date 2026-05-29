@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh5w-g8gq-r3v9",
-  "modified": "2026-03-19T21:23:17Z",
+  "modified": "2026-05-29T20:50:19Z",
   "published": "2025-11-24T18:31:14Z",
   "aliases": [
     "CVE-2025-13609"
@@ -91,6 +91,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keylime/keylime/releases/tag/v7.13.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/keylime/PYSEC-2025-77.yaml"
     }
   ],
   "database_specific": {

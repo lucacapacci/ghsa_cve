@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w596-4wvx-j9j6",
-  "modified": "2025-08-01T20:34:12Z",
+  "modified": "2026-05-29T20:49:54Z",
   "published": "2022-10-16T12:00:23Z",
   "withdrawn": "2025-08-01T20:34:11Z",
   "aliases": [
@@ -64,6 +64,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pypa/advisory-database/tree/main/vulns/py/PYSEC-2022-42969.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/py/PYSEC-2022-43183.yaml"
     },
     {
       "type": "PACKAGE",

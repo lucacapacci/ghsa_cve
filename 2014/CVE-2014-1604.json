@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gcf-pq99-rjw3",
-  "modified": "2024-10-21T21:24:39Z",
+  "modified": "2026-05-29T20:48:18Z",
   "published": "2022-05-17T01:27:10Z",
   "aliases": [
     "CVE-2014-1604"
@@ -46,6 +46,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/alex/rply"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/rply/PYSEC-2014-117.yaml"
     },
     {
       "type": "WEB",
