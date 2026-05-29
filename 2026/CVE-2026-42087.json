@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v529-vhwc-wfc5",
-  "modified": "2026-05-04T20:08:59Z",
+  "modified": "2026-05-29T21:46:48Z",
   "published": "2026-04-23T14:12:02Z",
   "aliases": [
     "CVE-2026-42087"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/OpenC3/cosmos/releases/tag/v7.0.0-rc3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/openc3/CVE-2026-42087.yml"
     }
   ],
   "database_specific": {

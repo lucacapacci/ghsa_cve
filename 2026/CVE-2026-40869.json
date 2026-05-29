@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w5xj-99cg-rccm",
-  "modified": "2026-04-24T21:09:56Z",
+  "modified": "2026-05-29T21:46:09Z",
   "published": "2026-04-14T22:22:58Z",
   "aliases": [
     "CVE-2026-40869"
@@ -70,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/decidim/decidim"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/decidim-core/CVE-2026-40869.yml"
     }
   ],
   "database_specific": {

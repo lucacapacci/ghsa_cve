@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv9c-mjw8-79gf",
-  "modified": "2026-05-12T16:19:17Z",
+  "modified": "2026-05-29T21:45:43Z",
   "published": "2026-05-07T15:38:41Z",
   "aliases": [
     "CVE-2025-67202"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sidekiq-cron/sidekiq-cron/commit/7b4ae4822f93ef4646f5cb55500ca4e25662db7c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/sidekiq-cron/CVE-2025-67202.yml"
     },
     {
       "type": "PACKAGE",

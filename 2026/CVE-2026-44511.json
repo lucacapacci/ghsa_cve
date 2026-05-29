@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cx3-3c38-j9vv",
-  "modified": "2026-05-14T20:53:47Z",
+  "modified": "2026-05-29T21:45:23Z",
   "published": "2026-05-07T02:13:42Z",
   "aliases": [
     "CVE-2026-44511"
@@ -66,6 +66,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/katalyst/koi"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/katalyst-koi/CVE-2026-44511.yml"
     },
     {
       "type": "WEB",
