@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vpw9-2j5c-m746",
-  "modified": "2026-05-28T21:32:02Z",
+  "modified": "2026-05-29T18:31:19Z",
   "published": "2026-05-28T21:32:02Z",
   "aliases": [
     "CVE-2026-30761"
   ],
   "details": "An arbitrary file upload vulnerability in the pages/admin.uploadmapimg.php component of SourceBans Material Admin v1.1.6 allows attackers to execute arbitrary code via uploading a crafted image file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-434"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T19:16:37Z"

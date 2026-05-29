@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4p3p-7392-hjw4",
-  "modified": "2026-05-29T00:38:32Z",
+  "modified": "2026-05-29T18:31:18Z",
   "published": "2026-05-28T18:30:30Z",
   "aliases": [
     "CVE-2026-41565"
   ],
   "details": "CryptX versions before 0.088_001 for Perl have a stack buffer overflow in four AEAD decrypt_verify helpers.\n\nThe gcm_decrypt_verify, ccm_decrypt_verify, chacha20poly1305_decrypt_verify and eax_decrypt_verify XS routines copied the caller-supplied authentication tag into a fixed 144-byte stack buffer (MAXBLOCKSIZE) without checking the supplied length. A longer tag overwrites the stack past the buffer. Version 0.088 added the clamp to gcm_decrypt_verify, and 0.088_001 added it to the other three.\n\nAny caller of an affected helper that forwards an attacker-controlled tag longer than the buffer can trigger the overflow.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -35,7 +40,7 @@
     "cwe_ids": [
       "CWE-121"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T16:16:22Z"

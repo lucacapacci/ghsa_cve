@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pqg-qmmw-g6j5",
-  "modified": "2022-10-19T19:00:24Z",
+  "modified": "2026-05-29T18:31:13Z",
   "published": "2022-05-24T17:34:39Z",
   "aliases": [
     "CVE-2020-28941"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2020/12/msg00015.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TITJQPYDWZ4NB2ONJWUXW75KSQIPF35T"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZF4OGZPKTAJJXWHPIFP3LHEWWEMR5LPT"
     },
     {
       "type": "WEB",

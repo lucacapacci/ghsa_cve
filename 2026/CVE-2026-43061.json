@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6grr-36f8-j7pv",
-  "modified": "2026-05-05T18:33:25Z",
+  "modified": "2026-05-29T18:31:14Z",
   "published": "2026-05-05T18:33:24Z",
   "aliases": [
     "CVE-2026-43061"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nserial: 8250: Fix TX deadlock when using DMA\n\n`dmaengine_terminate_async` does not guarantee that the\n`__dma_tx_complete` callback will run. The callback is currently the\nonly place where `dma->tx_running` gets cleared. If the transaction is\ncanceled and the callback never runs, then `dma->tx_running` will never\nget cleared and we will never schedule new TX DMA transactions again.\n\nThis change makes it so we clear `dma->tx_running` after we terminate\nthe DMA transaction. This is \"safe\" because `serial8250_tx_dma_flush`\nis holding the UART port lock. The first thing the callback does is also\ngrab the UART port lock, so access to `dma->tx_running` is serialized.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-05T16:16:15Z"

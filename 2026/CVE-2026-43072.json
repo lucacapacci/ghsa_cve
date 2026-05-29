@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q99v-2gx4-wp9h",
-  "modified": "2026-05-05T18:33:25Z",
+  "modified": "2026-05-29T18:31:14Z",
   "published": "2026-05-05T18:33:25Z",
   "aliases": [
     "CVE-2026-43072"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vc4: platform_get_irq_byname() returns an int\n\nplatform_get_irq_byname() will return a negative value if an error\nhappens, so it should be checked and not just passed directly into\ndevm_request_threaded_irq() hoping all will be ok.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-05T16:16:16Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc83-g4w3-pxpq",
-  "modified": "2026-05-29T00:38:35Z",
+  "modified": "2026-05-29T18:31:22Z",
   "published": "2026-05-29T00:38:35Z",
   "aliases": [
     "CVE-2026-9882"
   ],
   "details": "Integer overflow in ANGLE in Google Chrome prior to 148.0.7778.216 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: Critical)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-472"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T23:16:46Z"

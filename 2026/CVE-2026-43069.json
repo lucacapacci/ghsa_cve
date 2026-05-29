@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmrr-4gfx-7vm5",
-  "modified": "2026-05-05T18:33:25Z",
+  "modified": "2026-05-29T18:31:14Z",
   "published": "2026-05-05T18:33:25Z",
   "aliases": [
     "CVE-2026-43069"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: hci_ll: Fix firmware leak on error path\n\nSmatch reports:\n\ndrivers/bluetooth/hci_ll.c:587 download_firmware() warn:\n'fw' from request_firmware() not released on lines: 544.\n\nIn download_firmware(), if request_firmware() succeeds but the returned\nfirmware content is invalid (no data or zero size), the function returns\nwithout releasing the firmware, resulting in a resource leak.\n\nFix this by calling release_firmware() before returning when\nrequest_firmware() succeeded but the firmware content is invalid.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-05T16:16:16Z"

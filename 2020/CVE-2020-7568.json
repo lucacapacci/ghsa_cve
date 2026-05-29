@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45cc-9wgf-p2qq",
-  "modified": "2022-05-24T17:34:45Z",
+  "modified": "2026-05-29T18:31:13Z",
   "published": "2022-05-24T17:34:45Z",
   "aliases": [
     "CVE-2020-7568"
   ],
   "details": "A CWE-200: Exposure of Sensitive Information to an Unauthorized Actor vulnerability exists in Modicon M221 (all references, all versions) that could allow non sensitive information disclosure when the attacker has captured the traffic between EcoStruxure Machine - Basic software and Modicon M221 controller.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

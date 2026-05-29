@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2fw-m3gj-2pvm",
-  "modified": "2022-10-06T18:52:05Z",
+  "modified": "2026-05-29T18:31:13Z",
   "published": "2022-05-24T17:35:04Z",
   "aliases": [
     "CVE-2020-29372"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=bc0c4d1e176eeb614dc8734fc3ace34292771f11"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/42451131"
     },
     {
       "type": "WEB",
