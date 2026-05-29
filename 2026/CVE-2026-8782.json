@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6h8r-h22r-jj64",
-  "modified": "2026-05-18T03:31:49Z",
+  "modified": "2026-05-28T22:43:02Z",
   "published": "2026-05-18T03:31:49Z",
   "aliases": [
     "CVE-2026-8782"
   ],
+  "summary": "AMF Vulnerable to Improper Resource Shutdown or Release",
   "details": "A weakness has been identified in omec-project amf up to 2.1.3-dev. This affects an unknown function of the file ngap/handler.go of the component NGAP Message Handler. This manipulation causes null pointer dereference. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be used for attacks. Upgrading to version 2.2.0 mitigates this issue. It is recommended to upgrade the affected component. The same pull request fixes multiple security issues.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/omec-project/amf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,7 +53,7 @@
       "url": "https://github.com/omec-project/amf/pull/666"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/omec-project/amf"
     },
     {
@@ -57,8 +78,8 @@
       "CWE-404"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-28T22:43:02Z",
     "nvd_published_at": "2026-05-18T02:16:37Z"
   }
 }
