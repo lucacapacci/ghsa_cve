@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgrp-2w9f-fmvg",
-  "modified": "2026-05-30T03:30:20Z",
+  "modified": "2026-05-30T06:31:03Z",
   "published": "2026-05-30T03:30:20Z",
   "aliases": [
     "CVE-2026-48840"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2026/05/29/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/29/3"
     }
   ],
   "database_specific": {
