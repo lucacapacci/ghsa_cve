@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pvw-g552-53c5",
-  "modified": "2025-10-17T19:07:33Z",
+  "modified": "2026-05-31T18:30:24Z",
   "published": "2025-10-17T17:05:03Z",
   "aliases": [
     "CVE-2025-26625"
@@ -70,6 +70,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/git-lfs/git-lfs/releases/tag/v3.7.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/05/msg00055.html"
     }
   ],
   "database_specific": {
