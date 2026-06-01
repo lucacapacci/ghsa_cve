@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vcc7-hjgh-mx9v",
+  "modified": "2026-06-01T21:30:44Z",
+  "published": "2026-06-01T21:30:44Z",
+  "aliases": [
+    "CVE-2026-37234"
+  ],
+  "details": "FlexRIC v2.0.0 allows a single SCTP connection to bind multiple xapp_ids by sending multiple E42_SETUP_REQUESTs. On disconnect, only the first registered xapp_id's resources are cleaned up; subsequent xapp_ids and their subscriptions remain as stale entries. A remote attacker can exploit this to leak subscription state in the iApp, potentially causing resource exhaustion or state corruption over time.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37234"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MinamiKotor1/oran-security-advisories-zhongnan-luo/blob/main/advisories/CVE-2026-37234.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.eurecom.fr/mosaic5g/flexric"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-01T21:16:42Z"
+  }
+}

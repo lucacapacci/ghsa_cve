@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rr6f-mqf5-f7wc",
-  "modified": "2024-07-17T00:32:55Z",
+  "modified": "2026-06-01T21:30:32Z",
   "published": "2024-07-17T00:32:55Z",
   "aliases": [
     "CVE-2024-21182"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21182"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-21182"
     },
     {
       "type": "WEB",
