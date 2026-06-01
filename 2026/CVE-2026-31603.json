@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfh9-x593-fmpr",
-  "modified": "2026-04-29T21:31:24Z",
+  "modified": "2026-06-01T18:31:27Z",
   "published": "2026-04-24T15:32:35Z",
   "aliases": [
     "CVE-2026-31603"
@@ -21,11 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/124a43550db8a74eef080cd4573a4904efe67029"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1412ba36597a82e928f20047f41d6c6582dafe8a"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2f640c6043aeab31a2f607d7605271860c3b11df"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3300b049693138852a4c6738b5f1194a1ee91ddd"
     },
     {
       "type": "WEB",
@@ -38,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/779412e0e391fd4a0d12e1d1adaa7bf043de62d7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b285a8f3bbb821a93eb37c2740a68ca1d7112a59"
     },
     {
       "type": "WEB",

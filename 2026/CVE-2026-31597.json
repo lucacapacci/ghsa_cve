@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pwc-q4rq-xxf3",
-  "modified": "2026-04-27T15:30:45Z",
+  "modified": "2026-06-01T18:31:27Z",
   "published": "2026-04-24T15:32:34Z",
   "aliases": [
     "CVE-2026-31597"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31597"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/35c2c05261d6f6d84aaa1355afa201d507943e76"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/36539c4d536f851a3b346a6ebb27b51bc3d77a94"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3f5e74b5db9353b01ed50f4de84e75b755f8fbc2"
     },
     {
       "type": "WEB",

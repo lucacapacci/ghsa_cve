@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffmp-v5q6-mvpq",
-  "modified": "2026-05-03T09:33:09Z",
+  "modified": "2026-06-01T18:31:28Z",
   "published": "2026-05-01T15:30:33Z",
   "aliases": [
     "CVE-2026-31717"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/49110a8ce654bbe56bef7c5e44cce31f4b102b8a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/712cdf917e77a6444ce3836874829d770db20ee6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c7f0f0d01c88bdcb8b1694d7d321670013f7ed7d"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cm2-ww33-pjpc",
-  "modified": "2025-11-10T21:30:27Z",
+  "modified": "2026-06-01T18:31:20Z",
   "published": "2025-05-01T15:31:48Z",
   "aliases": [
     "CVE-2022-49822"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1dcdf5f5b2137185cbdd5385f29949ab3da4f00c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/775d6625f96b26b90b9be9164b855ea2c471c0e5"
     },
     {
       "type": "WEB",

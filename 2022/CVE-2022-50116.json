@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gf27-p5cc-4mq4",
-  "modified": "2025-11-18T18:32:45Z",
+  "modified": "2026-06-01T18:31:20Z",
   "published": "2025-06-18T12:30:48Z",
   "aliases": [
     "CVE-2022-50116"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/0af021678d5d30c31f5a6b631f404ead3575212a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5020173e7e7725110a8d4be1359bf1dfc4b1814d"
     },
     {
       "type": "WEB",

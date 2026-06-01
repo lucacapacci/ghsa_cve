@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvph-jwxq-qcxw",
-  "modified": "2026-05-28T12:30:30Z",
+  "modified": "2026-06-01T18:31:37Z",
   "published": "2026-05-28T12:30:30Z",
   "aliases": [
     "CVE-2026-46146"
@@ -13,6 +13,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46146"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/076d5d13eb9c1ad259a7f246149f6676c62285f9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/24a40df79307ca7ca0eec0889361cf6ac146d72a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/316aa0b1e3c5600eae5ab876394c1ac70e6db581"
     },
     {
       "type": "WEB",

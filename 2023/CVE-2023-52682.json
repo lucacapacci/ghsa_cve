@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh7x-5rqw-m74q",
-  "modified": "2025-09-19T21:31:15Z",
+  "modified": "2026-06-01T18:31:18Z",
   "published": "2024-05-17T15:31:11Z",
   "aliases": [
     "CVE-2023-52682"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52682"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2bfe8fdb674f71747553a65f2ef27e14c8880655"
     },
     {
       "type": "WEB",

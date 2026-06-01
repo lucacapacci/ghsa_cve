@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x9q-gpxg-j6xg",
-  "modified": "2026-05-27T15:33:20Z",
+  "modified": "2026-06-01T18:31:34Z",
   "published": "2026-05-27T15:33:20Z",
   "aliases": [
     "CVE-2026-46002"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1b80cf48bcf0e1937af9cd6c7beb188762bbf7c5"
     },
     {
       "type": "WEB",
@@ -29,6 +33,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/470264bbec499e276a89a6431144ae58f411ea4d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9e2d67fb2b73eeff8b601e26b332128eae8147bb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a69a0c5156b6f0092b9fcf44517f5831a962de2d"
     },
     {
       "type": "WEB",

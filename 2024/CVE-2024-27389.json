@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j54f-72m2-vvmr",
-  "modified": "2025-09-18T18:30:21Z",
+  "modified": "2026-06-01T18:31:18Z",
   "published": "2024-05-01T15:30:37Z",
   "aliases": [
     "CVE-2024-27389"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/cb9e802e49c24eeb3af35e9e8c04d526f35f112a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d0ee2a8adb6673382cce8a4280e1ca0849b3b783"
     },
     {
       "type": "WEB",

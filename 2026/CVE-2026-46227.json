@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rg55-jvw9-p7m7",
-  "modified": "2026-05-30T12:30:26Z",
+  "modified": "2026-06-01T18:31:42Z",
   "published": "2026-05-28T12:30:33Z",
   "aliases": [
     "CVE-2026-46227"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0c7b55974f97b78d1109025eadf084e74cbf330f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0dbc8cde64280fc37cdd678cced34eaf96cfb197"
     },
     {
       "type": "WEB",
@@ -38,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c9dadb31f36045a8cb65df4bd75e7237ef21a4b5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f3a3f0b406b4b7eb3cea35a23fa2bf170848b104"
     }
   ],
   "database_specific": {

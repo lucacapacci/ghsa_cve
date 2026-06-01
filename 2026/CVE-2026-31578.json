@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrgv-v45w-6gxv",
-  "modified": "2026-04-27T21:30:48Z",
+  "modified": "2026-06-01T18:31:25Z",
   "published": "2026-04-24T15:32:34Z",
   "aliases": [
     "CVE-2026-31578"
@@ -21,7 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/07ceb444c8f627cf863864d4274b5a77769725ed"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/09e9206008b887aa553733bd915d73131071a086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0d36653a3a821e5a974798adb347b3ea09332914"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/25d500cf391e384356a612b85cf60b353ad3cd0c"
     },
     {
       "type": "WEB",

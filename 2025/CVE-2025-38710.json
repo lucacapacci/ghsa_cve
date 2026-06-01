@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c47v-8m9c-7hhr",
-  "modified": "2026-04-11T15:30:24Z",
+  "modified": "2026-06-01T18:31:21Z",
   "published": "2025-09-05T18:31:16Z",
   "aliases": [
     "CVE-2025-38710"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38710"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/076e992752e4b24178918f748d75597c80a408d2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/112bb60cd0e254a369e95aa9941a694ffeca089f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/366183911b153e9b8cf758e1414e1154d7569337"
     },
     {
       "type": "WEB",

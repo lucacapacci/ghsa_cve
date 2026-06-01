@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24vc-pxrh-rpjv",
-  "modified": "2026-05-08T15:31:16Z",
+  "modified": "2026-06-01T18:31:30Z",
   "published": "2026-05-06T12:30:28Z",
   "aliases": [
     "CVE-2026-43110"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2ae3ccb78c0a9ef5ee3d80d02ab319ac1d5af734"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/304950a467d83678bd0b0f46331882e2ac23b12d"
     },
     {
@@ -33,7 +37,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9c81bcc2c695e0082012a2a3d36a0eefaa51579c"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/9fca68c2512a362cad258e4df12a307bb2ee4b8e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b329fbcf075949a038045d8e9b86ae3d5bbd8a54"
     },
     {
       "type": "WEB",

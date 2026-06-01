@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xpr-gh65-3jvf",
-  "modified": "2026-05-02T09:31:15Z",
+  "modified": "2026-06-01T18:31:28Z",
   "published": "2026-05-02T09:31:15Z",
   "aliases": [
     "CVE-2026-43058"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: vidtv: fix pass-by-value structs causing MSAN warnings\n\nvidtv_ts_null_write_into() and vidtv_ts_pcr_write_into() take their\nargument structs by value, causing MSAN to report uninit-value warnings.\nWhile only vidtv_ts_null_write_into() has triggered a report so far,\nboth functions share the same issue.\n\nFix by passing both structs by const pointer instead, avoiding the\nstack copy of the struct along with its MSAN shadow and origin metadata.\nThe functions do not modify the structs, which is enforced by the const\nqualifier.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,7 +37,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a73f84a30975e6c4ae06efd500d31c82564dba10"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a876d72ceba7fe5444005239f363c105767e0ecf"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/be57e52e27c7cbfb400a8f255e475cbcff242baa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c034d8094fee474eb94142c17643eee2919079b7"
     },
     {
       "type": "WEB",
@@ -40,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-02T07:16:20Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgf2-2rm5-mvrf",
-  "modified": "2026-05-27T15:33:22Z",
+  "modified": "2026-06-01T18:31:35Z",
   "published": "2026-05-27T15:33:22Z",
   "aliases": [
     "CVE-2026-46051"
@@ -24,6 +24,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4166d5234fe8b6c3c7f796a6c198605356c5b355"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/66df9f30673db66ac35145820a8e24906069ae57"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7f9f7c697474268d9ef9479df3ddfe7cdcfbbffc"
     },
     {
@@ -33,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/883cc33b7af1c448663287f069ef9dfea001e90f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a9055300e07d9d6800264d3c2560e1d0144689ca"
     }
   ],
   "database_specific": {

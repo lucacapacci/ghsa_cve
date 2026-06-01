@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwrp-qj75-rgxm",
-  "modified": "2026-05-03T09:33:09Z",
+  "modified": "2026-06-01T18:31:28Z",
   "published": "2026-05-01T15:30:32Z",
   "aliases": [
     "CVE-2026-31699"
@@ -21,11 +21,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0fb87e44b81385f940b482cba5b3f0bd18fb8185"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/111dcc6d0f016076745824a787d25609d0022f4c"
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/372116eece159adff631b1508344c8b85ebf9559"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3b4fd8f15765d9a3105b834dba8a05d025e5e16e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/502d10a1d9d477e6c7fc7021a2dac7018f4ab8b5"
     },
     {
       "type": "WEB",

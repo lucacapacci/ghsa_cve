@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v7xp-46vw-cxcp",
-  "modified": "2025-11-12T12:30:28Z",
+  "modified": "2026-06-01T18:31:21Z",
   "published": "2025-11-12T12:30:28Z",
   "aliases": [
     "CVE-2025-40163"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ab6c0f158508bb16d483add70b73a73f95651c33"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d7fd56ed5e07e053a5eea6112d61fcaded653b87"
     },
     {
       "type": "WEB",

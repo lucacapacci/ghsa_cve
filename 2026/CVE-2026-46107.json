@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6hr-v224-3w2w",
-  "modified": "2026-05-30T12:30:24Z",
+  "modified": "2026-06-01T18:31:36Z",
   "published": "2026-05-28T12:30:28Z",
   "aliases": [
     "CVE-2026-46107"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/85311a585a26640760cd0f3349ab9f2905691044"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f06f6aededd792a754cd677c02b3d3016d868c2c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f49b41c9eb7c6ff00df27cd49cea210abbadd8ad"
     }
   ],
   "database_specific": {

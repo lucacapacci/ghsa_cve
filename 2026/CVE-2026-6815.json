@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmxx-v9rj-vpvg",
-  "modified": "2026-05-11T18:31:44Z",
+  "modified": "2026-06-01T18:31:31Z",
   "published": "2026-05-11T18:31:44Z",
   "aliases": [
     "CVE-2026-6815"
   ],
   "details": "An arbitrary file write vulnerability exists in Casdoor's Local File System storage provider. Due to insufficient path sanitization, an authenticated attacker with administrative privileges can perform a Path Traversal attack to create or overwrite arbitrary files anywhere on the host filesystem, bypassing the application's intended storage sandbox.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-11T16:17:37Z"

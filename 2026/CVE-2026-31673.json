@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcr3-grpm-hh36",
-  "modified": "2026-04-27T15:30:50Z",
+  "modified": "2026-06-01T18:31:28Z",
   "published": "2026-04-25T09:30:28Z",
   "aliases": [
     "CVE-2026-31673"
@@ -29,6 +29,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4f6a8f10182c3a9d22e8eb183957ae7ade9e4bf7"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/900a4e0910e98b8caef117d5df00471fa438dcf9"
     },
     {
@@ -38,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bdf206e740bf2919d818f132c8c9cc7ed91d11c0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c3ec44ab4526bbc4b6c9fc845af86488244f4c9b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e7339db13b9ddb63417b12da55fd6191e59f7442"
     }
   ],
   "database_specific": {

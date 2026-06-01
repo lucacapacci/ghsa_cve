@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmmg-288v-pj32",
-  "modified": "2026-05-27T15:33:20Z",
+  "modified": "2026-06-01T18:31:34Z",
   "published": "2026-05-27T15:33:20Z",
   "aliases": [
     "CVE-2026-46004"
@@ -16,6 +16,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/09616e25f502080ba684fc7fcf959d1376ab756d"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/096dd8519cf2f768e9e14f224b627f7aaee1a9c5"
     },
     {
@@ -25,6 +29,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6251e3e256337a30160ef59ab1580dde4d1acd28"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b956e48371f2ff72b76be9a829800ecec963bd45"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/da938aa9fc7826901921dcea225948ab21a97e45"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpv3-x3xh-h28r",
-  "modified": "2025-01-06T21:30:50Z",
+  "modified": "2026-06-01T18:31:19Z",
   "published": "2024-12-27T15:31:56Z",
   "aliases": [
     "CVE-2024-56657"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/365ee29e559269cbb2108c4cc05dd8e262b4e84e"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/36c0764474b637bbee498806485bed524cad486b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4e5a92a7223c83c1f5f2db6cd010ac9347948972"
     },
     {
       "type": "WEB",

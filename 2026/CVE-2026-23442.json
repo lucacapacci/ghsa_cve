@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prgg-rgfw-vr94",
-  "modified": "2026-04-27T15:30:30Z",
+  "modified": "2026-06-01T18:31:23Z",
   "published": "2026-04-03T18:31:21Z",
   "aliases": [
     "CVE-2026-23442"
@@ -21,11 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0348fa0ada37cef7c6b5ab2a428bb2c6aee784e4"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/06413793526251870e20402c39930804f14d59c0"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/50352fc103928e10e8729abc79a0d05abef26c4d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/83d705d35e583cb1b1eacf196dfe7b77d442018e"
     },
     {
       "type": "WEB",
@@ -38,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c5cedee5d97382176573bbe21e1724e737a5eb64"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d1bd8b9edc6752d10f84d28ff64f842401ce336d"
     }
   ],
   "database_specific": {

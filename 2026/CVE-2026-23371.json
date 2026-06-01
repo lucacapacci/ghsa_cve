@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55fv-ccjv-2hr3",
-  "modified": "2026-04-24T18:30:41Z",
+  "modified": "2026-06-01T18:31:22Z",
   "published": "2026-03-25T12:30:24Z",
   "aliases": [
     "CVE-2026-23371"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23371"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0638bf16b7a73a2fe63624bd0d16d9fd904805c3"
     },
     {
       "type": "WEB",

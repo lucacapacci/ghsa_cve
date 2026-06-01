@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2xh-vwfq-mwpc",
-  "modified": "2026-04-27T21:30:48Z",
+  "modified": "2026-06-01T18:31:27Z",
   "published": "2026-04-24T15:32:36Z",
   "aliases": [
     "CVE-2026-31634"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/139c750bf06649097d98b0bc41e2a678b4627e27"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/45d9584e51bdd61faf1900f82666d4ea6a85da72"
     },
     {
       "type": "WEB",

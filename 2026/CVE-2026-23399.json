@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfh6-r892-92wv",
-  "modified": "2026-04-27T15:30:29Z",
+  "modified": "2026-06-01T18:31:22Z",
   "published": "2026-03-28T09:31:07Z",
   "aliases": [
     "CVE-2026-23399"
@@ -29,6 +29,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4357dbb1d9c35ca0b4443d71c98a48e6666f7689"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c88a9fd26cee365bec932196f76175772a941cca"
     },
     {
@@ -38,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e6661add2d9c6913e1dad97336595e23a2bed195"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/eb7bf413e59945df03d4567b73ce464eebe2f4ea"
     }
   ],
   "database_specific": {

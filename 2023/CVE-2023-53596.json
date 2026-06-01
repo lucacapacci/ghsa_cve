@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66x2-rpwx-fjfr",
-  "modified": "2026-02-06T15:30:58Z",
+  "modified": "2026-06-01T18:31:21Z",
   "published": "2025-10-04T18:31:16Z",
   "aliases": [
     "CVE-2023-53596"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/699fb50d99039a50e7494de644f96c889279aca3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/83e2ec36a92432e9445e853c12becbbae353b511"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b9ef4b0aa91d2f9f5951faafdbbd47cf01799ec3"
     },
     {
       "type": "WEB",

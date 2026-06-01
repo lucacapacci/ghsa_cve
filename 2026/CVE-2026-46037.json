@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxj2-jf3v-xp24",
-  "modified": "2026-05-30T12:30:24Z",
+  "modified": "2026-06-01T18:31:34Z",
   "published": "2026-05-27T15:33:21Z",
   "aliases": [
     "CVE-2026-46037"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/92e7c209036dcc0e8ffdf806fdfd3645b263bea5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/93df2af4f491de33827550b9d420f01808c0706b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b3a88fc5ae024d43c5ecf653f3bbe837e4a6dc99"
     },
     {
       "type": "WEB",

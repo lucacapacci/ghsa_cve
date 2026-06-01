@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6j46-7pm3-f2jp",
-  "modified": "2026-05-27T18:31:40Z",
+  "modified": "2026-06-01T18:31:35Z",
   "published": "2026-05-27T18:31:40Z",
   "aliases": [
     "CVE-2026-38945"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.raynet.de"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.raynet.de/hc/en-us/articles/46163206384788-RSEC200967-Java-Detection-Path-Traversal"
     }
   ],
   "database_specific": {

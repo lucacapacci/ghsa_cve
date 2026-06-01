@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-38g3-xqxq-2v2p",
-  "modified": "2026-05-27T15:33:22Z",
+  "modified": "2026-06-01T18:31:34Z",
   "published": "2026-05-27T15:33:21Z",
   "aliases": [
     "CVE-2026-46040"
@@ -13,6 +13,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46040"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/10edf7e0ffdc7faa18e2244b17722c1b882b8273"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3ab58cf42c46bf2366d2f55ae5c59299d5e178b7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3ad9ccea1b25435f6179b57aa891960beb7ce8f9"
     },
     {
       "type": "WEB",

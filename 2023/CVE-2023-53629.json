@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf27-4m25-62jv",
-  "modified": "2026-02-04T00:30:26Z",
+  "modified": "2026-06-01T18:31:21Z",
   "published": "2025-10-07T18:31:09Z",
   "aliases": [
     "CVE-2023-53629"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/724b6bab0d75f1dc01fdfbf7fe8d4217a5cb90ba"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/84d6ce2aef1d06a53f606211da68a2085dfeb50d"
     },
     {
       "type": "WEB",

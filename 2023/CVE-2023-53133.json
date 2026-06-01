@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j2m-cc64-3xh4",
-  "modified": "2025-11-10T18:30:30Z",
+  "modified": "2026-06-01T18:31:20Z",
   "published": "2025-05-02T18:31:37Z",
   "aliases": [
     "CVE-2023-53133"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d900f3d20cc3169ce42ec72acc850e662a4d4db2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f0d52cc242f279c422b487dcaaccd98b99672fd0"
     },
     {
       "type": "WEB",

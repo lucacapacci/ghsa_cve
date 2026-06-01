@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfpg-q83x-6923",
-  "modified": "2026-04-27T15:30:46Z",
+  "modified": "2026-06-01T18:31:28Z",
   "published": "2026-04-24T15:32:36Z",
   "aliases": [
     "CVE-2026-31629"
@@ -29,6 +29,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/665315df9c3486cb213fc44d83cc8bcd47fe0d26"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/796e0cac058252d0ad34ebe288e6f7979b5fc9b2"
     },
     {
@@ -37,7 +41,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9b49e2a4b8219a2fc5cebf94f4ec34e509aff8a6"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/aba4712e8f0381cd5d196534ce2ad082626a5ab6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b2a23529593d011fb433a3d711fc597ed6a6bd2f"
     },
     {
       "type": "WEB",

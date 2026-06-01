@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwmf-r7m2-pphm",
-  "modified": "2026-05-28T12:30:31Z",
+  "modified": "2026-06-01T18:31:39Z",
   "published": "2026-05-28T12:30:31Z",
   "aliases": [
     "CVE-2026-46165"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6522d59fb7de55ce0f0f285d962243ddffebb01f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8ae6c15fc473c9ad03b0173330cce9a092c76154"
     },
     {
       "type": "WEB",

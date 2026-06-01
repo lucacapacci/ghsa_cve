@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84pr-vgrv-386j",
-  "modified": "2026-04-27T15:30:30Z",
+  "modified": "2026-06-01T18:31:23Z",
   "published": "2026-04-03T18:31:21Z",
   "aliases": [
     "CVE-2026-23444"
@@ -30,6 +30,18 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/50f1b690b4868923fbd242298def2fb88662f108"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5ef8ca1c164786da24169af155c1ca1ff1353cf8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/905ef207d5ed99ca64adfe39fba9ac46e434327a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9a779d1f480e83720b5384adf165604e7ee226bd"
     },
     {
       "type": "WEB",

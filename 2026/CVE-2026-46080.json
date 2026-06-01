@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mmh-cvrq-r3x6",
-  "modified": "2026-05-27T15:33:23Z",
+  "modified": "2026-06-01T18:31:35Z",
   "published": "2026-05-27T15:33:23Z",
   "aliases": [
     "CVE-2026-46080"
@@ -20,11 +20,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1e99bb19994246514d63e656492904176f9d5edd"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3c636a3edca9c3f180b3079f94fe7e115730d9c6"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/886f97fa59d0bbfa9859fb1a66dd9e014b522d89"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/91e05ac2336d00d5b99fc774be4bd50039084796"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/97c03c0e9f73a5049794b3c69ee60fb5e8b0ebd8"
     },
     {
       "type": "WEB",

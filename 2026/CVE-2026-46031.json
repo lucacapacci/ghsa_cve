@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29r5-5rhx-9h26",
-  "modified": "2026-05-30T12:30:24Z",
+  "modified": "2026-06-01T18:31:34Z",
   "published": "2026-05-27T15:33:21Z",
   "aliases": [
     "CVE-2026-46031"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46031"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1962027a6d223f90df8b372929f9d1a8d321ad6a"
     },
     {
       "type": "WEB",
