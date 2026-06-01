@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4c39-fwgj-4vq7",
+  "modified": "2026-06-01T09:31:15Z",
+  "published": "2026-06-01T09:31:15Z",
+  "aliases": [
+    "CVE-2026-49361"
+  ],
+  "details": "Apache Fluss versions prior to 0.9.1 configure the Netty LengthFieldBasedFrameDecoder with Integer.MAX_VALUE as the maximum frame length, allowing unauthenticated remote attackers to exhaust JVM heap memory on TabletServer and CoordinatorServer by sending specially crafted frame headers, resulting in denial of service.\n\nThis issue affects Apache Fluss (incubating): 0.8.0 and 0.9.0.\n\nUsers are recommended to upgrade to version 0.9.1, which fixes the issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49361"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/dccw6tj0njwtmvbftq13mw7fdhsok373"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-400"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-01T09:16:20Z"
+  }
+}

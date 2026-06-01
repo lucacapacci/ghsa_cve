@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89hg-mhjp-f99q",
-  "modified": "2026-05-31T03:30:58Z",
+  "modified": "2026-06-01T09:31:10Z",
   "published": "2026-05-31T03:30:58Z",
   "aliases": [
     "CVE-2026-10157"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/open5gs/open5gs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2026-10157"
     },
     {
       "type": "WEB",

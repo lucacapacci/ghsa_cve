@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf9w-8jq5-g3f2",
-  "modified": "2024-04-04T05:43:10Z",
+  "modified": "2026-06-01T09:31:10Z",
   "published": "2023-07-06T21:14:57Z",
   "aliases": [
     "CVE-2023-31408"
   ],
-  "details": "\nCleartext Storage of Sensitive Information in SICK FTMg AIR FLOW SENSOR with\nPartnumbers 1100214, 1100215, 1100216, 1120114, 1120116, 1122524, 1122526 allows a remote\nattacker to potentially steal user credentials that are stored in the user’s browsers local storage via\ncross-site-scripting attacks.\n\n",
+  "details": "Cleartext Storage of Sensitive Information in SICK FTMg AIR FLOW SENSOR with\nPartnumbers 1100214, 1100215, 1100216, 1120114, 1120116, 1122524, 1122526 allows a remote\nattacker to potentially steal user credentials that are stored in the user’s browsers local storage via\ncross-site-scripting attacks.",
   "severity": [
     {
       "type": "CVSS_V3",

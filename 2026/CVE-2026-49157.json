@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-99qx-5qqr-4j95",
+  "modified": "2026-06-01T09:31:15Z",
+  "published": "2026-06-01T09:31:15Z",
+  "aliases": [
+    "CVE-2026-49157"
+  ],
+  "details": "Incorrect Default Permissions vulnerability in Apache ActiveMQ.\n\nThis issue affects Apache ActiveMQ: before 5.19.7, from 6.0.0 before 6.2.6.\n\nThe default Jolokia authorization settings granted non-admin (low-privilege) web-login accounts access to Jolokia operations which allowed executing broker management operations meant for admins such as addQueue and removeQueue.\n\nUsers are recommended to upgrade to version 6.2.6 or 5.19.7, which fixes the issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49157"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/rrcsf6s90hj4tdh89nvkko75q5505rj8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/31/21"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-276"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-01T09:16:20Z"
+  }
+}
