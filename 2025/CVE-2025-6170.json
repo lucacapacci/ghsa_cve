@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qrf-r65h-2r77",
-  "modified": "2026-04-19T21:31:28Z",
+  "modified": "2026-06-02T15:31:49Z",
   "published": "2025-06-16T18:32:19Z",
   "aliases": [
     "CVE-2025-6170"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2372952"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
     },
     {
       "type": "WEB",

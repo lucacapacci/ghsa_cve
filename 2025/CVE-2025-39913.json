@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36qj-697h-rh8p",
-  "modified": "2026-01-16T21:30:27Z",
+  "modified": "2026-06-02T15:31:49Z",
   "published": "2025-10-01T09:30:25Z",
   "aliases": [
     "CVE-2025-39913"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39913"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
     },
     {
       "type": "WEB",

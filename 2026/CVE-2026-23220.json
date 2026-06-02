@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9wwr-2jh3-482p",
-  "modified": "2026-04-18T09:30:17Z",
+  "modified": "2026-06-02T15:31:53Z",
   "published": "2026-02-18T18:30:40Z",
   "aliases": [
     "CVE-2026-23220"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23220"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
     },
     {
       "type": "WEB",

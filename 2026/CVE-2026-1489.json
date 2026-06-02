@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m4g-m3p5-p6gm",
-  "modified": "2026-03-19T12:30:31Z",
+  "modified": "2026-06-02T15:31:51Z",
   "published": "2026-01-27T15:30:32Z",
   "aliases": [
     "CVE-2026-1489"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2433348"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
     },
     {
       "type": "WEB",

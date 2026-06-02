@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99rj-3595-5frj",
-  "modified": "2026-05-12T15:30:52Z",
+  "modified": "2026-06-02T15:31:48Z",
   "published": "2025-06-13T18:30:35Z",
   "aliases": [
     "CVE-2025-6052"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-032379.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
     }
   ],
   "database_specific": {

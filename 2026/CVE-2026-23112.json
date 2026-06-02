@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjrf-jfrm-p64x",
-  "modified": "2026-05-04T09:31:08Z",
+  "modified": "2026-06-02T15:31:53Z",
   "published": "2026-02-13T15:30:26Z",
   "aliases": [
     "CVE-2026-23112"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23112"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
     },
     {
       "type": "WEB",

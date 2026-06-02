@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r78-47qh-www2",
-  "modified": "2025-12-12T18:30:35Z",
+  "modified": "2026-06-02T15:31:51Z",
   "published": "2025-12-12T18:30:35Z",
   "aliases": [
     "CVE-2025-40345"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40345"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
     },
     {
       "type": "WEB",

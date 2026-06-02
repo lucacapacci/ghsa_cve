@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j87r-wgfm-7fjj",
-  "modified": "2026-03-18T15:30:41Z",
+  "modified": "2026-06-02T15:31:53Z",
   "published": "2026-02-18T18:30:40Z",
   "aliases": [
     "CVE-2026-23229"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
     },
     {
       "type": "WEB",

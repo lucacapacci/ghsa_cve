@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rr2-57v3-7cvx",
-  "modified": "2024-09-17T15:31:23Z",
+  "modified": "2026-06-02T12:31:24Z",
   "published": "2024-09-17T15:31:23Z",
   "aliases": [
     "CVE-2024-7873"
@@ -21,12 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-1485"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.usom.gov.tr/bildirim/tr-24-1485"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-116"
+      "CWE-116",
+      "CWE-79"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

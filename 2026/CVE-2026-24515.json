@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpwv-4wmh-cvf7",
-  "modified": "2026-01-23T09:30:29Z",
+  "modified": "2026-06-02T15:31:51Z",
   "published": "2026-01-23T09:30:29Z",
   "aliases": [
     "CVE-2026-24515"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/1131"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
     }
   ],
   "database_specific": {

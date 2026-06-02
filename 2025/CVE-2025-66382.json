@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93q9-crcw-vwgq",
-  "modified": "2026-05-12T15:31:12Z",
+  "modified": "2026-06-02T15:31:50Z",
   "published": "2025-11-28T09:30:17Z",
   "aliases": [
     "CVE-2025-66382"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
     },
     {
       "type": "WEB",
