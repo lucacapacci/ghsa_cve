@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7qjx-378m-p8hm",
-  "modified": "2026-04-06T15:31:19Z",
+  "modified": "2026-06-02T06:30:25Z",
   "published": "2025-02-25T18:31:24Z",
   "aliases": [
     "CVE-2025-26597"
@@ -90,6 +90,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:2500"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/02/1"
     }
   ],
   "database_specific": {
