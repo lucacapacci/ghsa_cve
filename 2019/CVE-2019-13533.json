@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp7w-4xxf-cq5w",
-  "modified": "2022-05-24T17:03:42Z",
+  "modified": "2026-06-02T21:30:30Z",
   "published": "2022-05-24T17:03:42Z",
   "aliases": [
     "CVE-2019-13533"
   ],
   "details": "In Omron PLC CJ series, all versions, and Omron PLC CS series, all versions, an attacker could monitor traffic between the PLC and the controller and replay requests that could result in the opening and closing of industrial valves.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-294"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

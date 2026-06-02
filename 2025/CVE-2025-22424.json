@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgw7-gqg5-536h",
-  "modified": "2026-06-02T00:31:55Z",
+  "modified": "2026-06-02T21:30:39Z",
   "published": "2026-06-02T00:31:55Z",
   "aliases": [
     "CVE-2025-22424"
   ],
   "details": "In multiple locations, there is a possible way to reveal images across users due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-01T22:16:17Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhxc-r9rq-h2gw",
-  "modified": "2026-06-02T15:32:12Z",
+  "modified": "2026-06-02T21:30:41Z",
   "published": "2026-06-02T15:32:12Z",
   "aliases": [
     "CVE-2026-10622"
   ],
   "details": "Improper Authentication in REST API in Collibra Agent, allows a remote unauthenticated attacker to access privileged functionality via exposed '/rest/* endpoints.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-02T14:16:45Z"

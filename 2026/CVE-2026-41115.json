@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5r3-m3w4-4fj6",
-  "modified": "2026-06-02T18:31:31Z",
+  "modified": "2026-06-02T21:30:41Z",
   "published": "2026-06-02T12:31:26Z",
   "aliases": [
     "CVE-2026-41115"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kafka.apache.org/cve-list"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/02/5"
     }
   ],
   "database_specific": {

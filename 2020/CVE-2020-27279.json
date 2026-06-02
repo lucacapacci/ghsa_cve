@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v5g-g6rw-x6vc",
-  "modified": "2022-05-24T17:38:04Z",
+  "modified": "2026-06-02T21:30:30Z",
   "published": "2022-05-24T17:38:04Z",
   "aliases": [
     "CVE-2020-27279"
   ],
   "details": "A NULL pointer deference vulnerability has been identified in the protocol converter. An attacker could send a specially crafted packet that could reboot the device running Crimson 3.1 (Build versions prior to 3119.001).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

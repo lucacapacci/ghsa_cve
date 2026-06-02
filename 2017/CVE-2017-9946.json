@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgqr-7xrp-hhfh",
-  "modified": "2022-05-13T01:36:04Z",
+  "modified": "2026-06-02T21:30:26Z",
   "published": "2022-05-13T01:36:04Z",
   "aliases": [
     "CVE-2017-9946"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-148078.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://packetstorm.news/files/id/169544"
     },
     {
       "type": "WEB",

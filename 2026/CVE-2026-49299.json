@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv24-hxh9-2hh9",
-  "modified": "2026-05-29T00:38:33Z",
+  "modified": "2026-06-02T21:30:38Z",
   "published": "2026-05-29T00:38:33Z",
   "aliases": [
     "CVE-2026-49299"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2026/05/28/8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/02/7"
     }
   ],
   "database_specific": {

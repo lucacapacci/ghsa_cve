@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7jq-j257-rww2",
-  "modified": "2026-05-27T21:31:20Z",
+  "modified": "2026-06-02T21:30:37Z",
   "published": "2026-05-27T03:30:31Z",
   "aliases": [
     "CVE-2026-49017"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/05/27/9"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/02/6"
     }
   ],
   "database_specific": {

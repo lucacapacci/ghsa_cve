@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qh8-v6gw-rfcc",
-  "modified": "2026-06-02T15:31:55Z",
+  "modified": "2026-06-02T21:30:38Z",
   "published": "2026-05-27T18:31:42Z",
   "aliases": [
     "CVE-2026-5509"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5509"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jvn.jp/en/vu/JVNVU95687008"
     },
     {
       "type": "WEB",

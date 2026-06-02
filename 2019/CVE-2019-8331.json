@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v3m-8fp8-mj99",
-  "modified": "2024-08-01T21:03:10Z",
+  "modified": "2026-06-02T22:01:57Z",
   "published": "2019-02-22T20:54:47Z",
   "aliases": [
     "CVE-2019-8331"
@@ -199,7 +199,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "5.0.0"
+              "fixed": "5.3.0"
             }
           ]
         }
@@ -293,7 +293,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2019:1456"
+      "url": "https://lists.apache.org/thread.html/52e0e6b5df827ee7f1e68f7cc3babe61af3b2160f5d74a85469b7b0e%40%3Cdev.superset.apache.org%3E"
     },
     {
       "type": "WEB",
@@ -369,6 +369,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2019:1456"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2019:3023"
     },
     {
@@ -382,6 +386,10 @@
     {
       "type": "WEB",
       "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-8331"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-9v3m-8fp8-mj99"
     },
     {
       "type": "WEB",
@@ -438,10 +446,6 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/52bafac05ad174000ea465fe275fd3cc7bd5c25535a7631c0bc9bfb2@%3Cuser.flink.apache.org%3E"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/52e0e6b5df827ee7f1e68f7cc3babe61af3b2160f5d74a85469b7b0e%40%3Cdev.superset.apache.org%3E"
     },
     {
       "type": "WEB",

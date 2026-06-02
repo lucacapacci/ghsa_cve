@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7h5-v9jq-wx6v",
-  "modified": "2022-05-24T17:38:05Z",
+  "modified": "2026-06-02T21:30:30Z",
   "published": "2022-05-24T17:38:05Z",
   "aliases": [
     "CVE-2020-27285"
   ],
   "details": "The default configuration of Crimson 3.1 (Build versions prior to 3119.001) allows a user to be able to read and modify the database without authentication.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

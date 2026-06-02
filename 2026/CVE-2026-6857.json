@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfxp-ppx7-cqrp",
-  "modified": "2026-05-21T15:34:02Z",
+  "modified": "2026-06-02T21:30:36Z",
   "published": "2026-04-22T15:31:40Z",
   "aliases": [
     "CVE-2026-6857"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:17668"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:22453"
     },
     {
       "type": "WEB",
