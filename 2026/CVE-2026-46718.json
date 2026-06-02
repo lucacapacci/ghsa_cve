@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2rv-hwqm-wjpg",
-  "modified": "2026-06-02T12:31:26Z",
+  "modified": "2026-06-02T18:31:31Z",
   "published": "2026-06-02T12:31:26Z",
   "aliases": [
     "CVE-2026-46718"
   ],
   "details": "Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') vulnerability in Apache Calcite.\n\nThis issue affects Apache Calcite: from 1.5.0 before 1.42.\n\nUsers are recommended to upgrade to version 1.42, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-470"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-02T10:16:25Z"

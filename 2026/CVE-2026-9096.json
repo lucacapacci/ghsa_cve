@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgq2-93gj-ffxg",
-  "modified": "2026-05-28T18:30:32Z",
+  "modified": "2026-06-02T18:31:26Z",
   "published": "2026-05-28T18:30:32Z",
   "aliases": [
     "CVE-2026-9096"
   ],
   "details": "Casdoor versions 2.362.0 and earlier do not enforce SAML assertion time bounds. The gosaml2 library reports all time-validation results, including NotOnOrAfter and NotBefore, in the assertionInfo.WarningInfo field. However, ParseSamlResponse() never reads this field, meaning that time bounds are computed by the library but silently discarded before the user session is issued.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T17:16:34Z"

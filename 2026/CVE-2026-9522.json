@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7x7j-8c59-q4gr",
+  "modified": "2026-06-02T18:31:33Z",
+  "published": "2026-06-02T18:31:33Z",
+  "aliases": [
+    "CVE-2026-9522"
+  ],
+  "details": "Improper access control in the PAM account discovery feature in Devolutions Server 2026.1.19 and earlier allows an authenticated user without administrative privileges to delete network discovery scan configurations.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9522"
+    },
+    {
+      "type": "WEB",
+      "url": "https://devolutions.net/security/advisories/DEVO-2026-0014"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-02T16:16:45Z"
+  }
+}
