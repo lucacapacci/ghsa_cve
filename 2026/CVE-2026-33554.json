@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-382w-q5p9-3f2h",
-  "modified": "2026-03-24T21:31:23Z",
+  "modified": "2026-06-03T06:31:26Z",
   "published": "2026-03-24T15:30:29Z",
   "aliases": [
     "CVE-2026-33554"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://savannah.gnu.org/bugs/?68142"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/03/1"
     }
   ],
   "database_specific": {

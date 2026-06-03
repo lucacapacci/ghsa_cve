@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwwh-4hhw-h9jf",
-  "modified": "2026-05-26T15:32:11Z",
+  "modified": "2026-06-03T06:31:26Z",
   "published": "2026-05-26T15:32:11Z",
   "aliases": [
     "CVE-2026-4480"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4480"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:22644"
     },
     {
       "type": "WEB",
