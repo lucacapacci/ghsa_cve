@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jg6j-874m-wgjj",
-  "modified": "2026-06-03T18:33:09Z",
+  "modified": "2026-06-03T21:30:29Z",
   "published": "2026-06-03T18:33:09Z",
   "aliases": [
     "CVE-2026-3276"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/PP5HB4K7727OBBM76KA2ILID76K3OZGZ"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/03/15"
     }
   ],
   "database_specific": {

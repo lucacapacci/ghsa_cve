@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v99-r46p-gx3v",
-  "modified": "2026-06-03T15:30:42Z",
+  "modified": "2026-06-03T21:30:28Z",
   "published": "2026-06-03T15:30:42Z",
   "aliases": [
     "CVE-2025-70101"
   ],
   "details": "An out-of-bounds read in the ext4_ext_binsearch_idx function in src/ext4_extent.c of the lwext4 1.0.0 library allows attackers to cause a denial of service by supplying a specially crafted ext4 filesystem image. The vulnerability occurs due to insufficient validation of extent header fields before performing a binary search over extent index entries, which can result in invalid pointer calculations and an out-of-bounds memory read during extent tree traversal.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-03T14:16:31Z"

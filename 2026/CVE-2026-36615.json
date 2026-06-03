@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v66-826q-jx8j",
-  "modified": "2026-06-03T18:33:11Z",
+  "modified": "2026-06-03T21:30:29Z",
   "published": "2026-06-03T18:33:11Z",
   "aliases": [
     "CVE-2026-36615"
   ],
   "details": "Mercusys AC12G (EU) V1 with firmware AC12G(EU)_V1_200909 exposes an undocumented /agileconfigreset endpoint that returns internal buffer contents to unauthenticated attackers on the adjacent network.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-03T18:16:22Z"

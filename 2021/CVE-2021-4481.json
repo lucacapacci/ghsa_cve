@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-766g-x59x-554c",
-  "modified": "2026-06-03T00:30:24Z",
+  "modified": "2026-06-03T21:30:27Z",
   "published": "2026-06-03T00:30:24Z",
   "aliases": [
     "CVE-2021-4481"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://static.draeger.com/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://static.draeger.com/security/download/PSA-21-347-1-SCG-Security-Advisory.pdf"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vrv-754q-mq3j",
-  "modified": "2026-06-02T21:30:42Z",
+  "modified": "2026-06-03T21:30:27Z",
   "published": "2026-06-02T21:30:42Z",
   "aliases": [
     "CVE-2026-10701"
   ],
   "details": "Incorrect boundary conditions in the Graphics: Text component. This vulnerability was fixed in Firefox 151.0.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-119"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-02T20:16:33Z"

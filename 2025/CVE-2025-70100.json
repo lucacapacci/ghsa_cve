@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43cg-f93f-9jhx",
-  "modified": "2026-06-03T15:30:42Z",
+  "modified": "2026-06-03T21:30:28Z",
   "published": "2026-06-03T15:30:42Z",
   "aliases": [
     "CVE-2025-70100"
   ],
   "details": "A divide-by-zero vulnerability in the ext4_block_set_lb_size function in src/ext4_blockdev.c of the lwext4 1.0.0 library allows attackers to cause a denial of service by providing a malformed ext4 filesystem image that results in a zero logical block size. The vulnerability is triggered during mount or image processing and leads to a Floating-Point Exception (FPE) under sanitizers or a runtime crash in standard builds due to missing validation of lb_size.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-03T14:16:31Z"

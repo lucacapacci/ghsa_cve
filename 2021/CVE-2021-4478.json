@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rp5-97gw-r98q",
-  "modified": "2026-06-02T21:30:41Z",
+  "modified": "2026-06-03T21:30:27Z",
   "published": "2026-06-02T21:30:41Z",
   "aliases": [
     "CVE-2021-4478"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://static.draeger.com/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://static.draeger.com/security/download/2021-03-02-PSA-21-061-1-CC-Vision-Product-Security-Advisory.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/dr-ger-cc-vision-basic-and-cc-vision-e-cal-out-of-bounds-write-via-malicious-gdt-file"
     }
   ],
   "database_specific": {

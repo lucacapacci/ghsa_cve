@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qw79-r33f-9pvj",
-  "modified": "2026-06-03T00:30:25Z",
+  "modified": "2026-06-03T21:30:28Z",
   "published": "2026-06-03T00:30:25Z",
   "aliases": [
     "CVE-2025-15653"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15653"
+    },
+    {
+      "type": "WEB",
+      "url": "https://static.draeger.com/security/download/Product-Security-Advisory-25-349-Zeus.pdf"
     },
     {
       "type": "WEB",

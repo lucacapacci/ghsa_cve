@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rg8p-9rpg-r32p",
-  "modified": "2026-05-26T15:32:11Z",
+  "modified": "2026-06-03T21:30:25Z",
   "published": "2026-05-26T15:32:11Z",
   "aliases": [
     "CVE-2026-45247"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://sansec.io/research/mirasvit-cache-warmer-object-injection"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-45247"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.imperva.com/blog/imperva-customers-protected-against-cve-2026-45247-in-mirasvit-full-page-cache-warmer-for-magento"
     },
     {
       "type": "WEB",

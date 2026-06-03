@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3qj-wr66-g552",
-  "modified": "2026-06-03T00:30:25Z",
+  "modified": "2026-06-03T21:30:28Z",
   "published": "2026-06-03T00:30:25Z",
   "aliases": [
     "CVE-2024-14036"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://static.draeger.com/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://static.draeger.com/security/download/PSA-24-110-1-gSOAP-Product-Security-Advisory.pdf"
     },
     {
       "type": "WEB",

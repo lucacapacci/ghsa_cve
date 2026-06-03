@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-744p-v485-p6h6",
-  "modified": "2026-06-02T21:30:41Z",
+  "modified": "2026-06-03T21:30:27Z",
   "published": "2026-06-02T21:30:41Z",
   "aliases": [
     "CVE-2021-4479"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://static.draeger.com/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://static.draeger.com/security/download/2021-05-04-PSA-21-124-1-Security-Advisory-Atlan.pdf"
     },
     {
       "type": "WEB",
