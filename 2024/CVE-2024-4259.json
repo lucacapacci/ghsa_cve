@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2h5-3j7q-vp2p",
-  "modified": "2025-10-14T15:31:19Z",
+  "modified": "2026-06-03T18:33:05Z",
   "published": "2024-09-03T15:30:46Z",
   "aliases": [
     "CVE-2024-4259"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-4259"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-1377"
     },
     {
       "type": "WEB",

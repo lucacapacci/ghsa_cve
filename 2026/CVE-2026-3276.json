@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jg6j-874m-wgjj",
+  "modified": "2026-06-03T18:33:09Z",
+  "published": "2026-06-03T18:33:09Z",
+  "aliases": [
+    "CVE-2026-3276"
+  ],
+  "details": "unicodedata.normalize() can take excessive CPU time when processing\nspecially crafted Unicode input containing long runs of combining characters\nwith alternating Canonical Combining Class values.\nThis affects all normalization forms.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3276"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/issues/149079"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/pull/149080"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/PP5HB4K7727OBBM76KA2ILID76K3OZGZ"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-407"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-03T16:16:29Z"
+  }
+}

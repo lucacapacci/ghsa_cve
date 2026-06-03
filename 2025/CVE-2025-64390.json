@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87pc-67c4-x49w",
-  "modified": "2026-06-02T21:30:41Z",
+  "modified": "2026-06-03T18:33:08Z",
   "published": "2026-06-02T21:30:41Z",
   "aliases": [
     "CVE-2025-64390"
   ],
   "details": "A privilege escalation vulnerability exists in PlayStation 4 firmware versions 13.00 through 13.02. The BD-J (Blu-ray Disc Java) sandbox can be escaped through a malformed JAR file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-367"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-02T20:16:31Z"

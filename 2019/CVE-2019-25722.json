@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh3f-j952-25x6",
-  "modified": "2026-06-02T21:30:41Z",
+  "modified": "2026-06-03T18:33:08Z",
   "published": "2026-06-02T21:30:41Z",
   "aliases": [
     "CVE-2019-25722"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://static.draeger.com/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://static.draeger.com/security/download/2019-11-27-Draeger-SC7000-SC9000-security-advisory-update-v1-5.pdf"
     },
     {
       "type": "WEB",

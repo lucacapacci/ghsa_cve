@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83wf-r644-8pqq",
-  "modified": "2026-06-02T21:30:41Z",
+  "modified": "2026-06-03T18:33:08Z",
   "published": "2026-06-02T21:30:41Z",
   "aliases": [
     "CVE-2019-25721"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://static.draeger.com/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://static.draeger.com/security/download/2019-09-13-Cybersecurity-M300-VGxx-Security-advisory-update_v1-3.pdf"
     },
     {
       "type": "WEB",

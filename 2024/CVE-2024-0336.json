@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rr99-4wcc-6fjc",
-  "modified": "2025-10-14T15:31:19Z",
+  "modified": "2026-06-03T18:33:04Z",
   "published": "2024-06-03T15:30:56Z",
   "aliases": [
     "CVE-2024-0336"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0336"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-0600"
     },
     {
       "type": "WEB",

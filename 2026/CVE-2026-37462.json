@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pw7p-7fqv-hpj8",
+  "modified": "2026-06-03T18:33:09Z",
+  "published": "2026-06-03T18:33:09Z",
+  "aliases": [
+    "CVE-2026-37462"
+  ],
+  "details": "An integer underflow in the BGPUpdate.DecodeFromBytes function (/bgp/bgp.go) of gobgp v4.3.0 allows attackers to cause a Denial of Service (DoS) via supplying a crafted BGP UPDATE message.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37462"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/osrg/gobgp/commit/9ce8936672ebc07df524da77fa4c6ae26d92be6d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/osrg/gobgp/blob/v4.3.0/pkg/packet/bgp/bgp.go"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-03T16:16:29Z"
+  }
+}

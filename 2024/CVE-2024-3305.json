@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-375w-qxcp-h82p",
-  "modified": "2024-09-19T15:30:49Z",
+  "modified": "2026-06-03T18:33:05Z",
   "published": "2024-09-12T15:33:00Z",
   "aliases": [
     "CVE-2024-3305"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3305"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-1457"
     },
     {
       "type": "WEB",

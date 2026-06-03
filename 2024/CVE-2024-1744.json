@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc7f-7qrj-r4v2",
-  "modified": "2024-09-13T21:31:21Z",
+  "modified": "2026-06-03T18:33:05Z",
   "published": "2024-09-06T15:32:58Z",
   "aliases": [
     "CVE-2024-1744"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1744"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-1408"
     },
     {
       "type": "WEB",

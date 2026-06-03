@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6xm-9hw6-q7gc",
-  "modified": "2024-08-30T18:30:38Z",
+  "modified": "2026-06-03T18:33:05Z",
   "published": "2024-08-29T12:31:05Z",
   "aliases": [
     "CVE-2024-4428"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-4428"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-1356"
     },
     {
       "type": "WEB",

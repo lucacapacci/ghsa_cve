@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q425-ff95-89pq",
-  "modified": "2024-10-02T15:30:36Z",
+  "modified": "2026-06-03T18:33:05Z",
   "published": "2024-09-12T09:31:21Z",
   "aliases": [
     "CVE-2024-2010"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-2010"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-1456"
     },
     {
       "type": "WEB",

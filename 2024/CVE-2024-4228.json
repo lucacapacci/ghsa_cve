@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f69p-5x38-xrmw",
-  "modified": "2024-06-26T15:31:01Z",
+  "modified": "2026-06-03T18:33:05Z",
   "published": "2024-06-26T15:31:01Z",
   "aliases": [
     "CVE-2024-4228"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-4228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-0800"
     },
     {
       "type": "WEB",

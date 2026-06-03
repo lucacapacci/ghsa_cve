@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4wch-q26f-448q",
-  "modified": "2024-04-29T09:31:53Z",
+  "modified": "2026-06-03T18:33:04Z",
   "published": "2024-04-29T09:31:53Z",
   "aliases": [
     "CVE-2024-3375"
   ],
-  "details": "Incorrect Permission Assignment for Critical Resource vulnerability in Havelsan Inc. Dialogue allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Dialogue: from v1.83 before v1.83.1 or v1.84.\n\n",
+  "details": "Incorrect Permission Assignment for Critical Resource vulnerability in Havelsan Inc. Dialogue allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Dialogue: from v1.83 before v1.83.1 or v1.84.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3375"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-0363"
     },
     {
       "type": "WEB",
