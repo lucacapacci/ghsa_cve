@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fm49-vp9p-4536",
-  "modified": "2026-05-04T09:31:09Z",
+  "modified": "2026-06-04T09:30:34Z",
   "published": "2026-05-04T09:31:09Z",
   "aliases": [
     "CVE-2025-14320"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14320"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0142"
     },
     {
       "type": "WEB",

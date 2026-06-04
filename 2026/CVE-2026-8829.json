@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9p7j-9995-m88w",
-  "modified": "2026-06-04T03:30:22Z",
+  "modified": "2026-06-04T09:30:34Z",
   "published": "2026-06-04T03:30:22Z",
   "aliases": [
     "CVE-2026-8829"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libwww-perl/HTML-Parser/commit/6922552b0778c90a9587a3894e248be4d3a25e1c.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/04/2"
     }
   ],
   "database_specific": {

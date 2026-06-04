@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v62-qx4c-44x5",
-  "modified": "2026-06-04T06:30:25Z",
+  "modified": "2026-06-04T09:30:34Z",
   "published": "2026-06-04T06:30:25Z",
   "aliases": [
     "CVE-2026-48681"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2026/06/03/12"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/03/12"
     }
   ],
   "database_specific": {
