@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hfw-w3f4-c4p8",
-  "modified": "2026-06-04T09:30:34Z",
+  "modified": "2026-06-04T18:30:31Z",
   "published": "2026-06-04T06:30:25Z",
   "aliases": [
     "CVE-2026-41283"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openstack/mistral/tags"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.openstack.org/ossa/OSSA-2026-020.html"
     },
     {
       "type": "WEB",

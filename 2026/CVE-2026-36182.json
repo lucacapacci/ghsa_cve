@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q39m-5r2m-g8v4",
+  "modified": "2026-06-04T18:30:31Z",
+  "published": "2026-06-04T18:30:31Z",
+  "aliases": [
+    "CVE-2026-36182"
+  ],
+  "details": "GNCC GP5 v7.1.76 was discovered to utilize a weak hashing algorithm to protect the root password, possibly allowing attackers to obtain root credentials and privileges via a bruteforce attack.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36182"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/GNCC-GP5-T23/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "http://gncc.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://gp5.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-04T16:16:35Z"
+  }
+}

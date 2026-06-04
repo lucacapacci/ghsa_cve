@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5fc-f834-rcr2",
-  "modified": "2026-06-02T15:31:54Z",
+  "modified": "2026-06-04T18:30:23Z",
   "published": "2026-04-03T03:31:02Z",
   "aliases": [
     "CVE-2026-35535"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/06/msg00003.html"
     },
     {
       "type": "WEB",
