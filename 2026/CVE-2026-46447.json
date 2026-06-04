@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrh2-f5jc-xpgr",
-  "modified": "2026-06-04T00:30:25Z",
+  "modified": "2026-06-04T06:30:25Z",
   "published": "2026-06-04T00:30:25Z",
   "aliases": [
     "CVE-2026-46447"
   ],
   "details": "OpenStack Ironic through 35.0.x allows Boot Script Injection.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-669"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-03T22:16:34Z"
