@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3q3-2mxh-pwcg",
-  "modified": "2025-09-23T12:31:11Z",
+  "modified": "2026-06-05T12:31:42Z",
   "published": "2025-09-23T12:31:11Z",
   "aliases": [
     "CVE-2025-9342"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9342"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0287"
     },
     {
       "type": "WEB",

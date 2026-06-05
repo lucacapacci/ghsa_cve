@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2777-x3fh-6ph7",
-  "modified": "2025-09-19T15:31:09Z",
+  "modified": "2026-06-05T12:31:42Z",
   "published": "2025-09-19T15:31:09Z",
   "aliases": [
     "CVE-2025-8664"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8664"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0281"
     },
     {
       "type": "WEB",

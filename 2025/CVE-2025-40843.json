@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xf2-f6ch-6p8r",
-  "modified": "2025-10-29T14:48:34Z",
+  "modified": "2026-06-05T14:33:10Z",
   "published": "2025-09-22T18:04:20Z",
   "aliases": [
     "CVE-2025-40843"
@@ -54,6 +54,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/Ericsson/codechecker"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/codechecker/PYSEC-2025-100.yaml"
     }
   ],
   "database_specific": {

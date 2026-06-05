@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rm3-gwg6-x29g",
-  "modified": "2025-10-14T12:31:30Z",
+  "modified": "2026-06-05T12:31:43Z",
   "published": "2025-10-14T12:31:30Z",
   "aliases": [
     "CVE-2025-10228"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0336"
     },
     {
       "type": "WEB",

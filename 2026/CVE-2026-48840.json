@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgrp-2w9f-fmvg",
-  "modified": "2026-05-30T06:31:03Z",
+  "modified": "2026-06-05T12:31:45Z",
   "published": "2026-05-30T03:30:20Z",
   "aliases": [
     "CVE-2026-48840"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exim.org/static/doc/security/EXIM-Security-2026-05-19.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/06/msg00004.html"
     },
     {
       "type": "WEB",

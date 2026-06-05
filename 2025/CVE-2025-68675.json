@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c2f-r6gc-h92h",
-  "modified": "2026-02-24T16:21:08Z",
+  "modified": "2026-06-05T14:25:12Z",
   "published": "2026-01-16T12:30:25Z",
   "aliases": [
     "CVE-2025-68675"
@@ -66,6 +66,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/apache/airflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2026-10.yaml"
     },
     {
       "type": "WEB",

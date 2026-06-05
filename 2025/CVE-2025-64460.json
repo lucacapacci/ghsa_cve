@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrcr-9hj9-jcg6",
-  "modified": "2025-12-03T16:59:02Z",
+  "modified": "2026-06-05T14:34:31Z",
   "published": "2025-12-02T18:30:35Z",
   "aliases": [
     "CVE-2025-64460"
@@ -101,6 +101,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/django/django"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/django/PYSEC-2025-109.yaml"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp46-r563-jrc7",
-  "modified": "2026-02-19T22:08:31Z",
+  "modified": "2026-06-05T14:25:54Z",
   "published": "2026-02-13T12:31:21Z",
   "aliases": [
     "CVE-2025-33042"
@@ -73,6 +73,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/apache/avro"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/avro/PYSEC-2026-26.yaml"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q3f-683m-g467",
-  "modified": "2025-09-17T15:30:35Z",
+  "modified": "2026-06-05T12:31:41Z",
   "published": "2025-09-17T15:30:35Z",
   "aliases": [
     "CVE-2025-8463"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8463"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0271"
     },
     {
       "type": "WEB",

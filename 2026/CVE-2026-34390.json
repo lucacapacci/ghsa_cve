@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frf7-jhp9-jxm6",
-  "modified": "2026-05-11T19:32:06Z",
+  "modified": "2026-06-05T14:12:12Z",
   "published": "2026-05-11T19:32:06Z",
   "aliases": [
     "CVE-2026-34390"
@@ -44,6 +44,10 @@
       "url": "https://github.com/mantisbt/mantisbt/security/advisories/GHSA-frf7-jhp9-jxm6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34390"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/mantisbt/mantisbt/commit/69e0180f180ed5acf48a8d281a73683a7bf32461"
     },
@@ -67,6 +71,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-11T19:32:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-19T22:16:37Z"
   }
 }

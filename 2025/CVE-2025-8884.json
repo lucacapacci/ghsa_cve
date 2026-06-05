@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwjr-3j7f-347p",
-  "modified": "2025-10-20T15:30:26Z",
+  "modified": "2026-06-05T12:31:43Z",
   "published": "2025-10-20T15:30:26Z",
   "aliases": [
     "CVE-2025-8884"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8884"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0348"
     },
     {
       "type": "WEB",

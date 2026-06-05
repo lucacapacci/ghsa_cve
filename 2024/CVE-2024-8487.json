@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75v5-6885-59f9",
-  "modified": "2025-03-20T20:50:34Z",
+  "modified": "2026-06-05T14:13:53Z",
   "published": "2025-03-20T12:32:48Z",
   "aliases": [
     "CVE-2024-8487"
@@ -43,6 +43,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/modelscope/agentscope"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/agentscope/PYSEC-2025-81.yaml"
     },
     {
       "type": "WEB",

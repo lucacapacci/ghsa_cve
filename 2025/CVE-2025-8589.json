@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6p7-26wf-jg2r",
-  "modified": "2026-02-03T09:30:27Z",
+  "modified": "2026-06-05T12:31:43Z",
   "published": "2026-02-03T09:30:27Z",
   "aliases": [
     "CVE-2025-8589"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8589"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0011"
     },
     {
       "type": "WEB",

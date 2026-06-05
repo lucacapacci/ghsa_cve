@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj8c-mmj3-mmgv",
-  "modified": "2026-05-14T20:44:11Z",
+  "modified": "2026-06-05T14:29:21Z",
   "published": "2026-04-16T22:38:03Z",
   "aliases": [
     "CVE-2026-41425"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/authlib/authlib"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/authlib/PYSEC-2026-25.yaml"
     }
   ],
   "database_specific": {

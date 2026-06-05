@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvjf-68wh-rwp2",
-  "modified": "2026-05-11T19:32:12Z",
+  "modified": "2026-06-05T14:12:17Z",
   "published": "2026-05-11T19:32:11Z",
   "aliases": [
     "CVE-2026-34463"
@@ -44,6 +44,10 @@
       "url": "https://github.com/mantisbt/mantisbt/security/advisories/GHSA-fvjf-68wh-rwp2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34463"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/mantisbt/mantisbt/commit/df22697ae497ddd93f3d9132fdf4979db8d081cd"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-11T19:32:11Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-19T22:16:37Z"
   }
 }
