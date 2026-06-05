@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fh5f-69j7-v92v",
+  "modified": "2026-06-05T00:31:48Z",
+  "published": "2026-06-05T00:31:48Z",
+  "aliases": [
+    "CVE-2026-11124"
+  ],
+  "details": "Integer overflow in Skia in Google Chrome prior to 149.0.7827.53 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11124"
+    },
+    {
+      "type": "WEB",
+      "url": "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/501511299"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-122"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-04T23:17:18Z"
+  }
+}

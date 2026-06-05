@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m8hv-35c9-8jrx",
-  "modified": "2022-05-13T01:36:35Z",
+  "modified": "2026-06-05T00:31:35Z",
   "published": "2022-05-13T01:36:35Z",
   "aliases": [
     "CVE-2017-6034"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2017/icsa-17-101-01.json"
+    },
+    {
+      "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSA-17-101-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.se.com/us/en/download/document/SEVD-2017-065-01"
     },
     {
       "type": "WEB",

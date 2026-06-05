@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gmrx-x399-mfhc",
+  "modified": "2026-06-05T00:31:35Z",
+  "published": "2026-06-05T00:31:35Z",
+  "aliases": [
+    "CVE-2024-6858"
+  ],
+  "details": "In Arista’s EOS when in 802.1X mode, multi-auth unauthenticated hosts might be allowed access to a switch port if there exists an EAPOL capable device in the fallback VLAN.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6858"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.arista.com/en/support/advisories-notices/security-advisory/19917-security-advisory-0103"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1287"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-04T22:16:51Z"
+  }
+}

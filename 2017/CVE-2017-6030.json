@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3r9-mwpj-g2c7",
-  "modified": "2022-05-13T01:04:04Z",
+  "modified": "2026-06-05T00:31:34Z",
   "published": "2022-05-13T01:04:04Z",
   "aliases": [
     "CVE-2017-6030"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-6030"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2017/icsa-17-089-02.json"
     },
     {
       "type": "WEB",
