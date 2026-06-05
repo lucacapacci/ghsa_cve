@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8wp-3m3g-qg4j",
-  "modified": "2024-08-23T15:30:33Z",
+  "modified": "2026-06-05T15:32:03Z",
   "published": "2024-07-30T15:31:28Z",
   "aliases": [
     "CVE-2024-6699"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6699"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0322"
     },
     {
       "type": "WEB",

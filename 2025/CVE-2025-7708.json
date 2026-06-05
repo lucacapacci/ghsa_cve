@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r5m2-488x-gm75",
-  "modified": "2026-02-09T12:30:22Z",
+  "modified": "2026-06-05T15:32:07Z",
   "published": "2026-02-09T12:30:22Z",
   "aliases": [
     "CVE-2025-7708"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7708"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0021"
     },
     {
       "type": "WEB",

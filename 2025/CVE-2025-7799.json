@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgrx-hj2f-8x66",
-  "modified": "2026-02-09T09:30:22Z",
+  "modified": "2026-06-05T15:32:07Z",
   "published": "2026-02-09T09:30:22Z",
   "aliases": [
     "CVE-2025-7799"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7799"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0019"
     },
     {
       "type": "WEB",

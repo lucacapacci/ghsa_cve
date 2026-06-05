@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6hp-9pq5-mm4g",
-  "modified": "2025-07-29T15:31:49Z",
+  "modified": "2026-06-05T15:32:04Z",
   "published": "2025-07-29T15:31:49Z",
   "aliases": [
     "CVE-2025-6175"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6175"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0182"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36x8-w686-7p3g",
-  "modified": "2025-07-28T12:30:36Z",
+  "modified": "2026-06-05T15:32:04Z",
   "published": "2025-07-28T12:30:36Z",
   "aliases": [
     "CVE-2025-5997"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5997"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0181"
     },
     {
       "type": "WEB",

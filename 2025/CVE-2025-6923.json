@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3q6x-mjrg-68xw",
-  "modified": "2025-12-09T18:30:44Z",
+  "modified": "2026-06-05T15:32:05Z",
   "published": "2025-12-09T18:30:44Z",
   "aliases": [
     "CVE-2025-6923"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6923"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0435"
     },
     {
       "type": "WEB",

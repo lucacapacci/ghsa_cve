@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m47x-vjhq-72f3",
-  "modified": "2026-02-03T15:30:23Z",
+  "modified": "2026-06-05T15:32:07Z",
   "published": "2026-02-03T15:30:23Z",
   "aliases": [
     "CVE-2025-5319"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5319"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0016"
     },
     {
       "type": "WEB",
