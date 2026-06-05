@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98h9-4798-4q5v",
-  "modified": "2026-05-14T20:53:29Z",
+  "modified": "2026-06-05T17:53:10Z",
   "published": "2026-05-07T05:31:17Z",
   "aliases": [
     "CVE-2026-44513"
@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/huggingface/diffusers/releases/tag/v0.38.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/diffusers/PYSEC-2026-40.yaml"
     }
   ],
   "database_specific": {

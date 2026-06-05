@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh7q-6qm3-653w",
-  "modified": "2026-05-08T13:48:27Z",
+  "modified": "2026-06-05T17:55:47Z",
   "published": "2026-05-05T16:32:48Z",
   "aliases": [
     "CVE-2025-61669"
@@ -50,6 +50,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/jupyter-server/jupyter_server"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/jupyter-server/PYSEC-2026-67.yaml"
     }
   ],
   "database_specific": {
