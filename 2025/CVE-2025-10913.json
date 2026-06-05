@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h64q-7h2c-3jw5",
-  "modified": "2026-02-11T09:30:17Z",
+  "modified": "2026-06-05T09:33:45Z",
   "published": "2026-02-11T09:30:17Z",
   "aliases": [
     "CVE-2025-10913"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10913"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0055"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vgg-pc24-vv5m",
-  "modified": "2026-06-03T18:33:13Z",
+  "modified": "2026-06-05T09:33:46Z",
   "published": "2026-06-03T18:33:13Z",
   "aliases": [
     "CVE-2026-46266"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ninet: RAW sockets using IPPROTO_RAW MUST drop incoming ICMP\n\nYizhou Zhao reported that simply having one RAW socket on protocol\nIPPROTO_RAW (255) was dangerous.\n\n  socket(AF_INET, SOCK_RAW, 255);\n\nA malicious incoming ICMP packet can set the protocol field to 255\nand match this socket, leading to FNHE cache changes.\n\ninner = IP(src=\"192.168.2.1\", dst=\"8.8.8.8\", proto=255)/Raw(\"TEST\")\npkt = IP(src=\"192.168.1.1\", dst=\"192.168.2.1\")/ICMP(type=3, code=4, nexthopmtu=576)/inner\n\n\"man 7 raw\" states:\n\n  A protocol of IPPROTO_RAW implies enabled IP_HDRINCL and is able\n  to send any IP protocol that is specified in the passed header.\n  Receiving of all IP protocols via IPPROTO_RAW is not possible\n  using raw sockets.\n\nMake sure we drop these malicious packets.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-03T18:16:28Z"

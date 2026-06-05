@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prh3-wwj9-84mr",
-  "modified": "2025-09-25T15:30:23Z",
+  "modified": "2026-06-05T09:33:45Z",
   "published": "2025-09-25T15:30:23Z",
   "aliases": [
     "CVE-2025-10467"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10467"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0298"
     },
     {
       "type": "WEB",

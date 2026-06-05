@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47fj-h8p3-32hr",
-  "modified": "2025-11-06T15:31:02Z",
+  "modified": "2026-06-05T09:33:45Z",
   "published": "2025-11-06T15:31:02Z",
   "aliases": [
     "CVE-2025-10955"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10955"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0378"
     },
     {
       "type": "WEB",

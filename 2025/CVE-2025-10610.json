@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx94-2hv2-vwgc",
-  "modified": "2025-10-14T15:31:25Z",
+  "modified": "2026-06-05T09:33:44Z",
   "published": "2025-10-14T15:31:25Z",
   "aliases": [
     "CVE-2025-10610"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10610"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0337"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhx5-76c6-56vc",
-  "modified": "2026-01-22T15:31:31Z",
+  "modified": "2026-06-05T09:33:45Z",
   "published": "2026-01-22T15:31:31Z",
   "aliases": [
     "CVE-2025-10856"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10856"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0003"
     },
     {
       "type": "WEB",

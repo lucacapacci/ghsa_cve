@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frcg-m7x9-4xfj",
-  "modified": "2025-10-23T09:30:53Z",
+  "modified": "2026-06-05T09:33:45Z",
   "published": "2025-10-23T09:30:53Z",
   "aliases": [
     "CVE-2025-10914"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10914"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0357"
     },
     {
       "type": "WEB",

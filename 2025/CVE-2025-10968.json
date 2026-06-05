@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4pm-h4rc-6r9v",
-  "modified": "2025-11-07T15:31:30Z",
+  "modified": "2026-06-05T09:33:45Z",
   "published": "2025-11-07T15:31:30Z",
   "aliases": [
     "CVE-2025-10968"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10968"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0381"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h68-r4p9-cx52",
-  "modified": "2025-10-23T09:30:53Z",
+  "modified": "2026-06-05T09:33:45Z",
   "published": "2025-10-23T09:30:53Z",
   "aliases": [
     "CVE-2025-10727"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10727"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0356"
     },
     {
       "type": "WEB",
