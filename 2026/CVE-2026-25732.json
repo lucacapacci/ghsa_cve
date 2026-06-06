@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9ffm-fxg3-xrhh",
-  "modified": "2026-02-07T00:31:58Z",
+  "modified": "2026-06-06T14:45:40Z",
   "published": "2026-02-05T21:08:53Z",
   "aliases": [
     "CVE-2026-25732"
@@ -46,6 +46,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25732"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/nicegui/PYSEC-2026-95.yaml"
     },
     {
       "type": "PACKAGE",
