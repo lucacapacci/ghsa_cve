@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pr46-2v3c-5356",
-  "modified": "2026-04-24T13:51:30Z",
+  "modified": "2026-06-06T00:26:38Z",
   "published": "2026-04-08T00:18:46Z",
   "aliases": [
     "CVE-2026-39847"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/emmett-framework/emmett"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/emmett/PYSEC-2026-59.yaml"
     }
   ],
   "database_specific": {

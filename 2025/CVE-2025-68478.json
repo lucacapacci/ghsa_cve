@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f43r-cc68-gpx4",
-  "modified": "2026-01-03T00:28:22Z",
+  "modified": "2026-06-06T00:36:53Z",
   "published": "2025-12-19T22:53:13Z",
   "aliases": [
     "CVE-2025-68478"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/langflow-ai/langflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/langflow/PYSEC-2025-125.yaml"
     }
   ],
   "database_specific": {

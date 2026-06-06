@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2j9-7rj2-gm6c",
-  "modified": "2026-03-25T20:52:20Z",
+  "modified": "2026-06-06T00:55:50Z",
   "published": "2026-03-19T17:46:43Z",
   "aliases": [
     "CVE-2026-33309"
@@ -32,10 +32,7 @@
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 1.8.1"
-      }
+      ]
     }
   ],
   "references": [
@@ -50,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/langflow-ai/langflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/langflow/PYSEC-2026-79.yaml"
     }
   ],
   "database_specific": {

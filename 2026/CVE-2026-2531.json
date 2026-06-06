@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xw9-2p64-7622",
-  "modified": "2026-02-18T17:47:09Z",
+  "modified": "2026-06-06T00:37:43Z",
   "published": "2026-02-16T06:31:29Z",
   "aliases": [
     "CVE-2026-2531"
@@ -59,6 +59,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/mindsdb/mindsdb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/mindsdb/PYSEC-2026-91.yaml"
     },
     {
       "type": "WEB",

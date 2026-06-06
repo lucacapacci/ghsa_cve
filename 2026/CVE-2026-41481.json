@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv5p-p927-qmxr",
-  "modified": "2026-04-27T16:30:30Z",
+  "modified": "2026-06-06T00:58:49Z",
   "published": "2026-04-16T22:53:32Z",
   "aliases": [
     "CVE-2026-41481"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/langchain-ai/langchain"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/langchain-text-splitters/PYSEC-2026-77.yaml"
     }
   ],
   "database_specific": {

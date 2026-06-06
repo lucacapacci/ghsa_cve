@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-527g-3w9m-29hv",
-  "modified": "2026-04-27T16:15:31Z",
+  "modified": "2026-06-06T00:58:36Z",
   "published": "2026-04-14T01:08:52Z",
   "aliases": [
     "CVE-2026-40606"
@@ -50,6 +50,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/mitmproxy/mitmproxy"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/mitmproxy/PYSEC-2026-92.yaml"
     }
   ],
   "database_specific": {
