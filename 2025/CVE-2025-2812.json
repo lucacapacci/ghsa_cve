@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3h37-cc2v-wm7x",
-  "modified": "2025-05-28T15:33:59Z",
+  "modified": "2026-06-06T06:30:27Z",
   "published": "2025-05-02T09:30:35Z",
   "aliases": [
     "CVE-2025-2812"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sahici/CVE-2025-2812"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0099"
     },
     {
       "type": "WEB",

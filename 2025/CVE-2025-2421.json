@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwmj-wfcr-vx7r",
-  "modified": "2025-05-02T12:32:00Z",
+  "modified": "2026-06-06T06:30:27Z",
   "published": "2025-05-02T12:32:00Z",
   "aliases": [
     "CVE-2025-2421"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sambabox.io/2025/04/14/version-5-1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0101"
     },
     {
       "type": "WEB",

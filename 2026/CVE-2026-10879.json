@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7xw-cj86-m724",
-  "modified": "2026-06-05T15:32:25Z",
+  "modified": "2026-06-06T06:30:29Z",
   "published": "2026-06-05T15:32:25Z",
   "aliases": [
     "CVE-2026-10879"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/HMBRAND/DBI-1.648/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/06/4"
     }
   ],
   "database_specific": {
