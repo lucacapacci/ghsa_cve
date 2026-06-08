@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43gx-6gv6-3jcp",
-  "modified": "2026-03-05T22:49:44Z",
+  "modified": "2026-06-08T18:34:31Z",
   "published": "2026-03-02T20:14:23Z",
   "aliases": [
     "CVE-2026-28413"
@@ -74,6 +74,44 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "products-isurlinportal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "products-isurlinportal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0"
+            },
+            {
+              "fixed": "3.1.0"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -88,6 +126,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/plone/Products.isurlinportal"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/products-isurlinportal/PYSEC-2026-112.yaml"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm8c-9f3j-4378",
-  "modified": "2026-04-27T16:19:30Z",
+  "modified": "2026-06-08T19:03:12Z",
   "published": "2026-04-18T01:11:19Z",
   "aliases": [
     "CVE-2026-41426"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/pretalx/pretalx"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/pretalx/PYSEC-2026-109.yaml"
     }
   ],
   "database_specific": {

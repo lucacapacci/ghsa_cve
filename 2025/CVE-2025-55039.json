@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p6v-m64v-jx8q",
-  "modified": "2025-11-05T20:48:50Z",
+  "modified": "2026-06-08T19:46:17Z",
   "published": "2025-10-15T09:30:17Z",
   "aliases": [
     "CVE-2025-55039"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:U"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N/E:P"
     }
   ],
   "affected": [
@@ -90,6 +90,44 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pyspark"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pyspark"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.5.0"
+            },
+            {
+              "fixed": "3.5.2"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -98,8 +136,28 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55039"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/apache/spark/commit/05ba74e5f8043601b7af530429ceaf828d7bb329"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/spark/commit/405b23b1aef889fad03bf4e3ced6d427dc9a43f4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/spark/commit/f0563ef64c7f42df21b16ccaeb4cf1324ea720f9"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/apache/spark"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/pyspark/PYSEC-2025-184.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.apache.org/jira/browse/SPARK-47172"
     },
     {
       "type": "WEB",
@@ -114,7 +172,7 @@
     "cwe_ids": [
       "CWE-326"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-15T18:58:35Z",
     "nvd_published_at": "2025-10-15T08:15:38Z"

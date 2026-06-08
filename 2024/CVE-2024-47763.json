@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8hx-mm92-4wvg",
-  "modified": "2025-05-02T12:54:33Z",
+  "modified": "2026-06-08T20:00:05Z",
   "published": "2024-10-09T19:14:03Z",
   "aliases": [
     "CVE-2024-47763"
@@ -151,6 +151,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/bytecodealliance/wasmtime"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/wasmtime-bin/PYSEC-2024-312.yaml"
     },
     {
       "type": "WEB",

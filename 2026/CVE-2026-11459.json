@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw43-h2x7-pm54",
-  "modified": "2026-06-07T12:30:23Z",
+  "modified": "2026-06-08T18:31:45Z",
   "published": "2026-06-07T12:30:23Z",
   "aliases": [
     "CVE-2026-11459"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11459"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jordanhiggins.blog/catchpulse-antivirus-exploits"
     },
     {
       "type": "WEB",

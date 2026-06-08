@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x96m-rwwr-fr23",
-  "modified": "2026-06-08T15:33:00Z",
+  "modified": "2026-06-08T18:31:46Z",
   "published": "2026-06-08T15:33:00Z",
   "aliases": [
     "CVE-2026-11516"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11516"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/HungryGoogle/log_attack/blob/main/index1/1.md"
     },
     {
       "type": "WEB",

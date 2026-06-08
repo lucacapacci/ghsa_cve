@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4pw-wxh7-4vjj",
-  "modified": "2025-12-18T15:51:07Z",
+  "modified": "2026-06-08T19:13:21Z",
   "published": "2025-12-17T18:31:33Z",
   "withdrawn": "2025-12-18T15:51:07Z",
   "aliases": [
@@ -52,6 +52,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mpdavis/python-jose/releases/tag/3.4.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/python-jose/PYSEC-2025-185.yaml"
     }
   ],
   "database_specific": {

@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv3x-j2x5-36jc",
-  "modified": "2026-03-20T21:24:44Z",
+  "modified": "2026-06-08T20:15:12Z",
   "published": "2026-03-18T20:07:24Z",
   "aliases": [
     "CVE-2026-33080"
   ],
   "summary": "Filament Unvalidated Range and Values summarizer values can be used for XSS",
-  "details": "Two Filament Table summarizers (`Range`, `Values`) render raw database values without escaping HTML. If there is a lack of validation for the data in the columns that use these summarizers, an attacker could plant malicious HTML / JavaScript and achieve stored XSS that executes for users who view the table with those summarizers.",
+  "details": "Two Table summarizers (`Range`, `Values`) render raw database values without escaping HTML. If there is a lack of validation for the data in the columns that use these summarizers, an attacker could plant malicious HTML / JavaScript and achieve stored XSS that executes for users who view the table with those summarizers.",
   "severity": [
     {
       "type": "CVSS_V3",
