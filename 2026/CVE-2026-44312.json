@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ff6c-w6qf-7xqc",
-  "modified": "2026-05-14T20:53:25Z",
+  "modified": "2026-06-08T23:18:03Z",
   "published": "2026-05-07T02:06:49Z",
   "aliases": [
     "CVE-2026-44312"
@@ -78,6 +78,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/premailer/css_parser"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/css_parser/CVE-2026-44312.yml"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x79-gwq3-vxxm",
-  "modified": "2026-04-24T20:51:44Z",
+  "modified": "2026-06-08T23:17:40Z",
   "published": "2026-04-14T23:41:06Z",
   "aliases": [
     "CVE-2026-41146"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/boazsegev/facil.io"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/iodine/CVE-2026-41146.yml"
     }
   ],
   "database_specific": {

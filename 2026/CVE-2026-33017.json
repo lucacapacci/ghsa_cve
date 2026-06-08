@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwmf-pq79-vjvx",
-  "modified": "2026-03-26T15:41:23Z",
+  "modified": "2026-06-08T23:11:45Z",
   "published": "2026-03-17T20:05:05Z",
   "aliases": [
     "CVE-2026-33017"
@@ -32,11 +32,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.8.2"
+              "fixed": "1.9.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.8.2"
+      }
     }
   ],
   "references": [

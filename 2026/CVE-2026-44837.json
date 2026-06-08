@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg3h-g7xc-f7vp",
-  "modified": "2026-05-14T20:48:43Z",
+  "modified": "2026-06-08T23:34:32Z",
   "published": "2026-05-08T23:33:58Z",
   "aliases": [
     "CVE-2026-44837"
@@ -41,6 +41,10 @@
       "url": "https://github.com/ViewComponent/view_component/security/advisories/GHSA-hg3h-g7xc-f7vp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44837"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/ViewComponent/view_component"
     },
@@ -51,11 +55,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-187",
       "CWE-22"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-08T23:33:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-26T21:16:38Z"
   }
 }

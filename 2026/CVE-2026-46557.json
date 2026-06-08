@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcr6-g7jc-f57g",
-  "modified": "2026-05-18T20:37:31Z",
+  "modified": "2026-06-08T23:19:27Z",
   "published": "2026-05-18T20:37:31Z",
   "aliases": [
     "CVE-2026-46557"

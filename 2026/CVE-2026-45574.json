@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hhf-xmfx-4vvr",
-  "modified": "2026-05-15T18:29:31Z",
+  "modified": "2026-06-08T23:35:18Z",
   "published": "2026-05-15T18:29:31Z",
   "aliases": [
     "CVE-2026-45574"
@@ -41,6 +41,10 @@
       "url": "https://github.com/oviva-ag/epa4all-client/security/advisories/GHSA-5hhf-xmfx-4vvr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45574"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/oviva-ag/epa4all-client/pull/36"
     },
@@ -64,6 +68,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-15T18:29:31Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-26T22:16:43Z"
   }
 }

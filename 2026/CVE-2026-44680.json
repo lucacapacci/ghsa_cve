@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfw5-68c4-ffqp",
-  "modified": "2026-05-08T19:17:45Z",
+  "modified": "2026-06-08T23:27:29Z",
   "published": "2026-05-08T19:17:45Z",
   "aliases": [
     "CVE-2026-44680"
@@ -66,8 +66,20 @@
       "url": "https://github.com/mikro-orm/mikro-orm/security/advisories/GHSA-cfw5-68c4-ffqp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44680"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mikro-orm/mikro-orm/pull/7653"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/mikro-orm/mikro-orm/pull/7654"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mikro-orm/mikro-orm/pull/7656"
     },
     {
       "type": "WEB",
@@ -85,6 +97,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-08T19:17:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-26T17:16:46Z"
   }
 }

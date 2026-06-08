@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j658-c2gf-x6pq",
-  "modified": "2026-05-09T00:40:16Z",
+  "modified": "2026-06-08T23:35:04Z",
   "published": "2026-05-09T00:40:16Z",
   "aliases": [
     "CVE-2026-44966"
@@ -41,6 +41,10 @@
       "url": "https://github.com/shepherdwind/velocity.js/security/advisories/GHSA-j658-c2gf-x6pq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44966"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/shepherdwind/velocity.js"
     }
@@ -52,6 +56,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-09T00:40:16Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-26T22:16:43Z"
   }
 }

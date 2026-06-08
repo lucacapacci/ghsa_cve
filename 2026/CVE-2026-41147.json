@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64rr-pp78-62ww",
-  "modified": "2026-05-15T16:45:03Z",
+  "modified": "2026-06-08T23:20:55Z",
   "published": "2026-05-15T16:45:03Z",
   "aliases": [
     "CVE-2026-41147"
@@ -41,6 +41,10 @@
       "url": "https://github.com/nukeviet/nukeviet/security/advisories/GHSA-64rr-pp78-62ww"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41147"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nukeviet/nukeviet/commit/2a0860fbe22e2f6a3b90f802bf80b25e18699611"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-15T16:45:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-22T22:16:56Z"
   }
 }

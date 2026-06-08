@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m68r-v472-jgq9",
-  "modified": "2026-05-05T18:10:58Z",
+  "modified": "2026-06-08T23:20:50Z",
   "published": "2026-05-05T18:10:58Z",
   "aliases": [
     "CVE-2026-40864"
@@ -41,6 +41,14 @@
       "url": "https://github.com/jupyterhub/jupyterhub/security/advisories/GHSA-m68r-v472-jgq9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40864"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jupyterhub/jupyterhub/commit/9c5ec277d3cda5a59de2d8c8117efa77bd941127"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/jupyterhub/jupyterhub"
     }
@@ -52,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T18:10:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-22T21:16:43Z"
   }
 }
