@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjch-jhgj-g9w2",
-  "modified": "2026-06-04T15:30:41Z",
+  "modified": "2026-06-08T15:32:43Z",
   "published": "2026-06-04T15:30:41Z",
   "aliases": [
     "CVE-2026-36180"
   ],
   "details": "A lack of runtime integrity in GNCC GP5 v7.1.76 allows physically-proximate attackers to bypass file system read-only protections and modify system files and binaries for the duration of a boot session via a bind-mount attack.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-04T15:16:51Z"

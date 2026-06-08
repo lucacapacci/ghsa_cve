@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5v4-cx2h-x7cm",
-  "modified": "2026-06-05T00:31:43Z",
+  "modified": "2026-06-08T15:32:43Z",
   "published": "2026-06-05T00:31:43Z",
   "aliases": [
     "CVE-2026-11024"
   ],
   "details": "Stack buffer overflow in Skia in Google Chrome prior to 149.0.7827.53 allowed a remote attacker to potentially exploit stack corruption via a crafted HTML page. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-121"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-04T23:17:06Z"

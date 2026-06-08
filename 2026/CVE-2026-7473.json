@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcx4-vm6v-r473",
-  "modified": "2026-06-05T18:31:40Z",
+  "modified": "2026-06-08T15:32:49Z",
   "published": "2026-06-05T18:31:40Z",
   "aliases": [
     "CVE-2026-7473"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.arista.com/en/support/advisories-notices/security-advisory/22872-security-advisory-0137"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137"
     }
   ],
   "database_specific": {

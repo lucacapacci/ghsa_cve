@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcjq-xfxv-x7mx",
-  "modified": "2026-06-04T15:30:41Z",
+  "modified": "2026-06-08T15:32:42Z",
   "published": "2026-06-04T15:30:41Z",
   "aliases": [
     "CVE-2026-36174"
   ],
   "details": "GNCC GP5 v7.1.76 was discovered to store sensitive wireless network information in plaintext during routine operations to the serial console. This issue allows physically-proximate attackers to obtain sensitive information, including network credentials, via monitoring the serial UART interface.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-256"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-04T15:16:51Z"
