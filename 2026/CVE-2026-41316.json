@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q339-8rmv-2mhv",
-  "modified": "2026-04-24T15:36:05Z",
+  "modified": "2026-06-09T10:35:15Z",
   "published": "2026-04-24T15:36:05Z",
   "aliases": [
     "CVE-2026-41316"
@@ -107,6 +107,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ruby/erb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/erb/CVE-2026-41316.yml"
     }
   ],
   "database_specific": {

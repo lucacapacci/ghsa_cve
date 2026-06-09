@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhx5-6j68-67q4",
-  "modified": "2026-05-19T15:31:28Z",
+  "modified": "2026-06-09T12:32:01Z",
   "published": "2026-05-19T15:31:28Z",
   "aliases": [
     "CVE-2025-40902"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40902"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-827968.html"
     },
     {
       "type": "WEB",

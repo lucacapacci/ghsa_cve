@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3xc-h892-ggx6",
-  "modified": "2026-05-13T15:29:48Z",
+  "modified": "2026-06-09T10:50:07Z",
   "published": "2026-05-13T15:29:47Z",
   "aliases": [
     "CVE-2026-44740"
@@ -60,6 +60,10 @@
       "url": "https://github.com/go-git/go-billy/security/advisories/GHSA-m3xc-h892-ggx6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44740"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/go-git/go-billy"
     },
@@ -80,6 +84,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-13T15:29:47Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-01T17:17:08Z"
   }
 }

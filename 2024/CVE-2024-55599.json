@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5ff-wp9g-xph9",
-  "modified": "2025-07-08T15:32:03Z",
+  "modified": "2026-06-09T12:31:58Z",
   "published": "2025-07-08T15:32:03Z",
   "aliases": [
     "CVE-2024-55599"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-55599"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-864900.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9rm-93rw-98gq",
-  "modified": "2025-10-15T15:30:27Z",
+  "modified": "2026-06-09T12:31:58Z",
   "published": "2025-10-02T15:31:16Z",
   "aliases": [
     "CVE-2025-22862"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22862"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-864900.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qwm-5fm9-cvjx",
-  "modified": "2026-06-09T09:32:07Z",
+  "modified": "2026-06-09T12:32:03Z",
   "published": "2026-06-09T09:32:07Z",
   "aliases": [
     "CVE-2026-34033"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/wrfd9blbfotfg479jr8vlwfx6pwr9sgj"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/09/3"
     }
   ],
   "database_specific": {

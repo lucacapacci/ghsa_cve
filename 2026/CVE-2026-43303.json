@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6fh9-96ww-pvwq",
-  "modified": "2026-05-11T09:30:29Z",
+  "modified": "2026-06-09T12:32:00Z",
   "published": "2026-05-08T15:31:22Z",
   "aliases": [
     "CVE-2026-43303"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d757c793853ec5483eb41ec2942c300b8fa720fb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f9719e32a67b4b00b3c9b133e8b5ffa72a26b67b"
     }
   ],
   "database_specific": {

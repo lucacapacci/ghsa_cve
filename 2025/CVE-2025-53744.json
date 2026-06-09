@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5vf-25hf-3m74",
-  "modified": "2025-08-12T21:31:21Z",
+  "modified": "2026-06-09T12:31:58Z",
   "published": "2025-08-12T21:31:21Z",
   "aliases": [
     "CVE-2025-53744"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53744"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-864900.html"
     },
     {
       "type": "WEB",

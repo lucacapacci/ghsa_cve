@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85r2-pvg8-89r9",
-  "modified": "2026-06-09T09:32:07Z",
+  "modified": "2026-06-09T12:32:03Z",
   "published": "2026-06-09T09:32:07Z",
   "aliases": [
     "CVE-2026-34905"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/khxoft96sptr2kh0cpzgw7f6qwv0ltcf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/09/2"
     }
   ],
   "database_specific": {

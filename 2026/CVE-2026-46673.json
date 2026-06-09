@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9f8-wqj9-fjw5",
-  "modified": "2026-05-21T20:49:07Z",
+  "modified": "2026-06-09T10:55:16Z",
   "published": "2026-05-21T20:49:07Z",
   "aliases": [
     "CVE-2026-46673"
@@ -68,6 +68,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/Eugeny/russh"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0153.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0154.html"
     }
   ],
   "database_specific": {

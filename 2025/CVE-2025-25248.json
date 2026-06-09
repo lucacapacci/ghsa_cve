@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f257-v2jp-hg34",
-  "modified": "2025-08-14T03:31:15Z",
+  "modified": "2026-06-09T12:31:58Z",
   "published": "2025-08-12T21:31:20Z",
   "aliases": [
     "CVE-2025-25248"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25248"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-864900.html"
     },
     {
       "type": "WEB",

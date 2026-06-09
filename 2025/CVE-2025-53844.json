@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67q8-5ppc-5hgr",
-  "modified": "2026-05-12T18:30:40Z",
+  "modified": "2026-06-09T12:32:01Z",
   "published": "2026-05-12T18:30:40Z",
   "aliases": [
     "CVE-2025-53844"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53844"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-864900.html"
     },
     {
       "type": "WEB",

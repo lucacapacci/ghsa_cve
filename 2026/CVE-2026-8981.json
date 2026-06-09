@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfcv-65jq-76jw",
-  "modified": "2026-06-09T06:31:59Z",
+  "modified": "2026-06-09T12:32:03Z",
   "published": "2026-06-09T06:31:59Z",
   "aliases": [
     "CVE-2026-8981"
   ],
   "details": "The Custom Block Builder  WordPress plugin before 4.3.0 does not consistently check the unfiltered_html capability across all paths that write to its block template code fields, allowing administrators on multisite installations (or single-site installs with DISALLOW_UNFILTERED_HTML defined) to inject arbitrary JavaScript that executes for any visitor of pages embedding the affected block.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-09T06:16:54Z"

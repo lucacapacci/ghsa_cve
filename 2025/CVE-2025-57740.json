@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-246v-8qgx-g3wc",
-  "modified": "2025-10-14T18:30:28Z",
+  "modified": "2026-06-09T12:31:59Z",
   "published": "2025-10-14T18:30:28Z",
   "aliases": [
     "CVE-2025-57740"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57740"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-864900.html"
     },
     {
       "type": "WEB",

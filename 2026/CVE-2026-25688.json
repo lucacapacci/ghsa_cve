@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmr2-99jm-8x45",
-  "modified": "2026-06-09T09:32:07Z",
+  "modified": "2026-06-09T12:32:03Z",
   "published": "2026-06-09T09:32:07Z",
   "aliases": [
     "CVE-2026-25688"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/x42joj43rqb38ms5q60f7bgq3qbo7t5q"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/09/7"
     }
   ],
   "database_specific": {

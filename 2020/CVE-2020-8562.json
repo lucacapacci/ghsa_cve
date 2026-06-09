@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh36-44jv-c8xj",
-  "modified": "2024-08-06T23:53:54Z",
+  "modified": "2026-06-09T10:51:51Z",
   "published": "2022-02-02T00:01:58Z",
   "aliases": [
     "CVE-2020-8562"
@@ -112,6 +112,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/g/kubernetes-security-announce/c/-MFX60_wdOY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves"
     },
     {
       "type": "WEB",

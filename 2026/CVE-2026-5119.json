@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j666-j6hj-fpc7",
-  "modified": "2026-06-08T03:47:23Z",
+  "modified": "2026-06-09T12:32:00Z",
   "published": "2026-03-30T09:31:28Z",
   "aliases": [
     "CVE-2026-5119"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-5119"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:24722"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g26-2qgj-chfg",
-  "modified": "2026-05-27T00:03:11Z",
+  "modified": "2026-06-09T10:35:28Z",
   "published": "2026-05-27T00:03:11Z",
   "aliases": [
     "CVE-2026-44587"
@@ -62,6 +62,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/carrierwaveuploader/carrierwave"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/carrierwave/CVE-2026-44587.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-44587"
     }
   ],
   "database_specific": {

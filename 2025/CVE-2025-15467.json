@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvhq-3h88-rf6g",
-  "modified": "2026-03-19T21:30:19Z",
+  "modified": "2026-06-09T12:32:00Z",
   "published": "2026-01-27T18:32:15Z",
   "aliases": [
     "CVE-2025-15467"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssl/openssl/commit/d0071a0799f20cc8101730145349ed4487c268dc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-434797.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjj2-p33c-f8qq",
-  "modified": "2025-12-16T21:30:50Z",
+  "modified": "2026-06-09T12:31:59Z",
   "published": "2025-12-09T18:30:46Z",
   "aliases": [
     "CVE-2025-59718"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://arcticwolf.com/resources/blog/arctic-wolf-observes-malicious-sso-logins-following-disclosure-cve-2025-59718-cve-2025-59719"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-864900.html"
     },
     {
       "type": "WEB",

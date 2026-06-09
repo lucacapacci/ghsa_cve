@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58c5-g7wp-6w37",
-  "modified": "2025-12-01T16:02:59Z",
+  "modified": "2026-06-09T10:55:35Z",
   "published": "2025-11-26T23:18:50Z",
   "aliases": [
     "CVE-2025-66035"
@@ -93,6 +93,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/angular/angular/commit/3240d856d942727372a705252f7c8c115394a41e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-485750.html"
     },
     {
       "type": "PACKAGE",

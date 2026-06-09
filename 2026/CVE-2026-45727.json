@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf33-gv72-w2h5",
-  "modified": "2026-05-18T17:50:21Z",
+  "modified": "2026-06-09T10:50:57Z",
   "published": "2026-05-18T17:50:21Z",
   "aliases": [
     "CVE-2026-45727"
@@ -44,6 +44,10 @@
       "url": "https://github.com/CloakHQ/CloakBrowser/security/advisories/GHSA-mf33-gv72-w2h5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45727"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/CloakHQ/CloakBrowser"
     }
@@ -55,6 +59,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-18T17:50:21Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-01T19:16:53Z"
   }
 }

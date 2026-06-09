@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3m2-jqmq-pvp3",
-  "modified": "2026-05-29T20:25:48Z",
+  "modified": "2026-06-09T11:00:16Z",
   "published": "2026-05-29T20:25:48Z",
   "aliases": [
     "CVE-2026-47201"
@@ -41,6 +41,10 @@
       "url": "https://github.com/goauthentik/authentik/security/advisories/GHSA-c3m2-jqmq-pvp3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47201"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/goauthentik/authentik/commit/a370d76d23c7de0fceed064ca322e33e6ebf0119"
     },
@@ -51,11 +55,13 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-287"
+      "CWE-20",
+      "CWE-287",
+      "CWE-347"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-29T20:25:48Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-02T21:16:27Z"
   }
 }

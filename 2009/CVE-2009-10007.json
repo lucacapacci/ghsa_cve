@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfqm-wq4x-p42c",
-  "modified": "2026-06-09T09:32:07Z",
+  "modified": "2026-06-09T12:32:03Z",
   "published": "2026-06-09T09:32:06Z",
   "aliases": [
     "CVE-2009-10007"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/ETHER/Catalyst-Plugin-Authentication-0.10_027/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/09/10"
     }
   ],
   "database_specific": {
