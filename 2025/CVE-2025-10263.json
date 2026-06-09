@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9c8-763w-495x",
-  "modified": "2026-06-09T12:32:04Z",
+  "modified": "2026-06-09T15:32:13Z",
   "published": "2026-06-09T12:32:04Z",
   "aliases": [
     "CVE-2025-10263"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://developer.arm.com/documentation/112137"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-493.html"
     }
   ],
   "database_specific": {

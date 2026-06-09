@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hf4r-hm8m-w52j",
+  "modified": "2026-06-09T15:32:18Z",
+  "published": "2026-06-09T15:32:18Z",
+  "aliases": [
+    "CVE-2026-46323"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: gro: don't merge zcopy skbs\n\nskb_gro_receive() can currently copy frags between the source and GRO\nskb, without checking the zerocopy status, and in particular the\nSKBFL_MANAGED_FRAG_REFS flag.\n\nWhen SKBFL_MANAGED_FRAG_REFS is set, the skb doesn't hold a reference\non the pages in shinfo->frags. Appending those frags to another skb's\nfrags without fixing up the page refcount can lead to UAF.\n\nWhen either the last skb in the GRO chain (the one we would append\nfrags to) or the source skb is zerocopy, don't merge the skbs.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46323"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1f9c828556416fbe3f49386708ce999fc4d4da06"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/44bea2032af0425e4ce6d26a8af0ede79db49ec1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/479084ae0e1d9cb7929cb4298d35623de189f80a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4db79a322db8c97f7b73b8a347395ef4d685eb40"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e334cbf3388fd9334503a778a82d9e9f14dd2f71"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-09T13:16:37Z"
+  }
+}
