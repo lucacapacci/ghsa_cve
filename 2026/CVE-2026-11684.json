@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m67c-5qcr-q2mm",
-  "modified": "2026-06-09T00:33:25Z",
+  "modified": "2026-06-09T03:31:39Z",
   "published": "2026-06-09T00:33:25Z",
   "aliases": [
     "CVE-2026-11684"
   ],
   "details": "Insufficient policy enforcement in Network in Google Chrome prior to 149.0.7827.103 allowed a remote attacker who had compromised the utility process to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-693"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-09T00:16:51Z"

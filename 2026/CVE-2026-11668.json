@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w669-6jc5-cg7f",
-  "modified": "2026-06-09T00:33:25Z",
+  "modified": "2026-06-09T03:31:39Z",
   "published": "2026-06-09T00:33:25Z",
   "aliases": [
     "CVE-2026-11668"
   ],
   "details": "Uninitialized Use in Codecs in Google Chrome on Linux, ChromeOS prior to 149.0.7827.103 allowed a remote attacker to leak cross-origin data via a crafted video file. (Chromium security severity: High)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-457"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-09T00:16:49Z"
