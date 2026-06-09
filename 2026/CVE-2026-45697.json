@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7m9-mwc2-g6w2",
-  "modified": "2026-05-18T17:23:39Z",
+  "modified": "2026-06-09T10:32:38Z",
   "published": "2026-05-18T17:23:39Z",
   "aliases": [
     "CVE-2026-45697"
@@ -60,6 +60,10 @@
       "url": "https://github.com/verbb/formie/security/advisories/GHSA-x7m9-mwc2-g6w2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45697"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/verbb/formie/commit/f690d5623163ce2a95da305238d6367575486ee3"
     },
@@ -85,6 +89,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-18T17:23:39Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-29T20:16:27Z"
   }
 }

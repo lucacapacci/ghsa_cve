@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qg89-qwwh-5f3j",
-  "modified": "2026-05-19T20:09:52Z",
+  "modified": "2026-06-09T10:32:23Z",
   "published": "2026-05-19T20:09:52Z",
   "aliases": [
     "CVE-2026-46372"
@@ -44,6 +44,10 @@
       "url": "https://github.com/SillyTavern/SillyTavern/security/advisories/GHSA-qg89-qwwh-5f3j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46372"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/SillyTavern/SillyTavern"
     }
@@ -55,6 +59,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-19T20:09:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-29T19:16:25Z"
   }
 }

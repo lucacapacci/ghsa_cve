@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3px-h233-h6fq",
-  "modified": "2026-05-28T22:39:25Z",
+  "modified": "2026-06-09T10:30:55Z",
   "published": "2026-05-28T22:39:25Z",
   "aliases": [
     "CVE-2026-47179"
@@ -44,6 +44,10 @@
       "url": "https://github.com/getarcaneapp/arcane/security/advisories/GHSA-c3px-h233-h6fq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47179"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/getarcaneapp/arcane/commit/b6cbffabf61dbc3f12a28d3b5830e3c6b7e67daf"
     },
@@ -59,6 +63,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-28T22:39:25Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-29T18:17:12Z"
   }
 }

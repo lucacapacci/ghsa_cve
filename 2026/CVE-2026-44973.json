@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qw64-3x98-g7q2",
-  "modified": "2026-05-14T18:25:38Z",
+  "modified": "2026-06-09T10:26:27Z",
   "published": "2026-05-14T18:25:38Z",
   "aliases": [
     "CVE-2026-44973"
@@ -60,6 +60,10 @@
       "url": "https://github.com/go-git/go-billy/security/advisories/GHSA-qw64-3x98-g7q2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44973"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/go-git/go-billy"
     },
@@ -79,6 +83,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-14T18:25:38Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-28T22:16:59Z"
   }
 }

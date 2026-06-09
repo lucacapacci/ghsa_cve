@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw5x-2mf9-3xc8",
-  "modified": "2026-05-11T19:39:44Z",
+  "modified": "2026-06-09T10:23:52Z",
   "published": "2026-05-11T19:39:43Z",
   "aliases": [
     "CVE-2026-42071"
@@ -44,6 +44,10 @@
       "url": "https://github.com/mantisbt/mantisbt/security/advisories/GHSA-pw5x-2mf9-3xc8"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42071"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/mantisbt/mantisbt/commit/029d9d203d9e4ae96b3e59d552fa7395cc1e5071"
     },
@@ -75,6 +79,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-11T19:39:43Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-28T21:16:30Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6fr-rxq7-xcg8",
-  "modified": "2026-05-11T19:40:44Z",
+  "modified": "2026-06-09T10:24:02Z",
   "published": "2026-05-11T19:40:43Z",
   "aliases": [
     "CVE-2026-44657"
@@ -48,6 +48,10 @@
       "url": "https://github.com/mantisbt/mantisbt/security/advisories/GHSA-p6fr-rxq7-xcg8"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44657"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/mantisbt/mantisbt/commit/26647b2e68ba30b9d7987d4e03d7a16416684bc2"
     },
@@ -67,6 +71,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-11T19:40:43Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-28T21:16:31Z"
   }
 }

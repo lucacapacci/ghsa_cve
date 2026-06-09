@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cvp-p7p4-mcx9",
-  "modified": "2026-05-18T14:20:06Z",
+  "modified": "2026-06-09T10:30:37Z",
   "published": "2026-05-18T14:20:06Z",
   "aliases": [
     "CVE-2026-45577"
@@ -41,6 +41,10 @@
       "url": "https://github.com/markmhendrickson/neotoma/security/advisories/GHSA-5cvp-p7p4-mcx9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45577"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/markmhendrickson/neotoma"
     },
@@ -57,6 +61,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-18T14:20:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-29T18:17:10Z"
   }
 }

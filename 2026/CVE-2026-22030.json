@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5cw-625j-3rxh",
-  "modified": "2026-01-11T14:54:18Z",
+  "modified": "2026-06-09T10:31:49Z",
   "published": "2026-01-08T20:57:09Z",
   "aliases": [
     "CVE-2026-22030"
   ],
   "summary": "React Router has CSRF issue in Action/Server Action Request Processing",
-  "details": "React Router (or Remix v2) is vulnerable to CSRF attacks on document POST requests to UI routes when using server-side route `action` handlers in [Framework Mode](https://reactrouter.com/start/modes#framework), or when using React Server Actions in the new unstable RSC modes.\n\n> [!NOTE]\n> This does not impact applications that use [Declarative Mode](https://reactrouter.com/start/modes#declarative) (`<BrowserRouter>`) or [Data Mode](https://reactrouter.com/start/modes#data) (`createBrowserRouter`/`<RouterProvider>`).",
+  "details": "React Router (or Remix v2) is vulnerable to CSRF attacks on document POST requests to UI routes when using server-side route `action` handlers in [Framework Mode](https://reactrouter.com/start/modes#framework), or when using React Server Actions in the new unstable RSC modes.\n\n> [!NOTE]\n> This does not impact your application if you are using [Declarative Mode](https://reactrouter.com/start/modes#declarative) (`<BrowserRouter>`) or [Data Mode](https://reactrouter.com/start/modes#data) (`createBrowserRouter`/`<RouterProvider>`).",
   "severity": [
     {
       "type": "CVSS_V3",

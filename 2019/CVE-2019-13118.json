@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cf46-6xxh-pc75",
-  "modified": "2023-03-08T19:57:56Z",
+  "modified": "2026-06-09T10:21:50Z",
   "published": "2022-05-24T16:49:07Z",
   "aliases": [
     "CVE-2019-13118"
@@ -47,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/sparklemotion/nokogiri/commit/43a175339b47b8c604508813fc75b83f13cd173e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=15069"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/bugtraq/2019/Jul/36"
     },
     {
       "type": "WEB",
@@ -110,51 +118,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://seclists.org/bugtraq/2019/Jul/36"
-    },
-    {
-      "type": "WEB",
-      "url": "https://seclists.org/bugtraq/2019/Jul/35"
-    },
-    {
-      "type": "WEB",
-      "url": "https://seclists.org/bugtraq/2019/Aug/25"
-    },
-    {
-      "type": "WEB",
-      "url": "https://seclists.org/bugtraq/2019/Aug/23"
-    },
-    {
-      "type": "WEB",
-      "url": "https://seclists.org/bugtraq/2019/Aug/22"
-    },
-    {
-      "type": "WEB",
-      "url": "https://seclists.org/bugtraq/2019/Aug/21"
-    },
-    {
-      "type": "WEB",
-      "url": "https://oss-fuzz.com/testcase-detail/5197371471822848"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IOYJKXPQCUNBMMQJWYXOR6QRUJZHEDRZ"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.debian.org/debian-lts-announce/2019/07/msg00020.html"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/rf4c02775860db415b4955778a131c2795223f61cb8c6a450893651e4@%3Cissues.bookkeeper.apache.org%3E"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b@%3Cissues.bookkeeper.apache.org%3E"
-    },
-    {
-      "type": "WEB",
-      "url": "https://gitlab.gnome.org/GNOME/libxslt/commit/6ce8de69330783977dd14f6569419489875fb71b"
+      "url": "https://github.com/sparklemotion/nokogiri/blob/f7aa3b0b29d6fe5fafe93dacd9b96b6b3d16b7ec/CHANGELOG.md?plain=1#L796"
     },
     {
       "type": "WEB",
@@ -162,11 +126,59 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/sparklemotion/nokogiri/blob/f7aa3b0b29d6fe5fafe93dacd9b96b6b3d16b7ec/CHANGELOG.md?plain=1#L796"
+      "url": "https://gitlab.gnome.org/GNOME/libxslt/commit/6ce8de69330783977dd14f6569419489875fb71b"
     },
     {
       "type": "WEB",
-      "url": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=15069"
+      "url": "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b%40%3Cissues.bookkeeper.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b@%3Cissues.bookkeeper.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rf4c02775860db415b4955778a131c2795223f61cb8c6a450893651e4%40%3Cissues.bookkeeper.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rf4c02775860db415b4955778a131c2795223f61cb8c6a450893651e4@%3Cissues.bookkeeper.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2019/07/msg00020.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IOYJKXPQCUNBMMQJWYXOR6QRUJZHEDRZ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IOYJKXPQCUNBMMQJWYXOR6QRUJZHEDRZ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://oss-fuzz.com/testcase-detail/5197371471822848"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/bugtraq/2019/Aug/21"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/bugtraq/2019/Aug/22"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/bugtraq/2019/Aug/23"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/bugtraq/2019/Aug/25"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/bugtraq/2019/Jul/35"
     },
     {
       "type": "WEB",
