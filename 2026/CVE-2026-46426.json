@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82rc-gxrg-v4gf",
-  "modified": "2026-05-19T16:31:30Z",
+  "modified": "2026-06-08T23:51:56Z",
   "published": "2026-05-19T16:31:30Z",
   "aliases": [
     "CVE-2026-46426"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Budibase/budibase/security/advisories/GHSA-82rc-gxrg-v4gf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46426"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/Budibase/budibase"
     },
@@ -57,6 +61,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-19T16:31:30Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-27T18:16:26Z"
   }
 }

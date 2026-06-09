@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p7m-6jhq-26cm",
-  "modified": "2026-06-08T21:31:50Z",
+  "modified": "2026-06-09T00:33:23Z",
   "published": "2026-06-08T18:31:49Z",
   "aliases": [
     "CVE-2026-42536"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://httpd.apache.org/security/vulnerabilities_24.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/08/9"
     }
   ],
   "database_specific": {

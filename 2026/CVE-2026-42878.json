@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrxf-vrc4-22p7",
-  "modified": "2026-05-07T19:43:24Z",
+  "modified": "2026-06-08T23:53:21Z",
   "published": "2026-05-07T19:43:24Z",
   "aliases": [
     "CVE-2026-42878"
@@ -41,6 +41,10 @@
       "url": "https://github.com/NeoRazorX/facturascripts/security/advisories/GHSA-vrxf-vrc4-22p7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42878"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/NeoRazorX/facturascripts"
     }
@@ -52,6 +56,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-07T19:43:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-27T19:16:17Z"
   }
 }

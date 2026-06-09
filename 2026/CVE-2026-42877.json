@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r736-2678-fcrx",
-  "modified": "2026-05-07T19:37:08Z",
+  "modified": "2026-06-08T23:53:15Z",
   "published": "2026-05-07T19:37:08Z",
   "aliases": [
     "CVE-2026-42877"
@@ -41,6 +41,10 @@
       "url": "https://github.com/NeoRazorX/facturascripts/security/advisories/GHSA-r736-2678-fcrx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42877"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/NeoRazorX/facturascripts"
     }
@@ -52,6 +56,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-07T19:37:08Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-27T20:16:36Z"
   }
 }

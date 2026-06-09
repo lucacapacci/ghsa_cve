@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7cv-rxg3-hmpx",
-  "modified": "2026-05-13T16:25:16Z",
+  "modified": "2026-06-08T23:53:09Z",
   "published": "2026-05-12T00:12:49Z",
   "aliases": [
     "CVE-2026-45321"
@@ -1888,6 +1888,10 @@
     {
       "type": "WEB",
       "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-45321"
     },
     {
       "type": "WEB",
