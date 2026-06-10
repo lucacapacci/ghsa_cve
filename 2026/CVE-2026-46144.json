@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfhm-vm36-2x5j",
-  "modified": "2026-05-28T12:30:30Z",
+  "modified": "2026-06-10T21:31:24Z",
   "published": "2026-05-28T12:30:30Z",
   "aliases": [
     "CVE-2026-46144"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/mana: Fix error unwind in mana_ib_create_qp_rss()\n\nSashiko points out that mana_ib_cfg_vport_steering() is leaked, the normal\ndestroy path cleans it up.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T10:16:30Z"

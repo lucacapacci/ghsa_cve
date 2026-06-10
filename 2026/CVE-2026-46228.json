@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpf5-pj4j-j3vf",
-  "modified": "2026-05-28T12:30:33Z",
+  "modified": "2026-06-10T21:31:26Z",
   "published": "2026-05-28T12:30:33Z",
   "aliases": [
     "CVE-2026-46228"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: ch341: fix devres lifetime\n\nUSB drivers bind to USB interfaces and any device managed resources\nshould have their lifetime tied to the interface rather than parent USB\ndevice. This avoids issues like memory leaks when drivers are unbound\nwithout their devices being physically disconnected (e.g. on probe\ndeferral or configuration changes).\n\nFix the controller and driver data lifetime so that they are released\non driver unbind.\n\nNote that this also makes sure that the SPI controller is placed\ncorrectly under the USB interface in the device tree.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T10:16:38Z"

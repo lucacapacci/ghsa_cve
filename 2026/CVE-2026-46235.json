@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g99c-g7mv-2xpg",
-  "modified": "2026-06-01T18:31:42Z",
+  "modified": "2026-06-10T21:31:26Z",
   "published": "2026-05-28T12:30:34Z",
   "aliases": [
     "CVE-2026-46235"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: saa7164: add ioremap return checks and cleanups\n\nAdd checks for ioremap return values in saa7164_dev_setup(). If\nioremap for BAR0 or BAR2 fails, release the already allocated PCI\nmemory regions, remove the device from the global list, decrement\nthe device count, and return -ENODEV.\n\nThis prevents potential null pointer dereferences and ensures proper\ncleanup on memory mapping failures.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T10:16:39Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78r5-m85f-q5m9",
-  "modified": "2026-06-01T18:31:39Z",
+  "modified": "2026-06-10T21:31:25Z",
   "published": "2026-05-28T12:30:31Z",
   "aliases": [
     "CVE-2026-46168"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmptcp: fix scheduling with atomic in timestamp sockopt\n\nUsing lock_sock_fast() (atomic context) around sock_set_timestamp()\nand sock_set_timestamping() is unsafe, as both helpers can sleep.\n\nReplace lock_sock_fast() with sleepable lock_sock()/release_sock()\nto avoid scheduling while atomic panic.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T10:16:32Z"

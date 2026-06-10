@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cw9h-69mp-f4jq",
-  "modified": "2026-05-28T12:30:31Z",
+  "modified": "2026-06-10T21:31:25Z",
   "published": "2026-05-28T12:30:31Z",
   "aliases": [
     "CVE-2026-46162"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nice: fix double free in ice_sf_eth_activate() error path\n\nWhen auxiliary_device_add() fails, ice_sf_eth_activate() jumps to\naux_dev_uninit and calls auxiliary_device_uninit(&sf_dev->adev).\n\nThe device release callback ice_sf_dev_release() frees sf_dev, but\nthe current error path falls through to sf_dev_free and calls\nkfree(sf_dev) again, causing a double free.\n\nKeep kfree(sf_dev) for the auxiliary_device_init() failure path, but\navoid falling through to sf_dev_free after auxiliary_device_uninit().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T10:16:31Z"

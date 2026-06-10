@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qq4-4rxx-pjhm",
-  "modified": "2026-06-01T18:31:39Z",
+  "modified": "2026-06-10T21:31:25Z",
   "published": "2026-05-28T12:30:31Z",
   "aliases": [
     "CVE-2026-46163"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: b43legacy: enforce bounds check on firmware key index in RX path\n\nSame fix as b43: the firmware-controlled key index in b43legacy_rx()\ncan exceed dev->max_nr_keys. The existing B43legacy_WARN_ON is\nnon-enforcing in production builds, allowing an out-of-bounds read of\ndev->key[].\n\nMake the check enforcing by dropping the frame for invalid indices.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T10:16:31Z"

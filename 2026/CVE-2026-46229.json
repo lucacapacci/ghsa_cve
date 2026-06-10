@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w77m-3j47-48fr",
-  "modified": "2026-05-28T12:30:33Z",
+  "modified": "2026-06-10T21:31:26Z",
   "published": "2026-05-28T12:30:33Z",
   "aliases": [
     "CVE-2026-46229"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdkfd: Clear VRAM on allocation to prevent stale data exposure\n\nKFD VRAM allocations set AMDGPU_GEM_CREATE_VRAM_WIPE_ON_RELEASE\nbut not AMDGPU_GEM_CREATE_VRAM_CLEARED, leaving freshly allocated\nVRAM with stale data from prior use observable by compute kernels.\n\nThe GEM ioctl path already sets VRAM_CLEARED for all userspace\nallocations via amdgpu_gem_create_ioctl() and\namdgpu_mode_dumb_create(). The KFD path was missing this flag,\nallowing stale page table remnants to leak into user buffers.\n\nThis causes crashes in RCCL P2P transport where non-zero data in\nptrExchange/head/tail fields corrupts the protocol handshake.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-28T10:16:38Z"
