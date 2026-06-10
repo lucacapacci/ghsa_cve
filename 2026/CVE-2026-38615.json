@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjfv-6wjw-r35j",
-  "modified": "2026-06-09T18:30:41Z",
+  "modified": "2026-06-10T15:31:27Z",
   "published": "2026-06-09T18:30:41Z",
   "aliases": [
     "CVE-2026-38615"
   ],
   "details": "DedeCMS V5.7.118 is vulnerable to Command Execution in file_manage_control.php.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-78"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-09T17:17:05Z"

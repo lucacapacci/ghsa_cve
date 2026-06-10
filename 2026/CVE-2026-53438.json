@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mw82-xcg6-gx79",
+  "modified": "2026-06-10T15:31:31Z",
+  "published": "2026-06-10T15:31:31Z",
+  "aliases": [
+    "CVE-2026-53438"
+  ],
+  "details": "A missing permission check in Jenkins 2.567 and earlier, LTS 2.555.2 and earlier allows attackers with Item/Cancel permission, but lacking Item/Read permission, to cancel queue items they do not have permission to view.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53438"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.jenkins.io/security/advisory/2026-06-10/#SECURITY-3712"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-10T14:16:36Z"
+  }
+}

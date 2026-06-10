@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w26-w7q4-pcw2",
-  "modified": "2026-06-09T18:30:40Z",
+  "modified": "2026-06-10T15:31:27Z",
   "published": "2026-06-09T18:30:40Z",
   "aliases": [
     "CVE-2026-0414"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0414"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.netgear.com/000070811/June-2026-NETGEAR-Security-Advisory"
     },
     {
       "type": "WEB",
