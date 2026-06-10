@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g46v-9mx2-cgxf",
-  "modified": "2024-03-21T03:34:05Z",
+  "modified": "2026-06-10T18:31:37Z",
   "published": "2022-05-24T19:09:11Z",
   "aliases": [
     "CVE-2020-18169"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/GitHubAssessments/CVE_Assessment_04_2019/blob/master/Snagit_Report.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/TechSmith/TSC-Security-Public/blob/main/advisories/2020/CVE-2020-18169-dispute.md"
     }
   ],
   "database_specific": {

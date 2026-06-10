@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp45-6q59-r2fj",
-  "modified": "2026-06-09T18:30:41Z",
+  "modified": "2026-06-10T18:31:41Z",
   "published": "2026-06-09T18:30:40Z",
   "aliases": [
     "CVE-2026-0417"
@@ -21,103 +21,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.netgear.com/support/product/mr60"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/mr70"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/mr80"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/ms60"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/ms70"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/ms80"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/r6400v2"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/r6700v3"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/r6900p"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/r7000"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/r7000p"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/r7960p"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/r8000p"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/r8500"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax20"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax35v2"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax40v2"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax41"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax42"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax43"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax45"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax48"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax50"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax50s"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/raxe450"
+      "url": "https://www.netgear.com/support/product/xr1000"
     },
     {
       "type": "WEB",
@@ -125,7 +29,107 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.netgear.com/support/product/xr1000"
+      "url": "https://www.netgear.com/support/product/raxe450"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax50s"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax50"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax45"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax43"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax42"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax41"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax40v2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax35v2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax20"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/r8500"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/r8000p"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/r7960p"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/r7000p"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/r7000"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/r6900p"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/r6700v3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/r6400v2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/ms80"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/ms70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/ms60"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/mr80"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/mr70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/mr60"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.netgear.com/000070811/June-2026-NETGEAR-Security-Advisory"
     }
   ],
   "database_specific": {

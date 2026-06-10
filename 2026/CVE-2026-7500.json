@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm32-hfmw-rhvg",
-  "modified": "2026-05-07T00:07:16Z",
+  "modified": "2026-06-10T18:31:39Z",
   "published": "2026-04-30T15:30:39Z",
   "aliases": [
     "CVE-2026-7500"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/pull/48715"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:25098"
     },
     {
       "type": "WEB",

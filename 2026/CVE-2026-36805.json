@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84qr-g8g5-7rph",
-  "modified": "2026-06-09T21:32:35Z",
+  "modified": "2026-06-10T18:31:45Z",
   "published": "2026-06-09T21:32:35Z",
   "aliases": [
     "CVE-2026-36805"
   ],
   "details": "Shenzhen Tenda Technology Co., Ltd Tenda G0 v15.11.0.5 was discovered to contain multiple buffer overflows in the Saveqqlist function via the qqStr and markStr parameters. These vulnerabilities allow attackers to cause a Denial of Service (DoS) via a crafted HTTP request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-09T19:17:46Z"

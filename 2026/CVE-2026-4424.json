@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c75f-55f6-f63q",
-  "modified": "2026-06-04T18:30:24Z",
+  "modified": "2026-06-10T18:31:39Z",
   "published": "2026-03-19T15:31:21Z",
   "aliases": [
     "CVE-2026-4424"
@@ -25,7 +25,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:10065"
+      "url": "https://access.redhat.com/errata/RHSA-2026:8492"
     },
     {
       "type": "WEB",
@@ -90,6 +90,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2449006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:10065"
     },
     {
       "type": "WEB",
@@ -161,7 +165,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:8492"
+      "url": "https://access.redhat.com/errata/RHSA-2026:25096"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5gqq-ch9p-4h64",
-  "modified": "2026-06-09T18:30:41Z",
+  "modified": "2026-06-10T18:31:41Z",
   "published": "2026-06-09T18:30:41Z",
   "aliases": [
     "CVE-2026-0418"
@@ -18,74 +18,6 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0418"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/cbr750"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/ex6120"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/ex6130"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/mr60"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/mr70"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/mr80"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/ms60"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/ms70"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/ms80"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax15"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax20"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax200"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax35v2"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax38v2"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax40v2"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax42"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.netgear.com/support/product/rax43"
     },
     {
       "type": "WEB",
@@ -158,6 +90,78 @@
     {
       "type": "WEB",
       "url": "https://www.netgear.com/support/product/xr1000"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.netgear.com/000070811/June-2026-NETGEAR-Security-Advisory"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/cbr750"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/ex6120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/ex6130"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/mr60"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/mr70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/mr80"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/ms60"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/ms70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/ms80"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax15"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax20"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax35v2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax38v2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax40v2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax42"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/support/product/rax43"
     }
   ],
   "database_specific": {
