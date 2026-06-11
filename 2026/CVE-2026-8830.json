@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8vr-x4qh-25qg",
-  "modified": "2026-06-10T18:31:39Z",
+  "modified": "2026-06-11T00:32:03Z",
   "published": "2026-05-19T09:31:20Z",
   "aliases": [
     "CVE-2026-8830"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/commit/d3da77ef363d698e7a74470ba52fcdce09e394c4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:25097"
     },
     {
       "type": "WEB",

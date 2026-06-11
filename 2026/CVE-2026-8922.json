@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83c4-ffjp-mxp9",
-  "modified": "2026-06-10T18:31:39Z",
+  "modified": "2026-06-11T00:32:03Z",
   "published": "2026-05-19T09:31:21Z",
   "aliases": [
     "CVE-2026-8922"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/commit/c5bda802e98b412e42fa62ff6240669e9ea4a858"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:25097"
     },
     {
       "type": "WEB",

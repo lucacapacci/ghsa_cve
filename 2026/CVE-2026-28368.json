@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8v4x-mgvp-p658",
-  "modified": "2026-03-31T23:14:15Z",
+  "modified": "2026-06-11T00:32:03Z",
   "published": "2026-03-27T18:31:27Z",
   "aliases": [
     "CVE-2026-28368"
@@ -39,6 +39,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28368"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:25125"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:25126"
     },
     {
       "type": "WEB",
