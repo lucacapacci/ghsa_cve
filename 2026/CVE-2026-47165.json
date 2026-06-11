@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rgj-gx5x-f62w",
-  "modified": "2026-05-22T13:14:02Z",
+  "modified": "2026-06-11T14:07:05Z",
   "published": "2026-05-22T13:14:02Z",
   "aliases": [
     "CVE-2026-47165"
@@ -345,6 +345,10 @@
       "url": "https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-2rgj-gx5x-f62w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47165"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/ImageMagick/ImageMagick"
     }
@@ -356,6 +360,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-22T13:14:02Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-10T23:16:48Z"
   }
 }

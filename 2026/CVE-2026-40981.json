@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mh5-3cw6-hrrq",
-  "modified": "2026-05-11T16:19:03Z",
+  "modified": "2026-06-11T14:48:18Z",
   "published": "2026-05-07T06:31:41Z",
   "aliases": [
     "CVE-2026-40981"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework.cloud:spring-cloud-config"
+        "name": "org.springframework.cloud:spring-cloud-config-server"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework.cloud:spring-cloud-config"
+        "name": "org.springframework.cloud:spring-cloud-config-server"
       },
       "ranges": [
         {
@@ -56,7 +56,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework.cloud:spring-cloud-config"
+        "name": "org.springframework.cloud:spring-cloud-config-server"
       },
       "ranges": [
         {
@@ -75,7 +75,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework.cloud:spring-cloud-config"
+        "name": "org.springframework.cloud:spring-cloud-config-server"
       },
       "ranges": [
         {
@@ -97,7 +97,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework.cloud:spring-cloud-config"
+        "name": "org.springframework.cloud:spring-cloud-config-server"
       },
       "ranges": [
         {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7w52-7jvm-m9vw",
-  "modified": "2026-06-04T19:31:17Z",
+  "modified": "2026-06-11T14:06:35Z",
   "published": "2026-06-04T19:31:17Z",
   "aliases": [
     "CVE-2026-48011"
@@ -98,6 +98,10 @@
       "url": "https://github.com/shopware/shopware/security/advisories/GHSA-7w52-7jvm-m9vw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48011"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/shopware/shopware"
     },
@@ -117,6 +121,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-04T19:31:17Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-10T22:17:00Z"
   }
 }

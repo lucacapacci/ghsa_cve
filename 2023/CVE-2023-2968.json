@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mj6p-3pc9-wf5m",
-  "modified": "2023-06-06T01:52:50Z",
+  "modified": "2026-06-11T14:17:07Z",
   "published": "2023-05-30T18:30:23Z",
   "aliases": [
     "CVE-2023-2968"
   ],
   "summary": "proxy denial of service vulnerability",
-  "details": "A remote attacker can trigger a denial of service in the `socket.remoteAddress` variable, by sending a crafted HTTP request. Usage of the undefined variable raises a TypeError exception.\n\n",
-  "severity": [],
+  "details": "A remote attacker can trigger a denial of service in the `socket.remoteAddress` variable, by sending a crafted HTTP request. Usage of the undefined variable raises a TypeError exception.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -56,7 +61,7 @@
     "cwe_ids": [
       "CWE-232"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2023-06-06T01:52:50Z",
     "nvd_published_at": "2023-05-30T18:15:09Z"

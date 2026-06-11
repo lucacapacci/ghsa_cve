@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpv4-5h6f-wqr3",
-  "modified": "2026-05-29T19:39:41Z",
+  "modified": "2026-06-11T14:06:30Z",
   "published": "2026-05-29T19:39:41Z",
   "aliases": [
     "CVE-2026-46705"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Eugeny/russh/security/advisories/GHSA-hpv4-5h6f-wqr3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46705"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/Eugeny/russh"
     }
@@ -52,6 +56,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-29T19:39:41Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-10T22:17:00Z"
   }
 }
