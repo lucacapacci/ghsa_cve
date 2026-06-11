@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrc4-49gv-mv9m",
-  "modified": "2026-05-21T21:30:36Z",
+  "modified": "2026-06-11T21:31:50Z",
   "published": "2026-05-21T21:30:36Z",
   "aliases": [
     "CVE-2026-47101"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://huntr.com/bounties/8e75edfb-ff05-4e63-bfca-2d93d03fb3b9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.obsidiansecurity.com/blog/litellm-privilege-escalation-rce"
     },
     {
       "type": "WEB",

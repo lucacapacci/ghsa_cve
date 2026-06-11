@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m93c-ch8c-q8cj",
-  "modified": "2026-06-10T21:31:38Z",
+  "modified": "2026-06-11T21:31:50Z",
   "published": "2026-06-10T21:31:38Z",
   "aliases": [
     "CVE-2026-50638"
   ],
   "details": "Metrics::Any::Adapter::DogStatsd versions before 0.04 for Perl does not protect against metric injections.\n\nThe statsd protocol (and extensions such as dogstatsd) allow mutiple metrics,separated by newlines, to be sent per packet.\n\nMetrics::Any::Adapter::DogStatsd which extends Metrics::Any::Adapter::Statsd, which has a similar vulnerability.\n\nIn addition, the _tags function does not check tags for newlines or statsd control characters. The tags can be used for metric injections.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -31,7 +36,7 @@
     "cwe_ids": [
       "CWE-93"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-10T19:16:37Z"

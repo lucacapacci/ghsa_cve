@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4vm-6crq-4pg4",
-  "modified": "2025-11-03T21:33:16Z",
+  "modified": "2026-06-11T21:31:50Z",
   "published": "2025-04-01T00:30:35Z",
   "aliases": [
     "CVE-2025-24170"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24170"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122373"
     },
     {
       "type": "WEB",
