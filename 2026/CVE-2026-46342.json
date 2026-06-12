@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8wj-3cr3-6w7v",
-  "modified": "2026-05-19T20:03:24Z",
+  "modified": "2026-06-12T19:28:53Z",
   "published": "2026-05-19T20:03:24Z",
   "aliases": [
     "CVE-2026-46342"
@@ -110,6 +110,10 @@
       "url": "https://github.com/nuxt/nuxt/security/advisories/GHSA-g8wj-3cr3-6w7v"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46342"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nuxt/nuxt/pull/35077"
     },
@@ -127,6 +131,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-19T20:03:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-12T14:16:31Z"
   }
 }

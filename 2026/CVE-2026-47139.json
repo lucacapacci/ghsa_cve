@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9pm-gxmw-wv6p",
-  "modified": "2026-05-29T18:08:06Z",
+  "modified": "2026-06-12T19:30:09Z",
   "published": "2026-05-29T18:08:06Z",
   "aliases": [
     "CVE-2026-47139"
@@ -44,6 +44,10 @@
       "url": "https://github.com/patriksimek/vm2/security/advisories/GHSA-r9pm-gxmw-wv6p"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47139"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/patriksimek/vm2/commit/436053e30eecbabd487e2fd2959c137ac34e2bb1"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-29T18:08:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-12T15:16:28Z"
   }
 }

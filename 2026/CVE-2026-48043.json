@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2gf-v879-257j",
-  "modified": "2026-06-11T13:28:46Z",
+  "modified": "2026-06-12T19:31:45Z",
   "published": "2026-06-11T13:28:46Z",
   "aliases": [
     "CVE-2026-48043"
@@ -66,8 +66,20 @@
       "url": "https://github.com/netty/netty/security/advisories/GHSA-c2gf-v879-257j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48043"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/netty/netty"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/netty/netty/releases/tag/netty-4.1.135.Final"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/netty/netty/releases/tag/netty-4.2.15.Final"
     }
   ],
   "database_specific": {
@@ -78,6 +90,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-11T13:28:46Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-12T16:16:30Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-676x-f7gg-47vc",
-  "modified": "2026-06-08T23:02:26Z",
+  "modified": "2026-06-12T19:29:34Z",
   "published": "2026-06-08T23:02:26Z",
   "aliases": [
     "CVE-2026-45674"
@@ -66,6 +66,10 @@
       "url": "https://github.com/netty/netty/security/advisories/GHSA-676x-f7gg-47vc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45674"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/netty/netty"
     },
@@ -85,6 +89,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-08T23:02:26Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-12T15:16:27Z"
   }
 }

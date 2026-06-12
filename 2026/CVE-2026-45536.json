@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w573-9ffj-6ff9",
-  "modified": "2026-06-08T23:01:33Z",
+  "modified": "2026-06-12T19:29:26Z",
   "published": "2026-06-08T23:01:33Z",
   "aliases": [
     "CVE-2026-45536"
@@ -110,6 +110,10 @@
       "url": "https://github.com/netty/netty/security/advisories/GHSA-w573-9ffj-6ff9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45536"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/netty/netty"
     },
@@ -130,6 +134,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-08T23:01:33Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-12T15:16:27Z"
   }
 }

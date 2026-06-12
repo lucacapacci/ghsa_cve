@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmm3-54f8-px4j",
-  "modified": "2026-06-08T22:59:43Z",
+  "modified": "2026-06-12T19:29:17Z",
   "published": "2026-06-08T22:59:43Z",
   "aliases": [
     "CVE-2026-44894"
@@ -44,6 +44,10 @@
       "url": "https://github.com/netty/netty/security/advisories/GHSA-cmm3-54f8-px4j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44894"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/netty/netty"
     },
@@ -59,6 +63,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-08T22:59:43Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-12T15:16:26Z"
   }
 }

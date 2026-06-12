@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6j2x-vhqr-qr7q",
-  "modified": "2026-05-29T17:51:06Z",
+  "modified": "2026-06-12T20:55:08Z",
   "published": "2026-05-29T17:51:05Z",
   "aliases": [
     "CVE-2026-47210"
@@ -44,6 +44,10 @@
       "url": "https://github.com/patriksimek/vm2/security/advisories/GHSA-6j2x-vhqr-qr7q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47210"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/patriksimek/vm2/commit/6915fa4d9bcebd47b9a4f39a1adc1aa94ef6ffc6"
     },
@@ -63,6 +67,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-29T17:51:05Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-12T15:16:29Z"
   }
 }

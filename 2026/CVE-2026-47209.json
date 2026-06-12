@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4cf-2hgv-2qv6",
-  "modified": "2026-05-29T17:49:18Z",
+  "modified": "2026-06-12T19:30:05Z",
   "published": "2026-05-29T17:49:18Z",
   "aliases": [
     "CVE-2026-47209"
@@ -44,6 +44,10 @@
       "url": "https://github.com/patriksimek/vm2/security/advisories/GHSA-c4cf-2hgv-2qv6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47209"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/patriksimek/vm2/commit/26d0318b5e6555be4b187ba05d6cf378ccecfe22"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-29T17:49:18Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-12T15:16:28Z"
   }
 }
