@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3xr-84mj-fvx6",
-  "modified": "2026-06-02T15:31:50Z",
+  "modified": "2026-06-12T12:31:32Z",
   "published": "2025-12-04T15:30:32Z",
   "aliases": [
     "CVE-2025-40214"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/db81ad20fd8aef7cc7d536c52ee5ea4c1f979128"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mohandacherir.github.io/Qdiv7/posts/unix_new_gc"
     }
   ],
   "database_specific": {
