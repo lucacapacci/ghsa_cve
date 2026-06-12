@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7cg-457f-vx79",
-  "modified": "2026-06-11T13:27:32Z",
+  "modified": "2026-06-12T19:28:27Z",
   "published": "2026-06-11T13:27:32Z",
   "aliases": [
     "CVE-2026-48038"
   ],
   "summary": "joi has an uncaught RangeError on deeply nested input through recursive `link()` schemas",
-  "details": "### Impact\nDenial of service via untrapped exception in services validating user-supplied JSON / object input with recursive link schemas. \n\nThe blast radius depends on how the application invokes joi:\n- Highest impact: `validate()` called without `try/catch` in a request handler would cause an unhandled exception, potentially crashing the process.\n- Lower impact: `validateAsync()` or `validate()` inside a `try/catch`, the validation fails, but the error type is `RangeError` rather than a structured `ValidationError`, complicating error handling.\n\n### Patches\nUpgrade to version >= 18.2.1.\n\n### Workarounds\nTry/catch the validation to avoid uncaught exceptions.\n\n### Resources\n- Pull request: hapijs/joi#3113",
+  "details": "### Impact\nDenial of service via untrapped exception in services validating user-supplied JSON / object input with recursive link schemas. \n\nThe blast radius depends on how the application invokes joi:\n- Highest impact: `validate()` called without `try/catch` in a request handler would cause an unhandled exception, potentially crashing the process.\n- Lower impact: `validateAsync()` or `validate()` inside a `try/catch`, the validation fails, but the error type is `RangeError` rather than a structured `ValidationError`, complicating error handling.\n\n### Patches\nUpgrade to version >= 18.2.1.\n\n### Workarounds\nTry/catch the validation to avoid uncaught exceptions.\n\n### References\n- Pull request: hapijs/joi#3113",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "18.0.0"
             },
             {
               "fixed": "18.2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "joi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17.13.4"
             }
           ]
         }
