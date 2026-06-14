@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9r4-9w2c-2xcp",
-  "modified": "2026-06-13T06:30:23Z",
+  "modified": "2026-06-14T15:30:23Z",
   "published": "2026-06-12T18:31:59Z",
   "aliases": [
     "CVE-2026-9641"
@@ -34,6 +34,18 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/06/13/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/14/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/14/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/14/3"
     }
   ],
   "database_specific": {
