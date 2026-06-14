@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc7q-fhj4-hpq4",
-  "modified": "2026-06-09T15:32:19Z",
+  "modified": "2026-06-14T06:30:24Z",
   "published": "2026-06-09T15:32:19Z",
   "aliases": [
     "CVE-2026-46326"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: pressure: mprls0025pa: fix spi_transfer struct initialisation\n\nMake sure that the spi_transfer struct is zeroed out before use.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-09T14:16:42Z"

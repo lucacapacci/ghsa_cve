@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42p7-8g8p-r7fh",
-  "modified": "2026-06-09T15:32:18Z",
+  "modified": "2026-06-14T06:30:24Z",
   "published": "2026-06-09T15:32:18Z",
   "aliases": [
     "CVE-2026-46324"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_tables: use list_del_rcu for netlink hooks\n\nnft_netdev_unregister_hooks and __nft_unregister_flowtable_net_hooks need\nto use list_del_rcu(), this list can be walked by concurrent dumpers.\n\nAdd a new helper and use it consistently.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-09T13:16:37Z"

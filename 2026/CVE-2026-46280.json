@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjjg-r28q-g2g4",
-  "modified": "2026-06-08T18:31:51Z",
+  "modified": "2026-06-14T06:30:23Z",
   "published": "2026-06-08T18:31:51Z",
   "aliases": [
     "CVE-2026-46280"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nlib: test_hmm: evict device pages on file close to avoid use-after-free\n\nPatch series \"Minor hmm_test fixes and cleanups\".\n\nTwo bugfixes a cleanup for the HMM kernel selftests.  These were mostly\nreported by Zenghui Yu with special thanks to Lorenzo for analysing and\npointing out the problems.\n\n\nThis patch (of 3):\n\nWhen dmirror_fops_release() is called it frees the dmirror struct but\ndoesn't migrate device private pages back to system memory first.  This\nleaves those pages with a dangling zone_device_data pointer to the freed\ndmirror.\n\nIf a subsequent fault occurs on those pages (eg.  during coredump) the\ndmirror_devmem_fault() callback dereferences the stale pointer causing a\nkernel panic.  This was reported [1] when running mm/ksft_hmm.sh on arm64,\nwhere a test failure triggered SIGABRT and the resulting coredump walked\nthe VMAs faulting in the stale device private pages.\n\nFix this by calling dmirror_device_evict_chunk() for each devmem chunk in\ndmirror_fops_release() to migrate all device private pages back to system\nmemory before freeing the dmirror struct.  The function is moved earlier\nin the file to avoid a forward declaration.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-08T17:16:45Z"

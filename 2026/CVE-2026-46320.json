@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqcf-gwj9-5c88",
-  "modified": "2026-06-09T15:32:17Z",
+  "modified": "2026-06-14T06:30:24Z",
   "published": "2026-06-09T15:32:17Z",
   "aliases": [
     "CVE-2026-46320"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntap: free page on error paths in tap_get_user_xdp()\n\ntap_get_user_xdp() rejects a frame shorter than ETH_HLEN with -EINVAL,\nand returns -ENOMEM when build_skb() fails. Both paths jump to the err\nlabel without freeing the page that vhost_net_build_xdp() allocated for\nthe frame. tap_sendmsg() discards the per-buffer return value and always\nreturns 0, so vhost_tx_batch() takes the success path and never frees\nthe page; each rejected frame in a batch leaks one page-frag chunk.\n\nFree the page on both error paths, before the skb is built. This is the\ntap counterpart of the same leak in tun_xdp_one().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-09T13:16:37Z"

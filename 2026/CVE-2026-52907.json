@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc6w-h9jv-4f9w",
-  "modified": "2026-06-09T15:32:19Z",
+  "modified": "2026-06-14T06:30:24Z",
   "published": "2026-06-09T15:32:19Z",
   "aliases": [
     "CVE-2026-52907"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: rockchip: rkcif: fix off by one bugs\n\nChange these comparisons from > vs >= to avoid accessing one element\nbeyond the end of the arrays.\nWhile at it, use ARRAY_SIZE instead of the _MAX enum values.\n\n[fix cosmetic issues]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-09T14:16:45Z"

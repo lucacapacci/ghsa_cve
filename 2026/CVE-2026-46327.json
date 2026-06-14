@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w5j4-wm72-f9fp",
-  "modified": "2026-06-09T15:32:19Z",
+  "modified": "2026-06-14T06:30:24Z",
   "published": "2026-06-09T15:32:19Z",
   "aliases": [
     "CVE-2026-46327"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndm: fix unlocked test for dm_suspended_md\n\nThe function dm_blk_report_zones tests if the device is suspended with\nthe \"dm_suspended_md\" call. However, this function is called without\nholding any locks, so the device may be suspended just after it.\n\nMove the call to dm_suspended_md after dm_get_live_table, so that the\ndevice can't be suspended after the suspended state was tested.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-09T14:16:42Z"
