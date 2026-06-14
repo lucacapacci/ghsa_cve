@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxmm-5qph-24v9",
-  "modified": "2026-06-09T21:32:32Z",
+  "modified": "2026-06-14T00:30:27Z",
   "published": "2026-06-09T21:32:32Z",
   "aliases": [
     "CVE-2025-52293"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://infosec.exchange/@sigdevel/116710484148913883"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/13/19"
     }
   ],
   "database_specific": {
