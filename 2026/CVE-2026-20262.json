@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p45r-gcc9-fr7f",
-  "modified": "2026-06-15T18:31:19Z",
+  "modified": "2026-06-15T21:30:37Z",
   "published": "2026-06-15T18:31:19Z",
   "aliases": [
     "CVE-2026-20262"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-20262"
     }
   ],
   "database_specific": {

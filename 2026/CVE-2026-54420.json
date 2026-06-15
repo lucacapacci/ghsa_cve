@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3g44-c4qc-cxm8",
-  "modified": "2026-06-14T06:30:24Z",
+  "modified": "2026-06-15T21:30:32Z",
   "published": "2026-06-14T06:30:24Z",
   "aliases": [
     "CVE-2026-54420"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.litespeedtech.com/2026/06/01/security-update-for-litespeed-cpanel-plugin-2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-54420"
     },
     {
       "type": "WEB",
