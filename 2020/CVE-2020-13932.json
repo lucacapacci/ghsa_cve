@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3h2h-xqr2-2jp7",
-  "modified": "2021-04-05T22:56:52Z",
+  "modified": "2026-06-15T15:31:29Z",
   "published": "2022-02-09T22:14:01Z",
   "aliases": [
     "CVE-2020-13932"
@@ -46,11 +46,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r7fcedcc89e5f296b174d6b8c1438c607c30d809c04292e5732d6e4eb%40%3Cusers.activemq.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r7fcedcc89e5f296b174d6b8c1438c607c30d809c04292e5732d6e4eb@%3Cusers.activemq.apache.org%3E"
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rb2fd3bf2dce042e0ab3f3c94c4767c96bb2e7e6737624d63162df36d%40%3Ccommits.activemq.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/rb2fd3bf2dce042e0ab3f3c94c4767c96bb2e7e6737624d63162df36d@%3Ccommits.activemq.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rc96ad63f148f784c84ea7f0a178c84a8985c6afccabbcd9847a82088%40%3Ccommits.activemq.apache.org%3E"
     },
     {
       "type": "WEB",

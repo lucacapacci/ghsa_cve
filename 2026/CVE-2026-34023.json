@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4rm-3378-9vff",
-  "modified": "2026-06-15T12:32:44Z",
+  "modified": "2026-06-15T15:31:31Z",
   "published": "2026-06-15T12:32:44Z",
   "aliases": [
     "CVE-2026-34023"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://r.sec-consult.com/wertheim"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-wertheim-safecontroller-software-for-vault-rooms-safe-deposit-locker-system"
     },
     {
       "type": "WEB",
