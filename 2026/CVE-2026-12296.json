@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xx6-2jh9-8wmx",
-  "modified": "2026-06-16T15:33:48Z",
+  "modified": "2026-06-16T18:32:35Z",
   "published": "2026-06-16T15:33:48Z",
   "aliases": [
     "CVE-2026-12296"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-58"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-60"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-61"
     }
   ],
   "database_specific": {

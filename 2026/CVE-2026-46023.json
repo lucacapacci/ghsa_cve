@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f54w-pgr9-9wv8",
-  "modified": "2026-06-01T18:31:34Z",
+  "modified": "2026-06-16T18:32:28Z",
   "published": "2026-05-27T15:33:21Z",
   "aliases": [
     "CVE-2026-46023"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndm mirror: fix integer overflow in create_dirty_log()\n\nThe argument count calculation in create_dirty_log() performs\n`*args_used = 2 + param_count` before validating against argc. When a\nuser provides a param_count close to UINT_MAX via the device mapper\ntable string, this unsigned addition wraps around to a small value,\ncausing the subsequent `argc < *args_used` check to be bypassed.\n\nThe overflowed param_count is then passed as argc to dm_dirty_log_create(),\nwhere it can cause out-of-bounds reads on the argv array.\n\nFix by comparing param_count against argc - 2 before performing the\naddition, following the same pattern used by parse_features() in the\nsame file. Since argc >= 2 is already guaranteed, the subtraction is\nsafe.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:20Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-97vh-qvrh-cxxq",
-  "modified": "2026-05-27T15:33:21Z",
+  "modified": "2026-06-16T18:32:28Z",
   "published": "2026-05-27T15:33:21Z",
   "aliases": [
     "CVE-2026-46030"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nEDAC/versalnet: Fix device_node leak in mc_probe()\n\nof_parse_phandle() returns a device_node reference that must be released with\nof_node_put(). The original code never freed r5_core_node on any exit path,\ncausing a memory leak.\n\nFix this by using the automatic cleanup attribute __free(device_node) which\nensures of_node_put() is called when the variable goes out of scope.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:21Z"

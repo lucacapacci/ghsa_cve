@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x76-cw6q-rm95",
-  "modified": "2026-05-27T15:33:21Z",
+  "modified": "2026-06-16T18:32:28Z",
   "published": "2026-05-27T15:33:21Z",
   "aliases": [
     "CVE-2026-46021"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nthermal: core: Fix thermal zone governor cleanup issues\n\nIf thermal_zone_device_register_with_trips() fails after adding\na thermal governor to the thermal zone being registered, the\ngovernor is not removed from it as appropriate which may lead to\na memory leak.\n\nIn turn, thermal_zone_device_unregister() calls thermal_set_governor()\nwithout acquiring the thermal zone lock beforehand which may race with\na governor update via sysfs and may lead to a use-after-free in that\ncase.\n\nAddress these issues by adding two thermal_set_governor() calls, one to\nthermal_release() to remove the governor from the given thermal zone,\nand one to the thermal zone registration error path to cover failures\npreceding the thermal zone device registration.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:20Z"

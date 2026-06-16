@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcp6-p965-q62g",
-  "modified": "2026-05-27T15:33:22Z",
+  "modified": "2026-06-16T18:32:28Z",
   "published": "2026-05-27T15:33:21Z",
   "aliases": [
     "CVE-2026-46028"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: algif_aead - snapshot IV for async AEAD requests\n\nAF_ALG AEAD AIO requests currently use the socket-wide IV buffer during\nrequest processing.  For async requests, later socket activity can\nupdate that shared state before the original request has fully\ncompleted, which can lead to inconsistent IV handling.\n\nSnapshot the IV into per-request storage when preparing the AEAD\nrequest, so in-flight operations no longer depend on mutable socket\nstate.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:21Z"

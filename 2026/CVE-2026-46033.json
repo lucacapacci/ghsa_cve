@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7w2-rj2f-73q3",
-  "modified": "2026-06-01T18:31:35Z",
+  "modified": "2026-06-16T18:32:28Z",
   "published": "2026-05-27T15:33:21Z",
   "aliases": [
     "CVE-2026-46033"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: authencesn - reject short ahash digests during instance creation\n\nauthencesn requires either a zero authsize or an authsize of at least\n4 bytes because the ESN encrypt/decrypt paths always move 4 bytes of\nhigh-order sequence number data at the end of the authenticated data.\n\nWhile crypto_authenc_esn_setauthsize() already rejects explicit\nnon-zero authsizes in the range 1..3, crypto_authenc_esn_create()\nstill copied auth->digestsize into inst->alg.maxauthsize without\nvalidating it.  The AEAD core then initialized the tfm's default\nauthsize from that value.\n\nAs a result, selecting an ahash with digest size 1..3, such as\ncbcmac(cipher_null), exposed authencesn instances whose default\nauthsize was invalid even though setauthsize() would have rejected the\nsame value.  AF_ALG could then trigger the ESN tail handling with a\ntoo-short tag and hit an out-of-bounds access.\n\nReject authencesn instances whose ahash digest size is in the invalid\nnon-zero range 1..3 so that no tfm can inherit an unsupported default\nauthsize.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:22Z"
