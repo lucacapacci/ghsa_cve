@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3qj-vw7q-v9pc",
-  "modified": "2026-06-15T21:30:40Z",
+  "modified": "2026-06-16T12:32:01Z",
   "published": "2026-06-15T21:30:40Z",
   "aliases": [
     "CVE-2026-49953"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/discuz-x5-0-captcha-bypass-via-predictable-character-set"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Jun/4"
     }
   ],
   "database_specific": {

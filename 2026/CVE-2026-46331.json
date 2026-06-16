@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cr2w-747q-47qc",
+  "modified": "2026-06-16T09:32:42Z",
+  "published": "2026-06-16T09:32:42Z",
+  "aliases": [
+    "CVE-2026-46331"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: fix pedit partial COW leading to page cache corruption\n\ntcf_pedit_act() computes the COW range for skb_ensure_writable()\nonce before the key loop using tcfp_off_max_hint, but the hint does\nnot account for the runtime header offset added by typed keys. This\ncan leave part of the write region un-COW'd.\n\nFix by moving skb_ensure_writable() inside the per-key loop where\nthe actual write offset is known, and add overflow checking on the\noffset arithmetic. For negative offsets (e.g. Ethernet header edits\nat ingress), use skb_cow() to COW the headroom instead. Guard\noffset_valid() against INT_MIN, where negation is undefined.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46331"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/899ee91156e57784090c5565e4f31bd7dbffbc5a"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-16T08:16:23Z"
+  }
+}
