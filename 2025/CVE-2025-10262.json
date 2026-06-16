@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h3gf-qq8m-r4r7",
+  "modified": "2026-06-16T06:30:24Z",
+  "published": "2026-06-16T06:30:24Z",
+  "aliases": [
+    "CVE-2025-10262"
+  ],
+  "details": "Nokia SR Linux is vulnerable to local privilege escalation vulnerability due to unsanitized format validation. Successful exploitation of this vulnerability may allow an authenticated user to execute arbitrary commands with superuser privileges.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10262"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.nokia.com/we-are-nokia/security/product-security-advisory/cve-2025-10262"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-16T06:16:57Z"
+  }
+}

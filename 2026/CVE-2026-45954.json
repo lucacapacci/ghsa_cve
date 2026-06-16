@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7w99-2x38-38jp",
-  "modified": "2026-05-27T15:33:18Z",
+  "modified": "2026-06-16T03:30:32Z",
   "published": "2026-05-27T15:33:18Z",
   "aliases": [
     "CVE-2026-45954"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbdev: au1200fb: Fix a memory leak in au1200fb_drv_probe()\n\nIn au1200fb_drv_probe(), when platform_get_irq fails(), it directly\nreturns from the function with an error code, which causes a memory\nleak.\n\nReplace it with a goto label to ensure proper cleanup.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:11Z"

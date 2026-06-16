@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w6r-q9pw-cwq6",
-  "modified": "2026-05-27T15:33:18Z",
+  "modified": "2026-06-16T03:30:33Z",
   "published": "2026-05-27T15:33:18Z",
   "aliases": [
     "CVE-2026-45962"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nublk: Validate SQE128 flag before accessing the cmd\n\nublk_ctrl_cmd_dump() accesses (header *)sqe->cmd before\nIO_URING_F_SQE128 flag check. This could cause out of boundary memory\naccess.\n\nMove the SQE128 flag check earlier in ublk_ctrl_uring_cmd() to return\n-EINVAL immediately if the flag is not set.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:12Z"
