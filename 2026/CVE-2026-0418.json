@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5gqq-ch9p-4h64",
-  "modified": "2026-06-10T18:31:41Z",
+  "modified": "2026-06-18T15:31:55Z",
   "published": "2026-06-09T18:30:41Z",
   "aliases": [
     "CVE-2026-0418"
   ],
   "details": "Insufficient configuration management in the listed devices allows authenticated administrators connected to the local network\nto tamper with the system.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:A/AC:L/AT:N/PR:H/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:U/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:U/V:D/RE:L/U:Amber"
@@ -166,7 +170,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-15"
+      "CWE-15",
+      "CWE-610"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

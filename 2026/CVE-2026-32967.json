@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85g9-8j9g-p486",
-  "modified": "2026-06-17T18:35:48Z",
+  "modified": "2026-06-18T14:32:41Z",
   "published": "2026-06-17T18:35:48Z",
   "aliases": [
     "CVE-2026-32967"
   ],
+  "summary": "Apache DolphinScheduler: The `/v2` experimental interface lacks permission checks",
   "details": "Incorrect Authorization vulnerability of `/v2` experimental interface in Apache DolphinScheduler.\n\nThis issue affects Apache DolphinScheduler: before 3.4.2.\n\nUsers are recommended to upgrade to version 3.4.2, which fixes the issue.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.dolphinscheduler:dolphinscheduler-api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32967"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/dolphinscheduler"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-863"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-06-18T14:32:41Z",
     "nvd_published_at": "2026-06-17T13:20:16Z"
   }
 }
