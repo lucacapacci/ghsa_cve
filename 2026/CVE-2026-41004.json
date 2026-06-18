@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6hh-h3cf-c2hf",
-  "modified": "2026-05-11T16:19:34Z",
+  "modified": "2026-06-18T22:58:06Z",
   "published": "2026-05-07T06:31:41Z",
   "aliases": [
     "CVE-2026-41004"
   ],
   "summary": "Spring Cloud Config Server Logged Sensitive Information",
-  "details": "When enabling trace logging in Spring Cloud Config Server sensitive information was placed in plain text in the logs.\nSpring Cloud Config 3.1.x: affected from 3.1.0 through 3.1.13 (inclusive); upgrade to 3.1.14 or greater (Enterprise Support Only). Spring Cloud Config 4.1.x: affected from 4.1.0 through 4.1.9 (inclusive); upgrade to 4.1.10 or greater (Enterprise Support Only). Spring Cloud Config 4.2.x: affected from 4.2.0 through 4.2.6 (inclusive); upgrade to 4.2.7 or greater (Enterprise Support Only). Spring Cloud Config 4.3.x: affected from 4.3.0 through 4.3.2 (inclusive); upgrade to 4.3.3 or greater. Spring Cloud Config 5.0.x: affected from 5.0.0 through 5.0.2 (inclusive); upgrade to 5.0.3 or greater.",
+  "details": "When trace logging is enabled in Spring Cloud Config Server, sensitive information is placed in plain text in the logs.\n\n- Spring Cloud Config 3.0.x: affected from 3.0.0 through 3.0.7 (inclusive); no open-source upgrade available.\n- Spring Cloud Config 3.1.x: affected from 3.1.0 through 3.1.13 (inclusive); no open-source upgrade available.\n- Spring Cloud Config 4.1.x: affected from 4.1.0 through 4.1.9 (inclusive); no open-source upgrade available.\n- Spring Cloud Config 4.2.x: affected from 4.2.0 through 4.2.6 (inclusive); no open-source upgrade available.\n- Spring Cloud Config 4.3.x: affected from 4.3.0 through 4.3.2 (inclusive); upgrade to 4.3.3 or greater.\n- Spring Cloud Config 5.0.x: affected from 5.0.0 through 5.0.2 (inclusive); upgrade to 5.0.3 or greater.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -115,6 +115,25 @@
       "database_specific": {
         "last_known_affected_version_range": "<= 5.0.2"
       }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework.cloud:spring-cloud-config-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0"
+            },
+            {
+              "last_affected": "3.0.7"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
