@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f632-9449-3j4w",
-  "modified": "2025-01-31T15:42:46Z",
+  "modified": "2026-06-18T20:22:52Z",
   "published": "2024-11-18T15:33:20Z",
   "aliases": [
     "CVE-2024-52318"
@@ -62,7 +62,139 @@
     {
       "package": {
         "ecosystem": "Maven",
+        "name": "org.apache.tomcat.embed:tomcat-embed-jasper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.0.96"
+            },
+            {
+              "fixed": "9.0.97"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9.0.96"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat.embed:tomcat-embed-jasper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.0.0"
+            },
+            {
+              "fixed": "11.0.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11.0.0"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat.embed:tomcat-embed-jasper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.1.31"
+            },
+            {
+              "fixed": "10.1.32"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.1.31"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
         "name": "org.apache.tomcat:tomcat-jasper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.0.96"
+            },
+            {
+              "fixed": "9.0.97"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "9.0.96"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.0.0"
+            },
+            {
+              "fixed": "11.0.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "11.0.0"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.1.31"
+            },
+            {
+              "fixed": "10.1.32"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "10.1.31"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat"
       },
       "ranges": [
         {
