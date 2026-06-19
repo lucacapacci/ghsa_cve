@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2xg-mw87-vf49",
-  "modified": "2025-12-16T18:31:33Z",
+  "modified": "2026-06-19T15:33:07Z",
   "published": "2025-12-16T18:31:33Z",
   "aliases": [
     "CVE-2025-68296"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/482330f8261b4bea8146d9bd69c1199e5dfcbb5c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/711ebd961190def4c69ea24b2f0be75e995af24a"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jw53-vfm2-vf66",
-  "modified": "2025-12-30T15:30:34Z",
+  "modified": "2026-06-19T15:33:07Z",
   "published": "2025-12-30T15:30:34Z",
   "aliases": [
     "CVE-2023-54271"
@@ -16,7 +16,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/33f0370bb7ce15a59d72a4d8a05421d334a04add"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7d63c6f9765339dcfc34b7365ced7c518012e4fe"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/da6cc648c1f570290af1ddbe6b7ca3d91b1d6db9"
     },
     {
       "type": "WEB",

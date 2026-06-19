@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj2w-7vcf-m7fj",
-  "modified": "2026-05-28T15:39:39Z",
+  "modified": "2026-06-19T15:33:07Z",
   "published": "2026-03-25T12:30:22Z",
   "aliases": [
     "CVE-2026-23310"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23310"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0a80e6ecaf669c77260b44254f4a84d76bf83e89"
     },
     {
       "type": "WEB",

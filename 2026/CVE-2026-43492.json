@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8fh-4v85-p8mj",
-  "modified": "2026-05-19T12:31:41Z",
+  "modified": "2026-06-19T15:33:10Z",
   "published": "2026-05-19T12:31:41Z",
   "aliases": [
     "CVE-2026-43492"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43492"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1abd50fc3cfa16fc2074a3c8c2729c50fd9d7043"
     },
     {
       "type": "WEB",
@@ -28,11 +32,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6d63615c796c085b4984e3031b9fa77fffb47360"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8637dfb4c1d8a7026ef681f2477c6de8b71c4003"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8c2f1288250a90a4b5cabed5d888d7e3aeed4035"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a1793a48881ec8d26e9c79b0ee65753f1c6846a4"
     }
   ],
   "database_specific": {

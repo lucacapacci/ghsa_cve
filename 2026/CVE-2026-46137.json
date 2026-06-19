@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmf4-rm73-rfhx",
-  "modified": "2026-05-30T12:30:25Z",
+  "modified": "2026-06-19T15:33:13Z",
   "published": "2026-05-28T12:30:30Z",
   "aliases": [
     "CVE-2026-46137"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/23079e0b7742ec114d3507c3e3aad01b7b69e4af"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2ad56e434199ca24a812bb353667aa1c3860f513"
     },
     {
@@ -37,7 +41,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b35605e1f1e877038c8c9d499babbc891cdd234f"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/cc3c0399361efaaf7ae64262eb3f70829b1189c6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d9b272a85fe6b8f993e37915311e4038c814a533"
     }
   ],
   "database_specific": {

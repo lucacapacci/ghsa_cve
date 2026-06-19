@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmx9-9wwr-m2r4",
-  "modified": "2026-06-11T03:30:23Z",
+  "modified": "2026-06-19T15:33:13Z",
   "published": "2026-05-28T12:30:31Z",
   "aliases": [
     "CVE-2026-46180"
@@ -29,11 +29,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a21f735fb1017ef89c6f9dbf4d799513b4e7bd5a"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c623b63580880cc742255eaed3d79804c1b91143"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d16827cb1d3936f7627d0da6044483f743ebde03"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d616bb10de79e5c2bd8a24230a1128aeaf715615"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/df2e90d6a9955510f24f1dada78cfc439fd9fa88"
     },
     {
       "type": "WEB",

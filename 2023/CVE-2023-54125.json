@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7223-2xhw-36wm",
-  "modified": "2025-12-24T15:30:38Z",
+  "modified": "2026-06-19T15:33:07Z",
   "published": "2025-12-24T15:30:38Z",
   "aliases": [
     "CVE-2023-54125"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1474098b590a426d90f27bb992f17c326e0b60c1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/486666c2c2714788705d02d98d0332c8a2328575"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6557c4504c5a1bbbbac25d14d7dcf2a4912d1508"
     },
     {
       "type": "WEB",

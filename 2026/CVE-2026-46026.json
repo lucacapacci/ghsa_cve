@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wpx-pvcm-rf34",
-  "modified": "2026-06-16T18:32:28Z",
+  "modified": "2026-06-19T15:33:12Z",
   "published": "2026-05-27T15:33:21Z",
   "aliases": [
     "CVE-2026-46026"
@@ -37,7 +37,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6e3675251fcea06caecc61eb76462467558adfa6"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/76adf8f69b0bb3ab20be7c58f5d555027332d113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/91cb30b6bb1880ba0748ca059bef50b8ac13793d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bd69e0e8a7643ba5385f19f479e8e3da71f8d495"
     }
   ],
   "database_specific": {

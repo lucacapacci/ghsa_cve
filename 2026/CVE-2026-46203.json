@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j454-pvhh-fcmq",
-  "modified": "2026-06-10T18:31:39Z",
+  "modified": "2026-06-19T15:33:14Z",
   "published": "2026-05-28T12:30:32Z",
   "aliases": [
     "CVE-2026-46203"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/233db2cb14db8b1935dda52a6affd97276462b82"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2e7cd62c37f51823c2bb79de1d4d76d0c1678c7e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/63a9f6012f453578898c9fcc13c8452a8651104e"
     },
     {
       "type": "WEB",

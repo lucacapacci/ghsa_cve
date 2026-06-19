@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5pr-w979-v38m",
-  "modified": "2026-06-10T21:31:25Z",
+  "modified": "2026-06-19T15:33:13Z",
   "published": "2026-05-28T12:30:32Z",
   "aliases": [
     "CVE-2026-46193"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1dae77078ceb4bab833f7a4935f05c5b8c97b9ba"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2ffaa7a94f9a4d22724364a1821735a0231d9f8d"
     },
     {
@@ -34,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7db99a09b3bc87268287bc7ab5f2e7f382b5ad87"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ec406c26c97594124e79d14516b729a8d5dced62"
     },
     {
       "type": "WEB",

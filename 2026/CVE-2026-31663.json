@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4m9-vrgr-8xm2",
-  "modified": "2026-04-27T15:30:46Z",
+  "modified": "2026-06-19T15:33:08Z",
   "published": "2026-04-24T15:32:37Z",
   "aliases": [
     "CVE-2026-31663"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1c428b03840094410c5fb6a5db30640486bbbfcb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4236c30b437b80f673b9e08c8fae38b8d471ac9e"
     },
     {
       "type": "WEB",

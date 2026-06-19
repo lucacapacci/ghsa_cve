@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p93r-85wp-75v3",
-  "modified": "2026-04-25T23:25:24Z",
+  "modified": "2026-06-19T15:20:41Z",
   "published": "2026-04-17T18:31:50Z",
   "aliases": [
     "CVE-2026-5598"
   ],
   "summary": "Bouncy Castle Has Covert Timing Channel Vulnerability",
-  "details": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java. This issue affects BC-JAVA: from 1.71 before 1.84.",
+  "details": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java.\n\nThis issue only affects users of the FrodoKEM algorithm involved in the decryption of encapsulations.\n\nThis issue affects BC-JAVA: from 1.71 to 1.80.1, 1.81, 1.82 to 1.83.\n\nFixed versions: 1.80.2, 1.81.1, 1.84",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -28,7 +28,7 @@
               "introduced": "1.71"
             },
             {
-              "fixed": "1.84"
+              "fixed": "1.80.2"
             }
           ]
         }
@@ -44,10 +44,10 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.71"
+              "introduced": "1.81"
             },
             {
-              "fixed": "1.84"
+              "fixed": "1.81.1"
             }
           ]
         }
@@ -63,7 +63,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.71"
+              "introduced": "1.82"
             },
             {
               "fixed": "1.84"
@@ -89,6 +89,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/bcgit/bc-java"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902026%E2%80%905598"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24m2-rchh-h2mx",
-  "modified": "2026-06-08T18:31:53Z",
+  "modified": "2026-06-19T15:33:14Z",
   "published": "2026-06-08T18:31:53Z",
   "aliases": [
     "CVE-2026-46314"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46314"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/309abbddeca0c12714721928a819ef45e5710998"
     },
     {
       "type": "WEB",

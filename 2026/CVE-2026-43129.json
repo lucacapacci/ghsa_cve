@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rphf-w922-p2vc",
-  "modified": "2026-05-08T18:31:27Z",
+  "modified": "2026-06-19T15:33:09Z",
   "published": "2026-05-06T12:30:29Z",
   "aliases": [
     "CVE-2026-43129"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/10d1c75ed4382a8e79874379caa2ead8952734f9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/43308106a1762b72f3b20a44b75b2df5cb25b77b"
     },
     {
       "type": "WEB",

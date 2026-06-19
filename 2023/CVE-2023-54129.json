@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-646g-pwv5-gp8f",
-  "modified": "2025-12-24T15:30:39Z",
+  "modified": "2026-06-19T15:33:07Z",
   "published": "2025-12-24T15:30:39Z",
   "aliases": [
     "CVE-2023-54129"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54129"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4392454c694b13d78c84165c0964729772cd3b73"
     },
     {
       "type": "WEB",

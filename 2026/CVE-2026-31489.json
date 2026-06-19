@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2pvh-447j-v7m6",
-  "modified": "2026-06-01T18:31:24Z",
+  "modified": "2026-06-19T15:33:08Z",
   "published": "2026-04-22T15:31:42Z",
   "aliases": [
     "CVE-2026-31489"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31489"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/01f5f7976c24d6e9beef6b5a410af3b9b1d4d476"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmv7-4284-j9gc",
-  "modified": "2026-03-18T21:32:57Z",
+  "modified": "2026-06-19T15:33:07Z",
   "published": "2026-02-04T18:30:44Z",
   "aliases": [
     "CVE-2026-23099"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23099"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/19266182b82e9100c799d8a29f5e0452f0bf7703"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3v87-wmqv-57cx",
-  "modified": "2026-06-16T15:33:41Z",
+  "modified": "2026-06-19T15:33:12Z",
   "published": "2026-05-27T15:33:20Z",
   "aliases": [
     "CVE-2026-46005"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/82fb9da6477d08bdab954dc7bc081a41f2f9cae6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ed2d6442e61169e565727ba15c4f6a0cb5ce16df"
     }
   ],
   "database_specific": {

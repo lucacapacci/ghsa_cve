@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q36x-5cv4-59hh",
-  "modified": "2026-05-27T15:33:23Z",
+  "modified": "2026-06-19T15:33:13Z",
   "published": "2026-05-27T15:33:22Z",
   "aliases": [
     "CVE-2026-46069"
@@ -24,6 +24,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1958a92599b2653d730ccb6f5685fc3fbed21812"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4e179a60a60c0a5aea245e8e67768343c0f070b8"
     },
     {
@@ -32,7 +36,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a88f5391dc68f78cae5eb6a8cd341cafee795d3d"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ae5e95d4157481693be2317e3ffcd84e36010cbb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c3508895450cca4aeaf5dbadbb5e582363005264"
     }
   ],
   "database_specific": {

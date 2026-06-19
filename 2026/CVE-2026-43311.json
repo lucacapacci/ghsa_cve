@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vxj-rjpg-8mhr",
-  "modified": "2026-05-15T18:30:29Z",
+  "modified": "2026-06-19T15:33:09Z",
   "published": "2026-05-08T15:31:23Z",
   "aliases": [
     "CVE-2026-43311"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/64016227dcdb968b7030eda04304f3d0df5d209d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d1c9c79eb06ed7c4e0a090ba5b1d4e475f7d0681"
     },
     {
       "type": "WEB",

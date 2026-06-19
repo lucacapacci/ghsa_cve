@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mmg-5v66-42gx",
-  "modified": "2026-04-02T15:31:36Z",
+  "modified": "2026-06-19T15:33:07Z",
   "published": "2026-03-25T12:30:24Z",
   "aliases": [
     "CVE-2026-23364"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/307afccb751f542246bd5dc68a2c1ffe1a78418c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8a665d733940592e671ec6afadcd0be80a091a80"
     },
     {
       "type": "WEB",
