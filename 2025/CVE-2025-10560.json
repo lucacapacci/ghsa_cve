@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r6x-5pmx-96h2",
-  "modified": "2026-06-18T15:32:01Z",
+  "modified": "2026-06-21T09:30:50Z",
   "published": "2026-06-18T15:32:01Z",
   "aliases": [
     "CVE-2025-10560"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.worksnaps.net/www/download.shtml"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Jun/21"
     }
   ],
   "database_specific": {
