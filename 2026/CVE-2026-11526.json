@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx22-9fx3-xg77",
-  "modified": "2026-06-15T18:31:18Z",
+  "modified": "2026-06-21T15:31:23Z",
   "published": "2026-06-14T12:30:26Z",
   "aliases": [
     "CVE-2026-11526"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/lstein/Perl-GD/commit/67b163713c6c78dfeb693da0978ae934e5cd8210.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/06/msg00027.html"
     },
     {
       "type": "WEB",
