@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xc2-rj8c-xgm7",
-  "modified": "2022-05-24T17:08:50Z",
+  "modified": "2026-06-22T21:30:41Z",
   "published": "2022-05-24T17:08:50Z",
   "aliases": [
     "CVE-2020-8892"
   ],
   "details": "An issue was discovered in MISP before 2.4.121. It did not consider the HTTP PUT method when trying to block a brute-force series of invalid requests.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

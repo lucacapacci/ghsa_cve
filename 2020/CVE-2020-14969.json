@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rm34-4ch6-9j6v",
-  "modified": "2022-05-24T17:21:25Z",
+  "modified": "2026-06-22T21:30:41Z",
   "published": "2022-05-24T17:21:25Z",
   "aliases": [
     "CVE-2020-14969"
   ],
   "details": "app/Model/Attribute.php in MISP 2.4.127 lacks an ACL lookup on attribute correlations. This occurs when querying the attribute restsearch API, revealing metadata about a correlating but unreachable attribute.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-862"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

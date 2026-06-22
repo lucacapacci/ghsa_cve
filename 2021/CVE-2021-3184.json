@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpx8-mq5g-ppwg",
-  "modified": "2022-05-24T17:39:31Z",
+  "modified": "2026-06-22T21:30:43Z",
   "published": "2022-05-24T17:39:31Z",
   "aliases": [
     "CVE-2021-3184"
   ],
   "details": "MISP 2.4.136 has XSS via a crafted URL to the app/View/Elements/global_menu.ctp user homepage favourite button.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

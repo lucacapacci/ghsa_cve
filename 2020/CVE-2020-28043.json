@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9x3-mx4x-wh8r",
-  "modified": "2022-05-24T17:33:02Z",
+  "modified": "2026-06-22T21:30:42Z",
   "published": "2022-05-24T17:33:02Z",
   "aliases": [
     "CVE-2020-28043"
   ],
   "details": "MISP through 2.4.133 allows SSRF in the REST client via the use_full_path parameter with an arbitrary URL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

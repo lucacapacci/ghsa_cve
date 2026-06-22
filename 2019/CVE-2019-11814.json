@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86jx-vmqr-m9hg",
-  "modified": "2022-05-24T16:45:22Z",
+  "modified": "2026-06-22T21:30:40Z",
   "published": "2022-05-24T16:45:22Z",
   "aliases": [
     "CVE-2019-11814"
   ],
   "details": "An issue was discovered in app/webroot/js/misp.js in MISP before 2.4.107. There is persistent XSS via image names in titles, as demonstrated by a screenshot.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

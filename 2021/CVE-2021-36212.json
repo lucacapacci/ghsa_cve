@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj5v-2f8v-5cg8",
-  "modified": "2022-05-24T19:07:07Z",
+  "modified": "2026-06-22T21:30:43Z",
   "published": "2022-05-24T19:07:07Z",
   "aliases": [
     "CVE-2021-36212"
   ],
   "details": "app/View/SharingGroups/view.ctp in MISP before 2.4.146 allows stored XSS in the sharing groups view.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

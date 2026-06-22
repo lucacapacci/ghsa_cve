@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2pq-gqw8-mv46",
-  "modified": "2022-05-24T16:45:20Z",
+  "modified": "2026-06-22T21:30:40Z",
   "published": "2022-05-24T16:45:20Z",
   "aliases": [
     "CVE-2019-11812"
   ],
   "details": "A persistent XSS issue was discovered in app/View/Helper/CommandHelper.php in MISP before 2.4.107. JavaScript can be included in the discussion interface, and can be triggered by clicking on the link.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
