@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c8q4-9h32-2ww8",
+  "modified": "2026-06-22T20:43:37Z",
+  "published": "2026-06-22T20:43:37Z",
+  "aliases": [
+    "CVE-2026-44795"
+  ],
+  "summary": "Spinnaker has uon-safe yaml deserialization, allowing RCE when using specific types",
+  "details": "### Impact\nThere's an unsafe YAML processing vulnerability that bypasses safe deserialization. This impacts users when when performing:\n* CloudFormation deployments\n* CloudFoundry Baking\n\nThe usage of a non-safe constructor use allows arbitrary loading of Java classes leading to RCE.\n\n### Patches\n 2025.3.3, 2026.0.3 and 2025.4.4.\n\n### Workarounds\nDisable the CloudFormation system and cloudfoundry baking operations.\n\n### Resources\nJoin Spinnaker on Slack for more information!",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:H/A:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spinnaker.rosco:rosco-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2025.3.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spinnaker.orca:orca-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2025.3.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spinnaker.rosco:rosco-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2025.4.0"
+            },
+            {
+              "fixed": "2025.4.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spinnaker.rosco:rosco-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2026.0.0"
+            },
+            {
+              "fixed": "2026.0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spinnaker.orca:orca-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2025.4.0"
+            },
+            {
+              "fixed": "2025.4.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spinnaker.orca:orca-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2026.0.0"
+            },
+            {
+              "fixed": "2026.0.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/spinnaker/spinnaker/security/advisories/GHSA-c8q4-9h32-2ww8"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/spinnaker/spinnaker"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-470",
+      "CWE-502"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-06-22T20:43:37Z",
+    "nvd_published_at": null
+  }
+}
