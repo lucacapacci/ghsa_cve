@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87cf-mxjw-fmjh",
-  "modified": "2026-06-07T15:31:49Z",
+  "modified": "2026-06-23T15:32:30Z",
   "published": "2026-06-07T15:31:49Z",
   "aliases": [
     "CVE-2026-49494"
@@ -33,7 +33,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://updates.xcitium.com/#note11312"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/comodo-internet-security-inspect-sys-ipv6-integer-underflow-remote-denial-of-service"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/xcitium-client-security-comodo-internet-security-remote-dos"
     }
   ],
   "database_specific": {

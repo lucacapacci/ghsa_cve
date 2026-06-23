@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v772-658q-978p",
+  "modified": "2026-06-23T15:32:37Z",
+  "published": "2026-06-23T15:32:37Z",
+  "aliases": [
+    "CVE-2026-56379"
+  ],
+  "details": "ImageMagick before 7.1.2-15 and 6.9.13-40 contains a command injection vulnerability in the SVG decoder that allows attackers to inject arbitrary MVG drawing commands. Attackers can craft malicious SVG files with injected Magick Vector Graphics commands that execute during rendering.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-xpg8-7m6m-jf56"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56379"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/imagemagick-command-injection-via-svg-decoder"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-116"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-23T13:16:46Z"
+  }
+}
