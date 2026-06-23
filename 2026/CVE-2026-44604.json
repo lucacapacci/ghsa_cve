@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q856-29gm-xf3x",
-  "modified": "2026-05-28T09:31:18Z",
+  "modified": "2026-06-23T21:30:25Z",
   "published": "2026-05-28T09:31:18Z",
   "aliases": [
     "CVE-2026-44604"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44604"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:28491"
     },
     {
       "type": "WEB",
