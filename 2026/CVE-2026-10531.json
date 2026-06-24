@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xqv-hqp3-38hq",
-  "modified": "2026-06-24T09:30:44Z",
+  "modified": "2026-06-24T15:31:43Z",
   "published": "2026-06-24T09:30:44Z",
   "aliases": [
     "CVE-2026-10531"
   ],
   "details": "The AI Share & Summarize WordPress plugin before 2.0.4 does not sanitise and escape some of its shortcode attributes before outputting them in a page, allowing users with the Contributor role and above to perform Stored Cross-Site Scripting attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-24T07:16:25Z"

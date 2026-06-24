@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57q8-6wvw-p94h",
-  "modified": "2026-06-24T09:30:44Z",
+  "modified": "2026-06-24T15:31:43Z",
   "published": "2026-06-24T09:30:44Z",
   "aliases": [
     "CVE-2026-10749"
   ],
   "details": "The Post Duplicator WordPress plugin before 3.0.15 does not safely handle custom meta-data during post duplication, storing attacker-supplied serialized values without the WordPress meta API's double-serialization protection, allowing users with Contributor-level access and above to inject a PHP Object.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-24T07:16:25Z"
