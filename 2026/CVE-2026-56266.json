@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-365w-hqf6-vxfg",
-  "modified": "2026-06-22T22:21:14Z",
+  "modified": "2026-06-24T13:05:44Z",
   "published": "2026-06-16T20:13:30Z",
   "aliases": [
     "CVE-2026-56266"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:H/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
   "affected": [
@@ -44,8 +48,16 @@
       "url": "https://github.com/unclecode/crawl4ai/security/advisories/GHSA-365w-hqf6-vxfg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56266"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/unclecode/crawl4ai"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/crawl4ai-server-side-request-forgery-via-direct-crawl-endpoints"
     }
   ],
   "database_specific": {
@@ -60,6 +72,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-16T20:13:30Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-22T22:16:50Z"
   }
 }
