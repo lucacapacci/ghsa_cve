@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rh3-rmh3-hv6h",
-  "modified": "2026-06-20T15:32:25Z",
+  "modified": "2026-06-24T21:30:41Z",
   "published": "2026-06-20T15:32:25Z",
   "aliases": [
     "CVE-2026-48939"
@@ -21,7 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://mysites.guru/blog/icagenda-zero-day-file-upload-rce"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.icagenda.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.icagenda.com/docs/changelog/icagenda-3-9-15"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.icagenda.com/docs/changelog/icagenda-4-0-8"
     }
   ],
   "database_specific": {
