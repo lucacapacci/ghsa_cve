@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w6r-r33r-cfg6",
-  "modified": "2026-06-23T21:30:31Z",
+  "modified": "2026-06-24T03:30:34Z",
   "published": "2026-06-23T21:30:31Z",
   "aliases": [
     "CVE-2026-11807"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11807"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:28376"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:28377"
     },
     {
       "type": "WEB",
