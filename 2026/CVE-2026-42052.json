@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gxm-wfjx-m847",
-  "modified": "2026-05-08T01:25:19Z",
+  "modified": "2026-06-24T00:30:30Z",
   "published": "2026-04-29T18:29:00Z",
   "aliases": [
     "CVE-2026-42052"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/beetbox/beets/releases/tag/v2.10.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/06/msg00030.html"
     }
   ],
   "database_specific": {
