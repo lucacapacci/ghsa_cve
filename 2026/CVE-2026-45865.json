@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6j35-qr59-823q",
-  "modified": "2026-05-27T15:33:13Z",
+  "modified": "2026-06-25T21:31:18Z",
   "published": "2026-05-27T15:33:13Z",
   "aliases": [
     "CVE-2026-45865"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmctp i2c: initialise event handler read bytes\n\nSet a 0xff value for i2c reads of an mctp-i2c device. Otherwise reads\nwill return \"val\" from the i2c bus driver. For i2c-aspeed and\ni2c-npcm7xx that is a stack uninitialised u8.\n\nTested with \"i2ctransfer -y 1 r10@0x34\" where 0x34 is a mctp-i2c\ninstance, now it returns all 0xff.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:16:58Z"

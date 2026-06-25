@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-34c7-243j-jmx6",
+  "modified": "2026-06-25T21:31:31Z",
+  "published": "2026-06-25T21:31:31Z",
+  "aliases": [
+    "CVE-2026-37452"
+  ],
+  "details": "Insecure Permissions vulnerability in MSI NBFoundation Service v.2.0.2506.1201 allows a remote attacker to obtain sensitive information via the MSIAPService.exe component",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37452"
+    },
+    {
+      "type": "WEB",
+      "url": "https://csr.msi.com/global/product-security-advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/LittleSuRii/CVE-2026-MSIAPService"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-25T21:16:26Z"
+  }
+}

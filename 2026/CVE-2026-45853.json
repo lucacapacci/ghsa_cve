@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6wq-h8g2-9j9p",
-  "modified": "2026-05-27T15:33:13Z",
+  "modified": "2026-06-25T21:31:18Z",
   "published": "2026-05-27T15:33:13Z",
   "aliases": [
     "CVE-2026-45853"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: Use kvfree instead of kfree in amdgpu_gmc_get_nps_memranges()\n\namdgpu_discovery_get_nps_info() internally allocates memory for ranges\nusing kvcalloc(), which may use vmalloc() for large allocation. Using\nkfree() to release vmalloc memory will lead to a memory corruption.\n\nUse kvfree() to safely handle both kmalloc and vmalloc allocations.\n\nCompile tested only. Issue found using a prototype static analysis tool\nand code review.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:16:57Z"

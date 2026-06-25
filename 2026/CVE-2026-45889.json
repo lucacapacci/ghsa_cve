@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh29-fq9g-3p7h",
-  "modified": "2026-05-27T15:33:14Z",
+  "modified": "2026-06-25T21:31:20Z",
   "published": "2026-05-27T15:33:14Z",
   "aliases": [
     "CVE-2026-45889"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmptcp: do not account for OoO in mptcp_rcvbuf_grow()\n\nMPTCP-level OoOs are physiological when multiple subflows are active\nconcurrently and will not cause retransmissions nor are caused by\ndrops.\n\nAccounting for them in mptcp_rcvbuf_grow() causes the rcvbuf slowly\ndrifting towards tcp_rmem[2].\n\nRemove such accounting. Note that subflows will still account for TCP-level\nOoO when the MPTCP-level rcvbuf is propagated.\n\nThis also closes a subtle and very unlikely race condition with rcvspace\ninit; active sockets with user-space holding the msk-level socket lock,\ncould complete such initialization in the receive callback, after that the\nfirst OoO data reaches the rcvbuf and potentially triggering a divide by\nzero Oops.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:02Z"

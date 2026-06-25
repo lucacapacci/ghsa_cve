@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gx7-g5hv-xjjj",
-  "modified": "2026-06-24T18:32:26Z",
+  "modified": "2026-06-25T21:31:18Z",
   "published": "2026-05-18T15:30:37Z",
   "aliases": [
     "CVE-2026-42009"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2467279"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-2"
     }
   ],
   "database_specific": {

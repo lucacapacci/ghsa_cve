@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8h74-qh3g-94fx",
-  "modified": "2026-05-27T15:33:14Z",
+  "modified": "2026-06-25T21:31:20Z",
   "published": "2026-05-27T15:33:14Z",
   "aliases": [
     "CVE-2026-45884"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\napparmor: avoid per-cpu hold underflow in aa_get_buffer\n\nWhen aa_get_buffer() pulls from the per-cpu list it unconditionally\ndecrements cache->hold. If hold reaches 0 while count is still non-zero,\nthe unsigned decrement wraps to UINT_MAX. This keeps hold non-zero for a\nvery long time, so aa_put_buffer() never returns buffers to the global\nlist, which can starve other CPUs and force repeated kmalloc(aa_g_path_max)\nallocations.\n\nGuard the decrement so hold never underflows.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-191"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:02Z"

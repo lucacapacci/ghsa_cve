@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55mq-jw86-3h27",
-  "modified": "2026-05-27T15:33:11Z",
+  "modified": "2026-06-25T21:31:18Z",
   "published": "2026-05-27T15:33:10Z",
   "aliases": [
     "CVE-2025-71311"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/ntfs3: Initialize new folios before use\n\nKMSAN reports an uninitialized value in longest_match_std(), invoked\nfrom ntfs_compress_write(). When new folios are allocated without being\nmarked uptodate and ni_read_frame() is skipped because the caller expects\nthe frame to be completely overwritten, some reserved folios may remain\nonly partially filled, leaving the rest memory uninitialized.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:16:43Z"

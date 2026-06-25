@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cm99-m826-vgg7",
-  "modified": "2026-06-15T03:30:31Z",
+  "modified": "2026-06-25T21:31:18Z",
   "published": "2026-03-24T15:30:29Z",
   "aliases": [
     "CVE-2026-4775"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-4775"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:30078"
     },
     {
       "type": "WEB",

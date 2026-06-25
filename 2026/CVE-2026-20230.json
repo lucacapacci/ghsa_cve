@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcv7-pchj-75c2",
-  "modified": "2026-06-24T18:32:34Z",
+  "modified": "2026-06-25T21:31:22Z",
   "published": "2026-06-03T18:33:11Z",
   "aliases": [
     "CVE-2026-20230"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-20230"
     }
   ],
   "database_specific": {

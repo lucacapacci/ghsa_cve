@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jq7f-47xv-x2xg",
-  "modified": "2026-05-27T15:33:14Z",
+  "modified": "2026-06-25T21:31:19Z",
   "published": "2026-05-27T15:33:14Z",
   "aliases": [
     "CVE-2026-45874"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nphy: freescale: imx8qm-hsio: fix NULL pointer dereference\n\nDuring the probe the refclk_pad pointer is set to NULL if the\n'fsl,refclk-pad-mode' property is not defined in the devicetree node. But\nin imx_hsio_configure_clk_pad() this pointer is unconditionally used which\ncould result in a NULL pointer dereference. So check the pointer before to\nuse it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:00Z"

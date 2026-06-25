@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9686-wrhg-jjg6",
-  "modified": "2026-05-27T15:33:15Z",
+  "modified": "2026-06-25T21:31:20Z",
   "published": "2026-05-27T15:33:14Z",
   "aliases": [
     "CVE-2026-45888"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmd/raid1: fix memory leak in raid1_run()\n\nraid1_run() calls setup_conf() which registers a thread via\nmd_register_thread(). If raid1_set_limits() fails, the previously\nregistered thread is not unregistered, resulting in a memory leak\nof the md_thread structure and the thread resource itself.\n\nAdd md_unregister_thread() to the error path to properly cleanup\nthe thread, which aligns with the error handling logic of other paths\nin this function.\n\nCompile tested only. Issue found using a prototype static analysis tool\nand code review.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:02Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x7w-42q6-mv4p",
-  "modified": "2026-06-01T18:31:35Z",
+  "modified": "2026-06-25T21:31:21Z",
   "published": "2026-05-27T15:33:24Z",
   "aliases": [
     "CVE-2026-46101"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: reject zero shift in nft_bitwise\n\nReject zero shift operands for nft_bitwise left and right shift\nexpressions during initialization.\n\nThe carry propagation logic computes the carry from the adjacent 32-bit\nword using BITS_PER_TYPE(u32) - shift. A zero shift operand turns this\ninto a 32-bit shift, which is undefined behaviour.\n\nReject zero shift operands in the control plane, alongside the existing\ncheck for values greater than or equal to 32, so malformed rules never\nreach the packet path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:32Z"

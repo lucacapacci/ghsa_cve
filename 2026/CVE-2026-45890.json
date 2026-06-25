@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc43-3m97-6p35",
-  "modified": "2026-05-27T15:33:15Z",
+  "modified": "2026-06-25T21:31:20Z",
   "published": "2026-05-27T15:33:15Z",
   "aliases": [
     "CVE-2026-45890"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxen-netback: reject zero-queue configuration from guest\n\nA malicious or buggy Xen guest can write \"0\" to the xenbus key\n\"multi-queue-num-queues\". The connect() function in the backend only\nvalidates the upper bound (requested_num_queues > xenvif_max_queues)\nbut not zero, allowing requested_num_queues=0 to reach\nvzalloc(array_size(0, sizeof(struct xenvif_queue))), which triggers\nWARN_ON_ONCE(!size) in __vmalloc_node_range().\n\nOn systems with panic_on_warn=1, this allows a guest-to-host denial\nof service.\n\nThe Xen network interface specification requires\nthe queue count to be \"greater than zero\".\n\nAdd a zero check to match the validation already present\nin xen-blkback, which has included this\nguard since its multi-queue support was added.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:03Z"
