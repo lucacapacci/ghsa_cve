@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c9gv-4j5c-v56g",
+  "modified": "2026-06-25T09:31:20Z",
+  "published": "2026-06-25T09:31:20Z",
+  "aliases": [
+    "CVE-2026-53178"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nstaging: rtl8723bs: rtw_mlme: add bounds checks before ie_length subtraction\n\nAdd guards to ensure ie_length is large enough before subtracting\nfixed IE offsets to prevent unsigned integer underflow.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53178"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/542d65a6dbd9733baab96313c9fe76a76e93f484"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/88e994c57a79f62d5338231d8d37ee8dd98baffe"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-06-25T09:16:35Z"
+  }
+}
