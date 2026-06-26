@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfpj-q55p-7h2m",
-  "modified": "2026-06-22T18:34:16Z",
+  "modified": "2026-06-26T21:32:06Z",
   "published": "2026-06-22T18:34:16Z",
   "aliases": [
     "CVE-2026-8636"

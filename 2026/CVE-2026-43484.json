@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42p4-9577-4wfh",
-  "modified": "2026-05-13T18:30:57Z",
+  "modified": "2026-06-26T21:32:04Z",
   "published": "2026-05-13T18:30:57Z",
   "aliases": [
     "CVE-2026-43484"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmmc: core: Avoid bitfield RMW for claim/retune flags\n\nMove claimed and retune control flags out of the bitfield word to\navoid unrelated RMW side effects in asynchronous contexts.\n\nThe host->claimed bit shared a word with retune flags. Writes to claimed\nin __mmc_claim_host() or retune_now in mmc_mq_queue_rq() can overwrite\nother bits when concurrent updates happen in other contexts, triggering\nspurious WARN_ON(!host->claimed). Convert claimed, can_retune,\nretune_now and retune_paused to bool to remove shared-word coupling.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-13T16:16:51Z"

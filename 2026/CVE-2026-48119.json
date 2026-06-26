@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g6j-g789-rghm",
-  "modified": "2026-06-01T14:05:06Z",
+  "modified": "2026-06-26T21:28:43Z",
   "published": "2026-06-01T14:05:06Z",
   "aliases": [
     "CVE-2026-48119"
@@ -60,6 +60,10 @@
       "url": "https://github.com/nezhahq/nezha/security/advisories/GHSA-4g6j-g789-rghm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48119"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nezhahq/nezha/commit/02129f16fb1572ef57c7e8dd7d03f84d39b8b586"
     },
@@ -75,6 +79,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-01T14:05:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-06-12T22:16:51Z"
   }
 }

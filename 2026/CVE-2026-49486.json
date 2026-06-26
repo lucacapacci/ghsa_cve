@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgch-86x8-fv43",
-  "modified": "2026-06-26T18:33:53Z",
+  "modified": "2026-06-26T21:32:14Z",
   "published": "2026-06-26T09:30:46Z",
   "aliases": [
     "CVE-2026-49486"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/gwnsxlt9hfj5pc543wxtogbnjdn04xj1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/26/1"
     }
   ],
   "database_specific": {

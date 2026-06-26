@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6vc-x4v4-hjhr",
-  "modified": "2026-06-26T15:32:13Z",
+  "modified": "2026-06-26T21:32:15Z",
   "published": "2026-06-26T12:30:30Z",
   "aliases": [
     "CVE-2026-57914"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/w98h2q8wz0bq97vhz4vf55hqomcb2j1m"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/26/7"
     }
   ],
   "database_specific": {

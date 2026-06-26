@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9x8-fmgr-c724",
-  "modified": "2026-05-13T18:30:57Z",
+  "modified": "2026-06-26T21:32:04Z",
   "published": "2026-05-13T18:30:57Z",
   "aliases": [
     "CVE-2026-43480"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: amd: acp3x-rt5682-max9836: Add missing error check for clock acquisition\n\nThe acp3x_5682_init() function did not check the return value of\nclk_get(), which could lead to dereferencing error pointers in\nrt5682_clk_enable().\n\nFix this by:\n1. Changing clk_get() to the device-managed devm_clk_get().\n2. Adding proper IS_ERR() checks for both clock acquisitions.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-13T16:16:51Z"
