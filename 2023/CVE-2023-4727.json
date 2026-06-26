@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvm7-rc5g-c98q",
-  "modified": "2024-07-09T12:30:56Z",
+  "modified": "2026-06-26T12:30:28Z",
   "published": "2024-06-11T21:32:17Z",
   "aliases": [
     "CVE-2023-4727"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4727"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dogtagpki/pki/commit/54e5b3c5932ad634b5ddf5b1d4d88c9419d6f720"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dogtagpki/pki/commit/aa7161ba378caf5cf0471aafb679a842679c8388"
     },
     {
       "type": "WEB",
@@ -62,6 +70,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2232218"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-rvm7-rc5g-c98q"
     }
   ],
   "database_specific": {
