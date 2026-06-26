@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcmh-fj7m-gv6r",
-  "modified": "2025-11-03T21:33:30Z",
+  "modified": "2026-06-26T00:32:00Z",
   "published": "2025-04-14T15:31:59Z",
   "aliases": [
     "CVE-2025-32909"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2359353"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libsoup/-/issues/431"
     },
     {
       "type": "WEB",

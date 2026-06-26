@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xccf-8v88-53m7",
-  "modified": "2025-04-03T15:31:19Z",
+  "modified": "2026-06-26T00:31:59Z",
   "published": "2025-04-03T15:31:19Z",
   "aliases": [
     "CVE-2025-32051"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2357068"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libsoup/-/issues/401"
     }
   ],
   "database_specific": {

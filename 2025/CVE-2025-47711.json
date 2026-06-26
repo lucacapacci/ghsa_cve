@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c8xj-fr2w-pjfc",
-  "modified": "2025-06-09T06:30:22Z",
+  "modified": "2026-06-26T00:32:01Z",
   "published": "2025-06-09T06:30:22Z",
   "aliases": [
     "CVE-2025-47711"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2365687"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.libguestfs.org/archives/list/guestfs@lists.libguestfs.org/thread/67E7AASHHADIY7VAD3FFW2I67LTWVWYF"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hj5-4cv5-f46x",
-  "modified": "2026-06-24T18:32:26Z",
+  "modified": "2026-06-26T00:32:02Z",
   "published": "2026-05-27T00:31:27Z",
   "aliases": [
     "CVE-2026-5260"
@@ -50,10 +50,15 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2467450"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-10"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-126",
       "CWE-1284"
     ],
     "severity": "HIGH",

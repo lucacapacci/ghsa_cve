@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4vp-qjpg-x8wq",
-  "modified": "2025-11-18T09:30:51Z",
+  "modified": "2026-06-26T00:32:00Z",
   "published": "2025-04-14T15:31:58Z",
   "aliases": [
     "CVE-2025-32906"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00036.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libsoup/-/issues/404"
     },
     {
       "type": "WEB",

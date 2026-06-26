@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7mx-548v-cr9r",
-  "modified": "2025-05-28T21:30:33Z",
+  "modified": "2026-06-26T00:31:59Z",
   "published": "2025-04-03T15:31:19Z",
   "aliases": [
     "CVE-2025-3155"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/parrot409/e970b155358d45b298d7024edd9b17f2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/yelp/-/issues/221"
     },
     {
       "type": "WEB",

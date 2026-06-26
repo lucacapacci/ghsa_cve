@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q929-g23j-2rc7",
-  "modified": "2026-06-25T18:30:41Z",
+  "modified": "2026-06-26T00:32:04Z",
   "published": "2026-06-25T18:30:41Z",
   "aliases": [
     "CVE-2026-9705"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9705"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:30083"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:30084"
     },
     {
       "type": "WEB",

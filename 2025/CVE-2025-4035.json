@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9685-44wp-34gm",
-  "modified": "2025-05-26T12:30:29Z",
+  "modified": "2026-06-26T00:32:00Z",
   "published": "2025-04-29T15:31:51Z",
   "aliases": [
     "CVE-2025-4035"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2362651"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libsoup/-/issues/443"
     }
   ],
   "database_specific": {

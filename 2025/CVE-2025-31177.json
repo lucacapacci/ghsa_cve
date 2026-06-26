@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjcf-jhr2-9x97",
-  "modified": "2025-05-07T21:31:45Z",
+  "modified": "2026-06-26T00:32:00Z",
   "published": "2025-05-07T21:31:45Z",
   "aliases": [
     "CVE-2025-31177"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2355342"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceforge.net/p/gnuplot/bugs/2756"
     }
   ],
   "database_specific": {

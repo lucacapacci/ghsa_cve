@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99xf-gcww-2c64",
-  "modified": "2025-11-03T21:33:30Z",
+  "modified": "2026-06-26T00:31:59Z",
   "published": "2025-04-03T15:31:19Z",
   "aliases": [
     "CVE-2025-32050"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2357067"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libsoup/-/issues/424"
     },
     {
       "type": "WEB",

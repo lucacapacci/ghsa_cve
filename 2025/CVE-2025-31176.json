@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp5r-frgx-32v8",
-  "modified": "2025-03-27T15:31:14Z",
+  "modified": "2026-06-26T00:31:58Z",
   "published": "2025-03-27T15:31:14Z",
   "aliases": [
     "CVE-2025-31176"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2355343"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceforge.net/p/gnuplot/bugs/2776"
     }
   ],
   "database_specific": {
