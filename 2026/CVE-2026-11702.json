@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcwj-3q56-r32w",
-  "modified": "2026-06-26T09:30:47Z",
+  "modified": "2026-06-26T18:33:53Z",
   "published": "2026-06-26T09:30:47Z",
   "aliases": [
     "CVE-2026-11702"
   ],
   "details": "Bytes::Random::Secure::Tiny versions through 1.011 for Perl share internal state across forked processes.\n\nWhen an object is initialised before forking, then the internal state for the PRNG is shared across processes and identical random streams will be produced.\n\nSecrets generated in multiprocess applications are predictable across processes.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -35,7 +40,7 @@
     "cwe_ids": [
       "CWE-335"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-26T09:16:33Z"

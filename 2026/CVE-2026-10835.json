@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mprc-69fc-33c7",
-  "modified": "2026-06-26T09:30:46Z",
+  "modified": "2026-06-26T18:33:53Z",
   "published": "2026-06-26T09:30:46Z",
   "aliases": [
     "CVE-2026-10835"
   ],
   "details": "The SALESmanago & Leadoo WordPress plugin before 3.11.3 does not properly sanitise and escape a parameter passed to one of its AJAX actions before using it in a SQL statement, and fails to enforce authorisation on that action, allowing authenticated users with minimal permissions, such as subscribers, to perform SQL injection attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-26T07:16:22Z"

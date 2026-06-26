@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqfj-jwq4-rqmg",
-  "modified": "2026-06-26T15:32:15Z",
+  "modified": "2026-06-26T18:33:53Z",
   "published": "2026-06-26T15:32:15Z",
   "aliases": [
     "CVE-2026-30041"
   ],
   "details": "An integer overflow in the PSD parser compnent of FastStone Image Viewer v8.3 allows attackers to execute arbitrary code or cause a Denial of Service (DoS) via supplying a crafted PSD file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-400"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-26T15:16:37Z"

@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp5h-m3hq-5qph",
-  "modified": "2026-06-16T21:32:01Z",
+  "modified": "2026-06-26T18:33:47Z",
   "published": "2026-06-16T21:32:01Z",
   "aliases": [
     "CVE-2026-12425"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in PowerSchool Employee Access Center allows Cross-Site Scripting (XSS). This issue affects Employee Access Center: 23.10. It is possible to add in javascript code after the login URL and have it be eval()'d in the page and execute in the context of the user.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:H/VI:L/VA:L/SC:H/SI:H/SA:H/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
