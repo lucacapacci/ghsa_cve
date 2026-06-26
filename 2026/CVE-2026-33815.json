@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgrm-4fwx-7qm8",
-  "modified": "2026-04-18T00:25:53Z",
+  "modified": "2026-06-26T20:04:58Z",
   "published": "2026-04-07T18:31:36Z",
   "aliases": [
     "CVE-2026-33815"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/jackc/pgx/v5/pgproto3"
+        "name": "github.com/jackc/pgx/v5"
       },
       "ranges": [
         {
