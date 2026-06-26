@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3qh-mvr3-r7x7",
-  "modified": "2025-11-03T21:34:04Z",
+  "modified": "2026-06-26T03:31:25Z",
   "published": "2025-06-17T15:31:12Z",
   "aliases": [
     "CVE-2025-6199"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2373147"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/issues/257"
     },
     {
       "type": "WEB",

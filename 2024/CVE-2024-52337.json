@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8c3c-gvf8-p7v2",
-  "modified": "2025-02-25T12:32:18Z",
+  "modified": "2026-06-26T03:31:25Z",
   "published": "2024-11-26T18:38:52Z",
   "aliases": [
     "CVE-2024-52337"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.opensuse.org/2024/11/26/tuned-instance-create.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/redhat-performance/tuned/releases/tag/v2.24.1"
     },
     {
       "type": "WEB",

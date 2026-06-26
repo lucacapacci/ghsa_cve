@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fccp-q48g-r5f8",
-  "modified": "2025-03-27T15:31:15Z",
+  "modified": "2026-06-26T06:30:30Z",
   "published": "2025-03-27T15:31:15Z",
   "aliases": [
     "CVE-2025-31181"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2355338"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceforge.net/p/gnuplot/bugs/2753"
     }
   ],
   "database_specific": {
