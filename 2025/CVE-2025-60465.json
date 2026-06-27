@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-988q-r63h-crm4",
-  "modified": "2026-06-26T15:32:07Z",
+  "modified": "2026-06-27T06:30:25Z",
   "published": "2026-06-25T21:31:30Z",
   "aliases": [
     "CVE-2025-60465"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://infosec.exchange/@sigdevel/116778494176930561"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/27/1"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8c7q-86fq-vvmh",
-  "modified": "2026-05-26T13:30:39Z",
+  "modified": "2026-06-27T06:30:24Z",
   "published": "2026-05-26T13:30:39Z",
   "aliases": [
     "CVE-2026-2651"
@@ -25,11 +25,24 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2026-2651"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2481117"
+    },
+    {
+      "type": "WEB",
       "url": "https://huntr.com/bounties/65beb119-d3e0-4e03-af2f-fa98f78f83dc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-2651.json"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1220",
       "CWE-862"
     ],
     "severity": "CRITICAL",
