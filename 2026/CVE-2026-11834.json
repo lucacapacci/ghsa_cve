@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w296-94hj-pfcg",
-  "modified": "2026-06-22T21:30:59Z",
+  "modified": "2026-06-27T00:30:29Z",
   "published": "2026-06-22T21:30:59Z",
   "aliases": [
     "CVE-2026-11834"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11834"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattg.systems/posts/cve-2026-11834"
     },
     {
       "type": "WEB",
