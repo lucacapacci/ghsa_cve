@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3435-f6h9-64p7",
-  "modified": "2026-06-26T03:31:25Z",
+  "modified": "2026-06-30T15:30:29Z",
   "published": "2025-04-07T15:31:21Z",
   "aliases": [
     "CVE-2025-3360"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/glib/-/issues/3647"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/glib/-/work_items/3647"
     },
     {
       "type": "WEB",

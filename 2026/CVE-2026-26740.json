@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g43h-fmhp-fvff",
-  "modified": "2026-06-30T03:35:56Z",
+  "modified": "2026-06-30T15:30:31Z",
   "published": "2026-03-18T18:31:18Z",
   "aliases": [
     "CVE-2026-26740"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26740"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:33452"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:33455"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:33456"
     },
     {
       "type": "WEB",

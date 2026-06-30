@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjmg-grxw-25vg",
-  "modified": "2026-06-30T09:31:35Z",
+  "modified": "2026-06-30T15:30:44Z",
   "published": "2026-06-30T09:31:35Z",
   "aliases": [
     "CVE-2026-11590"
   ],
   "details": "The WP Support Plus Responsive Ticket System WordPress plugin through 9.1.2 does not sanitize user-supplied array keys before using them in a SQL statement, allowing unauthenticated users to perform SQL injection attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-30T07:16:31Z"

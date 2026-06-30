@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57pc-jm9r-hgj4",
-  "modified": "2026-06-04T15:30:40Z",
+  "modified": "2026-06-30T15:30:32Z",
   "published": "2026-06-04T15:30:40Z",
   "aliases": [
     "CVE-2026-8037"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://community.progress.com/s/article/LoadMaster-Critical-Security-Bulletin-June-2026-CVE-2026-8037-CVE-2026-33691"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037"
     }
   ],
   "database_specific": {

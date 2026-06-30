@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2wj6-jgr2-x79w",
-  "modified": "2026-06-30T12:31:50Z",
+  "modified": "2026-06-30T15:30:44Z",
   "published": "2026-06-30T12:31:50Z",
   "aliases": [
     "CVE-2025-24815"
   ],
   "details": "Nokia MantaRay NM is subject to an unrestricted file upload vulnerability due to insufficient file type validation. Successful exploitation could allow an authenticated attacker to upload malicious files onto the system.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-434"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-30T10:16:32Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gcj-mc56-7jf5",
-  "modified": "2026-06-30T09:31:35Z",
+  "modified": "2026-06-30T15:30:44Z",
   "published": "2026-06-30T09:31:35Z",
   "aliases": [
     "CVE-2026-11581"
   ],
   "details": "The Kali Forms — Contact Form & Drag-and-Drop Builder WordPress plugin before 2.4.13 does not sanitise a form field's caption before outputting it as a column header on the administrator form-entries screen, allowing users with Contributor-level access or above to store JavaScript that executes in an administrator's session. A missing capability check in the Kali Forms — Contact Form & Drag-and-Drop Builder WordPress plugin before 2.4.13's post-duplication action additionally lets the Contributor publish the malicious form so an administrator renders it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-30T07:16:31Z"

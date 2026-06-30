@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8mh-x5qv-7gg2",
-  "modified": "2026-06-24T18:32:34Z",
+  "modified": "2026-06-30T15:30:33Z",
   "published": "2026-06-17T21:34:39Z",
   "aliases": [
     "CVE-2026-55200"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/bikini/exploitarium/tree/main/libssh2-cve-2026-55200-poc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/web/20260623211210/https://github.com/bikini/exploitarium/tree/main/libssh2-cve-2026-55200-poc"
     },
     {
       "type": "WEB",

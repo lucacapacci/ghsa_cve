@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr2w-747q-47qc",
-  "modified": "2026-06-30T06:31:21Z",
+  "modified": "2026-06-30T15:30:33Z",
   "published": "2026-06-16T09:32:42Z",
   "aliases": [
     "CVE-2026-46331"
@@ -78,6 +78,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:33219"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:29833"
     },
     {
       "type": "WEB",
