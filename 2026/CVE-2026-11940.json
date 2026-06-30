@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mc4-rqmq-h467",
-  "modified": "2026-06-23T18:31:41Z",
+  "modified": "2026-06-30T18:31:33Z",
   "published": "2026-06-23T18:31:41Z",
   "aliases": [
     "CVE-2026-11940"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/79c06bd5c6afa3c440d50faf7ee1b147c8832b4c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/be13e86f6b9788a6f4d0419dffef72cbae5865c9"
     },
     {
       "type": "WEB",

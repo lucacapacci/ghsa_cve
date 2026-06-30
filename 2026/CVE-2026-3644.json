@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf33-88pf-hwp3",
-  "modified": "2026-06-04T21:31:19Z",
+  "modified": "2026-06-30T18:31:31Z",
   "published": "2026-03-16T18:32:04Z",
   "aliases": [
     "CVE-2026-3644"
@@ -33,6 +33,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4"
     },
     {
@@ -42,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/dae4b1a21f8df4570e30986affd61bbe4ade4cef"
     },
     {
       "type": "WEB",

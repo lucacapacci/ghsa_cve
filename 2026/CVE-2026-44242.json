@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rfq-4wpf-qqw3",
-  "modified": "2026-05-13T16:32:23Z",
+  "modified": "2026-06-30T19:52:47Z",
   "published": "2026-05-06T19:57:54Z",
   "aliases": [
     "CVE-2026-44242"
@@ -25,10 +25,48 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.10.0"
             },
             {
               "fixed": "4.10.22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.micronaut:micronaut-inject"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.10.0"
+            },
+            {
+              "fixed": "3.10.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.micronaut:micronaut-inject"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.14"
             }
           ]
         }
@@ -47,6 +85,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/micronaut-projects/micronaut-core"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/micronaut-projects/micronaut-core/releases/tag/v3.10.6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/micronaut-projects/micronaut-core/releases/tag/v3.8.14"
     },
     {
       "type": "WEB",
