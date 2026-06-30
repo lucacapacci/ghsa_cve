@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47p6-69vm-vw6v",
-  "modified": "2026-05-26T13:30:54Z",
+  "modified": "2026-06-30T17:39:43Z",
   "published": "2026-05-26T13:30:54Z",
   "aliases": [
     "CVE-2026-9495"
   ],
+  "summary": "@koa/router has an Access Control Bypass",
   "details": "Versions of the package @koa/router from 14.0.0 and before 15.0.0 are vulnerable to Access Control Bypass due to the middleware being silently dropped from the execution chain when the router prefix contains path parameters. Depending on what the skipped middleware was supposed to protect, an attacker could bypass authentication and authorization, evade rate limiting or bypass input sanitization.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@koa/router"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14.0.0"
+            },
+            {
+              "fixed": "15.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,6 +57,10 @@
       "url": "https://github.com/koajs/router/commit/d53e17f284557b1f417946f9807ee52290c3c759"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/koajs/router"
+    },
+    {
       "type": "WEB",
       "url": "https://security.snyk.io/vuln/SNYK-JS-KOAROUTER-12215044"
     }
@@ -45,8 +70,8 @@
       "CWE-284"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-06-30T17:39:43Z",
     "nvd_published_at": "2026-05-26T07:16:19Z"
   }
 }

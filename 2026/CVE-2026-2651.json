@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8c7q-86fq-vvmh",
-  "modified": "2026-06-27T06:30:24Z",
+  "modified": "2026-06-30T16:48:21Z",
   "published": "2026-05-26T13:30:39Z",
   "aliases": [
     "CVE-2026-2651"
   ],
+  "summary": "MLflow allows unauthorized access to multipart upload endpoints when the `--serve-artifacts` mode is enabled",
   "details": "A vulnerability in MLflow versions <=3.10.1.dev0 allows unauthorized access to multipart upload (MPU) endpoints when the `--serve-artifacts` mode is enabled. The authorization logic does not enforce resource-level permission checks for `/mlflow-artifacts/mpu/*` endpoints, enabling attackers to overwrite artifacts belonging to other users. This can lead to unauthorized cross-user writes, model supply chain poisoning, and arbitrary code execution when compromised models are loaded. The issue is resolved in version 3.10.0.",
   "severity": [
     {
@@ -13,7 +14,30 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "mlflow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0rc1"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 3.11.0rc0"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,6 +56,10 @@
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2481117"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/mlflow/mlflow"
+    },
+    {
       "type": "WEB",
       "url": "https://huntr.com/bounties/65beb119-d3e0-4e03-af2f-fa98f78f83dc"
     },
@@ -42,12 +70,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1220",
-      "CWE-862"
+      "CWE-862",
+      "CWE-1220"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-06-30T16:48:21Z",
     "nvd_published_at": "2026-05-25T07:16:15Z"
   }
 }

@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r4v-3jc5-hrg9",
-  "modified": "2026-05-26T13:30:50Z",
+  "modified": "2026-06-30T17:37:10Z",
   "published": "2026-05-26T13:30:50Z",
   "aliases": [
     "CVE-2026-9497"
   ],
+  "summary": "TCC-TRANSACTION has an Improper Input Validation vulnerability",
   "details": "A flaw has been found in changmingxie tcc-transaction up to 2.1.0. This issue affects the function Fastjson.parseObject of the component Fastjson AutoType REST API. This manipulation causes deserialization. It is possible to initiate the attack remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.mengyun:tcc-transaction"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.1.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Ku4D3/bug_story/blob/main/report_01.md"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/changmingxie/tcc-transaction"
     },
     {
       "type": "WEB",
@@ -45,8 +70,8 @@
       "CWE-20"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-06-30T17:37:10Z",
     "nvd_published_at": "2026-05-25T20:16:38Z"
   }
 }
