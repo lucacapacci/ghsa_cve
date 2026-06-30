@@ -112,8 +112,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-79",
-      "CWE-471"
+      "CWE-471",
+      "CWE-79"
     ],
     "severity": "HIGH",
     "github_reviewed": true,

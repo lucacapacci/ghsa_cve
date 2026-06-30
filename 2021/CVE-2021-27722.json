@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vw2q-8f72-3gqp",
-  "modified": "2022-05-24T19:19:29Z",
+  "modified": "2026-06-29T18:31:44Z",
   "published": "2022-05-24T19:19:29Z",
   "aliases": [
     "CVE-2021-27722"
   ],
   "details": "An issue was discovered in Nsasoft US LLC SpotAuditor 5.3.5. The program can be crashed by entering 300 bytes char data into the \"Key\" or \"Name\" field while registering.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
