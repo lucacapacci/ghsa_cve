@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rqw-w7xq-566r",
-  "modified": "2026-06-30T15:30:32Z",
+  "modified": "2026-07-01T15:34:49Z",
   "published": "2026-05-14T15:31:58Z",
   "aliases": [
     "CVE-2026-6473"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-6473"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:34043"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:33497"
     },
     {
       "type": "WEB",

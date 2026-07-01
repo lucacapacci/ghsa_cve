@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2274-3hgr-wxv6",
-  "modified": "2026-06-30T03:36:24Z",
+  "modified": "2026-07-01T15:34:47Z",
   "published": "2026-04-22T09:31:32Z",
   "aliases": [
     "CVE-2026-31431"
@@ -18,10 +18,6 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:13565"
     },
     {
       "type": "WEB",
@@ -46,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:19225"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:33486"
     },
     {
       "type": "WEB",
@@ -130,6 +130,10 @@
     {
       "type": "WEB",
       "url": "https://xint.io/blog/copy-fail-linux-distributions#the-fix-6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:13565"
     },
     {
       "type": "WEB",

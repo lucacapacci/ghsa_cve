@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qg45-rc8c-9676",
-  "modified": "2026-07-01T03:35:24Z",
+  "modified": "2026-07-01T15:35:13Z",
   "published": "2026-07-01T03:35:24Z",
   "aliases": [
     "CVE-2026-57962"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-63"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-64"
     }
   ],
   "database_specific": {

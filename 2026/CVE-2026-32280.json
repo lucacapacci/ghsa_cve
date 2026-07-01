@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4pr-4j3g-9v7v",
-  "modified": "2026-06-30T03:36:12Z",
+  "modified": "2026-07-01T15:34:46Z",
   "published": "2026-04-08T03:32:14Z",
   "aliases": [
     "CVE-2026-32280"
@@ -18,10 +18,6 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32280"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:22959"
     },
     {
       "type": "WEB",
@@ -81,7 +77,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:24762"
+    },
+    {
+      "type": "WEB",
       "url": "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32280.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:22959"
     },
     {
       "type": "WEB",
@@ -145,10 +149,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:18027"
-    },
-    {
-      "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2026-4947"
     },
     {
@@ -174,6 +174,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:9385"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:33722"
     },
     {
       "type": "WEB",
@@ -269,7 +273,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:24762"
+      "url": "https://access.redhat.com/errata/RHSA-2026:18027"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrg3-gfjw-hm96",
-  "modified": "2026-06-30T03:36:12Z",
+  "modified": "2026-07-01T15:34:46Z",
   "published": "2026-04-08T03:32:14Z",
   "aliases": [
     "CVE-2026-32283"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32283.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:24337"
     },
     {
       "type": "WEB",
@@ -113,10 +117,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:18032"
-    },
-    {
-      "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2026-4870"
     },
     {
@@ -146,6 +146,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:7291"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:33722"
     },
     {
       "type": "WEB",
@@ -205,7 +209,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:24337"
+      "url": "https://access.redhat.com/errata/RHSA-2026:18032"
     },
     {
       "type": "WEB",
