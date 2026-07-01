@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j3c-42xv-3f84",
-  "modified": "2025-11-05T20:14:29Z",
+  "modified": "2026-07-01T16:16:51Z",
   "published": "2025-07-10T21:31:52Z",
   "aliases": [
     "CVE-2025-52434"
   ],
-  "summary": "Apache Tomcat Utilities is vulnerable to resource exhaustion when using the APR/Native connector",
+  "summary": "Apache Tomcat is vulnerable to resource exhaustion when using the APR/Native connector",
   "details": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') vulnerability in Apache Tomcat when using the APR/Native connector. This was particularly noticeable with client initiated closes of HTTP/2 connections.\n\nThis issue affects Apache Tomcat: from 9.0.0.M1 through 9.0.106.  The following versions were EOL at the time the CVE was created but are known to be affected: 8.5.0 through 8.5.100. Other, older, EOL versions may also be affected.\n\nUsers are recommended to upgrade to version 9.0.107, which fixes the issue.",
   "severity": [
     {
@@ -22,7 +22,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-util"
+        "name": "org.apache.tomcat:tomcat-coyote"
       },
       "ranges": [
         {
@@ -41,7 +41,45 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-util"
+        "name": "org.apache.tomcat:tomcat-coyote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.5.0"
+            },
+            {
+              "last_affected": "8.5.100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat.embed:tomcat-embed-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.0.0.M1"
+            },
+            {
+              "fixed": "9.0.107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat.embed:tomcat-embed-core"
       },
       "ranges": [
         {
