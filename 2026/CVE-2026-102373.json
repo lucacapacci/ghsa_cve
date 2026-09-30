@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcm4-67q4-6r6m",
-  "modified": "2026-09-29T03:30:40Z",
+  "modified": "2026-09-30T12:35:13Z",
   "published": "2026-09-29T03:30:40Z",
   "aliases": [
     "CVE-2026-102373"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102373"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.spiizn.xyz/articles/remote-code-execution-turning-a-ticket-into-a-new-issue"
     },
     {
       "type": "WEB",

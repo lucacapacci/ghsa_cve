@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r5q-f55r-9frx",
-  "modified": "2026-04-28T15:30:50Z",
+  "modified": "2026-09-30T12:35:09Z",
   "published": "2026-04-28T15:30:50Z",
   "aliases": [
     "CVE-2026-40551"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert.pl/posts/2026/04/CVE-2026-40550"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.binsoft.pl/produkty"
     },
     {
       "type": "WEB",

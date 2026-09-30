@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3jj-75h6-5xmp",
-  "modified": "2026-09-28T21:31:17Z",
+  "modified": "2026-09-30T12:35:13Z",
   "published": "2026-09-28T21:31:16Z",
   "aliases": [
     "CVE-2026-102010"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102010"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73642"
     },
     {
       "type": "WEB",
