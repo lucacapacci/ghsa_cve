@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6h76-35rh-gxm9",
-  "modified": "2026-09-04T18:31:14Z",
+  "modified": "2026-09-30T18:32:38Z",
   "published": "2026-08-26T18:31:56Z",
   "aliases": [
     "CVE-2026-80428"
@@ -54,6 +54,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/ILIAS-eLearning/ILIAS"
+    },
+    {
+      "type": "WEB",
+      "url": "https://schweigertit.de/en/advisories/SIT-2026-002.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://schweigertit.de/en/writeups/php-object-injection-shibboleth-logout.html"
     },
     {
       "type": "WEB",

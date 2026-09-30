@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffvc-2cpw-m56g",
-  "modified": "2026-09-29T15:31:28Z",
+  "modified": "2026-09-30T18:33:11Z",
   "published": "2026-09-29T15:31:28Z",
   "aliases": [
     "CVE-2026-100789"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-100"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-101"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-102"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-103"
     },
     {
       "type": "WEB",

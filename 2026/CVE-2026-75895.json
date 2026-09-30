@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpm9-38vr-4gp8",
-  "modified": "2026-09-21T21:31:48Z",
+  "modified": "2026-09-30T18:33:00Z",
   "published": "2026-09-18T21:32:25Z",
   "aliases": [
     "CVE-2026-75895"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cgit.osmocom.org/libsmpp34/commit/?id=af0e2912057551dab97bbe26e6a41f18a75f3bbb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/09/msg00038.html"
     }
   ],
   "database_specific": {

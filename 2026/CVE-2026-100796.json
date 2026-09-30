@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g938-8mrh-4gqq",
-  "modified": "2026-09-29T15:31:32Z",
+  "modified": "2026-09-30T18:33:11Z",
   "published": "2026-09-29T15:31:31Z",
   "aliases": [
     "CVE-2026-100796"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2049604"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-101"
     },
     {
       "type": "WEB",

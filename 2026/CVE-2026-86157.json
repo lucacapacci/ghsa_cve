@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-299j-hfrq-4753",
-  "modified": "2026-09-29T09:31:17Z",
+  "modified": "2026-09-30T15:31:13Z",
   "published": "2026-09-29T09:31:17Z",
   "aliases": [
     "CVE-2026-86157"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86157"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.telerik.com/fiddler/fiddler-everywhere/documentation/knowledge-base/kb-security-exposed-dangerous-method-or-function-cve-2026-86157"
     },
     {
       "type": "WEB",

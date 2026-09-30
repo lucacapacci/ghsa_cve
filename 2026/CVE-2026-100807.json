@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fmw-j564-6qjv",
-  "modified": "2026-09-29T15:31:36Z",
+  "modified": "2026-09-30T18:33:12Z",
   "published": "2026-09-29T15:31:36Z",
   "aliases": [
     "CVE-2026-100807"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-100"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-101"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-102"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-103"
     },
     {
       "type": "WEB",

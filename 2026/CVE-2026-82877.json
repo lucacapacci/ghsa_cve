@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmmj-hr44-h52v",
-  "modified": "2026-09-04T18:31:14Z",
+  "modified": "2026-09-30T18:32:38Z",
   "published": "2026-08-31T12:30:24Z",
   "aliases": [
     "CVE-2026-82877"
@@ -62,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ILIAS-eLearning/ILIAS/blob/v11.2/components/ILIAS/soap/classes/class.ilSoapFileAdministration.php#L56"
+    },
+    {
+      "type": "WEB",
+      "url": "https://schweigertit.de/en/advisories/SIT-2026-003.html"
     },
     {
       "type": "WEB",

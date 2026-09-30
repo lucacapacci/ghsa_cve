@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m3c-9jr3-3cgr",
-  "modified": "2026-09-29T15:31:35Z",
+  "modified": "2026-09-30T18:33:12Z",
   "published": "2026-09-29T15:31:35Z",
   "aliases": [
     "CVE-2026-100803"
@@ -21,6 +21,18 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-100"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-101"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-102"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-103"
     },
     {
       "type": "WEB",

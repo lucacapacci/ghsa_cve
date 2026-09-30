@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c9g-74h5-78r7",
-  "modified": "2026-09-30T12:35:18Z",
+  "modified": "2026-09-30T15:31:21Z",
   "published": "2026-09-30T12:35:18Z",
   "aliases": [
     "CVE-2026-88920"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/grt43m3bgbzz0mk0cnho3rcybb1j01z9"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/09/30/10"
     }
   ],
   "database_specific": {

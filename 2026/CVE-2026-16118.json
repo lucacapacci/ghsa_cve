@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp7g-r78m-cc2g",
-  "modified": "2026-09-30T12:35:11Z",
+  "modified": "2026-09-30T18:32:36Z",
   "published": "2026-07-17T21:31:44Z",
   "aliases": [
     "CVE-2026-16118"
@@ -30,6 +30,34 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-16118"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73962"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73961"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73960"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73959"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73930"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73929"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73909"
     },
     {
       "type": "WEB",

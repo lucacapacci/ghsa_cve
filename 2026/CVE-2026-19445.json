@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7jvw-f348-84gq",
+  "modified": "2026-09-30T18:33:49Z",
+  "published": "2026-09-30T18:33:49Z",
+  "aliases": [
+    "CVE-2026-19445"
+  ],
+  "details": "A remote, unauthenticated TLS client can make a server crash or call\nthrough a freed pointer if its sni_callback assigns a different context to\nSSLSocket.context (the documented way to select a certificate per server\nname) and nothing else keeps the original ssl.SSLContext alive. Typical\ncases are servers that create an SSLContext per connection or replace it\nwhile connections are open; servers that wrap their listening socket with\nit are not affected.\n\n\nMitigation: keep a reference to every SSLContext that sets sni_callback for\nthe lifetime of the server. TLS clients are not affected.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19445"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/issues/156293"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/pull/158504"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-09-30T17:16:45Z"
+  }
+}

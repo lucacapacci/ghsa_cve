@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66vg-36xv-j6x4",
-  "modified": "2026-09-30T12:35:18Z",
+  "modified": "2026-09-30T15:31:21Z",
   "published": "2026-09-30T12:35:18Z",
   "aliases": [
     "CVE-2026-87830"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/lwlozb1x20d16f9dnyvoygc9rrhzq2vn"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/09/30/9"
     }
   ],
   "database_specific": {
