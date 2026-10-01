@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg46-8gx2-qp79",
-  "modified": "2026-09-29T18:31:46Z",
+  "modified": "2026-09-30T21:31:58Z",
   "published": "2026-09-29T18:31:46Z",
   "aliases": [
     "CVE-2026-100238"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - Flow Extension allows Stored XSS.\n\nThis issue affects Mediawiki - Flow Extension: from * before 1.46.1, 1.45.5, 1.43.10.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-29T17:17:00Z"

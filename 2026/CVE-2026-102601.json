@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxf4-7mrp-vvpr",
-  "modified": "2026-09-29T18:10:14Z",
+  "modified": "2026-09-30T21:26:45Z",
   "published": "2026-09-29T18:10:14Z",
   "aliases": [
     "CVE-2026-102601"
@@ -44,6 +44,10 @@
       "url": "https://github.com/thephpleague/flysystem/security/advisories/GHSA-cxf4-7mrp-vvpr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102601"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/thephpleague/flysystem/commit/ef4a9a557d769b5d472c403125716706a0d9cc77"
     },
@@ -63,6 +67,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-09-29T18:10:14Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-09-29T16:17:06Z"
   }
 }

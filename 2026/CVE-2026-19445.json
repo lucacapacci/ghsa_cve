@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jvw-f348-84gq",
-  "modified": "2026-09-30T18:33:49Z",
+  "modified": "2026-09-30T21:32:07Z",
   "published": "2026-09-30T18:33:49Z",
   "aliases": [
     "CVE-2026-19445"
@@ -29,7 +29,31 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/cd7e51e7d4563866fbaa1e2521ae69b45daf3698"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/d8717ed01717a9641686e6e6f83f0ab8af235e2c"
+    },
+    {
+      "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/09/30/17"
     }
   ],
   "database_specific": {

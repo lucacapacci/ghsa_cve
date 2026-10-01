@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9227-j4qr-f6gf",
+  "modified": "2026-09-30T21:32:12Z",
+  "published": "2026-09-30T21:32:12Z",
+  "aliases": [
+    "CVE-2026-51860"
+  ],
+  "details": "bisheng 2.3.0, 2.4.0, and 2.4.0-beta1 is vulnerable to Directory Traversal in src/backend/bisheng/linsight/domain/task_exec.py.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51860"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dataelement/bisheng/issues/1994"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/e4129afdd9af2ff1bdcecf27ec5098cf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-09-30T21:17:12Z"
+  }
+}

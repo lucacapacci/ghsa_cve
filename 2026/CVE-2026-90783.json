@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9xf-h66v-mjmc",
-  "modified": "2026-09-13T15:30:22Z",
+  "modified": "2026-09-30T21:31:51Z",
   "published": "2026-09-13T15:30:22Z",
   "aliases": [
     "CVE-2026-90783"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://codeberg.org/mbunkus/mkvtoolnix/src/tag/release-101.0/lib/avilib-0.6.10/avilib.c#L2552-L2570"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/09/msg00040.html"
     },
     {
       "type": "WEB",

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6f6h-q22j-2q75",
+  "modified": "2026-09-30T21:32:12Z",
+  "published": "2026-09-30T21:32:12Z",
+  "aliases": [
+    "CVE-2026-51869"
+  ],
+  "details": "DB-GPT v0.8.0 sandbox API silently falls back to LocalRuntime and executes code on host.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51869"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/eosphoros-ai/DB-GPT/issues/3082"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/884fbbd589998b81fa05c20ac205569f"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-09-30T21:17:12Z"
+  }
+}

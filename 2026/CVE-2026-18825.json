@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f76-923c-xvfq",
-  "modified": "2026-09-28T15:31:50Z",
+  "modified": "2026-09-30T21:31:55Z",
   "published": "2026-09-28T15:31:50Z",
   "aliases": [
     "CVE-2026-18825"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cds.thalesgroup.com/en/tcs-cert/CVE-2026-18825"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.thalesgroup.com/en/search/cybersecurity/cybersecurity-services/cve-2026-18825"
     }
   ],
   "database_specific": {

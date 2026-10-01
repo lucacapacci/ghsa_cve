@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgjv-5xcv-4jq5",
-  "modified": "2026-09-30T00:32:29Z",
+  "modified": "2026-09-30T21:32:04Z",
   "published": "2026-09-30T00:32:29Z",
   "aliases": [
     "CVE-2026-103046"
   ],
   "details": "Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Wikimedia Foundation MediaWiki - WikiLambda extension allows Stored XSS.\n\nThis issue affects MediaWiki - WikiLambda extension: before 1.46.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-29T23:17:22Z"

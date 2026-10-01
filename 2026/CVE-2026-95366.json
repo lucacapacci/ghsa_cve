@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rm8-6r4w-v7hc",
-  "modified": "2026-09-29T18:32:10Z",
+  "modified": "2026-09-30T21:32:01Z",
   "published": "2026-09-29T18:32:10Z",
   "aliases": [
     "CVE-2026-95366"
   ],
   "details": "Use of released resource in Core in Google Chrome prior to 154.0.8037.57 allowed a remote attacker who had compromised the renderer process to bypass web origin policy via a crafted HTML page. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-672"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-29T18:17:30Z"

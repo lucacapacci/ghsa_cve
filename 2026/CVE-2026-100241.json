@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm8p-x35f-6gwh",
-  "modified": "2026-09-29T18:31:46Z",
+  "modified": "2026-09-30T21:31:58Z",
   "published": "2026-09-29T18:31:46Z",
   "aliases": [
     "CVE-2026-100241"
   ],
   "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Wikimedia Foundation Mediawiki - EventBus Extension allows Excavation.\n\nThis issue affects Mediawiki - EventBus Extension: 1.47.0-alpha.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-200"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-29T17:17:01Z"

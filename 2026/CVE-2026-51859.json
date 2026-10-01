@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vx7w-p635-5ppx",
+  "modified": "2026-09-30T21:32:12Z",
+  "published": "2026-09-30T21:32:12Z",
+  "aliases": [
+    "CVE-2026-51859"
+  ],
+  "details": "bisheng 2.3.0, 2.4.0, and 2.4.0-beta1 is vulnerable to directory traversal in save_download_file (src/backend/bisheng/core/cache/utils.py:290).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51859"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dataelement/bisheng/issues/1994"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/df160925a60dd917550f7c87bfe62519"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-09-30T21:17:11Z"
+  }
+}

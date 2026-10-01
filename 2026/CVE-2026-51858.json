@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6r9c-47f4-cxxx",
+  "modified": "2026-09-30T21:32:12Z",
+  "published": "2026-09-30T21:32:12Z",
+  "aliases": [
+    "CVE-2026-51858"
+  ],
+  "details": "In camel-ai camel 0.2.91a1, v0.2.91a2 and v0.2.91a3, TerminalToolkit.shell_exec allows prompt-driven shell command execution without an approval boundary.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51858"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/camel-ai/camel/issues/4038"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/1efc7b63bded3e4d39c54ff7b0caedf4"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-09-30T21:17:11Z"
+  }
+}

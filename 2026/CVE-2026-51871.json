@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5656-fcv7-9pxx",
+  "modified": "2026-09-30T21:32:12Z",
+  "published": "2026-09-30T21:32:12Z",
+  "aliases": [
+    "CVE-2026-51871"
+  ],
+  "details": "Devika v1.0 is vulnerable to Code Injection in the Runner.execute function in src/agents/runner/runner.py which allows an attacker to achieve arbitrary code execution by exploiting the direct execution of LLM-generated content.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51871"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/stitionai/devika/issues/714"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/3067a5bd69dcd35ffc98dc41ca611242"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-09-30T21:17:12Z"
+  }
+}

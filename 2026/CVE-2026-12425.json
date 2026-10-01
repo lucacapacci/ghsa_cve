@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp5h-m3hq-5qph",
-  "modified": "2026-06-26T18:33:47Z",
+  "modified": "2026-09-30T21:31:39Z",
   "published": "2026-06-16T21:32:01Z",
   "aliases": [
     "CVE-2026-12425"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/PaloAltoNetworks/u42-vulnerability-disclosures/blob/main/2026/PANW-2026-0002/PANW-2026-0002.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/PaloAltoNetworks/u42-vulnerability-disclosures/blob/main/2026/PANW-2026-0002/PANW-2026-0003.md"
     }
   ],
   "database_specific": {
