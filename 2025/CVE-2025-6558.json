@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w32-633g-38jh",
-  "modified": "2025-11-05T00:31:21Z",
+  "modified": "2026-10-01T03:31:10Z",
   "published": "2025-07-15T18:31:26Z",
   "aliases": [
     "CVE-2025-6558"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/08/02/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/09/30/18"
     }
   ],
   "database_specific": {
