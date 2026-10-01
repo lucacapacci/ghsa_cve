@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8w8m-36rw-gg63",
-  "modified": "2026-09-10T15:33:21Z",
+  "modified": "2026-10-01T06:31:18Z",
   "published": "2026-09-10T15:33:21Z",
   "aliases": [
     "CVE-2026-88924"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88924"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73998"
     },
     {
       "type": "WEB",
