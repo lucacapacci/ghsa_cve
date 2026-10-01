@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86w9-cpqp-85rv",
-  "modified": "2026-09-03T21:31:15Z",
+  "modified": "2026-10-01T21:09:09Z",
   "published": "2026-09-03T21:31:15Z",
   "aliases": [
     "CVE-2026-85393"
   ],
+  "summary": "node-forge RSA PKCS#1 v1.5 signature verification accepts extra nested DigestAlgorithm elements",
   "details": "node-forge through 1.4.0 fails to validate element count in nested DigestAlgorithm sequences during RSA PKCS#1 v1.5 signature verification. Attackers can embed garbage bytes inside the DigestAlgorithm sequence to forge valid signatures for arbitrary messages using low-exponent RSA keys. This is an incomplete fix for CVE-2026-33894.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "node-forge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.4.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,11 +49,15 @@
       "url": "https://github.com/digitalbazaar/forge/issues/1149"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/digitalbazaar/forge/pull/1152"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://github.com/advisories/GHSA-ppp5-5v6c-4jwp"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/digitalbazaar/forge"
     },
     {
@@ -53,8 +78,8 @@
       "CWE-347"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-10-01T21:09:09Z",
     "nvd_published_at": "2026-09-03T19:17:31Z"
   }
 }

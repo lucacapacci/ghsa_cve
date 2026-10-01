@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcx9-3q3q-wmf9",
-  "modified": "2026-10-01T18:32:43Z",
+  "modified": "2026-10-01T21:32:49Z",
   "published": "2026-10-01T18:32:43Z",
   "aliases": [
     "CVE-2026-47360"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://httpd.apache.org/security/vulnerabilities_24.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/01/14"
     }
   ],
   "database_specific": {
