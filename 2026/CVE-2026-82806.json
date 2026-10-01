@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2252-4rmp-q4vj",
-  "modified": "2026-10-01T12:31:20Z",
+  "modified": "2026-10-01T15:30:39Z",
   "published": "2026-10-01T12:31:19Z",
   "aliases": [
     "CVE-2026-82806"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/wvkv2b4oy2fh9v79d30gtsy0bhqmzcdd"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/01/3"
     }
   ],
   "database_specific": {

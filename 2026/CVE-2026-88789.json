@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8wc-5pf9-6ph5",
-  "modified": "2026-10-01T12:31:20Z",
+  "modified": "2026-10-01T15:30:39Z",
   "published": "2026-10-01T12:31:20Z",
   "aliases": [
     "CVE-2026-88789"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://camel.apache.org/security/CVE-2026-88789.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/01/1"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cp4-6jfv-7725",
-  "modified": "2026-10-01T12:31:20Z",
+  "modified": "2026-10-01T15:30:39Z",
   "published": "2026-10-01T12:31:20Z",
   "aliases": [
     "CVE-2026-94212"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/1230fnojnmc7bfz3n0nkt7tkcld9d1sc"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/01/4"
     }
   ],
   "database_specific": {

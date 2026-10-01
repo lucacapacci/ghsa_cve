@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p62p-8pxp-cm8g",
-  "modified": "2026-09-30T12:35:17Z",
+  "modified": "2026-10-01T18:32:41Z",
   "published": "2026-09-30T12:35:17Z",
   "aliases": [
     "CVE-2026-103113"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OS4ED/openSIS-Classic/issues/473"
     },
     {
       "type": "WEB",

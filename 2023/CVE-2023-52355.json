@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh6j-mgh8-7prh",
-  "modified": "2026-09-30T18:32:04Z",
+  "modified": "2026-10-01T18:32:18Z",
   "published": "2024-01-25T21:32:14Z",
   "aliases": [
     "CVE-2023-52355"
@@ -30,6 +30,30 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2023-52355"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74463"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74462"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74461"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74460"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74459"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74458"
     },
     {
       "type": "WEB",

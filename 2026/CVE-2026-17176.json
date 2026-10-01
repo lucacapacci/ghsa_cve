@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g92m-rv6c-v268",
-  "modified": "2026-09-11T00:31:16Z",
+  "modified": "2026-10-01T18:32:35Z",
   "published": "2026-09-11T00:31:16Z",
   "aliases": [
     "CVE-2026-17176"
@@ -21,11 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/deco-m9-plus/v2"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.tp-link.com/en/support/faq/5293"
     },
     {
       "type": "WEB",
       "url": "https://www.tp-link.com/us/support/download/deco-be11000/#Firmware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/download/deco-m9-plus/v2/#Firmware"
     }
   ],
   "database_specific": {

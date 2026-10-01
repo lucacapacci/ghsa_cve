@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pxm-cr92-crx8",
-  "modified": "2026-09-28T03:30:25Z",
+  "modified": "2026-10-01T18:32:34Z",
   "published": "2026-08-07T12:32:01Z",
   "aliases": [
     "CVE-2026-15816"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-15816"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74499"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:70586"
     },
     {
       "type": "WEB",

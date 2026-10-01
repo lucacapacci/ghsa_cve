@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6627-r6cp-53w5",
-  "modified": "2026-10-01T12:31:21Z",
+  "modified": "2026-10-01T15:30:39Z",
   "published": "2026-10-01T12:31:21Z",
   "aliases": [
     "CVE-2026-94220"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/bf5q45ddyr2hf3hxkt56dzjlttgpdg78"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/01/5"
     }
   ],
   "database_specific": {

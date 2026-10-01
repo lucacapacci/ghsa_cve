@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f68q-ff49-59jx",
-  "modified": "2026-09-30T18:33:12Z",
+  "modified": "2026-10-01T18:32:39Z",
   "published": "2026-09-29T15:31:38Z",
   "aliases": [
     "CVE-2026-100817"
   ],
   "details": "Other issue in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 157.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-29T13:17:46Z"

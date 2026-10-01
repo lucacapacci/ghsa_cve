@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7c8-hp3q-qpv8",
-  "modified": "2026-09-09T06:31:36Z",
+  "modified": "2026-10-01T18:32:35Z",
   "published": "2026-09-09T06:31:36Z",
   "aliases": [
     "CVE-2026-12855"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.insyde.com/security-pledge/sa-2026009"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/553437"
     }
   ],
   "database_specific": {

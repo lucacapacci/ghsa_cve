@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqmp-fw94-rpg4",
-  "modified": "2026-09-24T12:31:21Z",
+  "modified": "2026-10-01T18:32:32Z",
   "published": "2026-07-28T18:33:03Z",
   "aliases": [
     "CVE-2026-16313"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-16313"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:70586"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cxg-v7p7-qc7j",
-  "modified": "2026-10-01T00:32:49Z",
+  "modified": "2026-10-01T18:32:35Z",
   "published": "2026-09-01T18:30:44Z",
   "aliases": [
     "CVE-2026-84268"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:73998"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74370"
     },
     {
       "type": "WEB",

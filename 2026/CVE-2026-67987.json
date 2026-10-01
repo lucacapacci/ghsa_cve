@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m38-526f-3498",
-  "modified": "2026-09-29T21:33:25Z",
+  "modified": "2026-10-01T18:32:41Z",
   "published": "2026-09-29T21:33:25Z",
   "aliases": [
     "CVE-2026-67987"
   ],
   "details": "crmne/ruby_llm at commit fa6f279847d6d7027814539d9c0dfc3bbdfd2a83 contains polynomial-time regular expression denial-of-service conditions in think-tag response parsing on Ruby 3.1.x. A malicious or anomalous model response containing many unterminated <think> tags can cause excessive CPU consumption in two consecutive regular expressions and delay chat-completion processing",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-1333"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-29T20:17:22Z"
