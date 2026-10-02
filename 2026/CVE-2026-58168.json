@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jg88-rvpc-qvxj",
-  "modified": "2026-06-30T18:31:38Z",
+  "modified": "2026-10-02T18:27:29Z",
   "published": "2026-06-30T18:31:38Z",
   "aliases": [
     "CVE-2026-58168"
   ],
+  "summary": "DeepTutor missing MCP tool authorization allows non-admin users to invoke unrestricted tools",
   "details": "DeepTutor before version 1.4.10 contains an authorization bypass vulnerability that allows low-privilege users to invoke unrestricted MCP tools due to the allowed_mcp_tools function returning None instead of a denied result when mcp_tools is omitted from a user's grant in deeptutor/multi_user/tool_access.py. Attackers or prompt-injected content acting within a user session can enumerate and invoke any configured MCP tool, including filesystem, shell, and browser servers, gaining unauthorized access to sensitive deployment resources.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "deeptutor"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -30,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/HKUDS/DeepTutor/commit/90046374b3dcd4f8a866d2d64a64440bc08eb2ef"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/HKUDS/DeepTutor"
     },
     {
       "type": "WEB",
@@ -45,8 +70,8 @@
       "CWE-862"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-10-02T18:27:29Z",
     "nvd_published_at": "2026-06-30T17:16:23Z"
   }
 }

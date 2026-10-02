@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8rp-xp3h-qjf9",
-  "modified": "2026-04-27T00:30:27Z",
+  "modified": "2026-10-02T15:31:11Z",
   "published": "2026-04-27T00:30:27Z",
   "aliases": [
     "CVE-2026-7064"
@@ -20,8 +20,16 @@
   "affected": [],
   "references": [
     {
+      "type": "WEB",
+      "url": "https://github.com/AgentDeskAI/browser-tools-mcp/security/advisories/GHSA-xvrv-w8pg-f25f"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7064"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/AgentDeskAI/browser-tools-mcp/issues/224"
     },
     {
       "type": "WEB",
@@ -33,7 +41,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/AgentDeskAI/browser-tools-mcp/releases/tag/v2.0.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2026-7064"
+    },
+    {
+      "type": "WEB",
       "url": "https://vuldb.com/submit/798616"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/961874"
     },
     {
       "type": "WEB",

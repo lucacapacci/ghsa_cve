@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7mv-crf9-43g9",
-  "modified": "2022-05-10T00:00:33Z",
+  "modified": "2026-10-02T15:31:09Z",
   "published": "2022-05-03T00:00:43Z",
   "aliases": [
     "CVE-2022-29968"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/32452a3eb8b64e01e2be717f518c0be046975b9d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU7MT7BPTA2NG24BTLZF5ZWYTLSO7BU3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TLWTG3TWIMLNQEVTA3ZQYVLLU2AJM3DY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XA7UZ3HS73KXVYCIKN5ZDH7LLLGPUMOZ"
     },
     {
       "type": "WEB",

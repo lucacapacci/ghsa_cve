@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h37h-2fv9-j4qw",
-  "modified": "2026-09-10T15:33:19Z",
+  "modified": "2026-10-02T15:31:11Z",
   "published": "2026-09-10T15:33:19Z",
   "aliases": [
     "CVE-2026-88893"
@@ -26,6 +26,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88893"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Openpanel-dev/openpanel/commit/5faad3226df8fe03bc9434dfd255afb3fcea4c83"
     },
     {
       "type": "WEB",

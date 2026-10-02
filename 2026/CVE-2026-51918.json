@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xfxm-q6r8-5xm6",
+  "modified": "2026-10-02T18:31:28Z",
+  "published": "2026-10-02T18:31:28Z",
+  "aliases": [
+    "CVE-2026-51918"
+  ],
+  "details": "FinRobot 1.0.0 contains code injection in CodingUtils.create_file_with_code ().",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51918"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/AI4Finance-Foundation/FinRobot/issues/102"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/8180c78c3852f747638e9cf04b51dda1"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-02T16:16:50Z"
+  }
+}

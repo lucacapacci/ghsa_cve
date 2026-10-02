@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5973-rj98-r6wc",
-  "modified": "2026-09-25T15:31:46Z",
+  "modified": "2026-10-02T15:31:12Z",
   "published": "2026-09-25T15:31:46Z",
   "aliases": [
     "CVE-2026-100074"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Mark bpf_refcount field as unique\n\nBPF_REFCOUNT is not marked as a unique field, while it should be. Fix\nthis oversight.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T14:17:13Z"

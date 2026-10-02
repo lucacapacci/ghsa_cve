@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q43w-q4wm-h8j4",
+  "modified": "2026-10-02T18:31:27Z",
+  "published": "2026-10-02T18:31:27Z",
+  "aliases": [
+    "CVE-2026-51899"
+  ],
+  "details": "In SuperAGI v0.0.14 and prior, controller endpoints (/api/agents/create, /api/agents/schedule, /api/agents/delete, /api/agents/edit_schedule, /api/agents/stop_schedule) allow authenticated users from one organization to create, schedule, edit, stop, and delete agents belonging to a different organization's project. The endpoints accept a project_id parameter but do not verify that the project belongs to the authenticated user's organization.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51899"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/TransformerOptimus/SuperAGI/issues/1556"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/c1e18e9c64c324db0bccfaa547eb2d05"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-02T16:16:49Z"
+  }
+}

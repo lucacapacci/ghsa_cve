@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x44-7964-7g45",
-  "modified": "2026-09-25T15:31:46Z",
+  "modified": "2026-10-02T15:31:12Z",
   "published": "2026-09-25T15:31:46Z",
   "aliases": [
     "CVE-2026-100077"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/msm: Recover HW before retire hung submit\n\nDuring recovery, it is not safe to retire the hung submit before we\nrecover the GPU. Retiring the submit triggers BO free and that can\nresult in GPU pagefaults since the GPU may be actively accessing those\nBOs.\n\nTo fix this, retire the submits after gpu recovery is complete in\nrecover_worker().\n\nPatchwork: https://patchwork.freedesktop.org/patch/730655/",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T14:17:14Z"

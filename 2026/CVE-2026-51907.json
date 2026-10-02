@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rprh-3hxw-c233",
+  "modified": "2026-10-02T18:31:28Z",
+  "published": "2026-10-02T18:31:28Z",
+  "aliases": [
+    "CVE-2026-51907"
+  ],
+  "details": "In TaskingAI v0.3.0 in the QR Code Generator plugin save_base64_image function, a path traversal vulnerability allows attackers to write image files to arbitrary locations on the server filesystem by manipulating the project_id parameter.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51907"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/TaskingAI/TaskingAI/issues/374"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/357950ddd2f65566b1b33525651b5635"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-02T16:16:50Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58mw-q3p9-j453",
-  "modified": "2026-09-25T15:31:46Z",
+  "modified": "2026-10-02T15:31:12Z",
   "published": "2026-09-25T15:31:46Z",
   "aliases": [
     "CVE-2026-100078"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: mei: pass correct argument to function\n\nThe first argument to iwl_mei_write_cyclic_buf() should be the cldev\nbut the q_head pointer is passed instead. Fix it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T14:17:14Z"

@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8c5q-hx4g-qq23",
-  "modified": "2026-07-07T21:31:37Z",
+  "modified": "2026-10-02T19:14:44Z",
   "published": "2026-07-07T21:31:36Z",
   "aliases": [
     "CVE-2026-59707"
   ],
+  "summary": " LocalAI POST /models/apply permits unauthenticated server-side request forgery through gallery URLs",
   "details": "LocalAI contains an unauthenticated server-side request forgery vulnerability in the POST /models/apply endpoint that allows attackers to fetch arbitrary internal URLs. The endpoint passes unsanitized gallery URL fields directly to gallery.GetGalleryConfigFromURLWithContext without proper validation, enabling attackers to force the server to issue HTTP GET requests to private and loopback ranges with partial response content leaked through error messages.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:H/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:H/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/mudler/LocalAI"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.40.1-0.20260703213242-2cbb3c96b34d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,7 +53,7 @@
       "url": "https://github.com/mudler/LocalAI/commit/f9b968e19d7cbc556d59dceb2e0e450b828a3fda"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/mudler/LocalAI"
     },
     {
@@ -45,8 +66,8 @@
       "CWE-918"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-10-02T19:14:44Z",
     "nvd_published_at": "2026-07-07T21:17:29Z"
   }
 }

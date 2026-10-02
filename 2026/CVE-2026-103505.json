@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9w9f-p9qm-rcm4",
-  "modified": "2026-10-01T18:32:43Z",
+  "modified": "2026-10-02T15:31:18Z",
   "published": "2026-10-01T18:32:43Z",
   "aliases": [
     "CVE-2026-103505"
@@ -19,6 +19,10 @@
   ],
   "affected": [],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/kubernetes-sigs/aws-efs-csi-driver/security/advisories/GHSA-pv26-6q9q-5773"
+    },
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103505"
