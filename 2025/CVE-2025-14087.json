@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frh9-7wfp-w73p",
-  "modified": "2026-09-29T03:30:27Z",
+  "modified": "2026-10-02T03:30:58Z",
   "published": "2025-12-10T09:30:25Z",
   "aliases": [
     "CVE-2025-14087"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-14087"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74674"
     },
     {
       "type": "WEB",

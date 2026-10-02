@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2xw5-r48v-m7fg",
+  "modified": "2026-10-02T06:30:55Z",
+  "published": "2026-10-02T06:30:55Z",
+  "aliases": [
+    "CVE-2026-81740"
+  ],
+  "details": "The Paytm Payment Gateway WordPress plugin before 2.8.9 does not verify that payment callbacks genuinely originate from the payment provider when its secret key has not been configured, which is its state immediately after activation, allowing unauthenticated attackers to change the status of arbitrary orders, including marking unpaid orders as paid and reducing stock.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81740"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/13767875-5010-494a-b3ed-133d58b8ecea"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-02T06:16:41Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv62-77m9-3736",
-  "modified": "2026-06-08T09:32:00Z",
+  "modified": "2026-10-02T06:30:52Z",
   "published": "2026-06-08T09:32:00Z",
   "aliases": [
     "CVE-2026-11499"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/submit/834888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/888875"
     },
     {
       "type": "WEB",
