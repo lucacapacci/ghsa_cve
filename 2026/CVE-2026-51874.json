@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cpp9-ff82-c7vg",
+  "modified": "2026-10-02T00:31:30Z",
+  "published": "2026-10-02T00:31:30Z",
+  "aliases": [
+    "CVE-2026-51874"
+  ],
+  "details": "In Devika v1.0, the Patcher Agent save_code_to_project function contains a path traversal vulnerability that allows attackers to write files outside the intended project workspace.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51874"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/stitionai/devika/issues/709"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/eb9e0cd66ee3c682a624650464d07302"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-01T22:17:02Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-86mq-h2wm-8hx9",
+  "modified": "2026-10-02T00:31:31Z",
+  "published": "2026-10-02T00:31:31Z",
+  "aliases": [
+    "CVE-2026-51895"
+  ],
+  "details": "Ragflow 0.24.0 and prior contains improper access control in update_metadata_setting (api/apps/kb_app.py). Depending on the exposed entry, an attacker can perform unauthorized cross-session or privilege-crossing operations.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51895"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/infiniflow/ragflow/issues/15268"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/0d1fbed64fa0d73d159a195a827cdb93"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-01T22:17:04Z"
+  }
+}

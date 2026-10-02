@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-m6gm-cm8g-r2qc",
+  "modified": "2026-10-02T00:31:30Z",
+  "published": "2026-10-02T00:31:30Z",
+  "aliases": [
+    "CVE-2026-51878"
+  ],
+  "details": "deeptutor 1.4.0 contains an authorization bypass through a user-controlled object identifier in TurnRuntimeManager.regenerate_last_turn. A remote caller can enumerate or obtain a session_id and trigger regenerate on another user's session.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51878"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/HKUDS/DeepTutor/issues/515"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/8f6e32ba67d184e64e80f243c6625f3a"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-01T22:17:02Z"
+  }
+}
