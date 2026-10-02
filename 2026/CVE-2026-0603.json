@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p5w-cvg5-gc5c",
-  "modified": "2026-04-17T13:23:49Z",
+  "modified": "2026-10-02T20:25:29Z",
   "published": "2026-01-23T09:30:28Z",
   "aliases": [
     "CVE-2026-0603"
@@ -28,7 +28,7 @@
               "introduced": "5.2.8"
             },
             {
-              "last_affected": "5.6.15"
+              "fixed": "5.3.38"
             }
           ]
         }
@@ -39,6 +39,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0603"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hibernate/hibernate-orm/commit/3f820fdf16ee4d1f556bc73b259625416d703048"
     },
     {
       "type": "WEB",
@@ -75,6 +79,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/hibernate/hibernate-orm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-0603.json"
     }
   ],
   "database_specific": {

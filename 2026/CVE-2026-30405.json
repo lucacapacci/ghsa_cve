@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4p9m-8gc4-rw2h",
-  "modified": "2026-03-18T12:58:45Z",
+  "modified": "2026-10-02T22:40:10Z",
   "published": "2026-03-16T18:32:03Z",
   "aliases": [
     "CVE-2026-30405"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "4.3.0"
+              "fixed": "4.4.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 4.3.0"
+      }
     }
   ],
   "references": [
@@ -51,6 +54,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/osrg/gobgp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/osrg/gobgp/releases/tag/v4.4.0"
     }
   ],
   "database_specific": {

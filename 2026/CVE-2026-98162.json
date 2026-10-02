@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6qh-h8p9-5c4q",
-  "modified": "2026-09-25T15:31:49Z",
+  "modified": "2026-10-02T21:31:57Z",
   "published": "2026-09-25T15:31:49Z",
   "aliases": [
     "CVE-2026-98162"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb/server: fix tree connection leak in smb2_tree_connect()\n\nSee the procedure below:\n\n  smb2_tree_connect\n    ksmbd_tree_conn_connect\n      xa_store(&sess->tree_conns, tree_conn->id, tree_conn)\n      ksmbd_counter_inc(KSMBD_COUNTER_TREE_CONNS)\n      ksmbd_share_tree_conn_inc(sc)\n    ksmbd_iov_pin_rsp // fail\n    status.ret = KSMBD_TREE_CONN_STATUS_NOMEM\n    // do not disconnect tree_conn\n\nDisconnect the new tree connection if ksmbd_iov_pin_rsp() fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T14:17:27Z"

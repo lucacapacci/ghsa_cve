@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7rjr-3q55-vv33",
-  "modified": "2025-10-22T19:12:17Z",
+  "modified": "2026-10-02T20:21:52Z",
   "published": "2021-12-14T18:01:28Z",
   "aliases": [
     "CVE-2021-45046"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/E:H"
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
     }
   ],
   "affected": [
@@ -44,7 +44,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.4.0"
             },
             {
               "fixed": "2.12.2"
@@ -128,6 +128,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.logging.log4j:log4j-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -150,6 +169,14 @@
     {
       "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/alert-cve-2021-44228.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2021/12/18/1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2021/12/15/3"
     },
     {
       "type": "WEB",
@@ -177,10 +204,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd"
-    },
-    {
-      "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202310-16"
     },
     {
@@ -190,6 +213,10 @@
     {
       "type": "WEB",
       "url": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032"
+    },
+    {
+      "type": "WEB",
+      "url": "https://logging.apache.org/security.html#CVE-2021-45046"
     },
     {
       "type": "WEB",
@@ -205,15 +232,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SIG7FZULMNK2XF6FZRU4VWYDQXNMUGAJ"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EOKPQGV24RRBBI4TBZUDQMM4MEH7MXCY"
-    },
-    {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-jfh8-c2jp-5v3q"
+      "url": "https://github.com/apache/logging-log4j2/compare/rel/2.3...rel/2.3.1"
     },
     {
       "type": "WEB",
@@ -230,18 +249,6 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-397453.pdf"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.openwall.com/lists/oss-security/2021/12/14/4"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.openwall.com/lists/oss-security/2021/12/15/3"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.openwall.com/lists/oss-security/2021/12/18/1"
     }
   ],
   "database_specific": {

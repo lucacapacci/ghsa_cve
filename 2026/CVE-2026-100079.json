@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7h52-f32w-m42c",
-  "modified": "2026-09-25T15:31:46Z",
+  "modified": "2026-10-02T21:31:57Z",
   "published": "2026-09-25T15:31:46Z",
   "aliases": [
     "CVE-2026-100079"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: ucsi: unregister debugfs entries on teardown\n\nucsi_register() creates per-instance debugfs entries, but\nucsi_unregister() keeps them around until ucsi_destroy().\n\nDrivers like ucsi_glink that unregister/register the same UCSI\ninstance across remoteproc restart then try to create an already\nexisting debugfs directory and log:\n\n  debugfs: 'pmic_glink.ucsi.0' already exists in 'ucsi'\n\nUnregister debugfs entries as part of ucsi_unregister(), and\nclear ucsi->debugfs after freeing it so repeated unregister\npaths remain safe.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-772"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T14:17:15Z"

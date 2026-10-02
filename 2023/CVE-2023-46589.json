@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fccv-jmmp-qg76",
-  "modified": "2025-08-08T18:32:42Z",
+  "modified": "2026-10-02T20:14:53Z",
   "published": "2023-11-28T18:30:23Z",
   "aliases": [
     "CVE-2023-46589"
@@ -162,6 +162,25 @@
             },
             {
               "fixed": "8.5.96"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat-coyote"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.0.0-M1"
+            },
+            {
+              "fixed": "11.0.0-M11"
             }
           ]
         }
