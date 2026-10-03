@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g66g-hh39-fx5j",
-  "modified": "2026-10-03T06:31:13Z",
+  "modified": "2026-10-03T18:31:03Z",
   "published": "2026-10-03T06:31:13Z",
   "aliases": [
     "CVE-2026-92437"
   ],
   "details": "The Mailchimp for WooCommerce WordPress plugin before 6.3 does not require authentication, a nonce or an ownership check before it acts on a customer's abandoned-cart record identified from request-supplied data, allowing an unauthenticated attacker to modify or delete another customer's stored cart.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-03T06:16:46Z"

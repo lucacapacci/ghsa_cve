@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr6m-q4jq-r64m",
-  "modified": "2026-10-03T06:31:13Z",
+  "modified": "2026-10-03T18:31:02Z",
   "published": "2026-10-03T06:31:13Z",
   "aliases": [
     "CVE-2026-86834"
   ],
   "details": "The MetForm  WordPress plugin before 4.3.1 does not properly restrict access to a debug file it writes to the web root on every form submission when its HubSpot Forms integration is enabled, allowing unauthenticated attackers to read upstream API response data, including correlation identifiers and cookies.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-03T06:16:44Z"

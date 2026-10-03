@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m3g-q793-wg8x",
-  "modified": "2026-10-03T06:31:13Z",
+  "modified": "2026-10-03T18:31:02Z",
   "published": "2026-10-03T06:31:13Z",
   "aliases": [
     "CVE-2026-86832"
   ],
   "details": "The MetForm  WordPress plugin before 4.3.1 does not properly restrict access to form submission data, allowing unauthenticated attackers to view submitter information through the REST API.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-03T06:16:43Z"
