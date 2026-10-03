@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h24g-pjpf-8f2m",
-  "modified": "2026-10-02T12:31:09Z",
+  "modified": "2026-10-03T00:31:12Z",
   "published": "2026-10-02T12:31:09Z",
   "aliases": [
     "CVE-2026-102731"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/b8kg8881pc0v8lp59w0fcfrs69wjbqvd"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/02/3"
     }
   ],
   "database_specific": {

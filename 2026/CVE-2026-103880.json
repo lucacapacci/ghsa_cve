@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4px-5x5j-5p92",
-  "modified": "2026-10-02T12:31:10Z",
+  "modified": "2026-10-03T00:31:12Z",
   "published": "2026-10-02T12:31:09Z",
   "aliases": [
     "CVE-2026-103880"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/39q63m54v9go6xj7pqj7q18c3szn9go4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/02/7"
     }
   ],
   "database_specific": {

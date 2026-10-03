@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55r6-rg38-gm55",
-  "modified": "2026-10-02T18:31:30Z",
+  "modified": "2026-10-03T00:31:13Z",
   "published": "2026-10-02T18:31:30Z",
   "aliases": [
     "CVE-2026-59265"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/svfdc1jtpqlw7mo6lgg9fthcmf754pl5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/02/2"
     }
   ],
   "database_specific": {
