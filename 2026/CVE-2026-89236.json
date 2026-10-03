@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fjqm-j5cq-22m7",
+  "modified": "2026-10-03T06:31:13Z",
+  "published": "2026-10-03T06:31:13Z",
+  "aliases": [
+    "CVE-2026-89236"
+  ],
+  "details": "The SaveTo Wishlist Lite  WordPress plugin before 1.1.5 does not sanitise and escape parameters before using them in the ORDER BY clause of a SQL query, allowing unauthenticated attackers to append additional SQL queries and extract sensitive information from the database.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89236"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/7b92ed60-7bcb-4dcf-8c57-0afcaa6809b7"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-03T06:16:45Z"
+  }
+}
