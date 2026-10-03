@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rqrg-f936-7vv9",
-  "modified": "2025-12-09T18:30:34Z",
+  "modified": "2026-10-03T12:31:01Z",
   "published": "2025-12-09T18:30:34Z",
   "aliases": [
     "CVE-2023-53857"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/300415caa373a07782fcbc2f8d9429bc2dc27a47"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/47cf3387de902e8f61f705b06cb2fc1315d26932"
     },
     {
       "type": "WEB",

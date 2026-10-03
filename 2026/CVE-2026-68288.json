@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmx4-77qw-24m9",
-  "modified": "2026-09-21T15:31:29Z",
+  "modified": "2026-10-03T12:31:02Z",
   "published": "2026-08-10T15:33:44Z",
   "aliases": [
     "CVE-2026-68288"
@@ -20,6 +20,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3c0bc7dcc5f9257d25c59eeb7ccb4df33dcfc446"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/5e9c8baee0329fbefe7c67aea945e2a07f15e98b"
     },
     {
@@ -29,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8fd6975d2aecc36b25ee82b6aef88e62a3527ccb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d427b152b663cb2b19fcd449d792e17edbe4a938"
     }
   ],
   "database_specific": {

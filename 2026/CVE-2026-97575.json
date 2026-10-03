@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhp7-73g8-wj3g",
-  "modified": "2026-09-25T15:31:42Z",
+  "modified": "2026-10-03T12:31:17Z",
   "published": "2026-09-25T12:31:25Z",
   "aliases": [
     "CVE-2026-97575"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97575"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1afaf85c4990fb1e3168d0d6e99246a65e526f1b"
     },
     {
       "type": "WEB",

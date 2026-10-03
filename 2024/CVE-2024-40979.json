@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvwx-6cpm-mjrj",
-  "modified": "2025-09-17T15:30:26Z",
+  "modified": "2026-10-03T12:31:00Z",
   "published": "2024-07-12T15:31:29Z",
   "aliases": [
     "CVE-2024-40979"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/303c017821d88ebad887814114d4e5966d320b28"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7e323cb55705398123ae087d4870c44e0424e7c0"
     },
     {
       "type": "WEB",

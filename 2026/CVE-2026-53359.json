@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpw8-53h7-xqcq",
-  "modified": "2026-07-29T21:30:47Z",
+  "modified": "2026-10-03T12:31:02Z",
   "published": "2026-07-04T12:30:28Z",
   "aliases": [
     "CVE-2026-53359"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53359"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0b5e8ead71e683bcf6232db16234cf7e6d553a23"
     },
     {
       "type": "WEB",

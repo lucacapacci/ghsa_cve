@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vqv-hxrc-vvx2",
-  "modified": "2026-09-24T18:31:29Z",
+  "modified": "2026-10-03T12:31:09Z",
   "published": "2026-09-24T18:31:29Z",
   "aliases": [
     "CVE-2026-93805"
@@ -20,7 +20,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6bdf4dcff98df634e04ebf99f52027a48d7f78ff"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6eb4bd50be53f5afbabb3a3b5153276e08fa7a4a"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8f4127a93cf60d561ad39849a9ac763ba0e14db5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ce2a3be6909462f49c34de96be71f0ad5f0d573f"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgrc-hf8c-f3vr",
-  "modified": "2024-11-20T18:32:15Z",
+  "modified": "2026-10-03T12:31:00Z",
   "published": "2024-09-18T09:30:37Z",
   "aliases": [
     "CVE-2024-46775"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/673f816b9e1e92d1f70e1bf5f21b531e0ff9ad6c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e2379b2e343e34f8f73f5d9f0e348b0b203ff68f"
     }
   ],
   "database_specific": {

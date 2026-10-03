@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7x5-xvrp-r655",
-  "modified": "2025-12-24T12:30:27Z",
+  "modified": "2026-10-03T12:31:01Z",
   "published": "2025-12-24T12:30:27Z",
   "aliases": [
     "CVE-2023-53999"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-53999"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9079ef5fb26ff38ced50cc15199ce56a009b8605"
     },
     {
       "type": "WEB",

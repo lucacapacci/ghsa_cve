@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghcv-942f-rmrp",
-  "modified": "2026-09-25T06:30:31Z",
+  "modified": "2026-10-03T12:31:13Z",
   "published": "2026-09-24T18:31:33Z",
   "aliases": [
     "CVE-2026-97454"
@@ -18,6 +18,22 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97454"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1d704a9ba665f8d1598fc6f37a76cbd6547cdcb1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6509f56df51235fe447b624e40c098082717625c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6ecf2a4855a728c4c46e33919fea9480052d62a7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7d97ecf2a4c7a77a9daa3fe76790ddecddc9cd0c"
     },
     {
       "type": "WEB",

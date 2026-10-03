@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-38c4-cggv-4792",
-  "modified": "2026-09-25T15:31:42Z",
+  "modified": "2026-10-03T12:31:17Z",
   "published": "2026-09-25T12:31:24Z",
   "aliases": [
     "CVE-2026-97562"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97562"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3c9acc9835c304013a4faeb969fe9333d66ca9f8"
     },
     {
       "type": "WEB",

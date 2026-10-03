@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjxx-jpr5-hfgw",
-  "modified": "2026-09-25T12:31:33Z",
+  "modified": "2026-10-03T12:31:24Z",
   "published": "2026-09-25T12:31:33Z",
   "aliases": [
     "CVE-2026-98014"
@@ -13,6 +13,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-98014"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2196f9d3358b00fcb28835a5fde14071f51ecb96"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/413e04adcc1fd263cf02b1b83b4a0dbdc66bcee9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5a2b87dfceccf9065157a14a599d395c2b6281b8"
     },
     {
       "type": "WEB",

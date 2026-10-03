@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr7v-wxrv-gp29",
-  "modified": "2026-09-25T15:31:42Z",
+  "modified": "2026-10-03T12:31:17Z",
   "published": "2026-09-25T12:31:25Z",
   "aliases": [
     "CVE-2026-97578"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7baa7bb1b784c19170df8c99466fa412040eb431"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8659e5fc21a82e00fb2db1557f2e06f0fca06b90"
     },
     {
       "type": "WEB",

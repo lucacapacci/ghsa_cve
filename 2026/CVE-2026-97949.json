@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmrw-x43x-r9qf",
-  "modified": "2026-09-25T12:31:29Z",
+  "modified": "2026-10-03T12:31:21Z",
   "published": "2026-09-25T12:31:29Z",
   "aliases": [
     "CVE-2026-97949"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97949"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/446720051d44eebaa81b33969173160057b73a33"
     },
     {
       "type": "WEB",

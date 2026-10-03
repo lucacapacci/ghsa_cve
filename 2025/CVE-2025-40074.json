@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g35w-4vfx-hjpg",
-  "modified": "2026-09-14T12:31:27Z",
+  "modified": "2026-10-03T12:31:01Z",
   "published": "2025-10-28T12:30:17Z",
   "aliases": [
     "CVE-2025-40074"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6ad8de3cefdb6ffa6708b21c567df0dbf82c43a8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/864155c164654110f68a17a63bd0339754790d67"
     },
     {
       "type": "WEB",

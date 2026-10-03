@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4g3-pp54-phhq",
-  "modified": "2026-01-23T03:30:29Z",
+  "modified": "2026-10-03T12:31:01Z",
   "published": "2025-10-01T12:30:30Z",
   "aliases": [
     "CVE-2023-53491"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/514ca14ed5444b911de59ed3381dfd195d99fe4b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5a7e8f89cdee16db705905a5b1ce2100b13dd63e"
     }
   ],
   "database_specific": {

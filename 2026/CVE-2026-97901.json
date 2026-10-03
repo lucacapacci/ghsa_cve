@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pgr-jp8q-29xm",
-  "modified": "2026-09-25T12:31:27Z",
+  "modified": "2026-10-03T12:31:19Z",
   "published": "2026-09-25T12:31:27Z",
   "aliases": [
     "CVE-2026-97901"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6d8e653fcf1c90310797eeba8e5fafe9ccc3de9e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6e4d746e55c83c240cffce92356763d16b236af5"
     }
   ],
   "database_specific": {

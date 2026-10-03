@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qfx-pmxg-8gxp",
-  "modified": "2026-07-24T15:32:36Z",
+  "modified": "2026-10-03T12:31:01Z",
   "published": "2026-06-24T18:32:43Z",
   "aliases": [
     "CVE-2026-53005"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/301bdc558a5eb4057473204d35e2608e682aaafb"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/48c41cd2e04af4b2cdef19e2d00994ae82952f14"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/866e69a824b46e682b8fb923be321b585e634874"
     },
     {
       "type": "WEB",

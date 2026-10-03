@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3rc-7c7w-5vq5",
-  "modified": "2025-09-25T21:30:19Z",
+  "modified": "2026-10-03T12:31:00Z",
   "published": "2024-07-29T15:30:42Z",
   "aliases": [
     "CVE-2024-41045"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-41045"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5eaa11c500ed07f505f86cec07d5593a71927e26"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrjf-2g4j-cfrg",
-  "modified": "2026-09-21T15:31:30Z",
+  "modified": "2026-10-03T12:31:03Z",
   "published": "2026-08-15T06:32:28Z",
   "aliases": [
     "CVE-2026-74291"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ba37b62ed0a443b8e23f53a7477e7f2537fd34c7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c405b07246bf179e9457de57501c3470175b165e"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jhf2-xxxc-cvvv",
-  "modified": "2026-09-24T18:31:34Z",
+  "modified": "2026-10-03T12:31:14Z",
   "published": "2026-09-24T18:31:34Z",
   "aliases": [
     "CVE-2026-97488"
@@ -16,6 +16,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3f2088a3973faf3ed9b56ea3d3f0240b9a797016"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/60f7ccf669882262330171eda51a4f52fa2e69c9"
     },
     {
@@ -25,6 +29,18 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c7d911ea1cc9a63b07e52f5e75b263be0615b289"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c9f03e750d9ddf0f42c24e3ba683f26e377ffd72"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/de8bd760ca0c2a3f337bbafbeb1dcad0853787cc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f83e416c2242fb298ad33b756c83aae75d9e359c"
     }
   ],
   "database_specific": {

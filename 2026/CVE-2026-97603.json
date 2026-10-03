@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6g6r-xm94-6p2f",
-  "modified": "2026-09-25T12:31:26Z",
+  "modified": "2026-10-03T12:31:18Z",
   "published": "2026-09-25T12:31:26Z",
   "aliases": [
     "CVE-2026-97603"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97603"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7d64d4c6bb6bb63b6cdb7de133c3ec48333b27b5"
     },
     {
       "type": "WEB",

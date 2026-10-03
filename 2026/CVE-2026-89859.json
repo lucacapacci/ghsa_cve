@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77jx-g549-23wh",
-  "modified": "2026-09-21T15:31:43Z",
+  "modified": "2026-10-03T12:31:07Z",
   "published": "2026-09-16T12:30:39Z",
   "aliases": [
     "CVE-2026-89859"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89859"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5dfc77099c7d9fde9520a229794b0154d7ccccc1"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7h3-7f54-949m",
-  "modified": "2026-07-24T15:31:45Z",
+  "modified": "2026-10-03T12:31:01Z",
   "published": "2025-07-18T09:30:31Z",
   "aliases": [
     "CVE-2025-38349"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38349"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/263f5de8302a6f2f136d392e5d3f8b1edf922857"
     },
     {
       "type": "WEB",

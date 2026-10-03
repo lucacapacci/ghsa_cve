@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmp8-q8mq-wm2x",
-  "modified": "2026-09-25T15:31:44Z",
+  "modified": "2026-10-03T12:31:26Z",
   "published": "2026-09-25T12:31:36Z",
   "aliases": [
     "CVE-2026-98083"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-98083"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/089d9c45ea49ffffe55a8fe08d0ce2536626e90a"
     },
     {
       "type": "WEB",

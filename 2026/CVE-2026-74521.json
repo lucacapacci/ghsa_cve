@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-336h-563m-gwm9",
-  "modified": "2026-09-21T15:31:30Z",
+  "modified": "2026-10-03T12:31:04Z",
   "published": "2026-08-15T15:30:35Z",
   "aliases": [
     "CVE-2026-74521"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74521"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5a0367bf5ce420be7b19936def2e90adcf32a683"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7bde6f181fa307d2cc1ec2b0313ac8e9811c8232"
     },
     {
       "type": "WEB",

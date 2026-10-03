@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxm4-x446-vhq4",
-  "modified": "2026-09-21T15:31:29Z",
+  "modified": "2026-10-03T12:31:02Z",
   "published": "2026-08-10T15:33:44Z",
   "aliases": [
     "CVE-2026-68289"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7364014fdc289225229eb08de8bcbf4580e78e4d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/93580911f02d1f4a506ec0a6fc4354140c53ffe8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9fd4f92671146b068809b6c34b50346cb30cf8f7"
     },
     {
       "type": "WEB",
