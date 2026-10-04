@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq4r-p73m-gphj",
-  "modified": "2026-09-30T06:31:35Z",
+  "modified": "2026-10-04T00:30:59Z",
   "published": "2026-09-30T06:31:35Z",
   "aliases": [
     "CVE-2026-103111"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103111"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/10/msg00008.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv73-qqrq-m373",
-  "modified": "2026-09-26T15:31:16Z",
+  "modified": "2026-10-04T00:30:59Z",
   "published": "2026-09-26T15:31:16Z",
   "aliases": [
     "CVE-2026-100630"
@@ -26,6 +26,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100630"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/commit/40b3267760924389c626a549bb1c6fd013b3b29c"
     },
     {
       "type": "WEB",
