@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6g7j-p76q-h89g",
+  "modified": "2026-10-04T09:30:20Z",
+  "published": "2026-10-04T09:30:20Z",
+  "aliases": [
+    "CVE-2026-17005"
+  ],
+  "details": "The Horizontal scrolling announcements WordPress plugin through 2.6 does not sanitise and escape one of its announcement settings before outputting it into an attribute context on the front end, allowing users granted access to the announcement management page (Contributor and above, once permitted) to perform Stored Cross-Site Scripting attacks that execute in the browser of anyone viewing the announcement.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17005"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/e3973475-18c4-46a0-b0ca-24e4d2cd58ca"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-04T07:16:33Z"
+  }
+}
