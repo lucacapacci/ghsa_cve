@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32r4-8mw9-77h4",
-  "modified": "2026-10-02T12:31:17Z",
+  "modified": "2026-10-04T18:30:20Z",
   "published": "2026-10-02T12:31:17Z",
   "aliases": [
     "CVE-2026-104470"
@@ -29,12 +29,21 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/YesWiki/yeswiki/commit/22a5260b0381824e01d340ce9457c4adb9e18b23"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/yeswiki-before-4.6.7-ssrf-and-xss-via-bazar-valeur-action"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/yeswiki-before-4.6.7-ssrf-via-bazar-valeur-action-url-parameter"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-79"
+      "CWE-79",
+      "CWE-918"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

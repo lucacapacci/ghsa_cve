@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56r3-m27m-8p62",
-  "modified": "2026-10-04T06:34:12Z",
+  "modified": "2026-10-04T18:30:20Z",
   "published": "2026-10-04T06:34:12Z",
   "aliases": [
     "CVE-2026-88779"
@@ -21,11 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://community.citrix.com/techzone-blogs/110_security-updates/understanding-and-addressing-cve-2026-88779-in-citrix-netscaler-adc-and-citrix-netscaler-gateway"
+    },
+    {
+      "type": "WEB",
       "url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-119"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
