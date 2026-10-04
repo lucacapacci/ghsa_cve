@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56r3-m27m-8p62",
-  "modified": "2026-10-04T18:30:20Z",
+  "modified": "2026-10-04T21:30:20Z",
   "published": "2026-10-04T06:34:12Z",
   "aliases": [
     "CVE-2026-88779"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-88779"
     }
   ],
   "database_specific": {
