@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vqf-x7g4-7c2g",
-  "modified": "2026-05-05T21:43:26Z",
+  "modified": "2026-10-05T18:39:05Z",
   "published": "2026-04-27T12:30:38Z",
   "aliases": [
     "CVE-2026-33454"
@@ -117,15 +117,32 @@
     },
     {
       "type": "WEB",
+      "url": "https://camel.apache.org/security/CVE-2026-33454.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2463181"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33454"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:19835"
+    },
+    {
+      "type": "WEB",
       "url": "https://issues.apache.org/jira/browse/CAMEL-23222"
     },
     {
       "type": "WEB",
-      "url": "https://camel.apache.org/security/CVE-2026-33454.html"
+      "url": "https://access.redhat.com/errata/RHSA-2026:17668"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1173",
       "CWE-502"
     ],
     "severity": "CRITICAL",

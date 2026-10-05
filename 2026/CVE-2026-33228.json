@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf6f-7fwh-wjgh",
-  "modified": "2026-03-25T18:22:00Z",
+  "modified": "2026-10-05T15:48:46Z",
   "published": "2026-03-19T17:43:54Z",
   "aliases": [
     "CVE-2026-33228"
@@ -52,6 +52,26 @@
       "url": "https://github.com/WebReflection/flatted/commit/885ddcc33cf9657caf38c57c7be45ae1c5272802"
     },
     {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:13826"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:34342"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:9742"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2026-33228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2449872"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/WebReflection/flatted"
     },
@@ -62,7 +82,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1321"
+      "CWE-1321",
+      "CWE-915"
     ],
     "severity": "HIGH",
     "github_reviewed": true,

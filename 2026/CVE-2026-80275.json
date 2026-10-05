@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv8r-gc9x-96j9",
-  "modified": "2026-10-01T06:31:27Z",
+  "modified": "2026-10-05T12:31:21Z",
   "published": "2026-10-01T06:31:27Z",
   "aliases": [
     "CVE-2026-80275"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80275"
+    },
+    {
+      "type": "WEB",
+      "url": "https://accesscontrol.fail/comelit-1456b"
     },
     {
       "type": "WEB",

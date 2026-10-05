@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjc6-47gr-qc78",
-  "modified": "2026-10-05T06:30:23Z",
+  "modified": "2026-10-05T12:31:25Z",
   "published": "2026-10-05T06:30:23Z",
   "aliases": [
     "CVE-2026-84169"
   ],
   "details": "The UPI QR Code Payment Gateway WordPress plugin through 1.4.3 does not verify that a payment-confirmation request actually belongs to the order and customer it claims to confirm, allowing unauthenticated attackers to mark an arbitrary order as paid without making any payment.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-639"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-05T06:16:59Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45p5-w2r8-mrfv",
-  "modified": "2026-10-02T00:31:30Z",
+  "modified": "2026-10-05T18:34:14Z",
   "published": "2026-10-02T00:31:30Z",
   "aliases": [
     "CVE-2026-51880"
   ],
   "details": "deeptutor 1.4.0 contains a path traversal issue in EditFileTool.execute. Through the live tutorbot WebSocket interface, a remote caller can induce the tool layer to write or edit absolute paths outside the intended bot workspace.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-01T22:17:02Z"

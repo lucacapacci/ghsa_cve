@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qxx-g536-wh52",
-  "modified": "2026-10-05T03:30:26Z",
+  "modified": "2026-10-05T12:31:22Z",
   "published": "2026-10-05T03:30:26Z",
   "aliases": [
     "CVE-2026-20528"
   ],
   "details": "In ccci, there is a possible out of bounds write and read due to a missing bounds check. This could lead to local information disclosure, memory corruption, crashes, or privilege escalation if a malicious actor has already obtained the System privilege. User interaction is needed for exploitation. Patch ID: ALPS11428950 (Note: For MT6880, MT6890) / ALPS10563453 (Note: For MT6980D, MT6990, MT6986, MT6986D, MT6813, MT6988) / AUTO00858766 (Note: For MT2735, MT2737); Issue ID: MSV-9893.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-787"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-05T02:16:51Z"

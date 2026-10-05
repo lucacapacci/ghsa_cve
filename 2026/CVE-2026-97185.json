@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp8m-4297-94hv",
-  "modified": "2026-09-24T09:31:51Z",
+  "modified": "2026-10-05T12:31:21Z",
   "published": "2026-09-24T09:31:51Z",
   "aliases": [
     "CVE-2026-97185"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97185"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:75575"
     },
     {
       "type": "WEB",
