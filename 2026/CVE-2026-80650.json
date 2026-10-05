@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5xp-8jpc-79mv",
-  "modified": "2026-08-28T09:31:48Z",
+  "modified": "2026-10-05T06:30:22Z",
   "published": "2026-08-28T09:31:48Z",
   "aliases": [
     "CVE-2026-80650"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80650"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/51b8dc5163d2ff2bf04019f8bf7e3bd0e75bb654"
     },
     {
       "type": "WEB",
