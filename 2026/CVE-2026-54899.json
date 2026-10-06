@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cw7-v8ff-p88r",
-  "modified": "2026-06-19T19:34:30Z",
+  "modified": "2026-10-06T19:52:36Z",
   "published": "2026-06-19T19:34:30Z",
   "aliases": [
     "CVE-2026-54899"
@@ -28,14 +28,11 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.17.3"
+              "fixed": "3.17.2"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 3.17.2"
-      }
+      ]
     }
   ],
   "references": [
@@ -44,8 +41,20 @@
       "url": "https://github.com/ohler55/oj/security/advisories/GHSA-2cw7-v8ff-p88r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54899"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/ohler55/oj"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/oj/CVE-2026-54899.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord/SearchResults?query=CVE-2026-54899"
     }
   ],
   "database_specific": {
@@ -55,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-19T19:34:30Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-07-01T00:16:33Z"
   }
 }

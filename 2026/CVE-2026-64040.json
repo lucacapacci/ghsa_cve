@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-249r-xf46-wj4v",
-  "modified": "2026-07-19T18:31:50Z",
+  "modified": "2026-10-06T21:31:34Z",
   "published": "2026-07-19T18:31:50Z",
   "aliases": [
     "CVE-2026-64040"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncachefiles: Fix error return when vfs_mkdir() fails\n\nWhen vfs_mkdir() fails, the error code is not extracted from the\nreturned error pointer. This causes mkdir_error to be reached with\nret=0, which leads to returning ERR_PTR(0) (NULL) instead of a\nproper error pointer.\n\nFix this by extracting the error code from the error pointer when\nvfs_mkdir() fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-252"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-07-19T16:17:44Z"
