@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c454-fc94-q86x",
-  "modified": "2026-10-05T09:31:51Z",
+  "modified": "2026-10-05T21:31:33Z",
   "published": "2026-10-05T09:31:51Z",
   "aliases": [
     "CVE-2017-20285"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/TINITA/YAML-1.30/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/05/8"
     }
   ],
   "database_specific": {

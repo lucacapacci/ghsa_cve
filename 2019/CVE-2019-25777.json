@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-38xx-2hm6-vh7q",
-  "modified": "2026-10-05T09:31:51Z",
+  "modified": "2026-10-05T21:31:33Z",
   "published": "2026-10-05T09:31:51Z",
   "aliases": [
     "CVE-2019-25777"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/TINITA/YAML-1.28/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/05/7"
     }
   ],
   "database_specific": {

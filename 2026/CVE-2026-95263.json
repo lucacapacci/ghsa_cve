@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p8wc-cj6h-9g96",
+  "modified": "2026-10-05T21:31:37Z",
+  "published": "2026-10-05T21:31:37Z",
+  "aliases": [
+    "CVE-2026-95263"
+  ],
+  "details": "Feehi CMS 2.1.1 is vulnerable to Incorrect Access Control. A low-privilege backend administrator with administrator-update permission can change the password of the built-in super administrator account. The server does not enforce protection for this account, and the update scenario does not require the old password.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95263"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/liufee/cms"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tao0845/CVE-Request/blob/main/CVE-2026-95263.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-05T20:17:29Z"
+  }
+}

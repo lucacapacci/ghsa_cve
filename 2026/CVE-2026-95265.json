@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hggc-x5gr-37ph",
+  "modified": "2026-10-05T21:31:37Z",
+  "published": "2026-10-05T21:31:37Z",
+  "aliases": [
+    "CVE-2026-95265"
+  ],
+  "details": "Feehi CMS 2.1.1 contains a Server-Side Request Forgery (SSRF) vulnerability in the UEditor catchimage endpoint. The private-IP validation does not block loopback or link-local addresses, allowing an attacker to make the server probe internal HTTP services through response differences.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95265"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/liufee/cms"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tao0845/CVE-Request/blob/main/CVE-2026-95265.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-05T20:17:29Z"
+  }
+}

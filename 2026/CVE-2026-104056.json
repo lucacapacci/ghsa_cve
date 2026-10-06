@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8wx9-759m-hfm8",
-  "modified": "2026-10-01T21:32:50Z",
+  "modified": "2026-10-05T21:31:30Z",
   "published": "2026-10-01T21:32:50Z",
   "aliases": [
     "CVE-2026-104056"
   ],
   "details": "Authlib version 1.7.2 and below contains a vulnerability where discovery JSON metadata is cached without validation or issuer-origin binding. This allows a poisoned discovery response to replace all endpoint values with attacker-controlled values rather than endpoint URLs that share the origin of the configured server metadata URL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-345"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-01T19:17:19Z"

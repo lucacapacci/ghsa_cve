@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68fv-2mgg-jv7q",
-  "modified": "2026-09-18T18:31:44Z",
+  "modified": "2026-10-05T23:31:22Z",
   "published": "2026-09-18T18:31:44Z",
   "aliases": [
     "CVE-2026-93749"
   ],
+  "summary": "source-map-js allows event-loop denial of service through indexed source-map section offsets",
   "details": "source-map-js through 1.2.1 fails to validate the per-section offset line value in indexed source maps, allowing attackers to specify arbitrary numeric values. Attackers can supply extremely large offset line values that cause synchronous event loop blocking for extended periods, preventing the service from handling other requests.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "source-map-js"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.0"
+            },
+            {
+              "fixed": "1.2.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -29,11 +50,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/7rulnik/source-map-js/pull/79"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/7rulnik/source-map-js/commit/cf7658058ceeaa8619d5ae0ec90be6905209d016"
+    },
+    {
+      "type": "PACKAGE",
       "url": "https://github.com/7rulnik/source-map-js"
     },
     {
       "type": "WEB",
       "url": "https://github.com/7rulnik/source-map-js/blob/c1cd8904bb7bd0c7fb5879fcda48134d82a27934/lib/source-node.js#L115-L118"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/7rulnik/source-map-js/releases/tag/v1.2.2"
     },
     {
       "type": "WEB",
@@ -45,8 +78,8 @@
       "CWE-1284"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-10-05T23:31:22Z",
     "nvd_published_at": "2026-09-18T18:18:33Z"
   }
 }

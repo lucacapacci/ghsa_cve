@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8j78-3wr5-vjqm",
+  "modified": "2026-10-05T21:31:37Z",
+  "published": "2026-10-05T21:31:37Z",
+  "aliases": [
+    "CVE-2026-95264"
+  ],
+  "details": "Feehi CMS 2.1.1 is vulnerable to Directory Traversal. An authenticated backend user with article edit permission can delete arbitrary files writable by the PHP process. Article image metadata is used to construct a filesystem path and is passed to `unlink()` without path traversal or directory validation.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95264"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/liufee/cms"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tao0845/CVE-Request/blob/main/CVE-2026-95264.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-05T20:17:29Z"
+  }
+}

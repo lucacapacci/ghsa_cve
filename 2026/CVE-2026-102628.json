@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h69-w2xf-8972",
-  "modified": "2026-10-01T21:32:51Z",
+  "modified": "2026-10-05T21:31:30Z",
   "published": "2026-10-01T21:32:51Z",
   "aliases": [
     "CVE-2026-102628"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-102628"
+    },
+    {
+      "type": "WEB",
+      "url": "https://xhunter101.medium.com/how-i-discovered-cve-2026-102628-from-a-whois-lookup-to-a-cisa-cve-635835fa3971"
     }
   ],
   "database_specific": {

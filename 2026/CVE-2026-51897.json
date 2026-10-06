@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3qm-chr8-gf9x",
-  "modified": "2026-10-02T00:31:31Z",
+  "modified": "2026-10-05T21:31:33Z",
   "published": "2026-10-02T00:31:31Z",
   "aliases": [
     "CVE-2026-51897"
   ],
   "details": "RAGFlow 0.24.0 contains improper access control in get_dataset (api/apps/evaluation_app). Depending on the exposed entry, an attacker can trigger attacker-controlled code or command execution",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-01T22:17:04Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m543-jcgv-fpx5",
-  "modified": "2026-10-05T09:31:51Z",
+  "modified": "2026-10-05T21:31:33Z",
   "published": "2026-10-05T09:31:51Z",
   "aliases": [
     "CVE-2026-19954"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://www.rfc-editor.org/rfc/rfc5891#section-5.2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/05/9"
     }
   ],
   "database_specific": {
