@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-259j-555g-mwrr",
-  "modified": "2026-10-06T12:30:24Z",
+  "modified": "2026-10-06T18:31:17Z",
   "published": "2026-08-11T09:32:35Z",
   "aliases": [
     "CVE-2026-15563"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:70277"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:76128"
     },
     {
       "type": "WEB",

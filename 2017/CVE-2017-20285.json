@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c454-fc94-q86x",
-  "modified": "2026-10-05T21:31:33Z",
+  "modified": "2026-10-06T18:31:26Z",
   "published": "2026-10-05T09:31:51Z",
   "aliases": [
     "CVE-2017-20285"
   ],
   "details": "YAML versions before 1.30 for Perl allow a loaded document to trigger the DESTROY method of arbitrary classes.\n\nA perl/hash:Class tag blesses a hash into the class it names. The document supplies the object's fields, and Perl calls DESTROY when it goes out of scope.\n\nWhat DESTROY does depends on the classes the process has loaded. With File::Temp::Dir from core Perl, it can delete a directory tree the document names.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -39,7 +44,7 @@
     "cwe_ids": [
       "CWE-470"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-05T07:16:29Z"
