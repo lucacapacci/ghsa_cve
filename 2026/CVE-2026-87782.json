@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx93-m334-hcgh",
-  "modified": "2026-10-07T09:32:20Z",
+  "modified": "2026-10-07T12:31:57Z",
   "published": "2026-10-07T09:32:20Z",
   "aliases": [
     "CVE-2026-87782"
   ],
   "details": "The Koinonia Link WordPress plugin before 1.1.5 does not check that a user is allowed to change roles before saving a role selection submitted with a profile update, allowing any authenticated user, such as a subscriber, to grant themselves the Administrator role.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-269"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-07T07:17:01Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgff-g8g3-4xr8",
-  "modified": "2026-10-02T18:31:16Z",
+  "modified": "2026-10-07T15:31:29Z",
   "published": "2026-09-30T18:33:49Z",
   "aliases": [
     "CVE-2026-102490"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://community.zammad.org/t/take-care-local-privilege-escalation-cve-2026-102490-is-reported-as-being-actively-exploited/21297/2"
+    },
+    {
+      "type": "WEB",
       "url": "https://csirt.divd.nl/CVE-2026-102490"
     },
     {
@@ -34,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-102490"
+    },
+    {
+      "type": "WEB",
+      "url": "https://zammad.com/en/advisories/cve-2026-102489-cve-2026-102490"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp8w-jxfc-xrqq",
-  "modified": "2024-07-03T18:44:22Z",
+  "modified": "2026-10-07T15:31:09Z",
   "published": "2024-06-10T18:31:06Z",
   "aliases": [
     "CVE-2024-26507"
@@ -21,7 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/magicsword-io/LOLDrivers/issues/461"
+    },
+    {
+      "type": "WEB",
       "url": "https://belong2yourself.github.io/vulnerabilities/docs/AIDA/Elevation-of-Privileges/readme"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/klezVirus/AIDA64DRIVER-EoP"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.loldrivers.io/drivers/deffeb8d-c7d9-46b9-a921-7d8d096460ef"
     }
   ],
   "database_specific": {

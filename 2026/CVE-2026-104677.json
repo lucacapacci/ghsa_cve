@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfgx-g476-6w3m",
-  "modified": "2026-10-07T09:32:19Z",
+  "modified": "2026-10-07T12:31:56Z",
   "published": "2026-10-07T09:32:19Z",
   "aliases": [
     "CVE-2026-104677"
   ],
   "details": "The WP Coder  WordPress plugin before 4.5.2 does not restrict access to its PHP code-execution feature to administrators, gating it on a content capability that the Editor role holds by default, which allows Editor-level users to save and execute arbitrary PHP code on the server and fully compromise the site.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-07T07:16:58Z"

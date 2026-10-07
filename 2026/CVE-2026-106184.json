@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f8x-mm7h-vhqm",
-  "modified": "2026-10-06T21:31:41Z",
+  "modified": "2026-10-07T12:31:53Z",
   "published": "2026-10-06T21:31:41Z",
   "aliases": [
     "CVE-2026-106184"
   ],
   "details": "Uninitialized resource in Media in Google Chrome prior to 155.0.8059.39 allowed a remote attacker to obtain cross-origin data via a crafted HTML page. (Chromium security severity: High)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-908"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-06T19:17:44Z"

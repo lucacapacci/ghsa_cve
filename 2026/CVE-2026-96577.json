@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh86-jqm4-pwg7",
-  "modified": "2026-10-07T00:31:32Z",
+  "modified": "2026-10-07T15:31:32Z",
   "published": "2026-10-01T12:31:15Z",
   "aliases": [
     "CVE-2026-96577"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:74429"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74434"
     },
     {
       "type": "WEB",

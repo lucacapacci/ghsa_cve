@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6xq-6pmr-p37c",
-  "modified": "2026-10-07T09:32:21Z",
+  "modified": "2026-10-07T12:31:58Z",
   "published": "2026-10-07T09:32:21Z",
   "aliases": [
     "CVE-2026-97720"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/q2qkrnko9hdv2mhqy6prm06f65n2g3h2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/07/22"
     }
   ],
   "database_specific": {

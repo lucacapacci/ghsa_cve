@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78x8-pwcw-qpf5",
-  "modified": "2026-10-06T21:31:49Z",
+  "modified": "2026-10-07T12:31:54Z",
   "published": "2026-10-06T21:31:49Z",
   "aliases": [
     "CVE-2026-106402"
   ],
   "details": "Incorrect authorization in Extensions in Google Chrome prior to 155.0.8059.39 allowed a remote attacker leveraging social engineering to spoof UI elements via a crafted Chrome extension. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-863"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-06T19:18:09Z"
