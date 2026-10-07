@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f559-3m6w-qcp7",
-  "modified": "2026-10-06T09:31:29Z",
+  "modified": "2026-10-07T09:32:12Z",
   "published": "2026-10-06T09:31:29Z",
   "aliases": [
     "CVE-2026-98174"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix rlist race and missing initialization\n\nTCP_Server_Info.rlist is allocated via kzalloc which zeros both ->next\nand ->prev to NULL instead of pointing to itself, making list_empty()\nalways return false and list_add() dereference a NULL ->prev pointer.\n\nAlso, cifs_signal_cifsd_for_reconnect() can be called concurrently\nfrom multiple cifsd threads, allowing the same server's rlist node to\nbe added twice into the local list, corrupting it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-06T09:17:59Z"

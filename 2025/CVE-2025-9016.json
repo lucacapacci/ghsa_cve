@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhh8-p2vv-v499",
-  "modified": "2026-04-29T04:11:59Z",
+  "modified": "2026-10-07T09:31:25Z",
   "published": "2025-08-15T09:31:14Z",
   "aliases": [
     "CVE-2025-9016"
@@ -38,6 +38,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.624900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-9016"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/624900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/320067"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/320067/cti"
     }
   ],
   "database_specific": {

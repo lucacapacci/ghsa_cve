@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4x54-68wr-6gp9",
-  "modified": "2025-08-15T03:30:30Z",
+  "modified": "2026-10-07T09:31:25Z",
   "published": "2025-08-15T03:30:30Z",
   "aliases": [
     "CVE-2025-9000"
@@ -38,6 +38,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.624903"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-9000"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/624903"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/320029"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/320029/cti"
     }
   ],
   "database_specific": {

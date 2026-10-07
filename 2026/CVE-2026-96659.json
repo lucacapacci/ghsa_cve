@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fj2-wwpq-f5jr",
-  "modified": "2026-10-02T18:31:17Z",
+  "modified": "2026-10-07T09:32:11Z",
   "published": "2026-10-01T18:32:46Z",
   "aliases": [
     "CVE-2026-96659"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2536844"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/07/1"
     }
   ],
   "database_specific": {

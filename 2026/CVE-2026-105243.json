@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8mm-w573-8v6c",
-  "modified": "2026-10-06T21:31:59Z",
+  "modified": "2026-10-07T09:32:18Z",
   "published": "2026-10-06T21:31:59Z",
   "aliases": [
     "CVE-2026-105243"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/jr6fj5skv1vnjbc9jmt8bp151p8ow1rp"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/07/17"
     }
   ],
   "database_specific": {

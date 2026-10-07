@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3p2v-4557-548w",
+  "modified": "2026-10-07T09:32:18Z",
+  "published": "2026-10-07T09:32:18Z",
+  "aliases": [
+    "CVE-2026-103378"
+  ],
+  "details": "The Geliver Akıllı Kargo Pazaryeri WordPress plugin before 3.1.1 does not prevent unauthenticated access to a log file it stores within its own web-accessible directory, into which it writes the site's carrier integration key while processing requests from unauthenticated users, allowing attackers to retrieve the key and use it to modify WooCommerce order statuses. The same log file also exposes customer information from orders the shop has processed.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103378"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/f95d8558-2225-416c-8968-752a40cdc17f"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-07T07:16:57Z"
+  }
+}

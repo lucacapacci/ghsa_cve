@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5fm-f6q9-vwv9",
-  "modified": "2026-10-06T09:31:34Z",
+  "modified": "2026-10-07T09:32:15Z",
   "published": "2026-10-06T09:31:34Z",
   "aliases": [
     "CVE-2026-98311"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: virt_wifi: don't transfer operstate before register\n\nvirt_wifi_newlink() calls netif_stacked_transfer_operstate() before\nregister_netdevice(). If the lower device is dormant, that queues the\nnew netdev on lweventlist while it is still uninitialized. If\nregistration fails after that, for example because of an invalid name\nsuch as \"bad/name\", free_netdev() immediately frees the object. A\nlater linkwatch_fire_event() then use-after-frees the list entry.\n\nMove the transfer to after netdev_upper_dev_link(), as macvlan and\nipvlan already do.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-06T09:18:22Z"
