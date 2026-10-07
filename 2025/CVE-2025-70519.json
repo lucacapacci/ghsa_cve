@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpvc-vjr4-6cw4",
-  "modified": "2026-10-07T15:32:00Z",
+  "modified": "2026-10-07T21:33:24Z",
   "published": "2026-10-07T15:32:00Z",
   "aliases": [
     "CVE-2025-70519"
   ],
   "details": "The device log component of Fanvil x7a firmware version 2.6.0.1182 does not properly sanitize or encode reflected user supplied data. The lack of sanitization allows for the injection of HTML which can be used to execute malicious JavaScript code on any target browser which renders the device log component.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-07T15:16:53Z"

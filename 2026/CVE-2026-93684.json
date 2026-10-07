@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr7f-9f5r-v3mg",
-  "modified": "2026-10-07T12:31:58Z",
+  "modified": "2026-10-07T21:33:24Z",
   "published": "2026-10-07T09:32:21Z",
   "aliases": [
     "CVE-2026-93684"
   ],
   "details": "An SQL user using Impala up to and including version 4.5.2 with only SELECT permission can put JavaScript in a table alias and make it run in another user's browser when that user opens the query plan in Impala's Web UI. This is stored XSS (CWE-79). Users are recommended to upgrade to version 4.5.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-07T09:17:06Z"

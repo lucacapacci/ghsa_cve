@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppr6-jxmv-rrg3",
-  "modified": "2026-10-06T21:31:48Z",
+  "modified": "2026-10-07T21:33:22Z",
   "published": "2026-10-06T21:31:48Z",
   "aliases": [
     "CVE-2026-106367"
   ],
   "details": "Missing authorization in Mobile in Google Chrome on on Android prior to 155.0.8059.39 allowed a local attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a co-installed app. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-06T19:18:05Z"

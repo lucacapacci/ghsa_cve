@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hvm-w645-g9wh",
-  "modified": "2026-07-19T18:31:48Z",
+  "modified": "2026-10-07T21:33:17Z",
   "published": "2026-07-19T18:31:48Z",
   "aliases": [
     "CVE-2026-63991"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: 6lowpan: check skb_clone() return value in send_mcast_pkt()\n\nThe skb_clone() function can return NULL if memory allocation fails.\nsend_mcast_pkt() calls skb_clone() without checking the return value, which\ncan lead to a NULL pointer dereference in send_pkt() when it dereferences\nskb->data.\nAdd a NULL check after skb_clone() and skip the peer if the clone fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-07-19T16:17:37Z"

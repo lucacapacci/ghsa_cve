@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq9m-9whg-jv3m",
-  "modified": "2024-01-31T15:30:18Z",
+  "modified": "2026-10-07T18:31:53Z",
   "published": "2023-09-27T15:30:36Z",
   "aliases": [
     "CVE-2023-41074"
@@ -49,6 +49,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://webkitgtk.org/security/WSA-2023-0009.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.debian.org/security/2023/dsa-5527"
     },
     {
@@ -77,7 +81,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-94"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

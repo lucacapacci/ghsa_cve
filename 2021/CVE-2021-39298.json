@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxf5-m5fg-rw27",
-  "modified": "2026-02-24T18:30:58Z",
+  "modified": "2026-10-07T21:31:20Z",
   "published": "2022-02-17T00:00:32Z",
   "aliases": [
     "CVE-2021-39298"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-269"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
