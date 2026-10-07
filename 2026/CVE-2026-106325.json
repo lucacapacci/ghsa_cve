@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xrr-w4f6-77vm",
-  "modified": "2026-10-06T21:31:46Z",
+  "modified": "2026-10-07T00:31:34Z",
   "published": "2026-10-06T21:31:46Z",
   "aliases": [
     "CVE-2026-106325"
   ],
   "details": "Incorrect reference resolution in Core in Google Chrome prior to 155.0.8059.39 allowed a remote attacker leveraging social engineering to leak cross-origin data via a crafted HTML page. (Chromium security severity: Low)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-706"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-06T19:18:00Z"

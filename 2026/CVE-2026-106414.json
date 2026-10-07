@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g65v-p4fg-qvrp",
-  "modified": "2026-10-06T21:31:50Z",
+  "modified": "2026-10-07T00:31:35Z",
   "published": "2026-10-06T21:31:50Z",
   "aliases": [
     "CVE-2026-106414"
   ],
   "details": "Improper input validation in Mobile in Google Chrome on on iOS prior to 155.0.8059.39 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-20"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-06T19:18:11Z"
