@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p8h-ph4h-rm2f",
-  "modified": "2026-10-07T09:32:18Z",
+  "modified": "2026-10-08T06:31:13Z",
   "published": "2026-10-06T21:32:03Z",
   "aliases": [
     "CVE-2026-94114"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/commons-bcel/commit/14890bf2b9014df25f9b4de86f29b5e917e5656b.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/co1wfk2lyrmpnfhn49o370pvfl978rw6"
     },
     {
       "type": "WEB",

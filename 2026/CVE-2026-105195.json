@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2c7f-rp38-5cq9",
+  "modified": "2026-10-08T06:31:20Z",
+  "published": "2026-10-08T06:31:19Z",
+  "aliases": [
+    "CVE-2026-105195"
+  ],
+  "details": "The Booking Calendar WordPress plugin before 11.8.3 does not adequately restrict which options a lower-privileged user can load through one of its settings handlers, allowing users with the Editor role and above to disclose the values of arbitrary WordPress options, including core site configuration.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105195"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/9d6e9047-410e-4d3d-81f0-e3f89cf7a494"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-08T06:16:40Z"
+  }
+}
