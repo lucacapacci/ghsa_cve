@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2cq-mmh3-7wxh",
-  "modified": "2026-10-03T00:31:12Z",
+  "modified": "2026-10-08T00:30:58Z",
   "published": "2026-10-02T12:31:09Z",
   "aliases": [
     "CVE-2026-103885"
   ],
   "details": "Asymmetric Resource Consumption vulnerability in Apache Directory LDAP API.\n\n\n\nA LDAP server using the LDAP API (like Apache DS) may consume 100% of a CPU core indefinitely when processing some badly crafted Telephone Numbers.\n\n\n\nThis issue affects Apache Directory LDAP API: from 2.1.0 before 2.1.9.\n\n\n\nUsers are recommended to upgrade to version 2.1.9, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-02T10:17:06Z"

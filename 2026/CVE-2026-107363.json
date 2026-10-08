@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc4w-8h6h-frmg",
-  "modified": "2026-10-07T21:33:30Z",
+  "modified": "2026-10-08T00:30:58Z",
   "published": "2026-10-07T21:33:30Z",
   "aliases": [
     "CVE-2026-107363"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2026/10/07/30"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/07/31"
     }
   ],
   "database_specific": {
