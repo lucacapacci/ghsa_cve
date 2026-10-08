@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgv2-3w22-g4pw",
-  "modified": "2026-10-06T21:31:42Z",
+  "modified": "2026-10-08T15:32:48Z",
   "published": "2026-10-06T21:31:42Z",
   "aliases": [
     "CVE-2026-106208"
   ],
   "details": "Missing authorization in API in Google Chrome prior to 155.0.8059.39 allowed a remote attacker leveraging social engineering to leak sensitive information via a crafted Chrome extension. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-06T19:17:47Z"

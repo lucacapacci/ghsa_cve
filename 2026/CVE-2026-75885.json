@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm52-6738-r26p",
-  "modified": "2026-10-01T18:32:37Z",
+  "modified": "2026-10-08T15:32:38Z",
   "published": "2026-09-19T00:32:43Z",
   "aliases": [
     "CVE-2026-75885"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:71454"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73869"
     },
     {
       "type": "WEB",

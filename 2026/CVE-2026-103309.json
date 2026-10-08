@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r7v-q722-2v82",
-  "modified": "2026-10-08T06:31:19Z",
+  "modified": "2026-10-08T12:34:22Z",
   "published": "2026-10-08T06:31:19Z",
   "aliases": [
     "CVE-2026-103309"
   ],
   "details": "The GPTranslate  WordPress plugin before 2.34.14 does not properly restrict who can store translations, and does not escape them when outputting them in translated pages, allowing unauthenticated users to perform Stored Cross-Site Scripting attacks when server-side translations are enabled.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-08T06:16:37Z"

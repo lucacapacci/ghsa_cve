@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8fjx-p4xg-vgp8",
-  "modified": "2026-08-05T21:31:39Z",
+  "modified": "2026-10-08T15:32:35Z",
   "published": "2026-08-05T21:31:39Z",
   "aliases": [
     "CVE-2026-18839"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18839"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:77932"
     },
     {
       "type": "WEB",

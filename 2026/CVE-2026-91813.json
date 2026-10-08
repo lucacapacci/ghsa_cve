@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-597r-vgr7-9622",
-  "modified": "2026-09-23T09:30:30Z",
+  "modified": "2026-10-08T15:32:41Z",
   "published": "2026-09-23T09:30:30Z",
   "aliases": [
     "CVE-2026-91813"

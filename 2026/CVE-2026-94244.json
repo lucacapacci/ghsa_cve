@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44fp-v3g4-crcr",
-  "modified": "2026-10-08T06:31:20Z",
+  "modified": "2026-10-08T12:34:25Z",
   "published": "2026-10-08T06:31:20Z",
   "aliases": [
     "CVE-2026-94244"
   ],
   "details": "The Wallet System for WooCommerce  WordPress plugin before 2.8.0 does not perform any capability check, and relies on a token any authenticated user can obtain from a front-end page, before generating a report containing every customer's wallet transaction history, allowing any authenticated user, such as a subscriber, to disclose all users' names, email addresses, roles, transaction amounts, payment methods and dates.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-08T06:16:46Z"

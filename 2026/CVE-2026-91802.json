@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm9v-2x45-2rm4",
-  "modified": "2026-09-23T09:30:29Z",
+  "modified": "2026-10-08T15:32:40Z",
   "published": "2026-09-23T09:30:29Z",
   "aliases": [
     "CVE-2026-91802"

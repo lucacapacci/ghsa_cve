@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcfw-vf4c-h2h5",
-  "modified": "2026-10-08T06:31:20Z",
+  "modified": "2026-10-08T12:34:25Z",
   "published": "2026-10-08T06:31:20Z",
   "aliases": [
     "CVE-2026-86827"
   ],
   "details": "The BackWPup  WordPress plugin before 5.7.7 does not verify that a request to its cron-triggered backup execution handler actually originates from WordPress's internal scheduled-event dispatch, allowing unauthenticated attackers to force any existing backup job to run immediately, independent of its configured trigger type or schedule.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-08T06:16:44Z"
