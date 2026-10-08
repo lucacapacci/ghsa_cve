@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q69-f33x-263w",
-  "modified": "2023-06-30T18:31:00Z",
+  "modified": "2026-10-08T21:32:52Z",
   "published": "2022-02-19T00:01:33Z",
   "aliases": [
     "CVE-2021-20320"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2010090"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/bpf/20210902185229.1840281-1-johan.almbladh%40anyfinetworks.com"
     },
     {
       "type": "WEB",

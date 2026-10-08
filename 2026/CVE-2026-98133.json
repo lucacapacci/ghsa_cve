@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7v2-w5q3-wjf8",
-  "modified": "2026-09-25T12:31:37Z",
+  "modified": "2026-10-08T18:32:16Z",
   "published": "2026-09-25T12:31:37Z",
   "aliases": [
     "CVE-2026-98133"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nntfs: leave HasEA flag untouched on setxattr failure\n\nIn ntfs_set_ea(), the exit path unconditionally updates the HasEA\nflag based on ea_info_qsize. When an error occurs before\nea_info_qsize is updated, NInoClearHasEA() hides existing on-disk\nEAs until the inode is evicted.\n\nOnly update the flag on success.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T11:17:44Z"

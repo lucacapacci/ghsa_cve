@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36gf-46c5-pp35",
-  "modified": "2026-10-06T21:31:49Z",
+  "modified": "2026-10-08T18:32:22Z",
   "published": "2026-10-06T21:31:49Z",
   "aliases": [
     "CVE-2026-106405"
   ],
   "details": "Race condition in CustomTabs in Google Chrome on on Android prior to 155.0.8059.39 allowed a local attacker to bypass web origin policy via a co-installed app. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-367"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-06T19:18:10Z"

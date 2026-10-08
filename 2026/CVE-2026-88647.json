@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2j2x-fffq-ff4q",
+  "modified": "2026-10-08T18:32:29Z",
+  "published": "2026-10-08T18:32:29Z",
+  "aliases": [
+    "CVE-2026-88647"
+  ],
+  "details": "A hostname verification bypass in GnuTLS v3.8.13 allows attackers to circumvent the Common Name fallback mechanism and eavesdrop on communications via a crafted certificate.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88647"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/lkloliver/f98ec3de1a871fdfc02b70b8b9ba7642"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.com/gnutls/gnutls/-/issues/1802"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-08T17:17:17Z"
+  }
+}

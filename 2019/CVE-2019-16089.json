@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh85-xmf9-rh86",
-  "modified": "2022-05-24T16:55:35Z",
+  "modified": "2026-10-08T21:32:18Z",
   "published": "2022-05-24T16:55:35Z",
   "aliases": [
     "CVE-2019-16089"
   ],
   "details": "An issue was discovered in the Linux kernel through 5.2.13. nbd_genl_status in drivers/block/nbd.c does not check the nla_nest_start_noflag return value.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20191004-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.f5.com/csp/article/K03814795?utm_source=f5support&amp%3Butm_medium=RSS"
     },
     {
       "type": "WEB",
@@ -48,7 +57,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-476"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

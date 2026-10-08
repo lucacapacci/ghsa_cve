@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hm5-8cp5-vqp5",
-  "modified": "2022-05-24T19:04:29Z",
+  "modified": "2026-10-08T21:32:39Z",
   "published": "2022-05-24T19:04:29Z",
   "aliases": [
     "CVE-2020-24512"
   ],
   "details": "Observable timing discrepancy in some Intel(R) Processors may allow an authenticated user to potentially enable information disclosure via local access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

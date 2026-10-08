@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r297-r893-jqqx",
-  "modified": "2022-05-24T19:09:40Z",
+  "modified": "2026-10-08T21:32:40Z",
   "published": "2022-05-24T19:09:40Z",
   "aliases": [
     "CVE-2021-34556"
   ],
   "details": "In the Linux kernel through 5.13.7, an unprivileged BPF program can obtain sensitive information from kernel memory via a Speculative Store Bypass side-channel attack because the protection mechanism neglects the possibility of uninitialized memory locations on the BPF stack.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2021/10/msg00010.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/565ZS55ZFEN62WVRRORT7R63RXW5F4T4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6JKK6XNRZX5BT5QVYOKGVJ2BHFZAP5EX"
     },
     {
       "type": "WEB",

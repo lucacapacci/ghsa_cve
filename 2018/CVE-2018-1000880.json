@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vg7w-5p64-2q65",
-  "modified": "2022-05-13T01:18:47Z",
+  "modified": "2026-10-08T21:32:16Z",
   "published": "2022-05-13T01:18:47Z",
   "aliases": [
     "CVE-2018-1000880"
@@ -30,6 +30,18 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/ubuntu/+source/libarchive/+bug/1794909"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CBOCC2M6YGPZA6US43YK4INPSJZZHRTG"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/W645KCLWFDBDGFJHG57WOVXGE62QSIJI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZVXA7PHINVT6DFF6PRLTDTVTXKDLVHNF"
     },
     {
       "type": "WEB",

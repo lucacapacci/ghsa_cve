@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r23c-fjj8-522c",
-  "modified": "2022-05-24T19:10:38Z",
+  "modified": "2026-10-08T21:32:40Z",
   "published": "2022-05-24T19:10:38Z",
   "aliases": [
     "CVE-2020-24742"
   ],
   "details": "An issue has been fixed in Qt versions 5.14.0 where QPluginLoader attempts to load plugins relative to the working directory, allowing attackers to execute arbitrary code via crafted files.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

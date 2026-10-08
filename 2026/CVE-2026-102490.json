@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgff-g8g3-4xr8",
-  "modified": "2026-10-07T15:31:29Z",
+  "modified": "2026-10-08T21:33:03Z",
   "published": "2026-09-30T18:33:49Z",
   "aliases": [
     "CVE-2026-102490"
@@ -19,6 +19,10 @@
   ],
   "affected": [],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/zammad/zammad/security/advisories/GHSA-p97w-927q-8vxq"
+    },
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490"

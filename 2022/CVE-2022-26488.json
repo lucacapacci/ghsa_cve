@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f7p-x3g9-9grh",
-  "modified": "2022-03-19T00:01:28Z",
+  "modified": "2026-10-08T21:32:52Z",
   "published": "2022-03-11T00:02:03Z",
   "aliases": [
     "CVE-2022-26488"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-26488"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mail.python.org/archives/list/security-announce%40python.org/thread/657Z4XULWZNIY5FRP3OWXHYKUSIH6DMN"
     },
     {
       "type": "WEB",

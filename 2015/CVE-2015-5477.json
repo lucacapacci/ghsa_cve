@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4622-vjcx-p39j",
-  "modified": "2025-04-12T12:50:24Z",
+  "modified": "2026-10-08T18:31:48Z",
   "published": "2022-05-17T00:25:07Z",
   "aliases": [
     "CVE-2015-5477"
   ],
   "details": "named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -16,55 +21,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04789415"
-    },
-    {
-      "type": "WEB",
-      "url": "https://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04952480"
-    },
-    {
-      "type": "WEB",
-      "url": "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05095918"
-    },
-    {
-      "type": "WEB",
-      "url": "https://kb.isc.org/article/AA-01272"
-    },
-    {
-      "type": "WEB",
-      "url": "https://kb.isc.org/article/AA-01305"
-    },
-    {
-      "type": "WEB",
-      "url": "https://kb.isc.org/article/AA-01306"
-    },
-    {
-      "type": "WEB",
-      "url": "https://kb.isc.org/article/AA-01307"
-    },
-    {
-      "type": "WEB",
-      "url": "https://kb.isc.org/article/AA-01438"
-    },
-    {
-      "type": "WEB",
-      "url": "https://kb.juniper.net/JSA10783"
-    },
-    {
-      "type": "WEB",
-      "url": "https://kc.mcafee.com/corporate/index?page=content&id=SB10126"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.gentoo.org/glsa/201510-01"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20160114-0001"
-    },
-    {
-      "type": "WEB",
-      "url": "https://support.apple.com/kb/HT205032"
+      "url": "https://www.exploit-db.com/exploits/37723"
     },
     {
       "type": "WEB",
@@ -72,7 +29,59 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.exploit-db.com/exploits/37723"
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-5477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT205032"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20160114-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.gentoo.org/glsa/201510-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kc.mcafee.com/corporate/index?page=content&id=SB10126"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.juniper.net/JSA10783"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.isc.org/article/AA-01438"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.isc.org/article/AA-01307"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.isc.org/article/AA-01306"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.isc.org/article/AA-01305"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.isc.org/article/AA-01272"
+    },
+    {
+      "type": "WEB",
+      "url": "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05095918"
+    },
+    {
+      "type": "WEB",
+      "url": "https://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04952480"
+    },
+    {
+      "type": "WEB",
+      "url": "https://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c04789415"
     },
     {
       "type": "WEB",
@@ -184,7 +193,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-617"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

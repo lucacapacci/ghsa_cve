@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64rp-89cr-p8q9",
-  "modified": "2022-05-24T17:13:17Z",
+  "modified": "2026-10-08T21:32:29Z",
   "published": "2022-05-24T17:13:17Z",
   "aliases": [
     "CVE-2020-11494"

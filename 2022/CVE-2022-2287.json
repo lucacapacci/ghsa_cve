@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjwg-496h-658x",
-  "modified": "2022-07-09T00:00:25Z",
+  "modified": "2026-10-08T21:32:57Z",
   "published": "2022-07-03T00:00:22Z",
   "aliases": [
     "CVE-2022-2287"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://huntr.dev/bounties/654aa069-3a9d-45d3-9a52-c1cf3490c284"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/43Y3VJPOTTY3NTREDIFUPITM2POG4ZLP"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UXPO5EHDV6J4B27E65DOQGZFELUFPRSK"
     },
     {
       "type": "WEB",

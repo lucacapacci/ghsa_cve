@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxc9-2rq6-pr6h",
-  "modified": "2023-03-01T18:30:57Z",
+  "modified": "2026-10-08T21:32:17Z",
   "published": "2022-05-24T16:51:05Z",
   "aliases": [
     "CVE-2019-14250"
@@ -70,6 +70,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-190",
       "CWE-787"
     ],
     "severity": "MODERATE",

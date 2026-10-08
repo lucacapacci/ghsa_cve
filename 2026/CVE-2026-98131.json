@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m77g-747m-3xxc",
-  "modified": "2026-09-25T12:31:37Z",
+  "modified": "2026-10-08T21:33:01Z",
   "published": "2026-09-25T12:31:37Z",
   "aliases": [
     "CVE-2026-98131"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: stmmac: fix dma mapping leak in stmmac_tso_xmit()\n\nIn stmmac_tso_xmit(), if the DMA mapping of an skb fragment fails, the\nframe is dropped but the DMA mappings already created for the linear\npart and for the fragments mapped before the failure are never\nunmapped, leaking DMA mappings.\n\nFix the leak by walking back over the descriptors used by the frame and\nreleasing each of them with stmmac_free_tx_buffer(). Moreover, release\nthe descriptors with stmmac_release_tx_desc() unmapping the DMA buffers.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T11:17:44Z"

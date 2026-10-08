@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x5h6-wmmc-r9x2",
-  "modified": "2022-05-24T19:06:12Z",
+  "modified": "2026-10-08T21:32:40Z",
   "published": "2022-05-24T19:06:12Z",
   "aliases": [
     "CVE-2020-28097"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcrq-6j7j-784j",
-  "modified": "2022-07-01T00:01:09Z",
+  "modified": "2026-10-08T21:32:56Z",
   "published": "2022-06-24T00:00:30Z",
   "aliases": [
     "CVE-2022-33070"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/protobuf-c/protobuf-c/pull/508"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FFN2GHUEGTSHRD7J5PKQ5DRSJSEQ2IKN"
     },
     {
       "type": "WEB",

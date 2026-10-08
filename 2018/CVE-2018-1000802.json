@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grfr-pqc4-fqmw",
-  "modified": "2022-05-13T01:12:21Z",
+  "modified": "2026-10-08T21:32:16Z",
   "published": "2022-05-13T01:12:21Z",
   "aliases": [
     "CVE-2018-1000802"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://mega.nz/#!JUFiCC4R!mq-jQ8ySFwIhX6WMDujaZuNBfttDVt7DETlfOIQE1ig"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mega.nz/#%21JUFiCC4R%21mq-jQ8ySFwIhX6WMDujaZuNBfttDVt7DETlfOIQE1ig"
     },
     {
       "type": "WEB",

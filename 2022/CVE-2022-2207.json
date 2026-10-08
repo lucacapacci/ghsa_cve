@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c27v-jmfg-gqrm",
-  "modified": "2022-07-07T00:00:24Z",
+  "modified": "2026-10-08T21:32:56Z",
   "published": "2022-06-28T00:01:02Z",
   "aliases": [
     "CVE-2022-2207"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://huntr.dev/bounties/05bc6051-4dc3-483b-ae56-cf23346b97b9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GFD2A4YLBR7OIRHTL7CK6YNMEIQ264CN"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/U743FMJGFQ35GBPCQ6OWMVZEJPDFVEWM"
     },
     {
       "type": "WEB",

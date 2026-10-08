@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm8r-r39c-96c6",
-  "modified": "2024-04-04T03:04:20Z",
+  "modified": "2026-10-08T18:31:47Z",
   "published": "2022-05-24T17:40:23Z",
   "aliases": [
     "CVE-2021-3199"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nola-milkin/poc_exploits/blob/master/CVE-2021-3199/poc_uploadImageFile.py"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-3199"
     }
   ],
   "database_specific": {

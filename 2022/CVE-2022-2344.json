@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-868g-c3hc-28w2",
-  "modified": "2022-07-17T00:00:47Z",
+  "modified": "2026-10-08T21:32:58Z",
   "published": "2022-07-09T00:00:19Z",
   "aliases": [
     "CVE-2022-2344"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://huntr.dev/bounties/4a095ed9-3125-464a-b656-c31b437e1996"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/43Y3VJPOTTY3NTREDIFUPITM2POG4ZLP"
     },
     {
       "type": "WEB",

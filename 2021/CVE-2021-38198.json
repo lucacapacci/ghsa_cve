@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4wvg-hh97-h3gv",
-  "modified": "2022-05-24T19:10:24Z",
+  "modified": "2026-10-08T21:32:40Z",
   "published": "2022-05-24T19:10:24Z",
   "aliases": [
     "CVE-2021-38198"
   ],
   "details": "arch/x86/kvm/mmu/paging_tmpl.h in the Linux kernel before 5.12.11 incorrectly computes the access permissions of a shadow page, leading to a missing guest protection page fault.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

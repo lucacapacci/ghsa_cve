@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwj4-fxr5-gh64",
-  "modified": "2022-05-13T01:18:43Z",
+  "modified": "2026-10-08T21:32:14Z",
   "published": "2022-05-13T01:18:43Z",
   "aliases": [
     "CVE-2018-1000030"
@@ -50,6 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-416",
       "CWE-787"
     ],
     "severity": "LOW",
