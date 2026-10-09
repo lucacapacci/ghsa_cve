@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmc6-r5xm-56vx",
-  "modified": "2025-07-20T06:31:16Z",
+  "modified": "2026-10-09T18:31:22Z",
   "published": "2025-07-20T06:31:16Z",
   "aliases": [
     "CVE-2025-7870"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/portabilis/i-diario/commit/6c529bb2d96130aa29533f49e204e86518e11fdd"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/CVE-Hunters/CVE/blob/main/i-diario/CVE-2025-7870.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-diario"
     },
     {
       "type": "WEB",
@@ -38,6 +46,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.607947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-7870"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/607947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/316983"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/316983/cti"
     }
   ],
   "database_specific": {

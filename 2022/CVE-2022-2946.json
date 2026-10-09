@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqpf-7vhq-8phw",
-  "modified": "2022-08-26T00:03:36Z",
+  "modified": "2026-10-09T15:31:14Z",
   "published": "2022-08-24T00:00:28Z",
   "aliases": [
     "CVE-2022-2946"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C72HDIMR3KTTAO7QGTXWUMPBNFUFIBRD"
     },
     {
       "type": "WEB",

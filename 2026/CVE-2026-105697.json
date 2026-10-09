@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w794-rj3p-xv45",
-  "modified": "2026-10-07T20:36:35Z",
+  "modified": "2026-10-09T19:57:01Z",
   "published": "2026-10-07T20:36:35Z",
   "aliases": [
     "CVE-2026-105697"
@@ -76,6 +76,10 @@
   "references": [
     {
       "type": "WEB",
+      "url": "https://github.com/langflow-ai/langflow/security/advisories/GHSA-7w94-79vh-5mr2"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/langflow-ai/langflow/security/advisories/GHSA-w794-rj3p-xv45"
     },
     {
@@ -105,6 +109,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.10.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ox.security/blog/mcp-supply-chain-advisory-rce-vulnerabilities-across-the-ai-ecosystem"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-critical-systemic-vulnerability-at-the-core-of-the-mcp"
     }
   ],
   "database_specific": {
