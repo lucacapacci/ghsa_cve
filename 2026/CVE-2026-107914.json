@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcrw-452r-xvqv",
-  "modified": "2026-10-09T06:31:18Z",
+  "modified": "2026-10-09T09:31:03Z",
   "published": "2026-10-09T06:31:18Z",
   "aliases": [
     "CVE-2026-107914"
@@ -21,11 +21,20 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/backdrop/backdrop/commit/1ae67061d9d487bb6cb3b8611191354052f34749"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/backdrop/backdrop/commit/347c8e558254633205f431ce5c12321a7ae9248e"
+    },
+    {
+      "type": "WEB",
       "url": "https://backdropcms.org/security/backdrop-sa-core-2026-006"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-459",
       "CWE-497"
     ],
     "severity": "HIGH",

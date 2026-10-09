@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgvr-pf8h-6rjx",
-  "modified": "2026-10-08T12:34:26Z",
+  "modified": "2026-10-09T09:31:03Z",
   "published": "2026-10-08T12:34:26Z",
   "aliases": [
     "CVE-2026-107510"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107510"
+    },
+    {
+      "type": "WEB",
+      "url": "https://aumlayer.com/insights/administrator-is-not-root-infoblox-nios-privilege-escalation"
     },
     {
       "type": "WEB",

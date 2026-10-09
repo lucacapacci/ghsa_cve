@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q72-f6m2-x86p",
-  "modified": "2025-10-23T21:31:41Z",
+  "modified": "2026-10-09T12:31:34Z",
   "published": "2025-10-16T18:30:25Z",
   "aliases": [
     "CVE-2025-34512"

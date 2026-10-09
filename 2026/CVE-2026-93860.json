@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-858j-2m97-g3qm",
-  "modified": "2026-10-08T18:32:30Z",
+  "modified": "2026-10-09T12:31:40Z",
   "published": "2026-10-08T18:32:30Z",
   "aliases": [
     "CVE-2026-93860"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93860"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.launchpad.net/ossa/+bug/2162789"
     },
     {
       "type": "WEB",
