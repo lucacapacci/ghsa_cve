@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7f7-4w2r-52cg",
-  "modified": "2022-05-24T17:33:33Z",
+  "modified": "2026-10-09T00:31:05Z",
   "published": "2022-05-24T17:33:33Z",
   "aliases": [
     "CVE-2020-12322"
   ],
   "details": "Improper input validation in some Intel(R) Wireless Bluetooth(R) products before version 21.110 may allow an unauthenticated user to potentially enable denial of service via adjacent access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

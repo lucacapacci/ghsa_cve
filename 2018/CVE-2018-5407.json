@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rjg-j575-7f6p",
-  "modified": "2022-05-13T01:16:10Z",
+  "modified": "2026-10-09T00:30:59Z",
   "published": "2022-05-13T01:16:10Z",
   "aliases": [
     "CVE-2018-5407"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://support.f5.com/csp/article/K49711130?utm_source=f5support&amp;utm_medium=RSS"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.f5.com/csp/article/K49711130?utm_source=f5support&amp%3Butm_medium=RSS"
     },
     {
       "type": "WEB",
@@ -134,6 +138,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-200",
       "CWE-203"
     ],
     "severity": "MODERATE",

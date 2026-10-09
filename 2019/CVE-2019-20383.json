@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mj2-qfmh-p7h9",
-  "modified": "2022-05-24T17:25:42Z",
+  "modified": "2026-10-09T00:31:05Z",
   "published": "2022-05-24T17:25:42Z",
   "aliases": [
     "CVE-2019-20383"
   ],
   "details": "ABBYY network license server in ABBYY FineReader 15 before Release 4 (aka 15.0.112.2130) allows escalation of privileges by local users via manipulations involving files and using symbolic links.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-59"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

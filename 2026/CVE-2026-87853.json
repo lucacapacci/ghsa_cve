@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-993g-jgf7-rg3x",
-  "modified": "2026-09-09T18:32:05Z",
+  "modified": "2026-10-09T00:31:40Z",
   "published": "2026-09-09T18:32:05Z",
   "aliases": [
     "CVE-2026-87853"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:77534"
     },
     {
       "type": "WEB",

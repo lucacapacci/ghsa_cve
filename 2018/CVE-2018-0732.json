@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-497c-86pp-222m",
-  "modified": "2022-05-13T01:09:36Z",
+  "modified": "2026-10-09T00:30:58Z",
   "published": "2022-05-13T01:09:36Z",
   "aliases": [
     "CVE-2018-0732"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-0732"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.gentoo.org/glsa/201811-03"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20181105-0001"
     },
     {
       "type": "WEB",
@@ -121,6 +129,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.openssl.org/gitweb/?p=openssl.git%3Ba=commitdiff%3Bh=3984ef0b72831da8b3ece4745cac4f8575b19098"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/gitweb/?p=openssl.git%3Ba=commitdiff%3Bh=ea7abeeabf92b7aca160bdd0208636d4da69f4f4"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=3984ef0b72831da8b3ece4745cac4f8575b19098"
     },
     {
@@ -130,6 +146,18 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/07/msg00043.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EWC42UXL5GHTU5G77VKBF6JYUUNGSHOM"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/Y3IVFGSERAZLNJCK35TEM2R4726XIH3Z"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZBEV5QGDRFUZDMNECFXUSN5FMYOZDE4V"
     },
     {
       "type": "WEB",
@@ -146,14 +174,6 @@
     {
       "type": "WEB",
       "url": "https://nodejs.org/en/blog/vulnerability/august-2018-security-releases"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.gentoo.org/glsa/201811-03"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20181105-0001"
     },
     {
       "type": "WEB",

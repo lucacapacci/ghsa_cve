@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fhm-44hf-3465",
-  "modified": "2022-05-13T01:18:25Z",
+  "modified": "2026-10-09T00:30:58Z",
   "published": "2022-05-13T01:18:25Z",
   "aliases": [
     "CVE-2018-0735"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2019:3700"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/gitweb/?p=openssl.git%3Ba=commitdiff%3Bh=56fb454d281a023b3f950d969693553d3f3ceea1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/gitweb/?p=openssl.git%3Ba=commitdiff%3Bh=b1d6d55ece1c26fa2829e2b819b038d7b6d692b4"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppq4-g8vp-2cv6",
-  "modified": "2022-03-17T00:06:45Z",
+  "modified": "2026-10-09T00:31:12Z",
   "published": "2021-11-20T00:00:54Z",
   "aliases": [
     "CVE-2021-3973"
@@ -33,6 +33,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNXY7T5OORA7UJIMGSJBGHFMU6UZWS6P"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IH2LS2DXBTYOCWGAKFMBF3HTWWXPBEFL"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNXY7T5OORA7UJIMGSJBGHFMU6UZWS6P"
     },
     {
@@ -50,7 +58,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-122"
+      "CWE-122",
+      "CWE-787"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfjx-w835-f3w2",
-  "modified": "2022-05-13T01:27:48Z",
+  "modified": "2026-10-09T00:30:58Z",
   "published": "2022-05-13T01:27:48Z",
   "aliases": [
     "CVE-2018-12116"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-115",
       "CWE-444"
     ],
     "severity": "HIGH",

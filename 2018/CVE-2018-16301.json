@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8wh-rj39-x373",
-  "modified": "2022-05-24T16:57:47Z",
+  "modified": "2026-10-09T00:30:59Z",
   "published": "2022-05-24T16:57:47Z",
   "aliases": [
     "CVE-2018-16301"
   ],
   "details": "libpcap before 1.9.1, as used in tcpdump before 4.9.3, has a buffer overflow and/or over-read because of errors in pcapng reading.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-120"
+      "CWE-120",
+      "CWE-190"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

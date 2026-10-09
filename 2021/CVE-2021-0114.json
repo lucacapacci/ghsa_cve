@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcg6-8prp-mxmv",
-  "modified": "2022-05-24T19:11:15Z",
+  "modified": "2026-10-09T00:31:12Z",
   "published": "2022-05-24T19:11:15Z",
   "aliases": [
     "CVE-2021-0114"

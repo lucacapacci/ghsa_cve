@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5c5-45cp-hjw4",
-  "modified": "2022-08-22T00:00:54Z",
+  "modified": "2026-10-09T00:31:12Z",
   "published": "2022-05-24T19:21:08Z",
   "aliases": [
     "CVE-2021-3968"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://huntr.dev/bounties/00d62924-a7b4-4a61-ba29-acab2eaa1528"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNXY7T5OORA7UJIMGSJBGHFMU6UZWS6P"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IH2LS2DXBTYOCWGAKFMBF3HTWWXPBEFL"
     },
     {
       "type": "WEB",
