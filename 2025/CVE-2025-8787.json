@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p26g-96r4-3qr6",
-  "modified": "2026-04-29T04:11:50Z",
+  "modified": "2026-10-10T18:31:19Z",
   "published": "2025-08-10T03:30:30Z",
   "aliases": [
     "CVE-2025-8787"
@@ -25,11 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/portabilis/i-diario/commit/821342cd8d952e8bd214cb16145da785a92f5681"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/marcelomulder/CVE/blob/main/i-diario/CVE-2025-8787.md"
     },
     {
       "type": "WEB",
       "url": "https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20registros-de-conteudos-por-disciplina.(ID)%20in%20multiples%20parameters.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-diario"
     },
     {
       "type": "WEB",
@@ -42,6 +50,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.625795"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-8787"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/625795"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/319315"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/319315/cti"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpf2-m375-95rh",
-  "modified": "2026-04-29T04:11:46Z",
+  "modified": "2026-10-10T18:31:19Z",
   "published": "2025-08-03T15:30:26Z",
   "aliases": [
     "CVE-2025-8511"
@@ -25,11 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/portabilis/i-diario/commit/821342cd8d952e8bd214cb16145da785a92f5681"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/marcelomulder/CVE/blob/main/i-diario/CVE-2025-8511.md"
     },
     {
       "type": "WEB",
       "url": "https://github.com/marcelomulder/CVE/blob/main/i-diario/Stored%20XSS%20endpoint%20diario-de-observacoes.(ID)%20in%20'Observa%C3%A7%C3%B5es-Descri%C3%A7%C3%A3o'%20parameter.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-diario"
     },
     {
       "type": "WEB",
@@ -42,6 +50,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.618973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-8511"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/618973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/318610"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/318610/cti"
     }
   ],
   "database_specific": {
