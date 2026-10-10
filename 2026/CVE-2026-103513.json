@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w73-5h25-v3cg",
-  "modified": "2026-10-10T12:30:25Z",
+  "modified": "2026-10-10T15:30:21Z",
   "published": "2026-10-10T12:30:25Z",
   "aliases": [
     "CVE-2026-103513"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/s7wyoqyf120dl5ys8jtr26dskd6m485h"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/10/3"
     }
   ],
   "database_specific": {
