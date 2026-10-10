@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4jhc-cc62-fwcm",
-  "modified": "2026-10-07T21:33:29Z",
+  "modified": "2026-10-10T00:30:26Z",
   "published": "2026-10-07T21:33:29Z",
   "aliases": [
     "CVE-2026-107161"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2460420"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/09/20"
     }
   ],
   "database_specific": {

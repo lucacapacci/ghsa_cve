@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx9m-cwq2-hf3w",
-  "modified": "2026-10-09T15:31:32Z",
+  "modified": "2026-10-10T00:30:26Z",
   "published": "2026-10-09T15:31:31Z",
   "aliases": [
     "CVE-2026-102916"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://illumos.topicbox.com/groups/developer/T697a32b688807e56/cve-2026-102916-18491-bhyve-rep-prefix-instr-emulation-fumbles-flags"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/09/19"
     }
   ],
   "database_specific": {
