@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fpgq-5c6j-qf67",
+  "modified": "2026-10-09T21:31:20Z",
+  "published": "2026-10-09T21:31:20Z",
+  "aliases": [
+    "CVE-2026-78835"
+  ],
+  "details": "Rocket Software Rocket Remote Desktop 18.0.8583.1 is vulnerable to Insufficiently Protected Credentials.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78835"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.redteam-pentesting.de/en/advisories/rt-sa-2026-001"
+    },
+    {
+      "type": "WEB",
+      "url": "http://rocket.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-09T19:16:42Z"
+  }
+}
