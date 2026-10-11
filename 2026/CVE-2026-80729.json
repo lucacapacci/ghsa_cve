@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2p8-6fmx-rfj9",
-  "modified": "2026-09-03T15:32:14Z",
+  "modified": "2026-10-11T15:30:56Z",
   "published": "2026-09-03T15:32:14Z",
   "aliases": [
     "CVE-2026-80729"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d858f7c9fc514f1d9d3be7d00b2dd4e2f2383b55"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/dc87b56b43c9143f2405e434cff1530c3488b571"
     }
   ],
   "database_specific": {

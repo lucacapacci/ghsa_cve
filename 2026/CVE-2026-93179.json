@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-636p-hq8h-v2cp",
-  "modified": "2026-09-17T18:32:13Z",
+  "modified": "2026-10-11T15:30:57Z",
   "published": "2026-09-17T18:32:13Z",
   "aliases": [
     "CVE-2026-93179"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93179"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0a6c9b3801903b6db91f3cbf148646b501dbded3"
     },
     {
       "type": "WEB",
