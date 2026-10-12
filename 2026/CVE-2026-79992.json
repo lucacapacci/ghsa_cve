@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42vv-cfp2-9qc8",
-  "modified": "2026-10-11T21:30:47Z",
+  "modified": "2026-10-12T06:31:13Z",
   "published": "2026-08-25T18:32:01Z",
   "aliases": [
     "CVE-2026-79992"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:80507"
     },
     {
       "type": "WEB",
