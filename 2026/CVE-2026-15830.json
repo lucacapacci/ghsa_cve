@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q238-5cxm-5c9h",
-  "modified": "2026-09-30T20:19:01Z",
+  "modified": "2026-10-12T14:36:03Z",
   "published": "2026-08-04T18:31:27Z",
   "aliases": [
     "CVE-2026-15830"
@@ -84,7 +84,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/django/django/commit/1eafa1a80f1363283f89208ba4499ed54e35f085"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/django/django/commit/4353dfb56f8ba3a6fccc4bdd7f2ef2fbee3aa638"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/django/django/commit/62ef9d40cf4ea75f16518436b44b8ab2515340df"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/django/django/commit/6af5da31775417c610dbf9c3f1b5b8333d42daf6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/django/django/commit/75d401a1491e04a907ed745c128836d51c982c0f"
     },
     {
       "type": "WEB",
@@ -101,6 +117,10 @@
     {
       "type": "WEB",
       "url": "https://docs.djangoproject.com/en/dev/releases/security"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-q238-5cxm-5c9h"
     },
     {
       "type": "PACKAGE",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv5j-2376-g8mr",
-  "modified": "2026-01-16T00:30:55Z",
+  "modified": "2026-10-12T15:31:53Z",
   "published": "2026-01-16T00:30:55Z",
   "aliases": [
     "CVE-2021-47796"
@@ -29,7 +29,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/50162"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/denver-sho-110-ip-camera-unauthenticated-snapshot-access"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/denver-smart-wifi-camera-shc-telnet-remote-code-execution-rce"
+    },
+    {
+      "type": "WEB",
+      "url": "http://old.denver.eu/products/smart-home-security/denver-sho-110/c-1024/c-1243/p-3826"
     },
     {
       "type": "WEB",
@@ -38,6 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-306",
       "CWE-798"
     ],
     "severity": "CRITICAL",

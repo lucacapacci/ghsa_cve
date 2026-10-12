@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvh8-jc22-6q2f",
-  "modified": "2026-10-09T18:31:43Z",
+  "modified": "2026-10-12T15:32:09Z",
   "published": "2026-10-09T18:31:42Z",
   "aliases": [
     "CVE-2026-104083"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104083"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.evan.lat/posts/sm"
     },
     {
       "type": "WEB",

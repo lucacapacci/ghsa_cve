@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w427-8f9x-wp42",
-  "modified": "2026-10-12T06:31:16Z",
+  "modified": "2026-10-12T12:30:25Z",
   "published": "2026-10-12T06:31:16Z",
   "aliases": [
     "CVE-2025-15703"
   ],
   "details": "The HireZoot  WordPress plugin before 4.0.0 does not sanitise and escape one of its job specification settings before it is reflected back into an admin-area settings page, allowing users with the HireZoot  WordPress plugin before 4.0.0's management capability (Administrator by default) to store a payload that is executed in the browser of any administrator who later opens that page. As the unfiltered_html capability is not available to administrators on multisite (or where DISALLOW_UNFILTERED_HTML is set), this leads to Stored Cross-Site Scripting.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-12T06:16:58Z"

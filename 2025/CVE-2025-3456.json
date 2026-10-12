@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx5m-jj5c-5j9v",
-  "modified": "2025-08-26T00:31:14Z",
+  "modified": "2026-10-12T12:30:25Z",
   "published": "2025-08-26T00:31:14Z",
   "aliases": [
     "CVE-2025-3456"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://https://www.arista.com/en/support/advisories-notices/security-advisory/22022-security-advisory-0122"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.arista.com/en/support/advisories-notices/security-advisory/22022-security-advisory-0122"
     }
   ],
   "database_specific": {

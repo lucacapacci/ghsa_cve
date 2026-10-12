@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq46-xr65-w8q7",
-  "modified": "2026-08-24T09:33:47Z",
+  "modified": "2026-10-12T15:31:56Z",
   "published": "2026-08-24T09:33:46Z",
   "aliases": [
     "CVE-2026-78306"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78306"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Wh02m1/CVE-2026-78306"
     },
     {
       "type": "WEB",
