@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfjc-4hpf-mgw2",
-  "modified": "2026-09-12T00:31:29Z",
+  "modified": "2026-10-13T18:30:24Z",
   "published": "2026-09-12T00:31:29Z",
   "aliases": [
     "CVE-2026-90460"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://launchpad.net/bugs/2159643"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/10/msg00027.html"
     },
     {
       "type": "WEB",

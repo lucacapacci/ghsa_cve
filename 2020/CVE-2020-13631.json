@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ggrr-j79r-pq3m",
-  "modified": "2022-05-24T17:18:44Z",
+  "modified": "2026-10-13T18:30:23Z",
   "published": "2022-05-24T17:18:44Z",
   "aliases": [
     "CVE-2020-13631"
@@ -77,7 +77,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/L7KXQWHIY2MQP4LNM6ODWJENMXYYQYBN"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/rc713534b10f9daeee2e0990239fa407e2118e4aa9e88a7041177497c@%3Cissues.guacamole.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rc713534b10f9daeee2e0990239fa407e2118e4aa9e88a7041177497c%40%3Cissues.guacamole.apache.org%3E"
     },
     {
       "type": "WEB",

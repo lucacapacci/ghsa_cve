@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxqq-3mgh-v3m7",
-  "modified": "2026-10-12T15:32:08Z",
+  "modified": "2026-10-13T18:30:25Z",
   "published": "2026-09-15T18:32:36Z",
   "aliases": [
     "CVE-2026-85234"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:80663"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82280"
     },
     {
       "type": "WEB",
