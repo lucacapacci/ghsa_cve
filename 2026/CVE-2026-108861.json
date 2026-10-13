@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmxx-h27g-fgrq",
-  "modified": "2026-10-11T15:31:08Z",
+  "modified": "2026-10-13T15:31:51Z",
   "published": "2026-10-11T15:31:08Z",
   "aliases": [
     "CVE-2026-108861"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/erpipe-org/mcp-odoo/blob/v1.3.2/src/odoo_mcp/tools_write.py#L709-L806"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@1ExmmukzRMWN7B4gQ4W-4Q/cve-2026-108861-erpipe-mcp-odoo-execute-method-field-acl-bypass"
     },
     {
       "type": "WEB",

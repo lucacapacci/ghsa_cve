@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj66-6f7g-4r5v",
-  "modified": "2026-09-29T17:53:41Z",
+  "modified": "2026-10-13T15:49:07Z",
   "published": "2026-09-29T17:53:41Z",
   "aliases": [
     "CVE-2026-49264"
@@ -44,6 +44,10 @@
       "url": "https://github.com/oauthlib/oauthlib/security/advisories/GHSA-hj66-6f7g-4r5v"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49264"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/oauthlib/oauthlib/pull/951"
     },
@@ -54,6 +58,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/oauthlib/oauthlib"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/oauthlib/PYSEC-2026-4113.yaml"
     }
   ],
   "database_specific": {

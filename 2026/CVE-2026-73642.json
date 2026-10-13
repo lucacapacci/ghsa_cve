@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8m3-fq83-fgm7",
-  "modified": "2026-09-28T15:31:53Z",
+  "modified": "2026-10-13T15:31:32Z",
   "published": "2026-09-28T15:31:53Z",
   "aliases": [
     "CVE-2026-73642"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://cert.pl/en/posts/2026/08/CVE-2026-73640"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert.pl/en/posts/2026/09/CVE-2026-73640"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hcm.excelityglobal.com/ESS"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqr9-4wvv-gvch",
-  "modified": "2026-07-06T20:47:57Z",
+  "modified": "2026-10-13T16:08:40Z",
   "published": "2026-07-06T20:47:57Z",
   "aliases": [
     "CVE-2026-54641"
@@ -38,7 +38,7 @@
   "references": [
     {
       "type": "WEB",
-      "url": "https://github.com/openremote/openremote/security/advisories/GHSA-xqr9-4wvv-gvch"
+      "url": "https://github.com/openremote/core/security/advisories/GHSA-xqr9-4wvv-gvch"
     },
     {
       "type": "WEB",
@@ -46,7 +46,11 @@
     },
     {
       "type": "PACKAGE",
-      "url": "https://github.com/openremote/openremote"
+      "url": "https://github.com/openremote/core"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openremote/core/releases/tag/1.24.2"
     }
   ],
   "database_specific": {

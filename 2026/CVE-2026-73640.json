@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrm6-gm2g-4hgx",
-  "modified": "2026-09-28T15:31:53Z",
+  "modified": "2026-10-13T15:31:32Z",
   "published": "2026-09-28T15:31:53Z",
   "aliases": [
     "CVE-2026-73640"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert.pl/en/posts/2026/09/CVE-2026-73640"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ess.Exceltiyglobal.com"
     },
     {
       "type": "WEB",

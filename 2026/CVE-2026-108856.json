@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pv8-92g5-57vm",
-  "modified": "2026-10-11T15:31:07Z",
+  "modified": "2026-10-13T15:31:51Z",
   "published": "2026-10-11T15:31:07Z",
   "aliases": [
     "CVE-2026-108856"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/UnicomAI/wanwu/blob/v0.6.5/internal/bff-service/server/http/middleware/auth_openapi.go#L46-L70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@1ExmmukzRMWN7B4gQ4W-4Q/cve-2026-108856-unicomai-wanwu-mcp-key-arbitrary-resource"
     },
     {
       "type": "WEB",

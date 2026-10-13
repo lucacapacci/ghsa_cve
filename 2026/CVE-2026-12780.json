@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6373-275m-34g3",
-  "modified": "2026-06-21T06:32:07Z",
+  "modified": "2026-10-13T12:32:50Z",
   "published": "2026-06-21T06:32:07Z",
   "aliases": [
     "CVE-2026-12780"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://winslow1984.com/books/cve-collection/page/aomei-backupper-830-kernel-driver-amwrtdrvsys-local-privilege-escalation"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/687587"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq96-f7x8-gfx3",
-  "modified": "2026-10-02T03:31:07Z",
+  "modified": "2026-10-13T09:30:35Z",
   "published": "2026-06-30T09:31:35Z",
   "aliases": [
     "CVE-2026-14164"
@@ -29,7 +29,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:72395"
+      "url": "https://access.redhat.com/errata/RHSA-2026:30333"
     },
     {
       "type": "WEB",
@@ -101,15 +101,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82061"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-14164"
     },
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2493411"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:30333"
     },
     {
       "type": "WEB",
@@ -198,6 +198,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:72394"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:72395"
     }
   ],
   "database_specific": {

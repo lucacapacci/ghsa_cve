@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24vw-8hfx-r684",
-  "modified": "2026-10-10T12:30:25Z",
+  "modified": "2026-10-13T09:30:42Z",
   "published": "2026-10-10T12:30:25Z",
   "aliases": [
     "CVE-2026-106139"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.telerik.com/kendo-vue-ui/components/knowledge-base/kb-security-chart-tooltip-xss-cve-2026-1061389"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.telerik.com/kendo-vue-ui/components/knowledge-base/kb-security-chart-tooltip-xss-cve-2026-106139"
     }
   ],
   "database_specific": {
