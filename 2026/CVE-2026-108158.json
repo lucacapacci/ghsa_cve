@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jr3-j3rm-rx7w",
-  "modified": "2026-10-09T18:31:44Z",
+  "modified": "2026-10-13T03:30:29Z",
   "published": "2026-10-09T18:31:44Z",
   "aliases": [
     "CVE-2026-108158"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mynaparrot/plugNmeet-server/blob/961b4b01cdff655928fb4b4d50524b42a6b63ec1/pkg/models/file_convert.go#L143"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind/cve-2026-108158-plugnmeet-whiteboard-path-traversal"
     },
     {
       "type": "WEB",

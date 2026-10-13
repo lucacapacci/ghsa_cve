@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33xm-96fg-7hfc",
-  "modified": "2026-10-09T18:31:43Z",
+  "modified": "2026-10-13T03:30:29Z",
   "published": "2026-10-09T18:31:43Z",
   "aliases": [
     "CVE-2026-108110"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/himovo/movo/blob/v0.2.3/services/chat-api/app/api/endpoints/documents.py#L91-L109"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind/cve-2026-108110-movo-document-authz"
     },
     {
       "type": "WEB",
