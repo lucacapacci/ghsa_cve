@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfh6-5fvj-2qcg",
-  "modified": "2026-07-30T12:32:19Z",
+  "modified": "2026-10-12T21:31:49Z",
   "published": "2026-07-30T12:32:19Z",
   "aliases": [
     "CVE-2026-18381"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18381"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:81201"
     },
     {
       "type": "WEB",

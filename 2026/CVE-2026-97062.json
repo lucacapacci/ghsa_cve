@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgqc-836v-2pjm",
-  "modified": "2026-10-02T18:31:14Z",
+  "modified": "2026-10-12T21:31:52Z",
   "published": "2026-09-24T15:31:32Z",
   "aliases": [
     "CVE-2026-97062"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/aaronamran/CVE-Disclosures/tree/main/CVE-2026/CVE-2026-64818"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/aaronamran/CVE-Disclosures/tree/main/CVE-2026/CVE-2026-97062"
     },
     {
       "type": "WEB",

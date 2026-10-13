@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qrf-r65h-2r77",
-  "modified": "2026-10-09T06:31:14Z",
+  "modified": "2026-10-12T21:31:45Z",
   "published": "2025-06-16T18:32:19Z",
   "aliases": [
     "CVE-2025-6170"
@@ -21,7 +21,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00014.html"
+      "url": "https://access.redhat.com/errata/RHSA-2026:75654"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:75652"
     },
     {
       "type": "WEB",
@@ -85,7 +89,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:73859"
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00014.html"
     },
     {
       "type": "WEB",
@@ -102,6 +106,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-6170"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:81127"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:80756"
     },
     {
       "type": "WEB",
@@ -145,11 +157,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:75654"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:75652"
+      "url": "https://access.redhat.com/errata/RHSA-2026:73859"
     },
     {
       "type": "WEB",

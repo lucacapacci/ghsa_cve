@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp7g-r78m-cc2g",
-  "modified": "2026-10-09T03:31:11Z",
+  "modified": "2026-10-12T21:31:49Z",
   "published": "2026-07-17T21:31:44Z",
   "aliases": [
     "CVE-2026-16118"
@@ -18,10 +18,6 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16118"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:74450"
     },
     {
       "type": "WEB",
@@ -122,6 +118,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:79357"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:80756"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:81127"
     },
     {
       "type": "WEB",
@@ -254,6 +258,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:74365"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74450"
     }
   ],
   "database_specific": {
