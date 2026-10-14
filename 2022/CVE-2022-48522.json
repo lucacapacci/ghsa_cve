@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96cv-gp7m-9r39",
-  "modified": "2024-04-04T07:08:12Z",
+  "modified": "2026-10-14T21:31:42Z",
   "published": "2023-08-22T21:30:27Z",
   "aliases": [
     "CVE-2022-48522"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-48522"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

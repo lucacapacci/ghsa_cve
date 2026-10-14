@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cvh-jwvc-xjw2",
-  "modified": "2026-10-13T15:32:27Z",
+  "modified": "2026-10-14T21:33:16Z",
   "published": "2026-10-13T15:32:27Z",
   "aliases": [
     "CVE-2026-95121"
   ],
   "details": "An issue in mp4v2 2.0.0 allows an attacker to execute arbitrary code via the MP4RtpAtom::ReadHntiType() in src/atom_rtp.cpp. A specially crafted MP4 file can cause an undersized rtp atom to produce a near-2^64 allocation size through an unchecked offset subtraction",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-13T15:17:51Z"

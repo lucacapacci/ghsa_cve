@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f756-c9x3-wxmg",
-  "modified": "2022-10-28T19:00:31Z",
+  "modified": "2026-10-14T21:31:36Z",
   "published": "2022-10-26T12:00:29Z",
   "aliases": [
     "CVE-2022-43750"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.0.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-769027.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

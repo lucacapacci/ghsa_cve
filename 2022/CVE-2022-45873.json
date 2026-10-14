@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w8w-mhj7-j5rc",
-  "modified": "2025-04-25T21:30:47Z",
+  "modified": "2026-10-14T21:31:37Z",
   "published": "2022-11-24T00:30:51Z",
   "aliases": [
     "CVE-2022-45873"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/systemd/systemd/commit/076b807be472630692c5348c60d0c2b7b28ad437"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3363-68jr-jp64",
-  "modified": "2026-10-09T00:31:47Z",
+  "modified": "2026-10-14T21:33:11Z",
   "published": "2026-10-09T00:31:47Z",
   "aliases": [
     "CVE-2026-84246"

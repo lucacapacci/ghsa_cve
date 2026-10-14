@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxvj-4wx4-gv6w",
-  "modified": "2025-02-19T18:32:12Z",
+  "modified": "2026-10-14T21:31:40Z",
   "published": "2023-03-28T15:30:16Z",
   "aliases": [
     "CVE-2023-0466"
@@ -21,31 +21,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=0d16b7e99aafc0b4a6d729eec65a411a7e025f0a"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=51e8a84ce742db0f6c70510d0159dad8f7825908"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=73398dea26de9899fb4baa94098ad0a61f435c72"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=fc814a30fc4f0bc54fcea7d9a7462f5457aab061"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00011.html"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.gentoo.org/glsa/202402-08"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20230414-0001"
+      "url": "https://www.openssl.org/news/secadv/20230328.txt"
     },
     {
       "type": "WEB",
@@ -53,7 +29,63 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.openssl.org/news/secadv/20230328.txt"
+      "url": "https://security.netapp.com/advisory/ntap-20230414-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.gentoo.org/glsa/202402-08"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00011.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=fc814a30fc4f0bc54fcea7d9a7462f5457aab061"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=73398dea26de9899fb4baa94098ad0a61f435c72"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=51e8a84ce742db0f6c70510d0159dad8f7825908"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=0d16b7e99aafc0b4a6d729eec65a411a7e025f0a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-879734.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-769027.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-625862.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-556635.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-341067.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-337522.html"
     },
     {
       "type": "WEB",

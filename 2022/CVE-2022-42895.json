@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48h7-cvhw-3w6x",
-  "modified": "2023-01-23T18:30:17Z",
+  "modified": "2026-10-14T21:31:37Z",
   "published": "2022-11-23T15:30:21Z",
   "aliases": [
     "CVE-2022-42895"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/b1a2cd50c0357f243b7435a732b4e62ba3157a2e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

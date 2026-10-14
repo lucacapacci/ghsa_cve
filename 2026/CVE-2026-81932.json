@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmrc-x822-9c74",
-  "modified": "2026-10-09T00:31:46Z",
+  "modified": "2026-10-14T21:33:09Z",
   "published": "2026-10-09T00:31:46Z",
   "aliases": [
     "CVE-2026-81932"

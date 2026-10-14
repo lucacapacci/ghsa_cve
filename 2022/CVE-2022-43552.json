@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6342-4x32-pp8v",
-  "modified": "2024-03-27T15:30:36Z",
+  "modified": "2026-10-14T21:31:38Z",
   "published": "2023-02-09T21:30:28Z",
   "aliases": [
     "CVE-2022-43552"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/1764858"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-892048.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f43w-w9qr-2mwm",
-  "modified": "2025-05-15T21:31:14Z",
+  "modified": "2026-10-14T21:31:35Z",
   "published": "2022-10-14T12:00:23Z",
   "aliases": [
     "CVE-2022-42720"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.suse.com/show_bug.cgi?id=1204059"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

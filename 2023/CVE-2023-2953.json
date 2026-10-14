@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26fx-c7cw-5jh4",
-  "modified": "2024-04-04T04:24:03Z",
+  "modified": "2026-10-14T21:31:40Z",
   "published": "2023-05-31T00:31:05Z",
   "aliases": [
     "CVE-2023-2953"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://bugs.openldap.org/show_bug.cgi?id=9904"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-806742.html"
     },
     {
       "type": "WEB",

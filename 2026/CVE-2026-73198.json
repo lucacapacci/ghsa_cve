@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p44q-gpjc-mgm9",
-  "modified": "2026-10-14T18:31:44Z",
+  "modified": "2026-10-14T21:32:54Z",
   "published": "2026-08-20T12:31:22Z",
   "aliases": [
     "CVE-2026-73198"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:82935"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:83083"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:83085"
     },
     {
       "type": "WEB",

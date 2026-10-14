@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvw8-76h2-7q32",
-  "modified": "2022-11-28T03:30:18Z",
+  "modified": "2026-10-14T21:31:37Z",
   "published": "2022-11-23T15:30:21Z",
   "aliases": [
     "CVE-2022-42896"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/711f8c3fb3db61897080468586b970c87c61d9e4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

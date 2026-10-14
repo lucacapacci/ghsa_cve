@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2927-mfhv-37vh",
-  "modified": "2026-10-14T03:30:28Z",
+  "modified": "2026-10-14T21:32:37Z",
   "published": "2026-05-26T18:31:47Z",
   "aliases": [
     "CVE-2026-48864"
@@ -22,10 +22,6 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:21333"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:72399"
     },
     {
       "type": "WEB",
@@ -114,6 +110,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:82372"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82857"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82888"
     },
     {
       "type": "WEB",
@@ -226,6 +230,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:72395"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:72399"
     }
   ],
   "database_specific": {

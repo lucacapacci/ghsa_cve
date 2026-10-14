@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rpw-4xx7-27w7",
-  "modified": "2026-10-14T03:30:31Z",
+  "modified": "2026-10-14T21:32:53Z",
   "published": "2026-06-30T15:30:45Z",
   "aliases": [
     "CVE-2026-58016"
@@ -22,10 +22,6 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:42063"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:73909"
     },
     {
       "type": "WEB",
@@ -94,6 +90,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:82372"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82857"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82888"
     },
     {
       "type": "WEB",
@@ -194,6 +198,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:72502"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:73909"
     }
   ],
   "database_specific": {

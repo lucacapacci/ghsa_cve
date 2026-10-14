@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfvm-966j-jch4",
-  "modified": "2022-10-17T19:00:28Z",
+  "modified": "2026-10-14T21:31:36Z",
   "published": "2022-10-14T12:00:23Z",
   "aliases": [
     "CVE-2022-42722"
@@ -25,11 +25,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git/commit/?id=b2d03cabe2b2e150ff5a381731ea0355459be09f"
     },
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/11/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GGHENNMLCWIQV2LLA56BJNFIUZ7WB4IY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/S2KTU5LFZNQS7YNGE56MT46VHMXL3DD2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VNN3VFQPECS6D4PS6ZWD7AFXTOSJDSSR"
     },
     {
       "type": "WEB",

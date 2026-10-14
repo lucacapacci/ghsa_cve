@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6fx6-mv6x-h475",
-  "modified": "2023-04-08T03:30:28Z",
+  "modified": "2026-10-14T21:31:40Z",
   "published": "2023-03-29T21:30:19Z",
   "aliases": [
     "CVE-2022-42432"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42432"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchwork.ozlabs.org/project/netfilter-devel/patch/20220907082618.1193201-1-pablo%40netfilter.org"
     },
     {
       "type": "WEB",

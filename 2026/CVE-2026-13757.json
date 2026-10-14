@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2wm-69qx-x25w",
-  "modified": "2026-10-14T03:30:28Z",
+  "modified": "2026-10-14T21:32:50Z",
   "published": "2026-06-29T21:32:10Z",
   "aliases": [
     "CVE-2026-13757"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-13757"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82857"
     },
     {
       "type": "WEB",

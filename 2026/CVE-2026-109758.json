@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8m68-j7cp-5rcm",
-  "modified": "2026-10-13T06:30:26Z",
+  "modified": "2026-10-14T21:33:16Z",
   "published": "2026-10-13T06:30:26Z",
   "aliases": [
     "CVE-2026-109758"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rgh-57xm-37v8",
-  "modified": "2026-10-14T06:30:53Z",
+  "modified": "2026-10-14T21:32:24Z",
   "published": "2026-04-30T18:30:33Z",
   "aliases": [
     "CVE-2026-3833"
@@ -18,10 +18,6 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3833"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:60019"
     },
     {
       "type": "WEB",
@@ -70,6 +66,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:82372"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82857"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82888"
     },
     {
       "type": "WEB",
@@ -150,6 +154,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:59831"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:60019"
     }
   ],
   "database_specific": {

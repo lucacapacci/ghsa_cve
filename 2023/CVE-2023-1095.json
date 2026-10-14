@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grc4-c844-m2mx",
-  "modified": "2023-03-06T15:30:42Z",
+  "modified": "2026-10-14T21:31:39Z",
   "published": "2023-03-01T00:30:36Z",
   "aliases": [
     "CVE-2023-1095"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2173973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     }
   ],
   "database_specific": {

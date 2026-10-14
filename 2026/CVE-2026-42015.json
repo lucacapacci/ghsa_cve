@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45p2-c2m2-2656",
-  "modified": "2026-10-14T06:30:54Z",
+  "modified": "2026-10-14T21:32:38Z",
   "published": "2026-05-27T00:31:27Z",
   "aliases": [
     "CVE-2026-42015"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-42015"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82857"
     },
     {
       "type": "WEB",
