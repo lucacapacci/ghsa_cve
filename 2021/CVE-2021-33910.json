@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5337-wcgc-wcvp",
-  "modified": "2025-06-09T18:32:01Z",
+  "modified": "2026-10-14T12:31:20Z",
   "published": "2022-05-24T19:08:26Z",
   "aliases": [
     "CVE-2021-33910"
@@ -82,6 +82,14 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-222547.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-222547.html"
     },
     {
       "type": "WEB",

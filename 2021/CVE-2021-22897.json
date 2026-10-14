@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frcg-47mh-pj2g",
-  "modified": "2024-03-27T18:32:37Z",
+  "modified": "2026-10-14T12:31:19Z",
   "published": "2022-05-24T19:05:02Z",
   "aliases": [
     "CVE-2021-22897"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/1172857"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-389290.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9p5-p7h5-p2wg",
-  "modified": "2025-12-03T15:30:27Z",
+  "modified": "2026-10-14T12:31:19Z",
   "published": "2022-05-24T19:04:21Z",
   "aliases": [
     "CVE-2021-33560"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-33560"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

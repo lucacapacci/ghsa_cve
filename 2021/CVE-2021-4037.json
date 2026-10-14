@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvgr-4fph-m6hc",
-  "modified": "2026-08-10T18:31:13Z",
+  "modified": "2026-10-14T12:31:24Z",
   "published": "2022-08-25T00:00:27Z",
   "aliases": [
     "CVE-2021-4037"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2027239"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-806742.html"
     },
     {
       "type": "WEB",

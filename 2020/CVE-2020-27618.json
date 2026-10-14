@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q5q-4c7r-7r4r",
-  "modified": "2025-06-09T18:32:01Z",
+  "modified": "2026-10-14T12:31:17Z",
   "published": "2022-05-24T17:43:21Z",
   "aliases": [
     "CVE-2020-27618"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-27618"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-831302.html"
     },
     {
       "type": "WEB",

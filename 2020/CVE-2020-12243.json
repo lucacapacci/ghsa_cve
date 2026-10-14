@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3qx-x9jr-g987",
-  "modified": "2024-04-04T02:50:23Z",
+  "modified": "2026-10-14T12:31:13Z",
   "published": "2022-05-24T17:16:45Z",
   "aliases": [
     "CVE-2020-12243"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.openldap.org/show_bug.cgi?id=9202"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

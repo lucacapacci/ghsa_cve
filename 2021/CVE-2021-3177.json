@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc96-xw56-vfwh",
-  "modified": "2025-12-18T15:30:24Z",
+  "modified": "2026-10-14T12:31:16Z",
   "published": "2022-05-24T17:39:30Z",
   "aliases": [
     "CVE-2021-3177"
@@ -25,7 +25,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://bugs.python.org/issue42938"
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CCFZMVRQUKCBQIG5F2CBVADK63NFSE4A"
     },
     {
       "type": "WEB",
@@ -109,6 +109,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://bugs.python.org/issue42938"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
     },
     {
@@ -186,10 +194,6 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BRHOCQYX3QLDGDQGTWQAUUT2GGIZCZUO"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CCFZMVRQUKCBQIG5F2CBVADK63NFSE4A"
     }
   ],
   "database_specific": {

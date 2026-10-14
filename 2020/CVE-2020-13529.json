@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44p7-qpr4-rgvf",
-  "modified": "2022-05-24T19:01:53Z",
+  "modified": "2026-10-14T12:31:18Z",
   "published": "2022-05-24T19:01:53Z",
   "aliases": [
     "CVE-2020-13529"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-13529"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/42TMJVNYRY65B4QCJICBYOEIVZV3KUYI"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjqf-6h27-xqfp",
-  "modified": "2024-03-27T15:30:34Z",
+  "modified": "2026-10-14T12:31:21Z",
   "published": "2022-05-24T19:10:07Z",
   "aliases": [
     "CVE-2021-22925"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/1223882"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-389290.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-484086.html"
     },
     {
       "type": "WEB",

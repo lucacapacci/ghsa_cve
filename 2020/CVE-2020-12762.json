@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3797-gmjf-45gm",
-  "modified": "2025-11-03T21:30:31Z",
+  "modified": "2026-10-14T12:31:13Z",
   "published": "2022-05-24T17:17:32Z",
   "aliases": [
     "CVE-2020-12762"
@@ -94,6 +94,22 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-637483.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-202008.html"
     }
   ],
   "database_specific": {

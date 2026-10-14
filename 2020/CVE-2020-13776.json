@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2fm-j5p3-x5h7",
-  "modified": "2025-06-09T18:32:00Z",
+  "modified": "2026-10-14T12:31:14Z",
   "published": "2022-05-24T17:19:03Z",
   "aliases": [
     "CVE-2020-13776"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/systemd/systemd/issues/15985"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

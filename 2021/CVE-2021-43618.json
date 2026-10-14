@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfg4-w44m-wr4g",
-  "modified": "2022-10-13T19:00:21Z",
+  "modified": "2026-10-14T12:31:23Z",
   "published": "2022-05-24T19:20:40Z",
   "aliases": [
     "CVE-2021-43618"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.debian.org/994405"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

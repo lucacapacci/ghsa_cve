@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-843q-w84q-c7qg",
-  "modified": "2024-03-21T03:33:55Z",
+  "modified": "2026-10-14T12:31:13Z",
   "published": "2022-05-24T17:18:54Z",
   "aliases": [
     "CVE-2020-12062"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssh/openssh-portable/commit/aad87b88fc2536b1ea023213729aaf4eaabe1894"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvxm-8hgf-6m6m",
-  "modified": "2024-06-04T18:30:41Z",
+  "modified": "2026-10-14T12:31:14Z",
   "published": "2022-05-24T17:24:18Z",
   "aliases": [
     "CVE-2020-15778"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2024:3166"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

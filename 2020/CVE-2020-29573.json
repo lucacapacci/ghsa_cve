@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6gp-hg9r-wh46",
-  "modified": "2023-04-26T21:30:36Z",
+  "modified": "2026-10-14T12:31:15Z",
   "published": "2022-05-24T17:35:26Z",
   "aliases": [
     "CVE-2020-29573"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-29573"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

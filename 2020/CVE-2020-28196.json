@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2wgw-3mv7-47xf",
-  "modified": "2025-12-03T21:30:58Z",
+  "modified": "2026-10-14T12:31:15Z",
   "published": "2022-05-24T17:33:20Z",
   "aliases": [
     "CVE-2020-28196"
@@ -94,6 +94,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b%40%3Cissues.bookkeeper.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hh6-p5c5-mmmf",
-  "modified": "2022-06-07T00:00:35Z",
+  "modified": "2026-10-14T12:31:17Z",
   "published": "2022-05-24T17:44:27Z",
   "aliases": [
     "CVE-2021-28153"
@@ -21,11 +21,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/glib/-/issues/2325"
     },
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/06/msg00006.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6RXTD5HCP2K4AAUSWWZTBKQNHRCTAEOF"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ICUTQPHZNZWX2DZR46QFLQZRHVMHIILJ"
     },
     {
       "type": "WEB",

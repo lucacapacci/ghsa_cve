@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4p54-q58q-8mpc",
-  "modified": "2022-08-28T00:00:32Z",
+  "modified": "2026-10-14T12:31:24Z",
   "published": "2022-08-24T00:00:27Z",
   "aliases": [
     "CVE-2021-3997"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2024639"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

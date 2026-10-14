@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp5m-rxrx-pfrj",
-  "modified": "2022-05-24T17:43:48Z",
+  "modified": "2026-10-14T12:31:17Z",
   "published": "2022-05-24T17:43:48Z",
   "aliases": [
     "CVE-2021-28041"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssh/openssh-portable/commit/e04fd6dde16de1cdc5a4d9946397ff60d96568db"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KQWGII3LQR4AOTPPFXGMTYE7UDEWIUKI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TXST2CML2MWY3PNVUXX7FFJE3ATJMNVZ"
     },
     {
       "type": "WEB",

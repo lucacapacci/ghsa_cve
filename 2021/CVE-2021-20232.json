@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p947-gfm7-f4g7",
-  "modified": "2025-12-03T15:30:26Z",
+  "modified": "2026-10-14T12:31:17Z",
   "published": "2022-05-24T17:44:28Z",
   "aliases": [
     "CVE-2021-20232"
@@ -98,6 +98,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r50661d6f0082709aad9a584431b59ec364f9974b63b07e0800230168%40%3Cissues.spark.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32pr-wg5j-9rwr",
-  "modified": "2025-06-09T15:31:33Z",
+  "modified": "2026-10-14T12:31:24Z",
   "published": "2022-08-25T00:00:27Z",
   "aliases": [
     "CVE-2021-3998"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2024633"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-831302.html"
     },
     {
       "type": "WEB",

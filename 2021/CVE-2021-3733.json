@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj55-vqcq-gxcp",
-  "modified": "2025-11-04T00:30:31Z",
+  "modified": "2026-10-14T12:31:23Z",
   "published": "2022-03-11T00:02:31Z",
   "aliases": [
     "CVE-2021-3733"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1995234"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

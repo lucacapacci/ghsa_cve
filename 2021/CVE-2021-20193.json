@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwq4-jmcc-2cx4",
-  "modified": "2021-12-10T19:58:00Z",
+  "modified": "2026-10-14T12:31:18Z",
   "published": "2021-05-27T15:14:35Z",
   "aliases": [
     "CVE-2021-20193"
@@ -23,6 +23,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1917565"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

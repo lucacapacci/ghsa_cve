@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73g2-m4v3-6c2h",
-  "modified": "2024-03-21T03:34:08Z",
+  "modified": "2026-10-14T12:31:22Z",
   "published": "2022-05-24T19:19:43Z",
   "aliases": [
     "CVE-2021-43396"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.tuxcare.com/vulnerability/vulnerability-in-iconv-identified-by-tuxcare-team-cve-2021-43396"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

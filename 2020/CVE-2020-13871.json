@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjq2-9xcc-v8x3",
-  "modified": "2022-05-24T17:19:28Z",
+  "modified": "2026-10-14T12:31:14Z",
   "published": "2022-05-24T17:19:28Z",
   "aliases": [
     "CVE-2020-13871"
@@ -21,11 +21,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-389290.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf"
     },
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2020/08/msg00037.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BN32AGQPMHZRNM6P6L5GZPETOWTGXOKP"
     },
     {
       "type": "WEB",

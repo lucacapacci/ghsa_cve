@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wx7m-j6j8-xm63",
-  "modified": "2023-02-27T15:30:19Z",
+  "modified": "2026-10-14T12:31:15Z",
   "published": "2022-05-24T17:27:24Z",
   "aliases": [
     "CVE-2020-24659"
@@ -21,7 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://gitlab.com/gnutls/gnutls/-/issues/1071"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/62BUAI4FQQLG6VTKRT7SUZPGJJ4NASQ3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/AWN56FDLQQXT2D2YHNI4TYH432TDMQ7N"
     },
     {
       "type": "WEB",
@@ -58,6 +70,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-476",
       "CWE-787"
     ],
     "severity": "MODERATE",
