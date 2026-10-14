@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73hv-3hwx-q492",
-  "modified": "2026-10-08T18:32:31Z",
+  "modified": "2026-10-14T03:30:33Z",
   "published": "2026-10-08T18:32:30Z",
   "aliases": [
     "CVE-2026-97147"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97147"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.launchpad.net/mistral/+bug/2160267"
     },
     {
       "type": "WEB",

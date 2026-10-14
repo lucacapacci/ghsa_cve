@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjfh-2xpf-qmm3",
-  "modified": "2026-09-03T15:32:16Z",
+  "modified": "2026-10-14T03:30:33Z",
   "published": "2026-09-03T15:32:16Z",
   "aliases": [
     "CVE-2026-82918"
@@ -25,11 +25,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://jvn.jp/en/vu/JVNVU98062224"
+    },
+    {
+      "type": "WEB",
       "url": "https://jvn.jp/en/vu/JVNVU98062224/index.html"
     },
     {
       "type": "WEB",
       "url": "https://www.keyence.com/mi26082104"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.keyence.com/mi26090802"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.keyence.com/mi26090804"
     }
   ],
   "database_specific": {

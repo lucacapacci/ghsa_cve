@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88h9-xgvx-hvf2",
-  "modified": "2026-09-28T19:43:51Z",
+  "modified": "2026-09-28T19:46:29Z",
   "published": "2026-09-28T19:43:51Z",
   "aliases": [
     "CVE-2026-101914"
@@ -80,11 +80,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/grpc/grpc-node/releases/tag/@grpc/grpc-js-xds/1.13.1"
+      "url": "https://github.com/grpc/grpc-node/releases/tag/@grpc/grpc-js-xds%401.13.1"
     },
     {
       "type": "WEB",
-      "url": "https://github.com/grpc/grpc-node/releases/tag/@grpc/grpc-js-xds/1.14.1"
+      "url": "https://github.com/grpc/grpc-node/releases/tag/@grpc/grpc-js-xds%401.14.1"
     }
   ],
   "database_specific": {
