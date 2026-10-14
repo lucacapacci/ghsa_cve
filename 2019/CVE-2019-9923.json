@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg5f-88x3-g9cw",
-  "modified": "2025-08-07T00:30:31Z",
+  "modified": "2026-10-14T09:31:19Z",
   "published": "2022-05-13T01:08:59Z",
   "aliases": [
     "CVE-2019-9923"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/ubuntu/+source/tar/+bug/1810241"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

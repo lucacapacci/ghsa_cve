@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mr2-r9fx-7j9m",
-  "modified": "2022-05-13T01:08:24Z",
+  "modified": "2026-10-14T09:31:15Z",
   "published": "2022-05-13T01:08:24Z",
   "aliases": [
     "CVE-2017-16931"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.gnome.org/show_bug.cgi?id=766956"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

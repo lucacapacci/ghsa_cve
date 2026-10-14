@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mc9f-fv52-p544",
-  "modified": "2022-05-24T17:05:53Z",
+  "modified": "2026-10-14T09:31:25Z",
   "published": "2022-05-24T17:05:53Z",
   "aliases": [
     "CVE-2019-20367"
   ],
   "details": "nlist.c in libbsd before 0.10.0 has an out-of-bounds read during a comparison for a symbol name from the string table (strtab).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -16,11 +21,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://gitlab.freedesktop.org/libbsd/libbsd/commit/9d917aad37778a9f4a96ba358415f077f3f36f3b"
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r0e913668380f59bcbd14fdd8ae8d24f95f99995e290cd18a7822c6e5%40%3Cdev.tomee.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r0e913668380f59bcbd14fdd8ae8d24f95f99995e290cd18a7822c6e5@%3Cdev.tomee.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/ra781e51cf1ec40381c98cddc073b3576fb56c3978f4564d2fa431550%40%3Cdev.tomee.apache.org%3E"
     },
     {
       "type": "WEB",

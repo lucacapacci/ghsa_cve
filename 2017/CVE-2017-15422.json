@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4p7-r6qr-35pv",
-  "modified": "2022-05-14T02:01:41Z",
+  "modified": "2026-10-14T09:31:16Z",
   "published": "2022-05-14T02:01:41Z",
   "aliases": [
     "CVE-2017-15422"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2017:3401"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

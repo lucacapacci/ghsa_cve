@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrgp-3vgj-937c",
-  "modified": "2022-10-07T18:15:42Z",
+  "modified": "2026-10-14T09:31:24Z",
   "published": "2022-05-24T17:05:28Z",
   "aliases": [
     "CVE-2019-20218"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sqlite/sqlite/commit/a6c1a71cde082e09750465d5675699062922e387"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

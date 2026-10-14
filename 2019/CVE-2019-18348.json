@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3f8-6665-x7rx",
-  "modified": "2024-04-04T02:33:32Z",
+  "modified": "2026-10-14T09:31:23Z",
   "published": "2022-05-24T16:59:45Z",
   "aliases": [
     "CVE-2019-18348"
@@ -78,6 +78,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2020/07/msg00011.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

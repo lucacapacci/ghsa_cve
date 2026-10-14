@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w829-6hpw-frjf",
-  "modified": "2025-05-30T21:30:53Z",
+  "modified": "2026-10-14T09:31:23Z",
   "published": "2022-05-24T16:55:26Z",
   "aliases": [
     "CVE-2019-15903"
@@ -37,7 +37,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2019:3210"
+      "url": "https://security.gentoo.org/glsa/201911-08"
     },
     {
       "type": "WEB",
@@ -117,11 +117,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2019:3210"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2019:3237"
     },
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2019:3756"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",
@@ -186,10 +194,6 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/bugtraq/2019/Sep/37"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.gentoo.org/glsa/201911-08"
     },
     {
       "type": "WEB",

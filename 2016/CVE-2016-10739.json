@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r2c-r3r4-4hcp",
-  "modified": "2022-05-14T00:55:06Z",
+  "modified": "2026-10-14T09:31:16Z",
   "published": "2022-05-14T00:55:06Z",
   "aliases": [
     "CVE-2016-10739"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1347549"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

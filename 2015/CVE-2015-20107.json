@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvcr-2gc8-63gg",
-  "modified": "2025-11-04T00:30:32Z",
+  "modified": "2026-10-14T09:31:31Z",
   "published": "2022-04-14T00:00:18Z",
   "aliases": [
     "CVE-2015-20107"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/issues/68966"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.python.org/issue24778"
     },
     {
       "type": "WEB",
@@ -125,7 +129,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://bugs.python.org/issue24778"
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

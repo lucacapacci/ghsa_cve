@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mcc-mjj5-h77m",
-  "modified": "2026-10-07T21:31:12Z",
+  "modified": "2026-10-14T09:31:23Z",
   "published": "2022-05-24T16:55:34Z",
   "aliases": [
     "CVE-2019-16056"
@@ -25,7 +25,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2019:3725"
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SDQQ56P7ZZR64XV5DUVWNSNXKKEXUG2J"
     },
     {
       "type": "WEB",
@@ -113,11 +113,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2019:3725"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2019:3948"
     },
     {
       "type": "WEB",
       "url": "https://bugs.python.org/issue34155"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",
@@ -194,10 +202,6 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QP46PQSUKYPGWTADQ67NOV3BUN6JM34Z"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SDQQ56P7ZZR64XV5DUVWNSNXKKEXUG2J"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcxc-5f87-vq5m",
-  "modified": "2025-06-09T18:32:00Z",
+  "modified": "2026-10-14T09:31:24Z",
   "published": "2022-05-24T17:02:24Z",
   "aliases": [
     "CVE-2019-18276"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/bminor/bash/commit/951bdaad7a18cc0dc1036bba86b18b90874d39ff"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

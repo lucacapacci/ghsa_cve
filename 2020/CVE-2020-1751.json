@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-22j8-wpwh-4rrr",
-  "modified": "2023-01-27T21:31:15Z",
+  "modified": "2026-10-14T09:31:28Z",
   "published": "2022-05-24T17:15:44Z",
   "aliases": [
     "CVE-2020-1751"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1751"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

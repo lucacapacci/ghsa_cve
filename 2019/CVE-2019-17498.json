@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2hf-mx7w-fhwm",
-  "modified": "2022-05-24T22:01:01Z",
+  "modified": "2026-10-14T09:31:23Z",
   "published": "2022-05-24T22:01:01Z",
   "aliases": [
     "CVE-2019-17498"
@@ -33,6 +33,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/kevinbackhouse/SecurityExploits/tree/8cbdbbe6363510f7d9ceec685373da12e6fc752d/libssh2/out_of_bounds_read_disconnect_CVE-2019-17498"
     },
     {
@@ -50,6 +54,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/09/msg00006.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/22H4Q5XMGS3QNSA7OCL3U7UQZ4NXMR5O"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TY7EEE34RFKCTXTMBQQWWSLXZWSCXNDB"
     },
     {
       "type": "WEB",

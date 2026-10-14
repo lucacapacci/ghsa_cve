@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whwh-vhp2-pj62",
-  "modified": "2022-05-24T17:36:21Z",
+  "modified": "2026-10-14T09:31:29Z",
   "published": "2022-05-24T17:36:21Z",
   "aliases": [
     "CVE-2020-8169"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/874778"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-200951.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-389290.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

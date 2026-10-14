@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5x95-66xj-7chm",
-  "modified": "2022-05-24T16:51:29Z",
+  "modified": "2026-10-14T09:31:23Z",
   "published": "2022-05-24T16:51:29Z",
   "aliases": [
     "CVE-2019-13057"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-13057"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

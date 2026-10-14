@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2q3w-h8mm-q9v3",
-  "modified": "2022-10-31T12:00:23Z",
+  "modified": "2026-10-14T09:31:24Z",
   "published": "2022-05-05T00:29:07Z",
   "aliases": [
     "CVE-2013-4235"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

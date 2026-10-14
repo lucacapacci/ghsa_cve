@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cf7-h7g3-cg3p",
-  "modified": "2025-04-20T03:39:00Z",
+  "modified": "2026-10-14T09:31:15Z",
   "published": "2022-05-13T01:09:02Z",
   "aliases": [
     "CVE-2017-0663"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-0663"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

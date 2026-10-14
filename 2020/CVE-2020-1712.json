@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wggx-8wf7-vg3g",
-  "modified": "2022-07-01T00:01:11Z",
+  "modified": "2026-10-14T09:31:26Z",
   "published": "2022-05-24T17:12:59Z",
   "aliases": [
     "CVE-2020-1712"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-1712"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

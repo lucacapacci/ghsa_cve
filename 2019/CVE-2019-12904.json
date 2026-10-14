@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w862-39x5-q88x",
-  "modified": "2024-03-21T03:33:40Z",
+  "modified": "2026-10-14T09:31:22Z",
   "published": "2022-05-24T16:48:28Z",
   "aliases": [
     "CVE-2019-12904"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/gpg/libgcrypt/commit/daedbbb5541cd8ecda1459d3b843ea4d92788762"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cvc-j2xm-h554",
-  "modified": "2025-12-03T21:30:58Z",
+  "modified": "2026-10-14T09:31:24Z",
   "published": "2022-05-24T17:05:00Z",
   "aliases": [
     "CVE-2019-19956"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-19956"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-292794.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

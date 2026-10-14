@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43wf-f579-3w62",
-  "modified": "2022-05-24T17:09:28Z",
+  "modified": "2026-10-14T09:31:26Z",
   "published": "2022-05-24T17:09:28Z",
   "aliases": [
     "CVE-2020-9327"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9327"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-389290.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

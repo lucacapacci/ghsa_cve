@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp2w-w5rc-8fxj",
-  "modified": "2024-04-04T00:49:06Z",
+  "modified": "2026-10-14T09:31:21Z",
   "published": "2022-05-24T16:46:47Z",
   "aliases": [
     "CVE-2019-5435"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5435"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

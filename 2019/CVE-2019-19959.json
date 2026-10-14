@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8q6c-j3g3-gr6j",
-  "modified": "2022-05-24T17:05:32Z",
+  "modified": "2026-10-14T09:31:24Z",
   "published": "2022-05-24T17:05:32Z",
   "aliases": [
     "CVE-2019-19959"
   ],
   "details": "ext/misc/zipfile.c in SQLite 3.30.1 mishandles certain uses of INSERT INTO in situations involving embedded '\\0' characters in filenames, leading to a memory-management error that can be detected by (for example) valgrind.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sqlite/sqlite/commit/d8f2d46cbc9925e034a68aaaf60aad788d9373c1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mv2j-4mm8-9xgv",
-  "modified": "2025-12-18T15:30:24Z",
+  "modified": "2026-10-14T09:31:16Z",
   "published": "2022-05-13T01:22:35Z",
   "aliases": [
     "CVE-2019-6110"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-6110"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-412672.html"
     },
     {
       "type": "WEB",

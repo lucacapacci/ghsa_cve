@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xvc-p9x4-w7jm",
-  "modified": "2024-04-04T00:49:08Z",
+  "modified": "2026-10-14T09:31:22Z",
   "published": "2022-05-24T16:46:47Z",
   "aliases": [
     "CVE-2019-5436"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-5436"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

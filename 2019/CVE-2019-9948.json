@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24p8-x4mp-cq86",
-  "modified": "2026-10-07T21:31:10Z",
+  "modified": "2026-10-14T09:31:20Z",
   "published": "2022-05-24T16:59:27Z",
   "aliases": [
     "CVE-2019-9948"
@@ -82,6 +82,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r1b103833cb5bc8466e24ff0ecc5e75b45a705334ab6a444e64e840a0%40%3Cissues.bookkeeper.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

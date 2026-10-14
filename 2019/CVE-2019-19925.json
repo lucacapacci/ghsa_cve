@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcjr-83cc-7pfq",
-  "modified": "2022-05-24T17:04:59Z",
+  "modified": "2026-10-14T09:31:24Z",
   "published": "2022-05-24T17:04:59Z",
   "aliases": [
     "CVE-2019-19925"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2020:0514"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-389290.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

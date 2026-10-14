@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4h5-vgqh-28mg",
-  "modified": "2022-05-14T01:10:39Z",
+  "modified": "2026-10-14T09:31:19Z",
   "published": "2022-05-14T01:10:39Z",
   "aliases": [
     "CVE-2019-3858"
@@ -29,7 +29,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2019/03/msg00032.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5DK6VO2CEUTAJFYIKWNZKEKYMYR3NO2O"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XCWEA5ZCLKRDUK62QVVYMFWLWKOPX3LO"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhcg-w86v-64g8",
-  "modified": "2022-05-13T01:14:39Z",
+  "modified": "2026-10-14T09:31:19Z",
   "published": "2022-05-13T01:14:39Z",
   "aliases": [
     "CVE-2019-3855"
@@ -73,7 +73,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XCWEA5ZCLKRDUK62QVVYMFWLWKOPX3LO"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/M7IF3LNHOA75O4WZWIHJLIRMA5LJUED3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6LUNHPW64IGCASZ4JQ2J5KDXNZN53DWW"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5DK6VO2CEUTAJFYIKWNZKEKYMYR3NO2O"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2019/03/msg00032.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",
@@ -130,6 +150,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-190",
       "CWE-787"
     ],
     "severity": "HIGH",

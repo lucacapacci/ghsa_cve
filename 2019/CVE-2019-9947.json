@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89ff-5r66-wr8j",
-  "modified": "2026-10-07T21:31:10Z",
+  "modified": "2026-10-14T09:31:20Z",
   "published": "2022-05-13T01:11:47Z",
   "aliases": [
     "CVE-2019-9947"
@@ -70,6 +70,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2019/06/msg00022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

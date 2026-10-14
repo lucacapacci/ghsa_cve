@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-379v-rm3f-c48g",
-  "modified": "2026-10-07T21:31:11Z",
+  "modified": "2026-10-14T09:31:22Z",
   "published": "2022-05-24T16:47:36Z",
   "aliases": [
     "CVE-2019-10160"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/fd1771dbdd28709716bd531580c40ae5ed814468"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2019:1587"
     },
     {
       "type": "WEB",
@@ -105,10 +109,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2019:1587"
-    },
-    {
-      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2019:1700"
     },
     {
@@ -126,6 +126,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10160"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

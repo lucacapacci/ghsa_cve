@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x3m-4qgh-829r",
-  "modified": "2022-10-17T19:00:26Z",
+  "modified": "2026-10-14T09:31:28Z",
   "published": "2022-05-24T17:16:59Z",
   "aliases": [
     "CVE-2020-1752"
@@ -25,7 +25,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-831302.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b%40%3Cissues.bookkeeper.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b@%3Cissues.bookkeeper.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rf4c02775860db415b4955778a131c2795223f61cb8c6a450893651e4%40%3Cissues.bookkeeper.apache.org%3E"
     },
     {
       "type": "WEB",
@@ -46,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=25414"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=glibc.git%3Bh=ddc650e9b3dc916eab417ce9f79e67337b05035c"
     },
     {
       "type": "WEB",

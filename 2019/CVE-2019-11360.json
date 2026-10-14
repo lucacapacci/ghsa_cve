@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g644-fvpx-hqm9",
-  "modified": "2022-05-24T16:50:12Z",
+  "modified": "2026-10-14T09:31:22Z",
   "published": "2022-05-24T16:50:12Z",
   "aliases": [
     "CVE-2019-11360"
   ],
   "details": "A buffer overflow in iptables-restore in netfilter iptables 1.8.2 allows an attacker to (at least) crash the program or potentially gain code execution via a specially crafted iptables-save file. This is related to add_param_to_argv in xshared.c.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,12 +25,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.netfilter.org/iptables/commit/iptables/xshared.c?id=2ae1099a42e6a0f06de305ca13a842ac83d4683e"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-787"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

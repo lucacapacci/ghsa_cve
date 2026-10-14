@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4p2h-jggv-23jg",
-  "modified": "2024-03-27T18:32:37Z",
+  "modified": "2026-10-14T09:31:29Z",
   "published": "2022-05-24T17:36:23Z",
   "aliases": [
     "CVE-2020-8285"
@@ -110,6 +110,14 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-389290.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6wf-ch53-mgqf",
-  "modified": "2024-04-04T02:42:23Z",
+  "modified": "2026-10-14T09:31:24Z",
   "published": "2022-05-24T17:02:54Z",
   "aliases": [
     "CVE-2019-19645"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/sqlite/sqlite/commit/38096961c7cd109110ac21d3ed7dad7e0cb0ae06"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-389290.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

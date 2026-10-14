@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxrv-74g3-w7qr",
-  "modified": "2024-04-04T02:25:35Z",
+  "modified": "2026-10-14T09:31:23Z",
   "published": "2022-05-24T16:58:45Z",
   "aliases": [
     "CVE-2019-17543"
@@ -118,6 +118,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/lz4/lz4/compare/v1.9.1...v1.9.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",
