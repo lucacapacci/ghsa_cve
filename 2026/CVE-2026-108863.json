@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-54m9-qc5w-93rc",
-  "modified": "2026-10-11T15:31:08Z",
+  "modified": "2026-10-13T21:32:15Z",
   "published": "2026-10-11T15:31:08Z",
   "aliases": [
     "CVE-2026-108863"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/katanemo/plano/blob/0.4.37/config/envoy.template.yaml#L1-L3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@1ExmmukzRMWN7B4gQ4W-4Q/cve-2026-108863-katanemo-plano-envoy-admin-config-secret-disclosure"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j25-h357-wg62",
-  "modified": "2026-10-11T15:31:06Z",
+  "modified": "2026-10-13T21:32:15Z",
   "published": "2026-10-11T15:31:06Z",
   "aliases": [
     "CVE-2026-108699"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/hyper-mcp-rs/hyper-mcp/blob/v0.8.3/src/wasm/oci.rs#L157-L190"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@1ExmmukzRMWN7B4gQ4W-4Q/cve-2026-108698-108699-hyper-mcp-oci-signature-manifest-toctou"
     },
     {
       "type": "WEB",

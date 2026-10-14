@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-362j-x75x-j27h",
-  "modified": "2026-10-11T15:31:05Z",
+  "modified": "2026-10-13T21:32:15Z",
   "published": "2026-10-11T15:31:05Z",
   "aliases": [
     "CVE-2026-108742"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://hackmd.io/@haind03/cloudbeaver-initconnection-shared-credential-authz-bypass"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind03/cve-2026-108742-cloudbeaver-initconnection-shared-credential-authz-bypass"
     },
     {
       "type": "WEB",

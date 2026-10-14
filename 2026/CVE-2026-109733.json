@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vmg-xgp8-g6qp",
-  "modified": "2026-10-13T15:32:15Z",
+  "modified": "2026-10-13T21:32:23Z",
   "published": "2026-10-13T15:32:14Z",
   "aliases": [
     "CVE-2026-109733"
@@ -29,6 +29,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-108"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-109"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-110"
     }
   ],
   "database_specific": {
