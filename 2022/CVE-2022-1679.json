@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcc2-324q-xw5m",
-  "modified": "2024-01-19T18:30:22Z",
+  "modified": "2026-10-14T15:31:13Z",
   "published": "2022-05-17T00:00:35Z",
   "aliases": [
     "CVE-2022-1679"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-1679"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

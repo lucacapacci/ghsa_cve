@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwxv-fc92-xrw3",
-  "modified": "2025-05-05T18:32:15Z",
+  "modified": "2026-10-14T18:31:29Z",
   "published": "2022-07-28T00:00:53Z",
   "aliases": [
     "CVE-2022-36879"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/f85daf0e725358be78dfd208dea5fd665d8cb901"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-419740.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

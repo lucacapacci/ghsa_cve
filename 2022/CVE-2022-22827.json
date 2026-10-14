@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-97f8-83vc-c97q",
-  "modified": "2022-06-15T00:00:29Z",
+  "modified": "2026-10-14T18:31:25Z",
   "published": "2022-02-10T00:01:19Z",
   "aliases": [
     "CVE-2022-22827"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/539"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-484086.html"
     },
     {
       "type": "WEB",

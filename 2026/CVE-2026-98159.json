@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc5w-crxq-xmg4",
-  "modified": "2026-10-03T12:31:28Z",
+  "modified": "2026-10-14T18:31:46Z",
   "published": "2026-09-25T12:31:38Z",
   "aliases": [
     "CVE-2026-98159"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mt76: mt7921: validate CLC firmware records\n\nThe CLC region is supplied by firmware, but the loader trusts the\nregion count and each record length. A malformed image can make the\nregion table pointer precede the firmware buffer, make the record loop\nfail to advance, or index phy->clc past its end. Validate the table and\nrecord bounds before dereferencing or copying.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T11:17:47Z"

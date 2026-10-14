@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr6j-4vhj-c665",
-  "modified": "2026-10-09T00:31:13Z",
+  "modified": "2026-10-14T15:31:11Z",
   "published": "2022-01-15T00:00:48Z",
   "aliases": [
     "CVE-2021-46195"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-46195"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

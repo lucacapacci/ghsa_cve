@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7xr-c5x7-xr2p",
-  "modified": "2022-08-18T00:00:19Z",
+  "modified": "2026-10-14T15:31:14Z",
   "published": "2022-08-13T00:00:43Z",
   "aliases": [
     "CVE-2022-2503"
@@ -25,12 +25,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20230214-0005"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-287"
+      "CWE-287",
+      "CWE-302"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

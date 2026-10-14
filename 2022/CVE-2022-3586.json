@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvvq-r3qv-fpwc",
-  "modified": "2024-04-04T05:29:38Z",
+  "modified": "2026-10-14T15:31:16Z",
   "published": "2023-07-06T19:24:02Z",
   "aliases": [
     "CVE-2022-3586"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/9efd23297cca"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-831302.html"
     },
     {
       "type": "WEB",

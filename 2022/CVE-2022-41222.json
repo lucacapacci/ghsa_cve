@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfpq-w2g4-wcpm",
-  "modified": "2025-05-28T18:33:05Z",
+  "modified": "2026-10-14T18:31:33Z",
   "published": "2022-09-22T00:00:32Z",
   "aliases": [
     "CVE-2022-41222"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.13.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-831302.html"
     },
     {
       "type": "WEB",

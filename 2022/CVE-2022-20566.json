@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8pm-j3f3-xmrf",
-  "modified": "2022-12-21T00:30:29Z",
+  "modified": "2026-10-14T18:31:34Z",
   "published": "2022-12-21T00:30:29Z",
   "aliases": [
     "CVE-2022-20566"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-20566"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

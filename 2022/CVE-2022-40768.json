@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4m7-c462-xmqc",
-  "modified": "2024-03-25T03:31:43Z",
+  "modified": "2026-10-14T18:31:33Z",
   "published": "2022-09-19T00:00:28Z",
   "aliases": [
     "CVE-2022-40768"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-40768"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

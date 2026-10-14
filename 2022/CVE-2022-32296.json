@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4g2-8vrh-w26q",
-  "modified": "2022-06-15T00:00:24Z",
+  "modified": "2026-10-14T18:31:28Z",
   "published": "2022-06-06T00:00:29Z",
   "aliases": [
     "CVE-2022-32296"
@@ -29,6 +29,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-419740.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=4c2c8f03a5ab7cb04ec64724d7d176d00bcc91e5"
     },
     {
@@ -46,7 +54,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-203"
+      "CWE-203",
+      "CWE-330"
     ],
     "severity": "LOW",
     "github_reviewed": false,

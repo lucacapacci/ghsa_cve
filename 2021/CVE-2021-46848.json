@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6468-68pw-9chw",
-  "modified": "2025-05-07T15:31:14Z",
+  "modified": "2026-10-14T15:31:17Z",
   "published": "2022-10-24T19:00:18Z",
   "aliases": [
     "CVE-2021-46848"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.gentoo.org/866237"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

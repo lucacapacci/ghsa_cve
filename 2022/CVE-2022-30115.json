@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8vh-85vc-66x9",
-  "modified": "2024-03-27T15:30:35Z",
+  "modified": "2026-10-14T18:31:28Z",
   "published": "2022-06-03T00:01:07Z",
   "aliases": [
     "CVE-2022-30115"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/1557449"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

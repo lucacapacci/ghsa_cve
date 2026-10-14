@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8wm-5qpx-c8j6",
-  "modified": "2022-10-20T19:00:36Z",
+  "modified": "2026-10-14T15:31:15Z",
   "published": "2022-10-18T12:00:32Z",
   "aliases": [
     "CVE-2022-3565"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-3565"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

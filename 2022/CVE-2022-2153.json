@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m5gv-cmjh-79r8",
-  "modified": "2022-11-02T12:00:38Z",
+  "modified": "2026-10-14T15:31:14Z",
   "published": "2022-09-01T00:00:23Z",
   "aliases": [
     "CVE-2022-2153"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2069736"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

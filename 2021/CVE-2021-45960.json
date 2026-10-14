@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfmv-2r4f-j9mj",
-  "modified": "2025-05-05T18:30:48Z",
+  "modified": "2026-10-14T15:31:10Z",
   "published": "2022-02-10T00:01:20Z",
   "aliases": [
     "CVE-2021-45960"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1217609"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-484086.html"
     },
     {
       "type": "WEB",

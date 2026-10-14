@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rm2-9q89-9524",
-  "modified": "2022-05-13T00:00:37Z",
+  "modified": "2026-10-14T18:31:26Z",
   "published": "2022-05-05T00:00:14Z",
   "aliases": [
     "CVE-2022-29155"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.openldap.org/show_bug.cgi?id=9815"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

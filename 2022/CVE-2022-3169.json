@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf26-p43w-867v",
-  "modified": "2022-09-15T00:00:19Z",
+  "modified": "2026-10-14T15:31:15Z",
   "published": "2022-09-10T00:00:29Z",
   "aliases": [
     "CVE-2022-3169"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.kernel.org/show_bug.cgi?id=214771"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

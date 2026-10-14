@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j82-x46x-536g",
-  "modified": "2023-01-23T15:30:33Z",
+  "modified": "2026-10-14T15:31:17Z",
   "published": "2023-01-12T21:30:30Z",
   "aliases": [
     "CVE-2022-3628"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-3628"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

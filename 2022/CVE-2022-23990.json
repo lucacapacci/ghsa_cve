@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3g2-gw56-v728",
-  "modified": "2025-05-05T18:30:51Z",
+  "modified": "2026-10-14T18:31:26Z",
   "published": "2022-02-10T00:01:12Z",
   "aliases": [
     "CVE-2022-23990"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/551"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-484086.html"
     },
     {
       "type": "WEB",

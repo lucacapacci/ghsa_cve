@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcrq-6rjw-5chw",
-  "modified": "2026-10-08T21:32:52Z",
+  "modified": "2026-10-14T18:31:26Z",
   "published": "2022-03-27T00:00:37Z",
   "aliases": [
     "CVE-2022-27943"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-27943"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

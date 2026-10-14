@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh8g-j53h-g8xf",
-  "modified": "2024-03-27T15:30:35Z",
+  "modified": "2026-10-14T18:31:27Z",
   "published": "2022-06-03T00:01:03Z",
   "aliases": [
     "CVE-2022-27778"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/1553598"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

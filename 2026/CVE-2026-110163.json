@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75cg-vv87-p4vf",
-  "modified": "2026-10-14T00:31:47Z",
+  "modified": "2026-10-14T15:32:10Z",
   "published": "2026-10-14T00:31:46Z",
   "aliases": [
     "CVE-2026-110163"
   ],
   "details": "Use after free in DOM in Google Chrome prior to 155.0.8059.79 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-13T22:17:36Z"

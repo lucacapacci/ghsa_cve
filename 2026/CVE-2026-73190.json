@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-242w-mmc3-4r3x",
-  "modified": "2026-08-18T15:31:48Z",
+  "modified": "2026-10-14T18:31:44Z",
   "published": "2026-08-18T15:31:48Z",
   "aliases": [
     "CVE-2026-73190"

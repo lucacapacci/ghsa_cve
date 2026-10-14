@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfpm-q238-hr33",
-  "modified": "2022-08-31T00:00:20Z",
+  "modified": "2026-10-14T15:31:14Z",
   "published": "2022-08-26T00:03:31Z",
   "aliases": [
     "CVE-2022-2959"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/189b0ddc245139af81198d1a3637cac74f96e13a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

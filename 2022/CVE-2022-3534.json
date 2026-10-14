@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfpq-px23-jj9f",
-  "modified": "2026-07-28T18:32:39Z",
+  "modified": "2026-10-14T15:31:15Z",
   "published": "2022-10-17T12:00:26Z",
   "aliases": [
     "CVE-2022-3534"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-3534"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

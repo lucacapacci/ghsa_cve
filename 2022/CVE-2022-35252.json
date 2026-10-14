@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc3c-r429-gpgf",
-  "modified": "2024-03-27T15:30:36Z",
+  "modified": "2026-10-14T18:31:34Z",
   "published": "2022-09-25T00:00:26Z",
   "aliases": [
     "CVE-2022-35252"
@@ -22,6 +22,26 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/1613943"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-419740.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-558014.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-892048.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-942865.html"
     },
     {
       "type": "WEB",

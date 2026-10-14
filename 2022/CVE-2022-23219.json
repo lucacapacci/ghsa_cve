@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhxm-4mc9-6jf5",
-  "modified": "2022-07-26T00:00:34Z",
+  "modified": "2026-10-14T18:31:26Z",
   "published": "2022-01-15T00:01:52Z",
   "aliases": [
     "CVE-2022-23219"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-23219"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-099606.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-831302.html"
     },
     {
       "type": "WEB",

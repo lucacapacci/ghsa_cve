@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mrc-mhh5-mvx5",
-  "modified": "2025-05-15T15:31:09Z",
+  "modified": "2026-10-14T18:31:34Z",
   "published": "2022-10-14T12:00:23Z",
   "aliases": [
     "CVE-2022-41674"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.suse.com/show_bug.cgi?id=1203770"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

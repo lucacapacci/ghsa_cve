@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v26-h3ph-p8v7",
-  "modified": "2022-07-14T00:00:21Z",
+  "modified": "2026-10-14T18:31:29Z",
   "published": "2022-07-05T00:00:53Z",
   "aliases": [
     "CVE-2022-34918"
@@ -21,7 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-806742.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git/commit/?id=7e6bc1f6cabcd30aba0b11219d8e01b952eacbb6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/netfilter-devel/cd9428b6-7ffb-dd22-d949-d86f4869f452%40randorisec.fr/T/#u"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpp2-rw22-gf34",
-  "modified": "2022-12-17T00:30:21Z",
+  "modified": "2026-10-14T15:31:17Z",
   "published": "2022-12-14T21:30:17Z",
   "aliases": [
     "CVE-2022-3104"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2153062"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",
