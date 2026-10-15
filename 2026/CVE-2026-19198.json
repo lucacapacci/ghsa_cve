@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v47h-4p48-9r9r",
-  "modified": "2026-08-19T21:30:32Z",
+  "modified": "2026-10-15T06:30:36Z",
   "published": "2026-08-19T21:30:32Z",
   "aliases": [
     "CVE-2026-19198"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19198"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/akaunting/akaunting/commit/96c38008cf6f907e3e7341d9660de2912e0f2f13"
     },
     {
       "type": "WEB",

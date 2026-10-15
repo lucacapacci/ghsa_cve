@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v45-6jmj-gmwr",
-  "modified": "2026-09-29T18:31:59Z",
+  "modified": "2026-10-15T06:30:38Z",
   "published": "2026-09-29T18:31:59Z",
   "aliases": [
     "CVE-2026-102560"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102560"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:83384"
     },
     {
       "type": "WEB",
