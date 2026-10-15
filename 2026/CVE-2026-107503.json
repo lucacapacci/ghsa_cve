@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8w6-jp67-cwcc",
-  "modified": "2026-10-08T12:34:26Z",
+  "modified": "2026-10-15T18:31:39Z",
   "published": "2026-10-08T12:34:26Z",
   "aliases": [
     "CVE-2026-107503"
@@ -22,6 +22,26 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107503"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/eclipse-ditto/ditto/commit/71061f0b01df596fad80fb24502eb1e852ea6909"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/eclipse-ditto/ditto/commit/d4e51ba20e53c73e3b24e64d4aca57f6079d9ca1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/eclipse-ditto/ditto/commit/ee65b8cd9b7219401dcac2c25b79adc8cee4a5ba"
+    },
+    {
+      "type": "WEB",
+      "url": "https://eclipse.dev/ditto/release_notes_3814.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://eclipse.dev/ditto/release_notes_398.html"
     },
     {
       "type": "WEB",

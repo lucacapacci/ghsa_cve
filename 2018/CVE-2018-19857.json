@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g6v-cgr9-2355",
-  "modified": "2022-05-14T00:55:56Z",
+  "modified": "2026-10-15T18:31:26Z",
   "published": "2022-05-14T00:55:56Z",
   "aliases": [
     "CVE-2018-19857"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://dyntopia.com/advisories/013-vlc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.videolan.org/?p=vlc.git%3Ba=commit%3Bh=0cc5ea748ee5ff7705dde61ab15dff8f58be39d0"
     },
     {
       "type": "WEB",

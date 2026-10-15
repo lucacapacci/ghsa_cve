@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2hj-jxpf-368j",
-  "modified": "2026-10-09T00:31:47Z",
+  "modified": "2026-10-15T18:31:39Z",
   "published": "2026-10-09T00:31:47Z",
   "aliases": [
     "CVE-2026-84891"

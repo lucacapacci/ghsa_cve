@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8m68-j7cp-5rcm",
-  "modified": "2026-10-14T21:33:16Z",
+  "modified": "2026-10-15T18:31:51Z",
   "published": "2026-10-13T06:30:26Z",
   "aliases": [
     "CVE-2026-109758"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://perforce1.lightning.force.com/lightning/r/CVE__c/a91Qi000003GITtIAO/view"
+    },
+    {
+      "type": "WEB",
+      "url": "https://portal.perforce.com/s/cve/a91Qi000003GITtIAO/unauthenticated-rce-via-prototype-pollution-in-helix-authentication-service"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj4p-f4hv-cp74",
-  "modified": "2026-10-15T06:30:37Z",
+  "modified": "2026-10-15T18:31:39Z",
   "published": "2026-09-29T18:31:59Z",
   "aliases": [
     "CVE-2026-102559"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:83384"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:83618"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9vm-qh24-w7rf",
-  "modified": "2026-09-30T15:31:34Z",
+  "modified": "2026-10-15T18:31:39Z",
   "published": "2026-09-30T15:31:34Z",
   "aliases": [
     "CVE-2026-103226"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.ghostscript.com/show_bug.cgi?id=709672#c3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ghostscript.com/releases/gsdnld.html"
     },
     {
       "type": "WEB",

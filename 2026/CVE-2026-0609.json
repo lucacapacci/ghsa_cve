@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68cq-6242-rqxv",
-  "modified": "2026-03-21T06:30:23Z",
+  "modified": "2026-10-15T18:31:30Z",
   "published": "2026-03-21T06:30:23Z",
   "aliases": [
     "CVE-2026-0609"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/logo-slider-wp/tags/4.9.0/public/class-logo-slider-wp-public.php?marks=309,314#L309"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3509199/logo-slider-wp/trunk/public/class-logo-slider-wp-public.php"
     },
     {
       "type": "WEB",

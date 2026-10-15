@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxmh-c4q6-pg9m",
-  "modified": "2026-10-15T09:30:33Z",
+  "modified": "2026-10-15T18:32:27Z",
   "published": "2026-10-15T09:30:33Z",
   "aliases": [
     "CVE-2026-101311"
   ],
   "details": "The framebuffer device model's maximum resolution constants were duplicated between the framebuffer and RFB modules and had gotten out of sync.  Additionally, writes to the framebuffer BAR could set arbitrary width and height values without validation, and the framebuffer BAR I/O and RFB rendering threads were not synchronized.\n\nA malicious guest can crash the bhyve process or potentially execute arbitrary code in the host userspace context running the virtual machine, subject to bhyve's Capsicum sandbox.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-362"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-15T08:16:36Z"

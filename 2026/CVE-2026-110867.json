@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mj2-rf27-53xc",
-  "modified": "2026-10-15T00:31:19Z",
+  "modified": "2026-10-15T18:32:22Z",
   "published": "2026-10-15T00:31:19Z",
   "aliases": [
     "CVE-2026-110867"
@@ -19,6 +19,10 @@
   ],
   "affected": [],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/nodemailer/nodemailer/security/advisories/GHSA-4g23-2xm8-66gc"
+    },
     {
       "type": "WEB",
       "url": "https://github.com/renovatebot/renovate/security/advisories/GHSA-6873-xr44-22vm"

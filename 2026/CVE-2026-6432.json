@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mwj-cc94-39wv",
-  "modified": "2026-06-25T15:32:02Z",
+  "modified": "2026-10-15T18:31:31Z",
   "published": "2026-06-25T15:32:02Z",
   "aliases": [
     "CVE-2026-6432"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6432"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SiliconLabsSoftware/docs-security-advisories/blob/main/Advisories/500-599/A-00000580.md"
     },
     {
       "type": "WEB",

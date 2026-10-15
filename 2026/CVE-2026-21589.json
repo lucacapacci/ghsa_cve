@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr66-x5pq-8g2g",
-  "modified": "2026-10-07T15:31:33Z",
+  "modified": "2026-10-15T18:31:39Z",
   "published": "2026-10-06T00:32:50Z",
   "aliases": [
     "CVE-2026-21589"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://jira.atlassian.com/browse/JSDSERVER-16809"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-21589"
     }
   ],
   "database_specific": {
