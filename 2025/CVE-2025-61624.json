@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3vf-64gv-cxr8",
-  "modified": "2026-05-12T15:31:15Z",
+  "modified": "2026-10-15T21:35:29Z",
   "published": "2026-04-14T18:30:34Z",
   "aliases": [
     "CVE-2025-61624"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-122"
+    },
+    {
+      "type": "WEB",
+      "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/#post-188095-_guyq53ar8k05"
     }
   ],
   "database_specific": {

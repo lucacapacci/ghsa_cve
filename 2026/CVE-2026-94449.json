@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv8r-mpqx-qf8h",
-  "modified": "2026-09-21T18:32:08Z",
+  "modified": "2026-10-15T21:35:31Z",
   "published": "2026-09-21T18:32:08Z",
   "aliases": [
     "CVE-2026-94449"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94449"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:83082"
     },
     {
       "type": "WEB",
