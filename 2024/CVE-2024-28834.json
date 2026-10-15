@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frvc-6356-58xm",
-  "modified": "2025-11-04T18:30:46Z",
+  "modified": "2026-10-15T03:33:15Z",
   "published": "2024-03-21T15:31:51Z",
   "aliases": [
     "CVE-2024-28834"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2269228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

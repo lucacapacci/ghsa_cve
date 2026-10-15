@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv7g-383w-69hc",
-  "modified": "2024-01-11T21:31:15Z",
+  "modified": "2026-10-15T03:33:09Z",
   "published": "2023-10-14T21:30:25Z",
   "aliases": [
     "CVE-2023-45863"
@@ -22,6 +22,22 @@
     {
       "type": "WEB",
       "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.2.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-613116.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-769027.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-831302.html"
     },
     {
       "type": "WEB",

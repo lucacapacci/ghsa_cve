@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j898-m92w-4243",
-  "modified": "2026-09-08T09:35:27Z",
+  "modified": "2026-10-15T03:34:57Z",
   "published": "2025-09-16T15:32:33Z",
   "aliases": [
     "CVE-2023-53292"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

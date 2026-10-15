@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h38j-rxrv-q3q6",
-  "modified": "2026-07-14T15:31:15Z",
+  "modified": "2026-10-15T03:34:17Z",
   "published": "2024-11-07T12:30:35Z",
   "aliases": [
     "CVE-2024-50164"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

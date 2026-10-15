@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8px8-w879-9rmh",
-  "modified": "2025-11-04T00:31:21Z",
+  "modified": "2026-10-15T03:34:02Z",
   "published": "2024-09-04T21:30:31Z",
   "aliases": [
     "CVE-2024-44965"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44965"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-355557.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

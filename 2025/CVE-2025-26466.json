@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m92w-x6j2-5gc5",
-  "modified": "2026-10-09T00:31:20Z",
+  "modified": "2026-10-15T03:34:39Z",
   "published": "2025-03-01T00:31:55Z",
   "aliases": [
     "CVE-2025-26466"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.suse.com/show_bug.cgi?id=1237041"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

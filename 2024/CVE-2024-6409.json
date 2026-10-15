@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79hg-h6r6-64mm",
-  "modified": "2024-08-22T15:31:16Z",
+  "modified": "2026-10-15T03:33:50Z",
   "published": "2024-07-08T18:31:18Z",
   "aliases": [
     "CVE-2024-6409"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://explore.alas.aws.amazon.com/CVE-2024-6409.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3435-f6h9-64p7",
-  "modified": "2026-06-30T15:30:29Z",
+  "modified": "2026-10-15T03:34:45Z",
   "published": "2025-04-07T15:31:21Z",
   "aliases": [
     "CVE-2025-3360"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2357754"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-089022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

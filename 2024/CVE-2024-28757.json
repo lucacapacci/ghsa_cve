@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch5v-h69f-mxc8",
-  "modified": "2025-11-05T00:31:17Z",
+  "modified": "2026-10-15T03:33:14Z",
   "published": "2024-03-10T06:30:38Z",
   "aliases": [
     "CVE-2024-28757"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/842"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784301.html"
     },
     {
       "type": "WEB",

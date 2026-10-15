@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvc5-q4hr-frqx",
-  "modified": "2026-07-14T15:31:25Z",
+  "modified": "2026-10-15T03:34:51Z",
   "published": "2025-07-04T15:31:09Z",
   "aliases": [
     "CVE-2025-38201"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

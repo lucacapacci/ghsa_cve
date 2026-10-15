@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h288-5fq8-5pfw",
-  "modified": "2025-11-03T21:31:42Z",
+  "modified": "2026-10-15T03:34:21Z",
   "published": "2024-12-11T09:32:03Z",
   "aliases": [
     "CVE-2024-11053"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/2829063"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-089022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-212953.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

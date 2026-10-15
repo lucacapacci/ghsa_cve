@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmx6-h5gh-r675",
-  "modified": "2026-07-14T15:31:27Z",
+  "modified": "2026-10-15T03:34:54Z",
   "published": "2025-09-05T18:31:15Z",
   "aliases": [
     "CVE-2025-38681"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-032379.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

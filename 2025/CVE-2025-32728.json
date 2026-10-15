@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26mg-p594-q328",
-  "modified": "2025-05-08T15:30:40Z",
+  "modified": "2026-10-15T03:34:46Z",
   "published": "2025-04-10T03:31:32Z",
   "aliases": [
     "CVE-2025-32728"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssh/openssh-portable/commit/fc86875e6acb36401dfc1dfb6b628a9d1460f367"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

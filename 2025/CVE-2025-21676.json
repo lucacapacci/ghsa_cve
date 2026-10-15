@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cvp-cxm8-hg6v",
-  "modified": "2026-07-14T15:31:16Z",
+  "modified": "2026-10-15T03:34:26Z",
   "published": "2025-01-31T12:33:03Z",
   "aliases": [
     "CVE-2025-21676"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

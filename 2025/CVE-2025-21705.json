@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-924q-jxwc-x679",
-  "modified": "2026-07-14T15:31:16Z",
+  "modified": "2026-10-15T03:34:30Z",
   "published": "2025-02-27T03:34:01Z",
   "aliases": [
     "CVE-2025-21705"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

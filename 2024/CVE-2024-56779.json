@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v6jm-7r7p-9979",
-  "modified": "2025-11-03T21:32:05Z",
+  "modified": "2026-10-15T03:34:24Z",
   "published": "2025-01-08T18:30:49Z",
   "aliases": [
     "CVE-2024-56779"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56779"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-355557.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

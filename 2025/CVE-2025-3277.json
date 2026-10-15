@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2ph-wvc2-ph4v",
-  "modified": "2025-08-01T18:31:14Z",
+  "modified": "2026-10-15T03:34:46Z",
   "published": "2025-04-14T18:31:49Z",
   "aliases": [
     "CVE-2025-3277"
@@ -22,6 +22,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3277"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-994087.html"
     },
     {
       "type": "WEB",

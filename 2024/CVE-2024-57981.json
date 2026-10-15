@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq27-r9q4-8847",
-  "modified": "2026-05-12T15:30:46Z",
+  "modified": "2026-10-15T03:34:30Z",
   "published": "2025-02-27T03:33:59Z",
   "aliases": [
     "CVE-2024-57981"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-503939.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

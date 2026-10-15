@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgjw-h652-c9q2",
-  "modified": "2026-09-14T12:31:27Z",
+  "modified": "2026-10-15T03:34:53Z",
   "published": "2025-08-19T18:31:33Z",
   "aliases": [
     "CVE-2025-38591"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

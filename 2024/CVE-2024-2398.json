@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq8w-c2j9-rqxc",
-  "modified": "2024-07-30T03:30:51Z",
+  "modified": "2026-10-15T03:33:16Z",
   "published": "2024-03-27T09:30:41Z",
   "aliases": [
     "CVE-2024-2398"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/2402845"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-331112.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-417159.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpvp-p3gv-cf29",
-  "modified": "2025-11-03T21:31:46Z",
+  "modified": "2026-10-15T03:34:22Z",
   "published": "2024-12-27T15:31:50Z",
   "aliases": [
     "CVE-2024-53165"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53165"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-355557.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

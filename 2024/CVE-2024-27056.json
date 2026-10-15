@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f487-f23r-hjx6",
-  "modified": "2026-07-14T15:31:15Z",
+  "modified": "2026-10-15T03:33:28Z",
   "published": "2024-05-01T15:30:36Z",
   "aliases": [
     "CVE-2024-27056"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

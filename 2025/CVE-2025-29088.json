@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mj4r-rr6h-q62g",
-  "modified": "2025-04-14T15:31:56Z",
+  "modified": "2026-10-15T03:34:46Z",
   "published": "2025-04-10T15:31:48Z",
   "aliases": [
     "CVE-2025-29088"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/sqlite/sqlite/commit/56d2fd008b108109f489339f5fd55212bb50afd4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-994087.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r79j-x479-2vhw",
-  "modified": "2025-11-03T21:32:42Z",
+  "modified": "2026-10-15T03:34:29Z",
   "published": "2025-02-13T12:31:07Z",
   "aliases": [
     "CVE-2025-21700"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21700"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

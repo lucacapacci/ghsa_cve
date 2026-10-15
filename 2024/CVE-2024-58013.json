@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qg99-hc5r-rhvg",
-  "modified": "2025-11-03T21:32:58Z",
+  "modified": "2026-10-15T03:34:33Z",
   "published": "2025-02-27T03:34:03Z",
   "aliases": [
     "CVE-2024-58013"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58013"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

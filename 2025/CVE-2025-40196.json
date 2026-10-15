@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpjc-phpw-vx4c",
-  "modified": "2026-09-08T09:35:27Z",
+  "modified": "2026-10-15T03:34:59Z",
   "published": "2025-11-13T00:30:18Z",
   "aliases": [
     "CVE-2025-40196"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

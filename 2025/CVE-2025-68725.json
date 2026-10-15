@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-696c-x544-xmc9",
-  "modified": "2026-07-14T15:31:29Z",
+  "modified": "2026-10-15T03:35:01Z",
   "published": "2025-12-24T12:30:30Z",
   "aliases": [
     "CVE-2025-68725"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cq92-4vj3-mcq8",
-  "modified": "2025-02-18T03:31:05Z",
+  "modified": "2026-10-15T03:34:29Z",
   "published": "2025-02-18T03:31:05Z",
   "aliases": [
     "CVE-2025-1390"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.openanolis.cn/show_bug.cgi?id=18804"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-089022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     }
   ],
   "database_specific": {

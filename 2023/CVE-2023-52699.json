@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29pq-gr25-8674",
-  "modified": "2024-11-06T18:31:04Z",
+  "modified": "2026-10-15T03:33:35Z",
   "published": "2024-05-19T12:30:38Z",
   "aliases": [
     "CVE-2023-52699"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52699"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

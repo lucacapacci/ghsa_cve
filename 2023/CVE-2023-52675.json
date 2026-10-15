@@ -1,18 +1,27 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h47h-825h-v496",
-  "modified": "2024-06-25T21:31:12Z",
+  "modified": "2026-10-15T03:33:32Z",
   "published": "2024-05-17T15:31:11Z",
   "aliases": [
     "CVE-2023-52675"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npowerpc/imc-pmu: Add a null pointer check in update_events_in_group()\n\nkasprintf() returns a pointer to dynamically allocated memory\nwhich can be NULL upon failure.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52675"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",
@@ -52,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T15:15:18Z"

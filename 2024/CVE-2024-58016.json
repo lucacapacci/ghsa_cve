@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f32m-f53g-3875",
-  "modified": "2026-07-14T15:31:17Z",
+  "modified": "2026-10-15T03:34:34Z",
   "published": "2025-02-27T03:34:03Z",
   "aliases": [
     "CVE-2024-58016"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-265688.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

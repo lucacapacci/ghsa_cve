@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fcc-qfqw-wqr5",
-  "modified": "2026-04-20T18:31:42Z",
+  "modified": "2026-10-15T03:34:24Z",
   "published": "2025-01-15T09:30:50Z",
   "aliases": [
     "CVE-2024-7322"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7322"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-099819.html"
     },
     {
       "type": "WEB",

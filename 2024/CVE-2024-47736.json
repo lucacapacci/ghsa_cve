@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh88-v2mj-cp79",
-  "modified": "2026-07-14T15:31:15Z",
+  "modified": "2026-10-15T03:34:08Z",
   "published": "2024-10-21T15:32:26Z",
   "aliases": [
     "CVE-2024-47736"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

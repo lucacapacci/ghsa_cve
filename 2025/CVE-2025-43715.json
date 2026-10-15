@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9m2-7jc6-pmvf",
-  "modified": "2025-04-17T03:30:30Z",
+  "modified": "2026-10-15T03:34:48Z",
   "published": "2025-04-17T03:30:30Z",
   "aliases": [
     "CVE-2025-43715"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43715"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-563922.html"
     },
     {
       "type": "WEB",

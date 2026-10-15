@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6952-99fq-g3mw",
-  "modified": "2026-07-14T15:31:19Z",
+  "modified": "2026-10-15T03:34:43Z",
   "published": "2025-03-14T15:32:04Z",
   "aliases": [
     "CVE-2023-52927"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

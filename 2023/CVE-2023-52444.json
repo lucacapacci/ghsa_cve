@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f72-79f8-3qcp",
-  "modified": "2024-06-27T12:30:43Z",
+  "modified": "2026-10-15T03:33:13Z",
   "published": "2024-02-22T18:30:29Z",
   "aliases": [
     "CVE-2023-52444"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52444"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

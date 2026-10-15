@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpv3-x3xh-h28r",
-  "modified": "2026-06-01T18:31:19Z",
+  "modified": "2026-10-15T03:34:23Z",
   "published": "2024-12-27T15:31:56Z",
   "aliases": [
     "CVE-2024-56657"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56657"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

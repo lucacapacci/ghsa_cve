@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgr9-crfp-4qg4",
-  "modified": "2026-07-14T15:31:19Z",
+  "modified": "2026-10-15T03:34:41Z",
   "published": "2025-03-12T12:30:58Z",
   "aliases": [
     "CVE-2025-21853"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

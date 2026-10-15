@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7683-vm2j-m4cc",
-  "modified": "2024-12-26T09:30:46Z",
+  "modified": "2026-10-15T03:34:22Z",
   "published": "2024-12-26T09:30:46Z",
   "aliases": [
     "CVE-2024-56433"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/shadow-maint/shadow/issues/1157"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

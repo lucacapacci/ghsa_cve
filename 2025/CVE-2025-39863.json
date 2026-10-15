@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7cr-ch33-3xr3",
-  "modified": "2026-06-19T15:33:07Z",
+  "modified": "2026-10-15T03:34:57Z",
   "published": "2025-09-22T21:30:18Z",
   "aliases": [
     "CVE-2025-39863"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39863"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

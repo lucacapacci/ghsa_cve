@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq5p-7q76-276p",
-  "modified": "2026-05-12T15:30:49Z",
+  "modified": "2026-10-15T03:34:38Z",
   "published": "2025-02-27T21:32:16Z",
   "aliases": [
     "CVE-2025-21806"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-503939.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

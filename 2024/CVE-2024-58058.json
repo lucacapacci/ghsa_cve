@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxgw-xr8v-5p75",
-  "modified": "2026-07-14T15:31:19Z",
+  "modified": "2026-10-15T03:34:39Z",
   "published": "2025-03-06T18:31:10Z",
   "aliases": [
     "CVE-2024-58058"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-265688.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

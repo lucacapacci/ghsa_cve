@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79wf-qgrg-2p6c",
-  "modified": "2025-04-30T21:31:47Z",
+  "modified": "2026-10-15T03:34:16Z",
   "published": "2024-10-27T06:30:47Z",
   "aliases": [
     "CVE-2024-50602"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/915"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-202008.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-355557.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",
