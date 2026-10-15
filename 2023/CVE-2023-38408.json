@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px36-p9hv-7h2v",
-  "modified": "2024-04-04T06:30:34Z",
+  "modified": "2026-10-15T00:30:39Z",
   "published": "2023-07-20T03:30:25Z",
   "aliases": [
     "CVE-2023-38408"
@@ -82,6 +82,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/08/msg00021.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vh2x-5rx6-qqhv",
-  "modified": "2025-11-04T21:30:33Z",
+  "modified": "2026-10-15T00:30:38Z",
   "published": "2023-04-14T03:30:29Z",
   "aliases": [
     "CVE-2023-29491"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-29491"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-202008.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

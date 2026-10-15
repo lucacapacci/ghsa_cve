@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwg2-cqg5-rjm4",
-  "modified": "2024-10-21T18:30:45Z",
+  "modified": "2026-10-15T00:30:38Z",
   "published": "2023-04-28T03:30:16Z",
   "aliases": [
     "CVE-2023-31436"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.2.13"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-806742.html"
     },
     {
       "type": "WEB",

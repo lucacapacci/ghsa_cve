@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3j8-wx8r-29j6",
-  "modified": "2024-09-13T21:31:19Z",
+  "modified": "2026-10-15T00:30:40Z",
   "published": "2023-07-31T18:30:22Z",
   "aliases": [
     "CVE-2023-4004"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/10/msg00027.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-831302.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-794697.html"
     },
     {
       "type": "WEB",

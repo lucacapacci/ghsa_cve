@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j2c-vm53-wcvm",
-  "modified": "2024-03-27T15:30:36Z",
+  "modified": "2026-10-15T00:30:38Z",
   "published": "2023-03-30T21:30:21Z",
   "aliases": [
     "CVE-2023-27537"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/1897203"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-943925.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m495-8v55-x7fp",
-  "modified": "2024-04-04T06:21:14Z",
+  "modified": "2026-10-15T00:30:39Z",
   "published": "2023-07-25T21:31:32Z",
   "aliases": [
     "CVE-2023-39128"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-39128"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

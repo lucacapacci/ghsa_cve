@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9w4-8hh8-crcx",
-  "modified": "2025-11-03T21:30:48Z",
+  "modified": "2026-10-15T00:30:38Z",
   "published": "2023-04-15T00:30:37Z",
   "aliases": [
     "CVE-2023-29383"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/shadow-maint/shadow/commit/e5905c4b84d4fb90aefcd96ee618411ebfac663d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-202008.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

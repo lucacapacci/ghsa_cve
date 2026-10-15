@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v76x-qfmc-m88p",
-  "modified": "2023-12-15T18:30:27Z",
+  "modified": "2026-10-15T00:30:40Z",
   "published": "2023-08-02T06:30:20Z",
   "aliases": [
     "CVE-2023-4016"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4016"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",

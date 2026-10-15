@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp56-rpr6-7673",
-  "modified": "2024-08-26T18:33:31Z",
+  "modified": "2026-10-15T00:30:40Z",
   "published": "2023-08-14T03:30:32Z",
   "aliases": [
     "CVE-2023-40283"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.4.10"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-806742.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w62j-g234-3f6f",
-  "modified": "2024-02-27T15:30:30Z",
+  "modified": "2026-10-15T00:30:37Z",
   "published": "2023-02-03T06:30:23Z",
   "aliases": [
     "CVE-2023-25136"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mindrot.org/show_bug.cgi?id=3522"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-398330.html"
     },
     {
       "type": "WEB",
