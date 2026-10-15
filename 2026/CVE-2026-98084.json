@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcwg-2fch-4v4c",
-  "modified": "2026-09-25T12:31:36Z",
+  "modified": "2026-10-15T12:30:54Z",
   "published": "2026-09-25T12:31:36Z",
   "aliases": [
     "CVE-2026-98084"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-98084"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3a39bc9707fbd1bef4df7318a9d02222741dda5b"
     },
     {
       "type": "WEB",

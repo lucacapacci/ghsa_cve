@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2jh-vg55-chvm",
-  "modified": "2026-08-28T09:31:50Z",
+  "modified": "2026-10-15T12:30:45Z",
   "published": "2026-08-28T09:31:50Z",
   "aliases": [
     "CVE-2026-80705"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/062cfd6c678f6647c8841f684d6dadab08d95512"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bea1f73ad69eec36b757adb8e63beb3092f862ee"
     }
   ],
   "database_specific": {

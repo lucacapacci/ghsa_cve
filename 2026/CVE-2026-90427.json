@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wgr-jrpm-fgrv",
-  "modified": "2026-09-18T18:31:32Z",
+  "modified": "2026-10-15T12:30:51Z",
   "published": "2026-09-17T18:32:05Z",
   "aliases": [
     "CVE-2026-90427"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90427"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/268cbe3a36ae57a2ec09601f343b92f6f092d505"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg5w-g6pm-xp23",
-  "modified": "2026-08-29T09:30:28Z",
+  "modified": "2026-10-15T12:30:45Z",
   "published": "2026-08-28T09:31:49Z",
   "aliases": [
     "CVE-2026-80692"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/9a77f296aff4b2ca5f2928ab3a3220c82d8b4074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a4de6fc95b2f36967fc247ae51cad2171194f7cd"
     }
   ],
   "database_specific": {

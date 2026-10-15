@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfj5-8wwq-98rr",
-  "modified": "2026-07-08T06:31:35Z",
+  "modified": "2026-10-15T12:30:37Z",
   "published": "2026-06-26T21:32:16Z",
   "aliases": [
     "CVE-2026-53292"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53292"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5459933a799aaf642cbeb35fdf7e78c59bf2fb9b"
     },
     {
       "type": "WEB",

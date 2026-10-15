@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-324p-252x-fjrc",
-  "modified": "2026-08-17T06:33:53Z",
+  "modified": "2026-10-15T12:30:43Z",
   "published": "2026-08-15T15:30:36Z",
   "aliases": [
     "CVE-2026-74562"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/072cd1f21819dedd2252e704d255de3b0cfc61a7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4b296d176580a85ccbc7135ebdf66c42087b23a2"
     },
     {
       "type": "WEB",

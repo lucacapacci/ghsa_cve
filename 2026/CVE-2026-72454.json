@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48cg-fm56-jr4v",
-  "modified": "2026-08-17T06:33:30Z",
+  "modified": "2026-10-15T12:30:41Z",
   "published": "2026-08-15T06:32:25Z",
   "aliases": [
     "CVE-2026-72454"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72454"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/308d7951ca221e8c8896b563c4e98d28a4400f2e"
     },
     {
       "type": "WEB",

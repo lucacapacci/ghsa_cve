@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cww3-p2pw-g5j8",
-  "modified": "2026-08-17T06:33:41Z",
+  "modified": "2026-10-15T12:30:42Z",
   "published": "2026-08-15T06:32:31Z",
   "aliases": [
     "CVE-2026-74367"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74367"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c09314b8b4c6290290a8a59c9e0e546231231186"
     },
     {
       "type": "WEB",

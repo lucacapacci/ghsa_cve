@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gc8h-w3qg-mpcq",
-  "modified": "2026-06-09T21:32:20Z",
+  "modified": "2026-10-15T12:30:35Z",
   "published": "2026-06-03T18:33:12Z",
   "aliases": [
     "CVE-2026-46245"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46245"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1d15503e454bf117a0d0078332d48df86a41c828"
     },
     {
       "type": "WEB",

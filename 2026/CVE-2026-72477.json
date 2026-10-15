@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9679-5mjr-46x9",
-  "modified": "2026-08-17T06:33:32Z",
+  "modified": "2026-10-15T12:30:41Z",
   "published": "2026-08-15T06:32:26Z",
   "aliases": [
     "CVE-2026-72477"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/580896e33003845de66c75cd61544cf9d9bfbe15"
     },
     {
       "type": "WEB",

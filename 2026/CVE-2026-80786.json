@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7rm-gj7v-32rv",
-  "modified": "2026-09-04T18:31:26Z",
+  "modified": "2026-10-15T12:30:45Z",
   "published": "2026-09-04T18:31:25Z",
   "aliases": [
     "CVE-2026-80786"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6f611e5e5f3327cf2e2daabe6ee5acac58cc784e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ed7e9715849abd0816b8487b0d12ebd05d6e938b"
     }
   ],
   "database_specific": {

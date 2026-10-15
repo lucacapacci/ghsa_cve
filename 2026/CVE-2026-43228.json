@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4p6-4x9w-qfq5",
-  "modified": "2026-05-08T21:31:20Z",
+  "modified": "2026-10-15T12:30:34Z",
   "published": "2026-05-06T12:30:33Z",
   "aliases": [
     "CVE-2026-43228"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/559f856b109c45844816a1693e259f93d3556c61"
     },
     {
       "type": "WEB",

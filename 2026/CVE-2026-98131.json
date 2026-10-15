@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m77g-747m-3xxc",
-  "modified": "2026-10-08T21:33:01Z",
+  "modified": "2026-10-15T12:30:55Z",
   "published": "2026-09-25T12:31:37Z",
   "aliases": [
     "CVE-2026-98131"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-98131"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8a3257f142ae513d0c96d42f97386d4941bcec29"
     },
     {
       "type": "WEB",

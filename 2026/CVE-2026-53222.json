@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prx4-x7m8-p9m9",
-  "modified": "2026-07-02T21:32:05Z",
+  "modified": "2026-10-15T12:30:37Z",
   "published": "2026-06-25T09:31:21Z",
   "aliases": [
     "CVE-2026-53222"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/aa03698bb28d3be5ee180adb185395054b342b04"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/daacc9d1430b63f6bee6e5646def5d6414d35c4e"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2377-3vvp-rhhq",
-  "modified": "2026-07-23T21:30:34Z",
+  "modified": "2026-10-15T12:30:36Z",
   "published": "2026-06-24T18:32:47Z",
   "aliases": [
     "CVE-2026-53108"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53108"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/09207dc57ab4cb8967e6cad55a37e15ff8523d41"
     },
     {
       "type": "WEB",

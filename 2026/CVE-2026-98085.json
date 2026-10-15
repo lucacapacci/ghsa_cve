@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c78-fpcm-vcqr",
-  "modified": "2026-09-25T12:31:36Z",
+  "modified": "2026-10-15T12:30:55Z",
   "published": "2026-09-25T12:31:36Z",
   "aliases": [
     "CVE-2026-98085"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/671b7b9a660ef15b25faa3df161205b9dc8d1eb2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a0cd9e22f8faed30a8da8be357c51bd8b3074ee9"
     }
   ],
   "database_specific": {

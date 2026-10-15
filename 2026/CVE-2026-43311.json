@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vxj-rjpg-8mhr",
-  "modified": "2026-06-19T15:33:09Z",
+  "modified": "2026-10-15T12:30:34Z",
   "published": "2026-05-08T15:31:23Z",
   "aliases": [
     "CVE-2026-43311"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43311"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/57a79c5df057deb7c1d0ebc066698c795092530f"
     },
     {
       "type": "WEB",

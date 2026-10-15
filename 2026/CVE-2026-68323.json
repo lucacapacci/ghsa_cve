@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwrg-j278-r47c",
-  "modified": "2026-08-14T00:31:55Z",
+  "modified": "2026-10-15T12:30:39Z",
   "published": "2026-08-10T15:33:46Z",
   "aliases": [
     "CVE-2026-68323"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/350e592ff4e30e48ffb55e142d11a73e63f4869c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5d3cea7d41dc72073fea6f879815c9b57c3b330d"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqxg-ff3c-39jf",
-  "modified": "2026-07-19T12:30:23Z",
+  "modified": "2026-10-15T12:30:37Z",
   "published": "2026-07-19T12:30:23Z",
   "aliases": [
     "CVE-2026-63811"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63811"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7e4ab3907f44dc243d026048d7f5d477dae9267b"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3mx-wgxp-826p",
-  "modified": "2026-05-30T12:30:26Z",
+  "modified": "2026-10-15T12:30:35Z",
   "published": "2026-05-28T12:30:32Z",
   "aliases": [
     "CVE-2026-46210"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/494ffd1712a588e590e6b1e9f876a8c8b24a9180"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/96889fcdb0988108a19a29b0467717a503651a73"
     }
   ],
   "database_specific": {

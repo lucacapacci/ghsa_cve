@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwcr-7vrq-384j",
-  "modified": "2026-09-25T12:31:34Z",
+  "modified": "2026-10-15T12:30:54Z",
   "published": "2026-09-25T12:31:33Z",
   "aliases": [
     "CVE-2026-98038"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/85074498228a2500ea8b8039c49cc1ab8ad5328f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8d19e2cdfba9ba8c8eb6a459cd666bec00a1d2c6"
     },
     {
       "type": "WEB",

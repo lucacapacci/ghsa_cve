@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qm6r-96cc-q36w",
-  "modified": "2026-05-11T09:30:31Z",
+  "modified": "2026-10-15T12:30:34Z",
   "published": "2026-05-08T15:31:27Z",
   "aliases": [
     "CVE-2026-43414"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43414"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4097a2afe8acc6038b71aab825430f1403decf20"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhjv-qj57-f47f",
-  "modified": "2026-09-18T18:31:32Z",
+  "modified": "2026-10-15T12:30:51Z",
   "published": "2026-09-17T18:32:06Z",
   "aliases": [
     "CVE-2026-92485"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92485"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/094f0a895cf97a993d06d5dc4c12e7cb7da845a5"
     },
     {
       "type": "WEB",

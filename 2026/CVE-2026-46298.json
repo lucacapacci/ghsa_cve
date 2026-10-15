@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qppg-32m7-mvgc",
-  "modified": "2026-07-08T15:31:35Z",
+  "modified": "2026-10-15T12:30:35Z",
   "published": "2026-06-08T18:31:52Z",
   "aliases": [
     "CVE-2026-46298"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7a4f0846ee6cc8cf44ae0046ed42e3259d1dd45b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b33d6f5da16e0eec95b933342812c689cdfcec03"
     }
   ],
   "database_specific": {

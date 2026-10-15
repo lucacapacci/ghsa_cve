@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcch-q6jx-pg5j",
-  "modified": "2026-09-18T18:31:26Z",
+  "modified": "2026-10-15T12:30:47Z",
   "published": "2026-09-17T18:31:50Z",
   "aliases": [
     "CVE-2026-90093"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90093"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8460dc49c9756a1e9288218060b4d41e1b704905"
     },
     {
       "type": "WEB",

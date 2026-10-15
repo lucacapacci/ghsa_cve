@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2m7x-2cj2-wg69",
-  "modified": "2026-05-11T21:31:30Z",
+  "modified": "2026-10-15T12:30:34Z",
   "published": "2026-05-06T12:30:32Z",
   "aliases": [
     "CVE-2026-43191"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43191"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/02b033e18e08a1d0b53cf540196688c82af60a2f"
     },
     {
       "type": "WEB",

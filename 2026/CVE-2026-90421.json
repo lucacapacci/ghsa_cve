@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-286w-pmvg-5rp9",
-  "modified": "2026-09-17T18:32:04Z",
+  "modified": "2026-10-15T12:30:51Z",
   "published": "2026-09-17T18:32:04Z",
   "aliases": [
     "CVE-2026-90421"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/42a5661ff7e4c7d3c5025d0f8e5079fb5479ea49"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c36816feff47f676dcc51919777d483f4146c1ee"
     }
   ],
   "database_specific": {

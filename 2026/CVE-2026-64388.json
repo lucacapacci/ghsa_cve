@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p59x-f8qp-h8m2",
-  "modified": "2026-07-27T06:30:35Z",
+  "modified": "2026-10-15T12:30:39Z",
   "published": "2026-07-25T12:31:33Z",
   "aliases": [
     "CVE-2026-64388"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64388"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3eaec47518e126e6dcd1a48521d740278073f0ec"
     },
     {
       "type": "WEB",

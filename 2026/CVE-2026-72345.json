@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cj4-xv36-4974",
-  "modified": "2026-08-17T06:33:24Z",
+  "modified": "2026-10-15T12:30:41Z",
   "published": "2026-08-15T06:32:21Z",
   "aliases": [
     "CVE-2026-72345"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72345"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0be672071d6e8c4d3be6a8f796d8e47198763770"
     },
     {
       "type": "WEB",

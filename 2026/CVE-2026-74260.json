@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3847-fgf2-64xp",
-  "modified": "2026-08-17T06:33:34Z",
+  "modified": "2026-10-15T12:30:42Z",
   "published": "2026-08-15T06:32:27Z",
   "aliases": [
     "CVE-2026-74260"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2354e975932dabb06fad239f07a3b68fd1809737"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/53fb46cf933dc4361c1a72491e247841d0b0fc85"
     },
     {
       "type": "WEB",

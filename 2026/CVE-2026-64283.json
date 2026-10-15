@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64fq-x7r6-wc9g",
-  "modified": "2026-08-13T18:31:11Z",
+  "modified": "2026-10-15T12:30:39Z",
   "published": "2026-07-25T12:31:29Z",
   "aliases": [
     "CVE-2026-64283"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64283"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3f9c0fdefa0431ad7a5528d76b9cdad912500bdf"
     },
     {
       "type": "WEB",

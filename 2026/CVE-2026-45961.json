@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-848w-4wg8-36v4",
-  "modified": "2026-06-16T03:30:33Z",
+  "modified": "2026-10-15T12:30:35Z",
   "published": "2026-05-27T15:33:18Z",
   "aliases": [
     "CVE-2026-45961"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45961"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4456be93464a599eac0eb2afa63b5d662e1599d8"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8c2-f7rp-8wp5",
-  "modified": "2026-08-17T06:33:03Z",
+  "modified": "2026-10-15T12:30:40Z",
   "published": "2026-08-15T06:32:08Z",
   "aliases": [
     "CVE-2026-68470"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68470"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1c3d9c6bd5b795f3b952b40d574c8e424e14a39b"
     },
     {
       "type": "WEB",

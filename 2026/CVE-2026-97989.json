@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgw5-49qv-38cm",
-  "modified": "2026-09-25T12:31:32Z",
+  "modified": "2026-10-15T12:30:54Z",
   "published": "2026-09-25T12:31:32Z",
   "aliases": [
     "CVE-2026-97989"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/831dab9b9bcc184adf78f18b5b788316e3174aec"
     },
     {
       "type": "WEB",

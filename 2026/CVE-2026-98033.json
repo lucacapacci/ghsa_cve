@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4746-9qhc-mc6f",
-  "modified": "2026-09-25T12:31:33Z",
+  "modified": "2026-10-15T12:30:54Z",
   "published": "2026-09-25T12:31:33Z",
   "aliases": [
     "CVE-2026-98033"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-98033"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/08b534bafdd9de65b6374474a8fe719c90eb3b01"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xq8-4f3j-v3g7",
-  "modified": "2026-09-25T06:30:28Z",
+  "modified": "2026-10-15T12:30:53Z",
   "published": "2026-09-24T18:31:25Z",
   "aliases": [
     "CVE-2026-93282"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/28289d880e6d11ae7ac77b81af3312453febf939"
     },
     {
       "type": "WEB",

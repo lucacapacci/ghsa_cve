@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-362h-j6ww-x5f8",
-  "modified": "2025-12-18T21:31:33Z",
+  "modified": "2026-10-15T12:30:33Z",
   "published": "2025-07-04T15:31:09Z",
   "aliases": [
     "CVE-2025-38204"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38204"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2ec34dc7094b14149ce091c77aff43a45d255518"
     },
     {
       "type": "WEB",

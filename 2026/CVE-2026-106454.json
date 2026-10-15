@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pqf-f4m5-798g",
-  "modified": "2026-10-07T16:18:30Z",
+  "modified": "2026-10-15T14:02:08Z",
   "published": "2026-10-07T16:18:30Z",
   "aliases": [
     "CVE-2026-106454"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "25.5.0"
+              "last_affected": "26.4.0"
             }
           ]
         }

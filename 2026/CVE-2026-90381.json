@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vfx-fvfp-v5mv",
-  "modified": "2026-09-18T18:31:30Z",
+  "modified": "2026-10-15T12:30:50Z",
   "published": "2026-09-17T18:32:03Z",
   "aliases": [
     "CVE-2026-90381"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/70869cc429fffc77de51e7777c0ecb651e8fca07"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7a1b971b799eae8a957acb90d8100576df889644"
     }
   ],
   "database_specific": {

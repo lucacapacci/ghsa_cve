@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qrf-jjmp-5pjw",
-  "modified": "2026-08-15T15:30:36Z",
+  "modified": "2026-10-15T12:30:43Z",
   "published": "2026-08-15T15:30:36Z",
   "aliases": [
     "CVE-2026-74542"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74542"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/15ed8a9b7c63e9171f5139a6aaa1ffb61809861f"
     },
     {
       "type": "WEB",

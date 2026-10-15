@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65qm-758v-r47w",
-  "modified": "2026-08-17T06:33:50Z",
+  "modified": "2026-10-15T12:30:43Z",
   "published": "2026-08-15T15:30:35Z",
   "aliases": [
     "CVE-2026-74530"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/56e78b670356caab0b607e8aad4cf819a1909d07"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ff5625d27415ace5667bf87ebc16c3a0a98db22f"
     }
   ],
   "database_specific": {

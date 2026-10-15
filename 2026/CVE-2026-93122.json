@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcjh-87mp-cx8r",
-  "modified": "2026-09-18T18:31:34Z",
+  "modified": "2026-10-15T12:30:51Z",
   "published": "2026-09-17T18:32:11Z",
   "aliases": [
     "CVE-2026-93122"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93122"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0203146ad450932c2d3132e367a99c49efe3122d"
     },
     {
       "type": "WEB",
