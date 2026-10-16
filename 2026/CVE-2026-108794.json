@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2w8-wxvx-4fm5",
-  "modified": "2026-10-12T03:32:56Z",
+  "modified": "2026-10-16T15:38:15Z",
   "published": "2026-10-12T03:32:56Z",
   "aliases": [
     "CVE-2026-108794"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/vuln/416571/cti"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zkteco.com/en/Security_Bulletinsibs/27"
     }
   ],
   "database_specific": {

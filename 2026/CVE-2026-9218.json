@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxq5-cgpc-wcvr",
-  "modified": "2026-10-13T18:30:48Z",
+  "modified": "2026-10-16T15:38:18Z",
   "published": "2026-10-13T15:32:28Z",
   "aliases": [
     "CVE-2026-9218"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9218"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.netgear.com/000070958/October-2026-NETGEAR-Security-Advisory"
     },
     {
       "type": "WEB",

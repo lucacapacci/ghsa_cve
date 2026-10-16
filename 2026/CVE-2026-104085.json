@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87r4-r3m7-gvjv",
-  "modified": "2026-10-13T18:30:57Z",
+  "modified": "2026-10-16T15:38:18Z",
   "published": "2026-10-13T18:30:57Z",
   "aliases": [
     "CVE-2026-104085"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/odt2spip-os-command-injection-via-document-filename"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/blog/spip-odt2spip-authenticated-command-injection-rce"
     }
   ],
   "database_specific": {
