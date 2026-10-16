@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p86c-663x-5pxq",
-  "modified": "2026-10-16T00:31:59Z",
+  "modified": "2026-10-16T06:30:23Z",
   "published": "2026-10-16T00:31:59Z",
   "aliases": [
     "CVE-2026-94134"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/airflow/pull/73419"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/ksr1lztvd3zr74f8xd1hzch1ssl0l3lj"
     },
     {
       "type": "WEB",

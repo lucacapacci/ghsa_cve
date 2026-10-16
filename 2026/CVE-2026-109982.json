@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-45hq-3vxw-q94x",
+  "modified": "2026-10-16T09:30:26Z",
+  "published": "2026-10-16T09:30:26Z",
+  "aliases": [
+    "CVE-2026-109982"
+  ],
+  "details": "The MB Custom Post Types & Custom Taxonomies WordPress plugin before 2.12.2 does not perform a capability check or validate a nonce on its migration actions, allowing any authenticated user, such as a subscriber, to trigger a one-way migration that creates published records and permanently deletes a companion MB Custom Post Types & Custom Taxonomies WordPress plugin before 2.12.2's entire post-type and taxonomy configuration.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109982"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/27787d4e-1633-4eb6-bcf4-0a8586df3d47"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-16T07:17:10Z"
+  }
+}
