@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxmx-2p3q-jfwf",
-  "modified": "2026-10-15T21:36:08Z",
+  "modified": "2026-10-16T21:32:44Z",
   "published": "2026-10-15T21:36:08Z",
   "aliases": [
     "CVE-2026-111169"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/suitenumerique/docs/pull/2838"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/suitenumerique/docs/commit/43f97482dfb968264dceccabb76e155791c8e019"
     },
     {
       "type": "WEB",

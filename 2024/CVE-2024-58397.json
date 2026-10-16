@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpfq-3w7q-qcrv",
-  "modified": "2026-10-16T00:31:52Z",
+  "modified": "2026-10-16T21:32:47Z",
   "published": "2026-10-16T00:31:52Z",
   "aliases": [
     "CVE-2024-58397"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/enzo1982/mp4v2/blob/f4c2f1b87446100728472d80fd1161d2f8e830b2/src/mp4file.cpp#L2618-L2627"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind-pwn/cve-2024-58397-mp4v2-getchapters-oob-read"
     },
     {
       "type": "WEB",

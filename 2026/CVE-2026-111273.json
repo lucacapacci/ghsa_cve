@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2v49-qr2f-xxxp",
-  "modified": "2026-10-16T00:31:54Z",
+  "modified": "2026-10-16T21:32:47Z",
   "published": "2026-10-16T00:31:54Z",
   "aliases": [
     "CVE-2026-111273"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/selmf/unarr/blob/b211040df83dee513362cdeb9bd87afa26fd5e38/tar/parse-tar.c#L242-L254"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind-pwn/cve-2026-111273-111274-unarr-tar-zip-oob"
     },
     {
       "type": "WEB",
