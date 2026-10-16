@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wcv-hrpc-mxp8",
-  "modified": "2026-10-15T21:35:36Z",
+  "modified": "2026-10-16T00:31:50Z",
   "published": "2026-10-12T18:31:57Z",
   "aliases": [
     "CVE-2026-94451"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:83082"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:83520"
     },
     {
       "type": "WEB",
