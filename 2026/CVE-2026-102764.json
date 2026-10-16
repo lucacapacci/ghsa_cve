@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf95-v8m2-73q8",
-  "modified": "2026-10-15T21:36:14Z",
+  "modified": "2026-10-16T18:34:34Z",
   "published": "2026-10-15T21:36:14Z",
   "aliases": [
     "CVE-2026-102764"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.beyondtrust.com/blog/entry/bt26-05"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-102764"
     }
   ],
   "database_specific": {

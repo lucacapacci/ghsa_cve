@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j75v-5pm7-3cg8",
-  "modified": "2026-10-09T12:31:41Z",
+  "modified": "2026-10-16T18:33:08Z",
   "published": "2026-10-08T21:33:25Z",
   "aliases": [
     "CVE-2026-67693"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/gnutls/gnutls/-/blob/3.8.13/lib/x509/verify.c#L1119-1178"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.com/gnutls/gnutls/-/work_items/1642"
     },
     {
       "type": "WEB",

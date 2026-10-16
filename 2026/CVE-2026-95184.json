@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prfj-h7xq-vv26",
-  "modified": "2026-10-08T21:33:22Z",
+  "modified": "2026-10-16T18:33:08Z",
   "published": "2026-10-08T18:32:30Z",
   "aliases": [
     "CVE-2026-95184"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/lkloliver/0c8b47fa75a0958fa88587665b82ae15"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gnutls.org"
     },
     {
       "type": "WEB",
