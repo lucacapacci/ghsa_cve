@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7v4-6qhp-jg74",
-  "modified": "2026-10-17T00:31:19Z",
+  "modified": "2026-10-17T18:31:08Z",
   "published": "2026-10-17T00:31:19Z",
   "aliases": [
     "CVE-2026-17591"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libarchive/libarchive/pull/3318"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:77775"
     },
     {
       "type": "WEB",
