@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv77-x67j-jf7m",
-  "modified": "2026-10-13T18:30:54Z",
+  "modified": "2026-10-17T00:31:18Z",
   "published": "2026-10-13T18:30:54Z",
   "aliases": [
     "CVE-2026-110106"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/dromara/RuoYi-Vue-Plus/blob/7180b529776834fee912113b23f0bd7a387a8222/ruoyi-modules/ruoyi-system/src/main/java/org/dromara/system/service/impl/SysSocialServiceImpl.java#L116-L118"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@1ExmmukzRMWN7B4gQ4W-4Q/cve-2026-110106-ruoyi-vue-plus-social-unbind-idor"
     },
     {
       "type": "WEB",

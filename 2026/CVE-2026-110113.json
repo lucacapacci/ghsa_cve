@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vpf9-h2mx-wqjf",
-  "modified": "2026-10-13T18:30:55Z",
+  "modified": "2026-10-17T00:31:18Z",
   "published": "2026-10-13T18:30:54Z",
   "aliases": [
     "CVE-2026-110113"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sanluan/PublicCMS/blob/V6.202608.a/publiccms-parent/publiccms-trade/src/main/java/com/publiccms/controller/web/trade/TradeAddressController.java#L46-L62"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@1ExmmukzRMWN7B4gQ4W-4Q/cve-2026-110113-publiccms-trade-address-save-cross-user-overwrite"
     },
     {
       "type": "WEB",
