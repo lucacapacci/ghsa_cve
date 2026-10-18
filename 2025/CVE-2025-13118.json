@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7gg-9jgm-wfcf",
-  "modified": "2025-11-15T09:30:25Z",
+  "modified": "2026-10-18T21:33:15Z",
   "published": "2025-11-13T15:30:31Z",
   "aliases": [
     "CVE-2025-13118"
@@ -46,6 +46,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.686531"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/683345"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/686531"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/332323"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/332323/cti"
     }
   ],
   "database_specific": {

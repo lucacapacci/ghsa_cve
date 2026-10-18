@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mp8-rq5m-pj7m",
-  "modified": "2026-04-22T18:31:38Z",
+  "modified": "2026-10-18T21:34:05Z",
   "published": "2026-04-13T18:30:41Z",
   "aliases": [
     "CVE-2026-33555"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/haproxy/haproxy/commit/05a295441c621089ffa4318daf0dbca2dd756a84"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/10/msg00036.html"
     },
     {
       "type": "WEB",

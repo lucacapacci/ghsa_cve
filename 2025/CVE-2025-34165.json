@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f997-wv99-x22r",
-  "modified": "2025-08-30T00:30:30Z",
+  "modified": "2026-10-18T21:31:18Z",
   "published": "2025-08-30T00:30:30Z",
   "aliases": [
     "CVE-2025-34165"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.netsupportmanager.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/netsupport-client-manager-buffer-overflows"
     }
   ],
   "database_specific": {
