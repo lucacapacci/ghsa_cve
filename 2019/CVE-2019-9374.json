@@ -20,7 +20,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-862"
+    ],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

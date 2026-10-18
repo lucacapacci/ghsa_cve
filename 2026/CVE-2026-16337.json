@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh8m-xg73-3924",
-  "modified": "2026-07-20T21:31:49Z",
+  "modified": "2026-10-18T03:32:37Z",
   "published": "2026-07-20T21:31:49Z",
   "aliases": [
     "CVE-2026-16337"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/dotCMS/core/pull/36344"
+    },
+    {
+      "type": "WEB",
+      "url": "https://dev.dotcms.com/docs/manage/access-and-security/security-and-privacy/known-security-issues?issueNumber=SI-76"
     }
   ],
   "database_specific": {
