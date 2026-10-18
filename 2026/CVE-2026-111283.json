@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2gx-x7ww-hgvm",
-  "modified": "2026-10-16T00:31:54Z",
+  "modified": "2026-10-18T15:30:26Z",
   "published": "2026-10-16T00:31:54Z",
   "aliases": [
     "CVE-2026-111283"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://docs.helixops.ai/bin/IT-Operations-Management/Operations-Management/BMC-Helix-Network-Management/NetworkManagement/Release-Notes/On-prem-Release-Notes/BMC-Helix-Network-Management-26-3-01-On-prem-Release-Notes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cybliminal/cve-2026-111283-bmc-helix-network-management-local-administrator-any-password"
     },
     {
       "type": "WEB",
