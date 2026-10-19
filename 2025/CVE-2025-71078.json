@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh76-3pc6-49g3",
-  "modified": "2026-03-25T21:30:21Z",
+  "modified": "2026-10-19T21:33:06Z",
   "published": "2026-01-13T18:31:05Z",
   "aliases": [
     "CVE-2025-71078"
@@ -49,7 +49,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-362"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

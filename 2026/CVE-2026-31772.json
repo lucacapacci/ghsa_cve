@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f4r-27xr-gwq3",
-  "modified": "2026-05-11T21:31:29Z",
+  "modified": "2026-10-19T21:34:01Z",
   "published": "2026-05-01T15:30:35Z",
   "aliases": [
     "CVE-2026-31772"
@@ -38,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-121",
       "CWE-787"
     ],
     "severity": "HIGH",
