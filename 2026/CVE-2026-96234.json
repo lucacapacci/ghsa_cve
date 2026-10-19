@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq6x-pvr9-888r",
-  "modified": "2026-10-13T20:46:53Z",
+  "modified": "2026-10-19T19:18:40Z",
   "published": "2026-10-13T20:46:53Z",
   "aliases": [
     "CVE-2026-96234"
@@ -286,6 +286,10 @@
       "url": "https://github.com/dotnet/wpf/security/advisories/GHSA-fq6x-pvr9-888r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96234"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/dotnet/announcements/issues/482"
     },
@@ -296,6 +300,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/dotnet/wpf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96234"
     }
   ],
   "database_specific": {
@@ -305,6 +313,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-10-13T20:46:53Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-10-13T19:21:49Z"
   }
 }

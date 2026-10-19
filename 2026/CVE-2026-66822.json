@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxxw-5cvc-53j7",
-  "modified": "2026-10-13T20:41:41Z",
+  "modified": "2026-10-19T19:18:59Z",
   "published": "2026-10-13T20:41:40Z",
   "aliases": [
     "CVE-2026-66822"
@@ -990,6 +990,10 @@
       "url": "https://github.com/dotnet/runtime/security/advisories/GHSA-wxxw-5cvc-53j7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66822"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/dotnet/announcements/issues/448"
     },
@@ -1000,6 +1004,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/dotnet/runtime"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66822"
     }
   ],
   "database_specific": {
@@ -1009,6 +1017,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-10-13T20:41:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-10-13T19:18:53Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j2x-fffq-ff4q",
-  "modified": "2026-10-10T03:30:20Z",
+  "modified": "2026-10-19T15:32:27Z",
   "published": "2026-10-08T18:32:29Z",
   "aliases": [
     "CVE-2026-88647"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/lkloliver/f98ec3de1a871fdfc02b70b8b9ba7642"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/lkloliver/poc/tree/main/CVE-2026-88647"
     },
     {
       "type": "WEB",

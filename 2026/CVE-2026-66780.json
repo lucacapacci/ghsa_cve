@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xmh-phwc-5f4g",
-  "modified": "2026-09-29T03:30:37Z",
+  "modified": "2026-10-19T18:32:00Z",
   "published": "2026-08-18T18:32:02Z",
   "aliases": [
     "CVE-2026-66780"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-66780"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:85227"
     },
     {
       "type": "WEB",

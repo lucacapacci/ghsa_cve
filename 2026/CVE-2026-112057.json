@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2m5j-rc78-vx58",
-  "modified": "2026-10-18T15:30:31Z",
+  "modified": "2026-10-19T18:32:05Z",
   "published": "2026-10-18T15:30:31Z",
   "aliases": [
     "CVE-2026-112057"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://code.videolan.org/videolan/libdvdnav/-/commit/1d2af48d685911a169fe77d500b1d426910c6f77"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-112057-112058-libdvdnav-navigation-index-oob-read"
     },
     {
       "type": "WEB",

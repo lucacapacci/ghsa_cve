@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f9m-p66m-hj4m",
-  "modified": "2026-10-07T15:31:59Z",
+  "modified": "2026-10-19T15:32:27Z",
   "published": "2026-10-07T15:31:59Z",
   "aliases": [
     "CVE-2026-107194"
@@ -22,6 +22,22 @@
     {
       "type": "WEB",
       "url": "https://jakkaru.de/articles/sungrow-vulnerability-exposes-gigawatts-worldwide"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.linkedin.com/posts/patrick-lamplmair-0aa66715b_otsecurity-gridsecurity-solarenergy-activity-7514199420771393536-HAi3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.pv-tech.org/sungrow-patches-cloud-vulnerability-affecting-solar-inverters"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sungrowpower.com/en/login-bypass-vulnerability-in-sungrow-isolarcloud"
     },
     {
       "type": "WEB",

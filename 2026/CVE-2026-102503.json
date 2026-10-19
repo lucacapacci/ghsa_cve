@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vc9x-qg3j-cxg6",
-  "modified": "2026-10-19T03:31:05Z",
+  "modified": "2026-10-19T18:32:06Z",
   "published": "2026-10-19T03:31:05Z",
   "aliases": [
     "CVE-2026-102503"
@@ -15,6 +15,10 @@
   ],
   "affected": [],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/google/agentmesh/security/advisories/GHSA-r6hp-67wp-c7jx"
+    },
     {
       "type": "WEB",
       "url": "https://github.com/google/sam/security/advisories/GHSA-r6hp-67wp-c7jx"

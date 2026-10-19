@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx8v-pq9p-7g7v",
-  "modified": "2026-10-19T03:31:05Z",
+  "modified": "2026-10-19T18:32:06Z",
   "published": "2026-10-19T03:31:05Z",
   "aliases": [
     "CVE-2026-103091"
@@ -15,6 +15,10 @@
   ],
   "affected": [],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/google/agentmesh/security/advisories/GHSA-cgmg-9xf6-rrgw"
+    },
     {
       "type": "WEB",
       "url": "https://github.com/google/sam/security/advisories/GHSA-cgmg-9xf6-rrgw"

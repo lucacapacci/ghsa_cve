@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wv9f-x489-g252",
+  "modified": "2026-10-19T18:32:16Z",
+  "published": "2026-10-19T18:32:16Z",
+  "aliases": [
+    "CVE-2025-52290"
+  ],
+  "details": "A NULL pointer dereference in the avpriv_h264_has_num_reorder_frames function of Ffmpeg version N-119856-gbe46370941 allows attackers to cause a Denial of Service (DoS) via processing a crafted media file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52290"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ffmpeg.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://infosec.exchange/@sigdevel/116733488628458667"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-19T18:16:58Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vvw-9383-fwx7",
-  "modified": "2026-10-16T18:34:40Z",
+  "modified": "2026-10-19T18:32:05Z",
   "published": "2026-10-16T18:34:40Z",
   "aliases": [
     "CVE-2026-46471"
   ],
   "details": "An issue was discovered in GStreamer gst-plugins-good before 1.28.2. While parsing an MP4 file, the isomp4 plugin's qtdemux_parse_uuid function may read past the end of a heap-allocated buffer, allowing an attacker to disclose heap memory contents.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-126"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-16T16:18:11Z"

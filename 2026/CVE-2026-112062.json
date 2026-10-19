@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7m6v-7jf3-5x4h",
-  "modified": "2026-10-18T15:30:31Z",
+  "modified": "2026-10-19T18:32:05Z",
   "published": "2026-10-18T15:30:31Z",
   "aliases": [
     "CVE-2026-112062"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/lwip-tcpip/lwip/blob/STABLE-2_2_1_RELEASE/src/apps/mdns/mdns.c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-112062-lwip-mdns-search-result-domain-oob-write"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4g7-52wc-p8x7",
-  "modified": "2026-10-13T20:36:23Z",
+  "modified": "2026-10-19T19:19:38Z",
   "published": "2026-10-13T20:36:22Z",
   "aliases": [
     "CVE-2026-96236"
@@ -990,6 +990,10 @@
       "url": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-f4g7-52wc-p8x7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96236"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/dotnet/announcements/issues/484"
     },
@@ -1000,6 +1004,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/dotnet/aspnetcore/discussions/69803"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96236"
     }
   ],
   "database_specific": {
@@ -1009,6 +1017,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-10-13T20:36:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-10-13T19:21:49Z"
   }
 }

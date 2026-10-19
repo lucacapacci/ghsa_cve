@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7m6h-rg42-m449",
-  "modified": "2026-10-05T23:44:12Z",
+  "modified": "2026-10-19T19:37:37Z",
   "published": "2026-10-05T23:44:12Z",
   "aliases": [
     "CVE-2026-104181"
@@ -34,7 +34,7 @@
         }
       ],
       "database_specific": {
-        "last_known_affected_version_range": "< 4.13.2"
+        "last_known_affected_version_range": "<= 4.13.2"
       }
     },
     {
@@ -56,7 +56,7 @@
         }
       ],
       "database_specific": {
-        "last_known_affected_version_range": "< 5.8.2"
+        "last_known_affected_version_range": "<= 5.8.2"
       }
     }
   ],
