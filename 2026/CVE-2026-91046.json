@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5ch2-2phm-jp6x",
-  "modified": "2026-10-19T06:32:25Z",
+  "modified": "2026-10-19T12:32:46Z",
   "published": "2026-10-19T06:32:25Z",
   "aliases": [
     "CVE-2026-91046"
   ],
   "details": "The ElementsReady Addons for Elementor WordPress plugin through 6.7.2 does not perform authorization checks that halt execution in several of its settings-save handlers, allowing users with subscriber-level access and above to overwrite the ElementsReady Addons for Elementor WordPress plugin through 6.7.2's stored settings, including its stored API credentials and its feature and template configuration.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-19T06:17:25Z"

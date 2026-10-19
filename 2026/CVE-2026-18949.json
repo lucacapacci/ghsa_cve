@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vccp-8mm3-h2f6",
-  "modified": "2026-08-11T21:32:33Z",
+  "modified": "2026-10-19T12:31:34Z",
   "published": "2026-08-10T21:32:07Z",
   "aliases": [
     "CVE-2026-18949"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:53263"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:84734"
     },
     {
       "type": "WEB",
