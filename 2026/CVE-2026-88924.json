@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8w8m-36rw-gg63",
-  "modified": "2026-10-01T18:32:35Z",
+  "modified": "2026-10-20T15:31:16Z",
   "published": "2026-09-10T15:33:21Z",
   "aliases": [
     "CVE-2026-88924"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:74370"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:85941"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:85942"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:85944"
     },
     {
       "type": "WEB",

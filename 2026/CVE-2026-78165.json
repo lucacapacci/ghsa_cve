@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p5r-xpxr-x2x7",
-  "modified": "2026-10-19T12:32:49Z",
+  "modified": "2026-10-20T15:31:17Z",
   "published": "2026-10-19T12:32:49Z",
   "aliases": [
     "CVE-2026-78165"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://camel.apache.org/security/CVE-2026-78165.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/oscerd/CVE-2026-78165"
     },
     {
       "type": "WEB",

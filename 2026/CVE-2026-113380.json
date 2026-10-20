@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5c63-xm6f-r368",
-  "modified": "2026-10-20T06:31:10Z",
+  "modified": "2026-10-20T15:31:23Z",
   "published": "2026-10-20T06:31:10Z",
   "aliases": [
     "CVE-2026-113380"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/signalapp/ringrtc/commit/4b1b6fa53c9f30c87c8ea78e44675d4a13e1e4d3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Imahian/Notes/tree/main/docs/CVEs/CVE-2026-113380"
     },
     {
       "type": "WEB",

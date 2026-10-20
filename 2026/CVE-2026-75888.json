@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh23-889q-gfpm",
-  "modified": "2026-10-12T18:31:54Z",
+  "modified": "2026-10-20T15:31:17Z",
   "published": "2026-10-12T18:31:54Z",
   "aliases": [
     "CVE-2026-75888"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:83502"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:83541"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:83702"
     },
     {
       "type": "WEB",
