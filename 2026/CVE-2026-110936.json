@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56h6-r36m-c9xv",
-  "modified": "2026-10-15T18:32:35Z",
+  "modified": "2026-10-20T21:30:43Z",
   "published": "2026-10-15T18:32:35Z",
   "aliases": [
     "CVE-2026-110936"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-580366.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-110936"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g2v-9wf5-6m3g",
-  "modified": "2026-09-23T18:31:57Z",
+  "modified": "2026-10-20T21:30:35Z",
   "published": "2026-09-23T18:31:57Z",
   "aliases": [
     "CVE-2026-96656"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/IT/white/2026/va-26-266-01.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-96656"
     },
     {
       "type": "WEB",

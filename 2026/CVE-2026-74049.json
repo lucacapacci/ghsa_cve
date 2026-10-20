@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hg3-hfj5-cq2f",
-  "modified": "2026-10-20T15:31:24Z",
+  "modified": "2026-10-20T21:30:54Z",
   "published": "2026-10-20T15:31:24Z",
   "aliases": [
     "CVE-2026-74049"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/lolc9wo4tzjog2tnwctv93hz9gjcdnc6"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/20/22"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6r2-3pj4-jmqq",
-  "modified": "2026-10-20T15:31:24Z",
+  "modified": "2026-10-20T21:30:54Z",
   "published": "2026-10-20T15:31:24Z",
   "aliases": [
     "CVE-2026-88041"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/dnmm9l3byytg3l66nk1jrqfrl7jty7n1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/20/24"
     }
   ],
   "database_specific": {

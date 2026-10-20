@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv9p-g4pp-v57h",
-  "modified": "2026-10-20T15:31:23Z",
+  "modified": "2026-10-20T21:30:53Z",
   "published": "2026-10-20T15:31:23Z",
   "aliases": [
     "CVE-2026-113401"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-111"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-114"
     }
   ],
   "database_specific": {

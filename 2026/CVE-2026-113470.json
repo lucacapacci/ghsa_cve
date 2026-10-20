@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vr39-qqr3-x9v4",
-  "modified": "2026-10-20T15:31:23Z",
+  "modified": "2026-10-20T21:30:54Z",
   "published": "2026-10-20T15:31:23Z",
   "aliases": [
     "CVE-2026-113470"
@@ -34,6 +34,18 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-114"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-115"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/20/30"
     }
   ],
   "database_specific": {

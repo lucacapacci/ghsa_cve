@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r7h-84x7-5m9j",
-  "modified": "2026-10-18T00:31:34Z",
+  "modified": "2026-10-20T21:30:43Z",
   "published": "2026-10-16T21:32:57Z",
   "aliases": [
     "CVE-2025-55653"
   ],
   "details": "GPAC MP4Box v2.4 was discovered to contain a floating point exception in the gf_parse_lfrac function (utils/error.c). Processing a crafted MP4 file containing a zero-denominator fraction string causes gf_parse_lfrac() to divide by zero, terminating the process with SIGFPE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-16T19:16:57Z"

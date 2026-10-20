@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhmj-5mp2-rq7c",
-  "modified": "2026-10-14T06:31:14Z",
+  "modified": "2026-10-20T21:30:37Z",
   "published": "2026-10-14T06:31:14Z",
   "aliases": [
     "CVE-2026-106931"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/jp/JVN88474777"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-106931"
     },
     {
       "type": "WEB",
