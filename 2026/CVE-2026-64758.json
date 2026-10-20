@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxc3-h74g-9mwv",
-  "modified": "2026-07-28T18:32:54Z",
+  "modified": "2026-10-20T03:32:36Z",
   "published": "2026-07-27T21:31:29Z",
   "aliases": [
     "CVE-2026-64758"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/128070"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/149041"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/149043"
     }
   ],
   "database_specific": {

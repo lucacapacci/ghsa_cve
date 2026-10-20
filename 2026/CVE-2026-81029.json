@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j399-mfvr-j893",
-  "modified": "2026-08-26T18:31:56Z",
+  "modified": "2026-10-20T03:32:36Z",
   "published": "2026-08-26T18:31:56Z",
   "aliases": [
     "CVE-2026-81029"
@@ -19,6 +19,10 @@
   ],
   "affected": [],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/open-metadata/OpenMetadata/security/advisories/GHSA-3f34-r7gw-5f28"
+    },
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81029"

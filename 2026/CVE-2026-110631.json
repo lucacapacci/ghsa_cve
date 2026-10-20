@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6388-9x82-rf3x",
-  "modified": "2026-10-14T18:32:10Z",
+  "modified": "2026-10-20T03:32:39Z",
   "published": "2026-10-14T15:32:27Z",
   "aliases": [
     "CVE-2026-110631"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/moghtech/komodo/blob/v2.3.3/config/periphery.config.toml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ravindulakmina.pages.dev/advisories/cve-2026-110631-komodo-periphery-fail-open-rce"
     },
     {
       "type": "WEB",

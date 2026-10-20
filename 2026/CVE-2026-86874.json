@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-w4xm-25jx-vjc8",
+  "modified": "2026-10-20T03:32:46Z",
+  "published": "2026-10-20T03:32:46Z",
+  "aliases": [
+    "CVE-2026-86874"
+  ],
+  "details": "An out-of-bounds read was addressed with improved input validation. This issue is fixed in Xcode 27. Parsing a maliciously crafted binary may lead to unexpected tool termination.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86874"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/149040"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-20T01:17:25Z"
+  }
+}
