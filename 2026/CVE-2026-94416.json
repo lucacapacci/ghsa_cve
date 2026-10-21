@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch6h-xwwm-655w",
-  "modified": "2026-09-24T15:31:29Z",
+  "modified": "2026-10-21T18:32:56Z",
   "published": "2026-09-24T15:31:29Z",
   "aliases": [
     "CVE-2026-94416"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ansible/jewel/pull/235"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:87004"
     },
     {
       "type": "WEB",
