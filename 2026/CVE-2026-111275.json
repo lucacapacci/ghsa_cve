@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj37-jg79-p9qw",
-  "modified": "2026-10-16T00:31:54Z",
+  "modified": "2026-10-21T03:32:06Z",
   "published": "2026-10-16T00:31:54Z",
   "aliases": [
     "CVE-2026-111275"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/NIFTI-Imaging/nifti_clib/blob/96b9954fafcf3bd69a4ee2091b0d707ed2077697/nifti2/nifti2_io.c#L4985-L5026"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind-pwn/cve-2026-111275-nifticlib-nifti2-dim0-oob"
     },
     {
       "type": "WEB",

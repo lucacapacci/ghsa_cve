@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxvf-jg5h-5fv5",
-  "modified": "2026-10-16T00:31:54Z",
+  "modified": "2026-10-21T03:32:06Z",
   "published": "2026-10-16T00:31:54Z",
   "aliases": [
     "CVE-2026-111270"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Konstanty/libmodplug/blob/d1b97ed0020bc620a059d3675d1854b40bd2608d/src/load_dsm.cpp#L130-L139"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind-pwn/cve-2026-111270-111271-libmodplug-dsm-pattern-oob-write"
     },
     {
       "type": "WEB",

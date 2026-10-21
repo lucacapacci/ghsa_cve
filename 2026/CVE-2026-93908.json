@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm7p-f6m7-xr3m",
-  "modified": "2026-09-30T09:31:13Z",
+  "modified": "2026-10-21T03:32:06Z",
   "published": "2026-09-30T09:31:13Z",
   "aliases": [
     "CVE-2026-93908"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93908"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/webcodingplace/real-estate-manager"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7h63-p8xp-f7mw",
-  "modified": "2026-10-15T21:36:04Z",
+  "modified": "2026-10-21T03:32:06Z",
   "published": "2026-10-15T21:36:03Z",
   "aliases": [
     "CVE-2026-111135"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libyal/libfwsi/blob/2f2aba25b888f37314a39d8c3e71c0e3ced56e59/libfwsi/libfwsi_mtp_volume_values.c#L248-L273"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind-pwn/cve-2026-111134-111135-libfwsi-mtp-values-oob-read"
     },
     {
       "type": "WEB",
