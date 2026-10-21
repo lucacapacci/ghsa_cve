@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-249v-wmcw-xvgm",
-  "modified": "2026-05-07T21:30:24Z",
+  "modified": "2026-10-21T15:40:23Z",
   "published": "2026-05-01T15:30:37Z",
   "aliases": [
     "CVE-2026-43049"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b846fb0a73e99174f08238e083e284c0463a2102"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/df966f0def87550bd81d0892cdff992202de2712"
     },
     {
       "type": "WEB",

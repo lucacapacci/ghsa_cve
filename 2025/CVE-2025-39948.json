@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7v58-mp27-j7rx",
-  "modified": "2026-01-27T21:31:35Z",
+  "modified": "2026-10-21T15:40:11Z",
   "published": "2025-10-04T09:30:21Z",
   "aliases": [
     "CVE-2025-39948"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/84bf1ac85af84d354c7a2fdbdc0d4efc8aaec34b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8729dc4eeb502145418db5f2ca2192fd26f3efda"
     },
     {
       "type": "WEB",

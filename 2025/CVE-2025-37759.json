@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmr5-8rgc-r7p9",
-  "modified": "2025-11-07T00:30:26Z",
+  "modified": "2026-10-21T15:40:01Z",
   "published": "2025-05-01T15:31:43Z",
   "aliases": [
     "CVE-2025-37759"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6ee6bd5d4fce502a5b5a2ea805e9ff16e6aa890f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ab41bf5a211fbec3a85e025658ed90a911ccb692"
     },
     {
       "type": "WEB",

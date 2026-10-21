@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2pqc-qvpf-mwm4",
-  "modified": "2026-10-15T12:30:33Z",
+  "modified": "2026-10-21T15:40:18Z",
   "published": "2026-04-24T15:32:33Z",
   "aliases": [
     "CVE-2026-31573"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1e7e9119cf9b0d8585b27653b1a6dc31397c252e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5d177ff5eb235de9cc0b8e877466f5a3af6f573e"
     },
     {
       "type": "WEB",

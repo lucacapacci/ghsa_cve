@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cw2f-qvgg-223g",
-  "modified": "2026-06-25T21:31:18Z",
+  "modified": "2026-10-21T15:40:28Z",
   "published": "2026-05-27T15:33:10Z",
   "aliases": [
     "CVE-2025-71306"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71306"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0f39d936a34933ebfbdc13a04f0aba814d3b9709"
     },
     {
       "type": "WEB",

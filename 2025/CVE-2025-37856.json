@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppp2-86mr-9vh3",
-  "modified": "2025-11-12T21:31:02Z",
+  "modified": "2026-10-21T15:40:02Z",
   "published": "2025-05-09T09:33:19Z",
   "aliases": [
     "CVE-2025-37856"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7511e29cf1355b2c47d0effb39e463119913e2f6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9039afe6240ae01d6caf2fa731590ac74fb8a69b"
     },
     {
       "type": "WEB",

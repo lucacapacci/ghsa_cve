@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f32h-8q3x-fpmq",
-  "modified": "2026-05-15T15:30:33Z",
+  "modified": "2026-10-21T15:40:26Z",
   "published": "2026-05-08T15:31:22Z",
   "aliases": [
     "CVE-2026-43298"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43298"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/87fc584a72bc47f984600f693501be06548d733e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/89008271744f13854cb30408cf9aaada313ebb4a"
     },
     {
       "type": "WEB",

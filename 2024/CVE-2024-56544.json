@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrf5-hv85-5f65",
-  "modified": "2025-02-03T15:32:01Z",
+  "modified": "2026-10-21T15:39:56Z",
   "published": "2024-12-27T15:31:53Z",
   "aliases": [
     "CVE-2024-56544"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1c0844c6184e658064e14c4335885785ad3bf84b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2384a29db79bd2cfe0b7646ac0030cb355825e29"
     },
     {
       "type": "WEB",

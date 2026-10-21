@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4w6-p754-7g2j",
-  "modified": "2025-11-04T18:31:31Z",
+  "modified": "2026-10-21T15:40:01Z",
   "published": "2025-04-16T15:34:46Z",
   "aliases": [
     "CVE-2025-23132"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9ec535db9da76dafa05c89f8b58a0b1d7dddba1c"
     },
     {
       "type": "WEB",

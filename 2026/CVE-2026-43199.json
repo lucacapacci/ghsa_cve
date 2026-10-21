@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvxc-xfv3-gf64",
-  "modified": "2026-05-08T15:31:17Z",
+  "modified": "2026-10-21T15:40:25Z",
   "published": "2026-05-06T12:30:32Z",
   "aliases": [
     "CVE-2026-43199"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/57957bc7f1865778ec9b1618e15515feb6df7eb4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5efde07521309274f26727860774614cbc187242"
     },
     {
       "type": "WEB",

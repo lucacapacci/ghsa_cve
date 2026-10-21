@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xx77-8cp4-rx22",
-  "modified": "2026-05-26T15:32:07Z",
+  "modified": "2026-10-21T15:40:18Z",
   "published": "2026-04-03T18:31:22Z",
   "aliases": [
     "CVE-2026-23472"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bc70f2b36cf474d5cc8ecbcaf57f3e326fdec67c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c9e845014723d552944cec4e146ec7b841cda34d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d45cfa70bf0159afb31cb03d2d16ec5a5053460c"
     },
     {
       "type": "WEB",

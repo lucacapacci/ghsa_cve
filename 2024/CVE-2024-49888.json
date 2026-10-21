@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4vm-rj4p-m3c8",
-  "modified": "2024-11-13T15:31:37Z",
+  "modified": "2026-10-21T15:39:54Z",
   "published": "2024-10-21T18:30:57Z",
   "aliases": [
     "CVE-2024-49888"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/45f2bbe7bc08d716a07a40025c672cad93180903"
     },
     {
       "type": "WEB",

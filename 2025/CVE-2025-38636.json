@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xg28-vm4v-pcgp",
-  "modified": "2025-11-26T18:31:00Z",
+  "modified": "2026-10-21T15:40:06Z",
   "published": "2025-08-22T18:31:22Z",
   "aliases": [
     "CVE-2025-38636"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/665ca03e93cee01baadc7b5eaee21b9d892e0dab"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7f904ff6e58d398c4336f3c19c42b338324451f7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/dcae71222c8b9e5b5dd88a2d67347dedf10e68c6"
     }
   ],
   "database_specific": {

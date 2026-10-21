@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-274m-pqm8-j3hc",
-  "modified": "2026-05-15T21:31:31Z",
+  "modified": "2026-10-21T15:40:26Z",
   "published": "2026-05-08T15:31:24Z",
   "aliases": [
     "CVE-2026-43346"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43346"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/228497715a162d040df1617e62c3b7d0df54b235"
     },
     {
       "type": "WEB",

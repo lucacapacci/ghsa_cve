@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp4j-4pcv-wwf5",
-  "modified": "2025-10-23T18:31:05Z",
+  "modified": "2026-10-21T15:39:57Z",
   "published": "2025-02-27T03:33:58Z",
   "aliases": [
     "CVE-2024-57975"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2434533f1c963e7317c45880c98287e5bed98325"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/545d6893d3a34737d000af103e1557c592075c41"
     },
     {
       "type": "WEB",

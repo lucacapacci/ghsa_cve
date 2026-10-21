@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-787p-86v4-hhfg",
-  "modified": "2026-03-18T18:31:12Z",
+  "modified": "2026-10-21T15:40:17Z",
   "published": "2026-02-18T15:31:27Z",
   "aliases": [
     "CVE-2026-23217"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b1f8285bc8e3508c1fde23b5205f1270215d4984"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f8b8ec0ddde74066d4452a7a961da544f193e00f"
     }
   ],
   "database_specific": {

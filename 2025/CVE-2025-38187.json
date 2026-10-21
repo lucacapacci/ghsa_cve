@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf92-pqjf-2hmw",
-  "modified": "2025-11-19T21:31:14Z",
+  "modified": "2026-10-21T15:40:04Z",
   "published": "2025-07-04T15:31:08Z",
   "aliases": [
     "CVE-2025-38187"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38187"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/69270d24af7694494ac4116bcad30a812ca49ca7"
     },
     {
       "type": "WEB",

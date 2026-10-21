@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcqc-4q5v-hpcm",
-  "modified": "2025-12-16T15:30:44Z",
+  "modified": "2026-10-21T15:40:12Z",
   "published": "2025-12-16T15:30:44Z",
   "aliases": [
     "CVE-2025-68193"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ee4b32220a6b41e71512e8804585325e685456ba"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/fd4e41545d5955e6f7b4a0c4b56d21010ce8e812"
     }
   ],
   "database_specific": {

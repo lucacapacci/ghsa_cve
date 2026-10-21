@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j72v-jx24-rm3p",
-  "modified": "2026-04-27T15:30:39Z",
+  "modified": "2026-10-21T15:40:18Z",
   "published": "2026-04-22T15:31:43Z",
   "aliases": [
     "CVE-2026-31505"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bb85741d2dc2be207353a412f51b83697fcbefcf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d5dcca707f56c46582486d783c1eca2323189111"
     },
     {
       "type": "WEB",

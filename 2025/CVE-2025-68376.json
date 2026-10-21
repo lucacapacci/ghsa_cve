@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpp9-j2fg-pjvm",
-  "modified": "2025-12-24T12:30:30Z",
+  "modified": "2026-10-21T15:40:12Z",
   "published": "2025-12-24T12:30:30Z",
   "aliases": [
     "CVE-2025-68376"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/35501ac3c7d40a7bb9568c2f89d6b56beaf9bed3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4e83434247ff8005a0b9a1ee997864abf8f259ec"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5d5d130835b417c7bfd6c942f0149e34397d4463"
     },
     {
       "type": "WEB",

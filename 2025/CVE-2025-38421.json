@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxc4-v7c2-8m69",
-  "modified": "2025-11-19T21:31:16Z",
+  "modified": "2026-10-21T15:40:05Z",
   "published": "2025-07-25T15:30:54Z",
   "aliases": [
     "CVE-2025-38421"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/0d10b532f861253c283863522d59d099fcb0796d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d6a38e1a82d2f9abd0bae84a354654bccb8389f6"
     },
     {
       "type": "WEB",

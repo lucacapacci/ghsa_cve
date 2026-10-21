@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vc2w-h9rc-mpxx",
-  "modified": "2026-07-30T06:32:26Z",
+  "modified": "2026-10-21T15:40:13Z",
   "published": "2025-12-24T15:30:44Z",
   "aliases": [
     "CVE-2025-68745"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0d0a1a267c1ee7c41aeffdca84afcb113787a91a"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/5c1fb3fd05da3d55b8cbc42d7d660b313cbdc936"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c82c0fbb97d0fd44324eb55ab758408c7c964b32"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h53c-6597-vmfw",
-  "modified": "2026-04-27T21:30:47Z",
+  "modified": "2026-10-21T15:40:18Z",
   "published": "2026-04-24T15:32:34Z",
   "aliases": [
     "CVE-2026-31579"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/60a25ef8dacb3566b1a8c4de00572a498e2a3bf9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/707607db2193591b68c0e70f814133472c185b1e"
     },
     {
       "type": "WEB",

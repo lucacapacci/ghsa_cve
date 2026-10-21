@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gx72-jpcx-hm2h",
-  "modified": "2026-05-12T21:31:26Z",
+  "modified": "2026-10-21T15:40:24Z",
   "published": "2026-05-06T12:30:29Z",
   "aliases": [
     "CVE-2025-71273"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ad9b80ee310ed734482a2e5da874b67f88ac0ef8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d57e31c8df7b8bb684c6b56854676972a8b7c8ed"
     }
   ],
   "database_specific": {

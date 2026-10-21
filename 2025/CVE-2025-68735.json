@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqpf-ph48-g563",
-  "modified": "2026-07-30T06:32:25Z",
+  "modified": "2026-10-21T15:40:13Z",
   "published": "2025-12-24T15:30:43Z",
   "aliases": [
     "CVE-2025-68735"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c646ebff3fa571e7ea974235286fb9ed3edc260c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c6bbec068a9accd6f1df05f3df9a5254c99292ee"
     },
     {
       "type": "WEB",

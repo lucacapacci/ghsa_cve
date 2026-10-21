@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8m7-rc76-gphg",
-  "modified": "2026-06-16T03:30:32Z",
+  "modified": "2026-10-21T15:40:30Z",
   "published": "2026-05-27T15:33:17Z",
   "aliases": [
     "CVE-2026-45949"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45949"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1cde96d5d53b9105b48617afbc4682a83db4ff04"
     },
     {
       "type": "WEB",

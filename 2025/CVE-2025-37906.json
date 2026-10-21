@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrmf-653p-5vh8",
-  "modified": "2025-11-17T18:30:23Z",
+  "modified": "2026-10-21T15:40:03Z",
   "published": "2025-05-20T18:30:54Z",
   "aliases": [
     "CVE-2025-37906"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37906"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/346b7d74c612234dae0878892682b9722e7c04c8"
     },
     {
       "type": "WEB",

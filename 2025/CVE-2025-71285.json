@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g25-3chf-ppwr",
-  "modified": "2026-05-12T21:31:26Z",
+  "modified": "2026-10-21T15:40:24Z",
   "published": "2026-05-06T12:30:28Z",
   "aliases": [
     "CVE-2025-71285"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8c464e00e0754e016816b1860fa9592dcad80eb2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8e130ff078892fa5a6bf272ced7565af58d98a85"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ab0bdaf7a7f4f83b947193563f2a483ab87f72db"
     }
   ],
   "database_specific": {

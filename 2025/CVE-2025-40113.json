@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-326w-gf89-vgpc",
-  "modified": "2025-11-12T12:30:26Z",
+  "modified": "2026-10-21T15:40:11Z",
   "published": "2025-11-12T12:30:26Z",
   "aliases": [
     "CVE-2025-40113"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/142964960c7c35de5c5f7bdd61c32699de693630"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ce536b90fc6a32629577f81db333f39ebacef0cb"
     },
     {
       "type": "WEB",

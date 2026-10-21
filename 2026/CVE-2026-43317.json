@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94jm-9m2w-wfhh",
-  "modified": "2026-05-15T18:30:30Z",
+  "modified": "2026-10-21T15:40:26Z",
   "published": "2026-05-08T15:31:23Z",
   "aliases": [
     "CVE-2026-43317"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43317"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/04474009a2ea7aa27c67d323952a23bb16d5acc5"
     },
     {
       "type": "WEB",

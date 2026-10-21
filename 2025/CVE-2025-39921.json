@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6595-xfjg-wffj",
-  "modified": "2025-12-11T18:30:35Z",
+  "modified": "2026-10-21T15:40:11Z",
   "published": "2025-10-01T09:30:25Z",
   "aliases": [
     "CVE-2025-39921"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39921"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4ad071e3d57967f7ab483aed0687468bc1d9e9ce"
     },
     {
       "type": "WEB",

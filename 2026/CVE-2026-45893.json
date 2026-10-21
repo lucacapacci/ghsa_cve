@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44ww-rw32-794r",
-  "modified": "2026-06-25T21:31:20Z",
+  "modified": "2026-10-21T15:40:29Z",
   "published": "2026-05-27T15:33:14Z",
   "aliases": [
     "CVE-2026-45893"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45893"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1fbc4b24c7443ffd501609be74d9856fb940d703"
     },
     {
       "type": "WEB",

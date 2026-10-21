@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwqr-8mv5-j4p7",
-  "modified": "2026-05-08T21:31:21Z",
+  "modified": "2026-10-21T15:40:25Z",
   "published": "2026-05-06T12:30:35Z",
   "aliases": [
     "CVE-2026-43272"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43272"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a4afdff9c715af50cf6c3f2dc601932c2cea17a2"
     },
     {
       "type": "WEB",

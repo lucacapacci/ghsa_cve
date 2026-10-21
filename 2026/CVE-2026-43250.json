@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch2c-h859-gmvp",
-  "modified": "2026-05-12T21:31:27Z",
+  "modified": "2026-10-21T15:40:25Z",
   "published": "2026-05-06T12:30:34Z",
   "aliases": [
     "CVE-2026-43250"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1b72b834511d17f4d069d512f78671f3f210a2f1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/aad97c92119cb85db105ddda4a44c86cc0748e8c"
     },
     {
       "type": "WEB",

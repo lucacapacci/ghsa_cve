@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x67r-7mr9-vwm2",
-  "modified": "2025-10-07T21:31:02Z",
+  "modified": "2026-10-21T15:39:53Z",
   "published": "2024-07-16T09:30:38Z",
   "aliases": [
     "CVE-2024-41008"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-41008"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/251840f22eff35c25de531a3fcb523df94c128c0"
     },
     {
       "type": "WEB",

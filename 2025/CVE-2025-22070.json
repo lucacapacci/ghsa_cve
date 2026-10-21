@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jprx-mprp-6qvx",
-  "modified": "2025-05-06T18:30:36Z",
+  "modified": "2026-10-21T15:40:00Z",
   "published": "2025-04-16T15:34:43Z",
   "aliases": [
     "CVE-2025-22070"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8522051c58d68146b93e8a5ba9987e83b3d64e7b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b17edabd917142d9ecd058f7c6ee9da5e32af1dd"
     }
   ],
   "database_specific": {

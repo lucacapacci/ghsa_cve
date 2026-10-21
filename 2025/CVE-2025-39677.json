@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcgr-c7xg-m62q",
-  "modified": "2025-11-25T21:32:03Z",
+  "modified": "2026-10-21T15:40:07Z",
   "published": "2025-09-05T18:31:26Z",
   "aliases": [
     "CVE-2025-39677"
@@ -21,11 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/38cdf8d1f5f3ee133f6e48dd422df4057fa9bfcb"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/52bf272636bda69587952b35ae97690b8dc89941"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a225f44d84b8900d679c5f5a9ea46fe9c0cc7802"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/dcfed7251e23cd71d32c4ecc444ff97992087e46"
     }
   ],
   "database_specific": {

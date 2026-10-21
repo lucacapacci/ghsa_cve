@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35qw-c8w7-fcg8",
-  "modified": "2025-11-19T21:31:16Z",
+  "modified": "2026-10-21T15:40:05Z",
   "published": "2025-07-25T15:30:53Z",
   "aliases": [
     "CVE-2025-38414"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d71ac5694b33c80f1de97d074f6fbdc6c01a9d61"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ea2e6c150380021852c1ed2137a104e379a234bb"
     }
   ],
   "database_specific": {

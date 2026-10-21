@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf3x-qxfc-v57v",
-  "modified": "2025-10-23T15:30:23Z",
+  "modified": "2026-10-21T15:39:58Z",
   "published": "2025-02-27T03:34:03Z",
   "aliases": [
     "CVE-2024-58006"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/01aaa7935af3050fd1e1e7de50001247c75baeab"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gp7-gf3w-qv23",
-  "modified": "2024-10-02T15:30:37Z",
+  "modified": "2026-10-21T15:39:54Z",
   "published": "2024-09-27T15:30:33Z",
   "aliases": [
     "CVE-2024-46808"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46808"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/117df33ecfd8ab41cde8e582ec90d3cb8d82ee9d"
     },
     {
       "type": "WEB",

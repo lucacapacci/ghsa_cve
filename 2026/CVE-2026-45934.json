@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62rp-r79h-7q8x",
-  "modified": "2026-06-24T18:32:28Z",
+  "modified": "2026-10-21T15:40:29Z",
   "published": "2026-05-27T15:33:17Z",
   "aliases": [
     "CVE-2026-45934"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45934"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/09207c3975e1f8f76a52472004dfcab997b4cbd6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/12addb8ab5eec94098d4c7c6614830ccbe7ad130"
     },
     {
       "type": "WEB",

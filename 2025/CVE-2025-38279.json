@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7v2-pww5-gxcf",
-  "modified": "2026-01-26T21:30:30Z",
+  "modified": "2026-10-21T15:40:05Z",
   "published": "2025-07-10T09:32:29Z",
   "aliases": [
     "CVE-2025-38279"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38279"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2d9a8022009d2d6ad7aaea249902d88f1fa70144"
     },
     {
       "type": "WEB",

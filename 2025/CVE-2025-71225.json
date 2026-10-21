@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hr98-gm7c-926r",
-  "modified": "2026-03-18T21:32:57Z",
+  "modified": "2026-10-21T15:40:16Z",
   "published": "2026-02-18T15:31:26Z",
   "aliases": [
     "CVE-2025-71225"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2cc583653bbe050bacd1cadcc9776d39bf449740"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/863b9b7be824a6b2c0587532d3ece3022c6dd451"
     }
   ],
   "database_specific": {
