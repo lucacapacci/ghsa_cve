@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9vhj-8h2m-3g3m",
-  "modified": "2026-05-17T12:30:24Z",
+  "modified": "2026-10-21T09:30:28Z",
   "published": "2026-05-17T12:30:24Z",
   "aliases": [
     "CVE-2026-8743"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/open5gs/open5gs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2026-8743"
     },
     {
       "type": "WEB",

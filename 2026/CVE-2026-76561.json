@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pp8g-7wxg-9php",
-  "modified": "2026-10-05T06:30:22Z",
+  "modified": "2026-10-21T09:30:28Z",
   "published": "2026-09-08T09:35:37Z",
   "aliases": [
     "CVE-2026-76561"
@@ -30,6 +30,18 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:75573"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:86621"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:86624"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:86625"
     },
     {
       "type": "WEB",
