@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m5cg-r367-67g4",
-  "modified": "2026-10-20T15:31:28Z",
+  "modified": "2026-10-21T21:31:56Z",
   "published": "2026-10-20T15:31:28Z",
   "aliases": [
     "CVE-2026-95168"
   ],
   "details": "An issue in nvbn thefuck v.3.32 allows a local attacker to execute arbitrary code via the get_rules_import_paths in thefuck/corrector.py and Rule.from_path in thefuck/types.py",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-20T15:17:37Z"

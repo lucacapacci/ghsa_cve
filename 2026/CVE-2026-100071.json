@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfjf-r326-rpvj",
-  "modified": "2026-09-25T15:31:46Z",
+  "modified": "2026-10-21T21:31:50Z",
   "published": "2026-09-25T15:31:45Z",
   "aliases": [
     "CVE-2026-100071"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: hsr: free learned nodes on device setup failure\n\nhsr_dev_finalize() can fail after a lower-device RX handler has\nalready been registered (slave A is added before the failable slave B\nand interlink adds). RX handlers run in softirq regardless of the\nmaster's state, so frames received in that window can learn dynamic\nnodes into node_db, and the error unwind never releases them.\n\nFree both owned dynamic databases in the unwind, mirroring\nhsr_dellink(). proxy_node_db is provably empty on every current error\nexit (only interlink RX feeds it, and the interlink add is the last\nfailable step) and is freed for symmetry. The order is safe:\nhsr_del_port() unregisters each RX handler with synchronize_net()\nbefore hsr_del_nodes() runs, which removes remaining entries with\nlist_del_rcu() and defers their release with call_rcu() for readers\nalready under RCU.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T14:17:13Z"

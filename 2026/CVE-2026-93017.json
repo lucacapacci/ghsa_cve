@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-97xr-6xrj-3f39",
-  "modified": "2026-10-20T15:31:16Z",
+  "modified": "2026-10-21T21:31:51Z",
   "published": "2026-10-08T15:33:10Z",
   "aliases": [
     "CVE-2026-93017"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93017"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:83480"
     },
     {
       "type": "WEB",

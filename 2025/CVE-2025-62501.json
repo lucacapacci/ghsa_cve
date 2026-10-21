@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32vw-wgfh-pxr5",
-  "modified": "2026-03-16T18:32:02Z",
+  "modified": "2026-10-21T21:31:47Z",
   "published": "2026-02-03T21:31:51Z",
   "aliases": [
     "CVE-2025-62501"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://www.tp-link.com/en/support/download/archer-ax53/v1/#Firmware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/kr/support/download/archer-be3600/v1.20/#Firmware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/kr/support/download/archer-be3600/v1/#Firmware"
     },
     {
       "type": "WEB",

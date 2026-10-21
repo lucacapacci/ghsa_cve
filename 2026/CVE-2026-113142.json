@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpxj-7cvh-4vxh",
-  "modified": "2026-10-21T18:33:04Z",
+  "modified": "2026-10-21T21:32:05Z",
   "published": "2026-10-21T00:32:43Z",
   "aliases": [
     "CVE-2026-113142"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/498733953#attachment75108978"
     },
     {
       "type": "WEB",
