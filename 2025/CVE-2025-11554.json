@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jff6-cpxv-52x3",
-  "modified": "2025-10-11T21:30:11Z",
+  "modified": "2026-10-21T00:31:40Z",
   "published": "2025-10-09T21:31:11Z",
   "aliases": [
     "CVE-2025-11554"
@@ -25,11 +25,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar/commit/d53365e5656f6499a4deddf89d522814655f769d"
+    },
+    {
+      "type": "WEB",
       "url": "https://docs.google.com/document/d/1yGubpU9I6JnkKsrdNRP6bUCeQv3ZDcknXAHOzFZBkGQ"
     },
     {
       "type": "WEB",
       "url": "https://github.com/m3m0o/portabilis-ieducar-user-type-privilege-escalation"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar/tree/2.12"
     },
     {
       "type": "WEB",
@@ -42,6 +54,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.671072"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-11554"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/671072"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/327714"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/327714/cti"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghvh-h254-3wf9",
-  "modified": "2026-04-29T04:12:23Z",
+  "modified": "2026-10-21T00:31:39Z",
   "published": "2025-09-08T03:31:15Z",
   "aliases": [
     "CVE-2025-10074"
@@ -25,11 +25,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar/commit/5b11c0376fcef7ada4c90760b0ca1ed2f16c4de9"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/marcelomulder/CVE/blob/main/i-educar/CVE-2025-10074.md"
     },
     {
       "type": "WEB",
       "url": "https://github.com/marcelomulder/CVE/blob/main/i-educar/Cross-Site%20Scripting%20(XSS)%20Stored%20endpoint%20%60.usuarios.tipos.(ID)%60%20parameters%20%60Tipos%20de%20Usu%C3%A1rio%60,%20%60Descri%C3%A7%C3%A3o%60.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar/tree/2.12"
     },
     {
       "type": "WEB",
@@ -42,6 +54,26 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.644137"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-10074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/644137"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/702974"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/323022"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/323022/cti"
     }
   ],
   "database_specific": {

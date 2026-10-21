@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3xx-pmr6-fvqg",
-  "modified": "2025-09-08T00:30:19Z",
+  "modified": "2026-10-21T00:31:39Z",
   "published": "2025-09-08T00:30:19Z",
   "aliases": [
     "CVE-2025-10070"
@@ -25,11 +25,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar/commit/d53365e5656f6499a4deddf89d522814655f769d"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/marcelomulder/CVE/blob/main/i-educar/Broken%20Access%20Control%20Vulnerability%20%20in%20%60.enturmacao-em-lote.(ID)%60%20Endpoint.md"
     },
     {
       "type": "WEB",
       "url": "https://github.com/marcelomulder/CVE/blob/main/i-educar/CVE-2025-10070.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar/tree/2.12"
     },
     {
       "type": "WEB",
@@ -42,6 +54,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.644133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-10070"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/644133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/323018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/323018/cti"
     }
   ],
   "database_specific": {

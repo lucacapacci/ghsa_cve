@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44f9-hq28-4gf9",
-  "modified": "2026-09-28T21:31:17Z",
+  "modified": "2026-10-21T00:31:40Z",
   "published": "2026-09-28T21:31:17Z",
   "aliases": [
     "CVE-2026-101141"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://drive.google.com/file/d/1gPjhTSB7uWmsnBlfq5h9h6qzJj9j_Lxo/view?usp=sharing"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/omarelshopky/cves/tree/main/eleveo/call-recording-software/CVE-2026-101141"
     },
     {
       "type": "WEB",

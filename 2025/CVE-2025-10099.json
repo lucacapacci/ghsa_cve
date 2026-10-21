@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v7g2-xh82-qmcx",
-  "modified": "2026-04-29T04:12:25Z",
+  "modified": "2026-10-21T00:31:39Z",
   "published": "2025-09-08T18:31:42Z",
   "aliases": [
     "CVE-2025-10099"
@@ -25,11 +25,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar/commit/5b11c0376fcef7ada4c90760b0ca1ed2f16c4de9"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/marcelomulder/CVE/blob/main/i-educar/CVE-2025-10099.md"
     },
     {
       "type": "WEB",
       "url": "https://github.com/marcelomulder/CVE/blob/main/i-educar/Cross-Site%20Scripting%20(XSS)%20Reflected%20endpoint%20%60educar_usuario_cad.php%60%20parameters%20%60email%60,%20%60data_inicial%60,%20%60data_expiracao%60.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/portabilis/i-educar/tree/2.12"
     },
     {
       "type": "WEB",
@@ -42,6 +54,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.644967"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-10099"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/644967"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/323060"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/323060/cti"
     }
   ],
   "database_specific": {

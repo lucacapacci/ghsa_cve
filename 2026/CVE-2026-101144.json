@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwfr-44pg-7wr5",
-  "modified": "2026-09-28T21:31:18Z",
+  "modified": "2026-10-21T00:31:40Z",
   "published": "2026-09-28T21:31:18Z",
   "aliases": [
     "CVE-2026-101144"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://drive.google.com/file/d/16y5IDrRDrARBtGETXUHhkSgFN38b-c6C/view?usp=sharing"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/omarelshopky/cves/tree/main/eleveo/call-recording-software/CVE-2026-101144"
     },
     {
       "type": "WEB",

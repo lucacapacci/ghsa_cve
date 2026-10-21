@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4f3-rj2v-c7hp",
-  "modified": "2026-09-04T06:31:23Z",
+  "modified": "2026-10-21T00:31:40Z",
   "published": "2026-09-04T06:31:23Z",
   "aliases": [
     "CVE-2026-85408"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://drive.google.com/file/d/1fVUqrUoO29zkq2Ib_TXFNavX9yDo-Vp6/view?usp=sharing"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/omarelshopky/cves/tree/main/eleveo/quality-management/CVE-2026-85408"
     },
     {
       "type": "WEB",
