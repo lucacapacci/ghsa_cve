@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h523-c37q-v8g3",
+  "modified": "2026-10-22T15:32:50Z",
+  "published": "2026-10-22T15:32:50Z",
+  "aliases": [
+    "CVE-2026-78846"
+  ],
+  "details": "AiDot Linkind Matter Smart Plug 1.01.32 is vulnerable to Buffer Overflow via SSDP local header parsing.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78846"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/0xee9f00/AiDot-SSDP-UPnP-Vulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.aidot.com/vulnerability-disclosure-policy"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-22T15:17:06Z"
+  }
+}

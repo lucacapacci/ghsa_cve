@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7v7j-6hjx-3w6v",
-  "modified": "2026-10-03T12:31:28Z",
+  "modified": "2026-10-22T15:32:22Z",
   "published": "2026-09-25T12:31:37Z",
   "aliases": [
     "CVE-2026-98129"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: mpi3mr: Fix NULL pointer dereference in mpi3mr_sas_port_add()\n\nsas_port_alloc_num() can return NULL on memory allocation failure. The\nreturn value is passed directly to sas_port_add() without a NULL check,\nwhich causes a NULL pointer dereference.\n\nAdditionally, if sas_port_add() fails, the allocated port is not freed\nbefore jumping to out_fail, leaking the sas_port structure. Call\nsas_port_free() to properly release it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T11:17:44Z"
