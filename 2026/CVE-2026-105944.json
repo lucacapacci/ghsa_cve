@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-436h-c7mw-9wgf",
-  "modified": "2026-10-21T21:32:33Z",
+  "modified": "2026-10-22T00:31:58Z",
   "published": "2026-10-21T21:32:33Z",
   "aliases": [
     "CVE-2026-105944"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://pulsar.apache.org/security/CVE-2026-105944"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/21/26"
     }
   ],
   "database_specific": {
