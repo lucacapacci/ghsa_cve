@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c9f-8whq-v3fc",
-  "modified": "2026-09-05T21:31:19Z",
+  "modified": "2026-10-22T21:32:29Z",
   "published": "2026-09-05T21:31:19Z",
   "aliases": [
     "CVE-2026-6554"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/the-tcpdump-group/libpcap/commit/ff3c83475ac303c6b681c52ad0b6e14795a8e0ce"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/22/3"
     }
   ],
   "database_specific": {

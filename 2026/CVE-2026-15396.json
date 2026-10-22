@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fc8-vf8h-jfvw",
-  "modified": "2026-09-14T21:31:43Z",
+  "modified": "2026-10-22T21:32:29Z",
   "published": "2026-09-14T21:31:43Z",
   "aliases": [
     "CVE-2026-15396"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.ibm.com/support/pages/node/7286610"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ibm.com/support/pages/node/7286611"
     }
   ],
   "database_specific": {

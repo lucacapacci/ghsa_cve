@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6734-h858-25gr",
-  "modified": "2026-09-18T18:31:40Z",
+  "modified": "2026-10-22T21:32:29Z",
   "published": "2026-09-18T18:31:40Z",
   "aliases": [
     "CVE-2026-10841"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10841"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ibm.com/support/pages/node/7286610"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ibm.com/support/pages/node/7286611"
     },
     {
       "type": "WEB",

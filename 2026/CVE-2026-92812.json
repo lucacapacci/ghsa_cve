@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjm6-6gxh-mvf2",
-  "modified": "2026-09-16T21:32:57Z",
+  "modified": "2026-10-22T18:38:32Z",
   "published": "2026-09-16T21:32:57Z",
   "aliases": [
     "CVE-2026-92812"
@@ -20,6 +20,10 @@
   "affected": [],
   "references": [
     {
+      "type": "WEB",
+      "url": "https://github.com/decaporg/decap-cms/security/advisories/GHSA-5rrq-v82w-qpfr"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92812"
     },
@@ -33,7 +37,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/decaporg/decap-cms/releases?page=2#release-decap-cms@3.11.0"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/geo-chen/oss/blob/main/decap-cms.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/decap-cms-path-traversal-via-sibling-directory-prefix-matching"
     },
     {
       "type": "WEB",

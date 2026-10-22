@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73xv-wjr6-7jg4",
-  "modified": "2026-09-18T21:32:24Z",
+  "modified": "2026-10-22T21:32:29Z",
   "published": "2026-09-18T21:32:24Z",
   "aliases": [
     "CVE-2026-11548"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11548"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ibm.com/support/pages/node/7286610"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ibm.com/support/pages/node/7286611"
     },
     {
       "type": "WEB",

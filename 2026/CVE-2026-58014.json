@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h88q-m8mm-7243",
-  "modified": "2026-10-15T18:31:33Z",
+  "modified": "2026-10-22T21:32:02Z",
   "published": "2026-06-30T15:30:45Z",
   "aliases": [
     "CVE-2026-58014"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/glib/-/issues/3930"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:76042"
     },
     {
       "type": "WEB",
@@ -101,10 +105,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:70646"
-    },
-    {
-      "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2492255"
     },
     {
@@ -118,6 +118,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:82857"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82811"
     },
     {
       "type": "WEB",
@@ -181,7 +185,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:76042"
+      "url": "https://access.redhat.com/errata/RHSA-2026:70646"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4pgc-gfrr-wcmg",
-  "modified": "2026-04-13T18:36:28Z",
+  "modified": "2026-10-22T21:31:59Z",
   "published": "2026-03-23T09:30:30Z",
   "aliases": [
     "CVE-2026-4628"
@@ -39,6 +39,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4628"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:19596"
     },
     {
       "type": "WEB",

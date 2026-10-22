@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m32f-8vh9-2hh3",
-  "modified": "2026-04-16T01:34:56Z",
+  "modified": "2026-10-22T21:31:59Z",
   "published": "2026-04-14T15:30:35Z",
   "aliases": [
     "CVE-2026-37980"
@@ -43,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/issues/48049"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:19596"
     },
     {
       "type": "WEB",

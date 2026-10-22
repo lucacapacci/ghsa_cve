@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78cv-cmcx-cx8m",
-  "modified": "2026-10-22T03:33:41Z",
+  "modified": "2026-10-22T18:39:24Z",
   "published": "2026-10-22T03:33:41Z",
   "aliases": [
     "CVE-2026-87954"
   ],
   "details": "Missing Authorization vulnerability in Drupal Taxonomy Term Glossary allows Forceful Browsing. This issue affects Taxonomy Term Glossary versions: from 0.0.0 to 4.6.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-22T02:17:05Z"
