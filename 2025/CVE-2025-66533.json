@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mm3g-cv2q-cppg",
-  "modified": "2026-01-20T15:32:05Z",
+  "modified": "2026-10-22T09:31:46Z",
   "published": "2025-12-09T18:30:41Z",
   "aliases": [
     "CVE-2025-66533"
