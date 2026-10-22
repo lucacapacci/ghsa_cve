@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5q49-7p5p-mjwf",
-  "modified": "2026-10-22T00:31:59Z",
+  "modified": "2026-10-22T03:33:32Z",
   "published": "2026-10-22T00:31:59Z",
   "aliases": [
     "CVE-2026-94423"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/GETTY/Net-LibSSH-0.004/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/21/29"
     }
   ],
   "database_specific": {

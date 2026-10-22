@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvrq-8x76-3vxf",
-  "modified": "2026-10-20T21:30:44Z",
+  "modified": "2026-10-22T03:33:32Z",
   "published": "2026-10-19T18:32:16Z",
   "aliases": [
     "CVE-2025-55654"
   ],
   "details": "A use-after-free in the gf_filter_pid_get_packet function (filter_core/filter_pid.c) of GPAC MP4Box v2.4 allows attackers to cause a Denial of Service (DoS) via supplying a crafted file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-19T18:16:58Z"

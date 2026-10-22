@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f67q-4w46-jr64",
-  "modified": "2026-10-19T15:32:41Z",
+  "modified": "2026-10-22T03:33:30Z",
   "published": "2026-10-19T15:32:40Z",
   "aliases": [
     "CVE-2026-112278"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rdesktop/rdesktop/blob/v1.9.0/orders.c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-112277-112278-112279-rdesktop-bitmap-decompress-oob-read"
     },
     {
       "type": "WEB",

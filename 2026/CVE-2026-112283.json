@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xfh-28f7-pm5w",
-  "modified": "2026-10-19T15:32:41Z",
+  "modified": "2026-10-22T03:33:30Z",
   "published": "2026-10-19T15:32:41Z",
   "aliases": [
     "CVE-2026-112283"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://code.videolan.org/videolan/libbluray/-/blob/1.5.1/src/libbluray/bdnav/clpi_parse.c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-112282-112283-libbluray-clpi-ep-map-oob-read"
     },
     {
       "type": "WEB",

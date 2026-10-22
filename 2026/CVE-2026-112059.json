@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvqw-8644-7mg5",
-  "modified": "2026-10-18T15:30:31Z",
+  "modified": "2026-10-22T03:33:27Z",
   "published": "2026-10-18T15:30:31Z",
   "aliases": [
     "CVE-2026-112059"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libLAS/libLAS/blob/1.8.1/src/header.cpp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-112059-liblas-record-length-truncation-heap-overflow"
     },
     {
       "type": "WEB",

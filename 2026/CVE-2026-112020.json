@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-245m-8wv4-4xg8",
-  "modified": "2026-10-18T12:30:28Z",
+  "modified": "2026-10-22T03:33:26Z",
   "published": "2026-10-18T12:30:28Z",
   "aliases": [
     "CVE-2026-112020"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/lvandeve/lodepng/blob/e584a8490db1b76b81bf298c11c09d3b55d9c270/lodepng_util.cpp#L185-L203"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-112020-lodepng-getfiltertypesinterlaced-short-idat-oob-read"
     },
     {
       "type": "WEB",

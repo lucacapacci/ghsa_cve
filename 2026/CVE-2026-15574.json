@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgpg-f5rm-p28p",
-  "modified": "2026-10-19T12:31:33Z",
+  "modified": "2026-10-22T06:31:18Z",
   "published": "2026-07-13T09:31:43Z",
   "aliases": [
     "CVE-2026-15574"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:84734"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:87410"
     },
     {
       "type": "WEB",

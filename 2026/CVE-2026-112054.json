@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cjc-2hj8-3x6x",
-  "modified": "2026-10-18T15:30:30Z",
+  "modified": "2026-10-22T03:33:26Z",
   "published": "2026-10-18T15:30:30Z",
   "aliases": [
     "CVE-2026-112054"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Distrotech/schroedinger/blob/schroedinger-1.0.11/schroedinger/schrodecoder.c#L2932"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-112053-112054-schroedinger-lowdelay-quant-matrix-oob"
     },
     {
       "type": "WEB",

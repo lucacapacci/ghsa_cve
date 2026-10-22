@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9cp-6gg7-9cpm",
-  "modified": "2026-10-19T15:32:40Z",
+  "modified": "2026-10-22T03:33:30Z",
   "published": "2026-10-19T15:32:40Z",
   "aliases": [
     "CVE-2026-112273"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mfontanini/libtins/blob/v4.6/src/dns.cpp#L338-L389"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-112273-112274-libtins-dns-name-parsing-oob-read"
     },
     {
       "type": "WEB",
