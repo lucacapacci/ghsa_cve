@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mpp-mc8j-2fxx",
-  "modified": "2026-09-28T00:30:28Z",
+  "modified": "2026-10-23T15:31:24Z",
   "published": "2026-09-28T00:30:28Z",
   "aliases": [
     "CVE-2026-100886"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/vuln/410835/cti"
+    },
+    {
+      "type": "WEB",
+      "url": "http://en.tpsee.com/index.php?md=article&ct=lists&catid=58"
     }
   ],
   "database_specific": {

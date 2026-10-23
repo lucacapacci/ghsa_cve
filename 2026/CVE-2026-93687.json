@@ -1,13 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfj7-8cjw-p6xm",
-  "modified": "2026-10-02T22:36:33Z",
+  "modified": "2026-10-23T12:53:02Z",
   "published": "2026-09-18T18:31:41Z",
+  "withdrawn": "2026-10-23T12:53:02Z",
   "aliases": [
     "CVE-2026-93687"
   ],
-  "summary": "braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
-  "details": "braces through 3.0.3 contains a stack overflow vulnerability in the recursive AST walkers that lack depth guards. Attackers can supply deeply nested brace patterns under the character limit to exhaust the call stack and terminate the Node.js process with an uncaught RangeError.",
+  "summary": "Withdrawn Advisory: braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
+  "details": "### Withdrawn Advisory\nThis advisory has been withdrawn because it's not a practically exploitable vulnerability. This link is maintained to preserve external references.\n\n### Original Description\nbraces through 3.0.3 contains a stack overflow vulnerability in the recursive AST walkers that lack depth guards. Attackers can supply deeply nested brace patterns under the character limit to exhaust the call stack and terminate the Node.js process with an uncaught RangeError.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -47,6 +48,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/micromatch/braces/issues/70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/micromatch/braces/issues/73#issuecomment-5996574974"
     },
     {
       "type": "PACKAGE",

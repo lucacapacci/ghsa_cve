@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx3q-4jp5-2qg8",
-  "modified": "2026-10-23T06:31:27Z",
+  "modified": "2026-10-23T12:31:31Z",
   "published": "2026-10-23T06:31:27Z",
   "aliases": [
     "CVE-2026-112219"
   ],
   "details": "The Download Monitor WordPress plugin before 5.3.5 does not correctly restrict management of the list of filesystem locations it may serve files from to network administrators on multisite, allowing a subsite administrator who is not trusted at the network level to approve arbitrary locations and have the Download Monitor WordPress plugin before 5.3.5 serve readable files from outside the uploads directory, including files belonging to other subsites, to unauthenticated visitors; single-site installations are unaffected.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-23T06:17:06Z"
