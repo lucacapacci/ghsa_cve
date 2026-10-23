@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-389p-g792-49fp",
-  "modified": "2026-10-20T00:31:46Z",
+  "modified": "2026-10-23T18:31:28Z",
   "published": "2026-09-02T06:31:14Z",
   "aliases": [
     "CVE-2026-19754"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/baserow/baserow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/baserow/baserow/releases/tag/2.3.4"
     },
     {
       "type": "WEB",

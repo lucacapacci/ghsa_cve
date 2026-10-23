@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrhx-c7xc-m3w5",
-  "modified": "2026-10-01T18:32:46Z",
+  "modified": "2026-10-23T18:26:50Z",
   "published": "2026-10-01T18:32:46Z",
   "aliases": [
     "CVE-2023-54404"
   ],
+  "summary": "Zod can exhaust memory while validating oversized constrained collections",
   "details": "Zod schema-validation library through 4.6.5 contains an uncontrolled resource consumption vulnerability that allows attackers to exhaust memory by submitting a large array to an application using an array schema without a length constraint. Attackers can exploit the handleArrayResult parse logic in $ZodArray, which accumulates every validation issue for each failing element with no cap or early termination, causing the process to allocate excessive issue objects and crash due to out-of-memory conditions.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "zod"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -33,6 +54,18 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/colinhacks/zod/pull/6652"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/colinhacks/zod/commit/a0ebf970f2d752e5f58527cd2942ff48be4f46bd"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/colinhacks/zod"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/zod-uncontrolled-resource-consumption-via-array-validation"
     }
   ],
@@ -41,8 +74,8 @@
       "CWE-770"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-10-23T18:26:50Z",
     "nvd_published_at": "2026-10-01T18:17:11Z"
   }
 }

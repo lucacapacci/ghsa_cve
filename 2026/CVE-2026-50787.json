@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-x2cv-c5p2-8w76",
+  "modified": "2026-10-23T18:31:37Z",
+  "published": "2026-10-23T18:31:36Z",
+  "aliases": [
+    "CVE-2026-50787"
+  ],
+  "details": "e-SIC Livre (esiclivre) v0.2.2 and earlier contains an uncontrolled resource consumption vulnerability in restrito/inc/captcha.php. The application uses user-supplied parameters (l, a, tf, ql) without validation to generate CAPTCHA images, allowing remote attackers to cause denial of service via excessive memory and CPU consumption.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50787"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/brynax/CVE-2026-50787"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/esiclivre/esiclivre/blob/master/restrito/inc/captcha.php"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-23T16:16:51Z"
+  }
+}

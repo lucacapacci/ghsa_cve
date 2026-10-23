@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-964w-6mm5-rm95",
-  "modified": "2026-10-22T21:32:51Z",
+  "modified": "2026-10-23T18:31:34Z",
   "published": "2026-10-22T21:32:51Z",
   "aliases": [
     "CVE-2026-114625"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-114625"
     }
   ],
   "database_specific": {
