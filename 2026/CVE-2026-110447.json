@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f97p-r72q-64h2",
-  "modified": "2026-10-14T03:30:39Z",
+  "modified": "2026-10-23T21:35:40Z",
   "published": "2026-10-14T03:30:39Z",
   "aliases": [
     "CVE-2026-110447"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://help.nextcloud.com/t/to-collabora-built-in-user-update-asap/250516"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-110447"
     }
   ],
   "database_specific": {

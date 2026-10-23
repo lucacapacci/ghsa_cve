@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36fr-h72x-63ph",
-  "modified": "2026-10-22T18:39:33Z",
+  "modified": "2026-10-23T21:35:48Z",
   "published": "2026-10-22T18:39:33Z",
   "aliases": [
     "CVE-2026-113873"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113873"
+    },
+    {
+      "type": "WEB",
+      "url": "https://abhinavagarwal07.github.io/posts/hapi-fhir-authorization-findings"
     },
     {
       "type": "WEB",

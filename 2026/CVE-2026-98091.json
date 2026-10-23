@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frx7-8j8j-mc25",
-  "modified": "2026-10-03T12:31:28Z",
+  "modified": "2026-10-23T21:35:39Z",
   "published": "2026-09-25T12:31:36Z",
   "aliases": [
     "CVE-2026-98091"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: detach failed sprout device from transaction update list\n\nWhen creating the first metadata chunk for a sprout filesystem,\ncreate_chunk() adds the new device to the transaction dev_update_list\nthrough device->post_commit_list.\n\nIf the subsequent system chunk creation fails, btrfs_init_new_device()\naborts the transaction and releases the device while post_commit_list is\nstill linked. This triggers a warning in btrfs_free_device() and leaves\nthe transaction list referencing freed memory.\n\nDetach the device while holding chunk_mutex before releasing it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T11:17:38Z"

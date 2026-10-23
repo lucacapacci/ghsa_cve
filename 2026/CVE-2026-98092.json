@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xq6-vg73-mvgc",
-  "modified": "2026-10-03T12:31:27Z",
+  "modified": "2026-10-23T21:35:39Z",
   "published": "2026-09-25T12:31:36Z",
   "aliases": [
     "CVE-2026-98092"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: amd: yc: fix memory leak in acp6x_pdm_dma_close()\n\nacp6x_pdm_dma_close() does not free the runtime->private_data buffer\nallocated in acp6x_pdm_dma_open(). Add the missing kfree.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T11:17:38Z"

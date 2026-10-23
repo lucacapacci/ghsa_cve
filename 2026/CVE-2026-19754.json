@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-389p-g792-49fp",
-  "modified": "2026-10-23T18:31:28Z",
+  "modified": "2026-10-23T21:35:38Z",
   "published": "2026-09-02T06:31:14Z",
   "aliases": [
     "CVE-2026-19754"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/baserow/baserow/commit/5d584c82d6a062afe7bcc80e067831d9385bcce2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/baserow/baserow/commit/e7abc14975124dfe4558ff47fb8b9a25c47d9fcc"
     },
     {
       "type": "WEB",

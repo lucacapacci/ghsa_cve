@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67jf-xf85-qx94",
-  "modified": "2026-10-22T21:32:35Z",
+  "modified": "2026-10-23T21:35:49Z",
   "published": "2026-10-22T21:32:35Z",
   "aliases": [
     "CVE-2026-113875"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113875"
+    },
+    {
+      "type": "WEB",
+      "url": "https://abhinavagarwal07.github.io/posts/hapi-fhir-authorization-findings"
     },
     {
       "type": "WEB",
