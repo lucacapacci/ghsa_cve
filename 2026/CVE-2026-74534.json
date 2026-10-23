@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f45g-2gpw-92wg",
-  "modified": "2026-08-17T06:33:50Z",
+  "modified": "2026-10-23T09:31:18Z",
   "published": "2026-08-15T15:30:35Z",
   "aliases": [
     "CVE-2026-74534"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3b921533e8aa95b77aadcf31737595578e735f3c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/42c8bd6ac81e21200bb90f1eaf43d19352eec6d7"
     },
     {
       "type": "WEB",

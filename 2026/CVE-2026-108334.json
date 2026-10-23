@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcw2-f6v9-6ffp",
-  "modified": "2026-10-17T12:30:57Z",
+  "modified": "2026-10-23T06:31:26Z",
   "published": "2026-10-15T21:36:02Z",
   "aliases": [
     "CVE-2026-108334"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:83531"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:88203"
     },
     {
       "type": "WEB",

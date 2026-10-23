@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mr2-j2wm-v93x",
-  "modified": "2026-10-15T21:35:31Z",
+  "modified": "2026-10-23T06:31:26Z",
   "published": "2026-09-01T18:30:40Z",
   "aliases": [
     "CVE-2026-49329"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:79039"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82785"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:82813"
     },
     {
       "type": "WEB",
