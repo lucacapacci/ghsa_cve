@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp3v-g466-8g44",
-  "modified": "2021-12-14T18:11:16Z",
+  "modified": "2026-10-23T03:30:19Z",
   "published": "2021-05-05T19:25:15Z",
   "aliases": [
     "CVE-2019-5645"
@@ -22,7 +22,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/rapid7/metasploit-framework/pull/11966"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/rapid7/metasploit-framework/pull/12433"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rapid7/metasploit-framework/commit/5621d200ccf62e4a8f0dad80c1c74f4e0e52d86b"
     }
   ],
   "database_specific": {
