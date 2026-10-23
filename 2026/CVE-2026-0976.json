@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v897-pv23-r8cw",
-  "modified": "2026-01-15T23:10:39Z",
+  "modified": "2026-10-23T00:32:49Z",
   "published": "2026-01-15T15:31:17Z",
   "aliases": [
     "CVE-2026-0976"
@@ -39,6 +39,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0976"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:2365"
     },
     {
       "type": "WEB",
