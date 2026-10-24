@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x547-2835-q547",
-  "modified": "2026-10-24T15:32:53Z",
+  "modified": "2026-10-24T18:33:59Z",
   "published": "2026-10-24T15:32:53Z",
   "aliases": [
     "CVE-2026-115557"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/10/20/29"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/24/5"
     }
   ],
   "database_specific": {
