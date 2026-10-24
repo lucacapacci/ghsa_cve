@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79jp-j4mv-p57c",
-  "modified": "2026-10-18T18:31:50Z",
+  "modified": "2026-10-24T15:32:46Z",
   "published": "2026-10-18T18:31:49Z",
   "aliases": [
     "CVE-2026-98456"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: mgmt: fix race in read_unconf_index_list()\n\nread_unconf_index_list() counts unconfigured controllers before allocating\nits response, then checks the device flags again while filling it.\n\nhci_dev_list_lock stabilizes list membership, but it does not serialize the\nper-device flags. During asynchronous controller setup, the worker can set\nHCI_UNCONFIGURED and clear HCI_SETUP between the two passes. A controller\nomitted from the allocation count can then become eligible for the fill\npass, causing an out-of-bounds write to rp->index[].\n\nAllocate space for every device on hci_dev_list. Since list membership\ncannot change while hci_dev_list_lock is held, the response remains large\nenough regardless of flag transitions. The reported count and response\nlength still include only eligible unconfigured controllers.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-18T16:16:56Z"

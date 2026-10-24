@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2m74-g73v-pv5c",
-  "modified": "2026-10-23T15:31:35Z",
+  "modified": "2026-10-24T15:32:50Z",
   "published": "2026-10-23T15:31:35Z",
   "aliases": [
     "CVE-2026-99030"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: skbuff: don't leave stale bytes in skb_copy_and_csum_bits()\n\nWhen skb_copy_and_csum_bits() reaches unreadable frags it returns 0\nafter copying only the linear part, and the rest of the caller's buffer\nis left as it was.  The callers copy into a buffer that is about to go\nout on the wire: an ICMP error quoting the offending packet, or a\ndriver's TX bounce buffer in skb_copy_and_csum_dev().  Neither buffer\nis zeroed beforehand, so whatever was in memory there gets sent.\n\nZero the part of the buffer we didn't fill.  The checksum usually\nwon't match the data any more, so the receiver will usually drop the\npacket, but either way it no longer carries anything it shouldn't.\nOnly zero for a positive @len, a negative one from a broken caller must\nnot turn into a huge memset().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-23T13:17:26Z"

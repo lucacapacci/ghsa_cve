@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5r5-h782-vqvp",
-  "modified": "2026-10-24T00:32:35Z",
+  "modified": "2026-10-24T15:32:51Z",
   "published": "2026-10-24T00:32:35Z",
   "aliases": [
     "CVE-2026-115931"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/gitroomhq/postiz-app/releases/tag/v2.25.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gitroomhq/postiz-app/releases/tag/v2.25.2"
     }
   ],
   "database_specific": {

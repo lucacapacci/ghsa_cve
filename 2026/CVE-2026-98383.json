@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ph4x-4wh2-2qrm",
-  "modified": "2026-10-09T09:31:05Z",
+  "modified": "2026-10-24T15:32:46Z",
   "published": "2026-10-09T09:31:05Z",
   "aliases": [
     "CVE-2026-98383"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Disallow bpf_skb_pull_data() for LWT_SEG6LOCAL\n\nAn LWT_SEG6LOCAL program can invalidate its cached SRH with\nbpf_lwt_seg6_adjust_srh() and then call bpf_skb_pull_data(). The latter\nmay reallocate skb->head, leaving the per-CPU SRH pointer dangling.\nPost-program SRH validation then writes through that pointer.\n\nDisallow bpf_skb_pull_data() for LWT_SEG6LOCAL programs so the verifier\nrejects this unsafe helper combination. Other LWT program types continue\nto expose the helper through lwt_out_func_proto().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-09T08:16:56Z"

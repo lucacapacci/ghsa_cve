@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhx7-57xw-qfjc",
-  "modified": "2026-10-23T15:31:32Z",
+  "modified": "2026-10-24T15:32:47Z",
   "published": "2026-10-23T15:31:32Z",
   "aliases": [
     "CVE-2026-98945"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: steam: Rearrange teardown sequence\n\nThis fixes a narrow window during the teardown sequence where callbacks\ncould still be scheduled during cleanup that would then have a dangling\npointer to the now-freed steam struct.\n\nThis also puts work canceling for rumble and mode switch in\nsteam_unregister, as that shouldn't persist while the client hdev is open.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-23T13:17:15Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpgc-gpfg-74f9",
-  "modified": "2026-09-14T15:32:33Z",
+  "modified": "2026-10-24T15:32:46Z",
   "published": "2026-09-11T21:31:35Z",
   "aliases": [
     "CVE-2026-89673"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89673"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/15460c8e6c9bc92cda8f68bc419ac082300ab3d6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/356decf074b82bac5564568203c12426dcea3470"
     },
     {
       "type": "WEB",
@@ -33,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8b989aaec85e1293a871d602590c951fe44b8647"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9be67a6be48ddf2ebaa98c0df671690b8f9666e7"
     }
   ],
   "database_specific": {

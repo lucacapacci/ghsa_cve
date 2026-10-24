@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrph-gf2g-mv7f",
-  "modified": "2026-10-24T06:30:29Z",
+  "modified": "2026-10-24T15:32:53Z",
   "published": "2026-10-24T06:30:29Z",
   "aliases": [
     "CVE-2026-97352"
   ],
   "details": "The News Kit Addons For Elementor WordPress plugin before 1.4.9 does not perform a capability check on one of its AJAX actions, allowing authenticated users with subscriber-level access and above to install and activate a specific News Kit Addons For Elementor WordPress plugin before 1.4.9 from the WordPress.org repository.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-24T06:16:37Z"
