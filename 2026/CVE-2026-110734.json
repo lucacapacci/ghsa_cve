@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcg2-p5jm-qfx6",
-  "modified": "2026-10-15T18:32:06Z",
+  "modified": "2026-10-24T03:30:20Z",
   "published": "2026-10-14T18:32:18Z",
   "aliases": [
     "CVE-2026-110734"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/10/15/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/23/28"
     }
   ],
   "database_specific": {
