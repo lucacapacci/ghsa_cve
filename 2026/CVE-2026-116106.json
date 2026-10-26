@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcgv-3j6w-p5vj",
-  "modified": "2026-10-26T03:30:23Z",
+  "modified": "2026-10-26T09:31:05Z",
   "published": "2026-10-26T03:30:23Z",
   "aliases": [
     "CVE-2026-116106"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/azurejoga/heycyan-vulnerabilitys"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ohackercego/heycyan-vulnerabilitys"
     },
     {
       "type": "WEB",
