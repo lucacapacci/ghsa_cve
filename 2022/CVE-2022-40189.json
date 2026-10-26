@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmf2-pwfq-h75j",
-  "modified": "2022-11-29T17:55:59Z",
+  "modified": "2026-10-26T21:11:40Z",
   "published": "2022-11-22T12:30:22Z",
   "aliases": [
     "CVE-2022-40189"
@@ -50,7 +50,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2026-270.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread/yxnfzfw2w9pj5s785k3rlyly4y44sd15"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/apache-airflow"
     }
   ],
   "database_specific": {

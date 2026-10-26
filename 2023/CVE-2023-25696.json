@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mwf-mw74-9cv5",
-  "modified": "2023-03-06T19:37:46Z",
+  "modified": "2026-10-26T21:09:55Z",
   "published": "2023-02-24T12:31:20Z",
   "aliases": [
     "CVE-2023-25696"
@@ -50,7 +50,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow-providers-apache-hive/PYSEC-2026-272.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread/99g0qm56wmgdxmbtdsvhj4rdnxhpzpml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/apache-airflow-providers-apache-hive"
     }
   ],
   "database_specific": {

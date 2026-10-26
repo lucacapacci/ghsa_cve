@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf28-v5f6-cvpr",
-  "modified": "2024-11-18T16:26:42Z",
+  "modified": "2026-10-26T21:13:32Z",
   "published": "2024-05-21T18:31:24Z",
   "aliases": [
     "CVE-2024-35057"
@@ -51,6 +51,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/NASA-AMMOS/AIT-Core"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/ait-core/PYSEC-2026-263.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/ait-core"
     },
     {
       "type": "WEB",

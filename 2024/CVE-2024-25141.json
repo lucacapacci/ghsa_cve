@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x5pm-h33q-cjrw",
-  "modified": "2024-08-15T21:37:23Z",
+  "modified": "2026-10-26T21:11:13Z",
   "published": "2024-02-20T21:30:26Z",
   "aliases": [
     "CVE-2024-25141"
@@ -50,7 +50,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow-providers-mongo/PYSEC-2026-278.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread/sqgbfqngjmn45ommmrgj7hvs7fgspsgm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/apache-airflow-providers-mongo"
     },
     {
       "type": "WEB",

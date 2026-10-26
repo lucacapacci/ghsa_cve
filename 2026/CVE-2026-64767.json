@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84qx-fjmg-vr64",
-  "modified": "2026-07-28T15:32:11Z",
+  "modified": "2026-10-26T21:35:41Z",
   "published": "2026-07-27T21:31:29Z",
   "aliases": [
     "CVE-2026-64767"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/128072"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/149523"
     }
   ],
   "database_specific": {

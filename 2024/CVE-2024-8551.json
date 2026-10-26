@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9rw-qm5f-r8xm",
-  "modified": "2025-03-20T20:52:49Z",
+  "modified": "2026-10-26T20:55:45Z",
   "published": "2025-03-20T12:32:48Z",
   "aliases": [
     "CVE-2024-8551"
@@ -50,7 +50,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/agentscope/PYSEC-2026-255.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://huntr.com/bounties/e0c0c294-f1e2-4f2c-a632-a9be9fd06989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/agentscope"
     }
   ],
   "database_specific": {
