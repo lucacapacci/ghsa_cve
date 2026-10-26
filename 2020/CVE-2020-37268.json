@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fm4-65fg-j439",
-  "modified": "2026-08-24T21:33:43Z",
+  "modified": "2026-10-26T03:30:22Z",
   "published": "2026-08-24T21:33:43Z",
   "aliases": [
     "CVE-2020-37268"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/coq-and-rocq-prover-print-assumptions-omits-unsafe-universe-checking-inlined-through-parameter-inline"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/26/8"
     }
   ],
   "database_specific": {

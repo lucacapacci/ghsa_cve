@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmh5-fmfv-h6f8",
-  "modified": "2026-10-25T18:31:41Z",
+  "modified": "2026-10-26T03:30:23Z",
   "published": "2026-10-25T18:31:41Z",
   "aliases": [
     "CVE-2026-115825"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/MIYAGAWA/Plack-1.0056/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/26/10"
     }
   ],
   "database_specific": {

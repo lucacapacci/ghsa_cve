@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4rc-7978-q94g",
-  "modified": "2026-08-24T21:33:44Z",
+  "modified": "2026-10-26T03:30:23Z",
   "published": "2026-08-24T21:33:44Z",
   "aliases": [
     "CVE-2026-72705"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/rocq-prover-before-guard-checker-accepts-fixpoint-passed-as-a-higher-order-argument"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/26/6"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95gm-3748-rx8v",
-  "modified": "2026-08-24T21:33:44Z",
+  "modified": "2026-10-26T03:30:23Z",
   "published": "2026-08-24T21:33:44Z",
   "aliases": [
     "CVE-2026-72714"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/rocq-prover-through-universe-checking-state-desynchronised-after-module-close"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/26/7"
     }
   ],
   "database_specific": {
