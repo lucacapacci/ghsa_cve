@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp2j-3cmp-828j",
-  "modified": "2026-10-14T21:33:05Z",
+  "modified": "2026-10-26T15:34:17Z",
   "published": "2026-10-04T09:30:20Z",
   "aliases": [
     "CVE-2026-105133"
@@ -41,11 +41,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.ahsay.com/en/support/help-centre/release-notes/cbs/v10.3.4"
     },
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-105133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit"
     }
   ],
   "database_specific": {

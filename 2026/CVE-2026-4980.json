@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r7r-hrcf-cgvw",
-  "modified": "2026-03-27T15:30:26Z",
+  "modified": "2026-10-26T18:31:30Z",
   "published": "2026-03-27T15:30:26Z",
   "aliases": [
     "CVE-2026-4980"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/inkscape/inkscape/-/work_items/3557"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/10/msg00056.html"
     }
   ],
   "database_specific": {

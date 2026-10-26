@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rw9v-xch6-cr33",
-  "modified": "2026-10-15T18:32:44Z",
+  "modified": "2026-10-26T15:34:21Z",
   "published": "2026-10-15T18:32:44Z",
   "aliases": [
     "CVE-2026-78850"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78850"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/matomo-org/matomo/pull/24834"
     },
     {
       "type": "WEB",

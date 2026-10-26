@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xw5h-cmh3-8j6j",
-  "modified": "2026-10-02T23:10:32Z",
+  "modified": "2026-10-26T16:16:20Z",
   "published": "2026-06-12T12:31:33Z",
   "aliases": [
     "CVE-2026-49875"
   ],
   "summary": "Apache CXF has Improper Restriction of XML External Entity Reference",
-  "details": "Apache CXF's EndpointReferenceUtils and W3CMultiSchemaFactory classes construct a SAXParserFactory without the necessary JAXP hardening configurations, enabling out-of-band (OOB) \nexternal entity resolution. Users are recommended to upgrade to versions 4.2.2 or 4.1.7, which fix this issue.",
+  "details": "Apache CXF's EndpointReferenceUtils and W3CMultiSchemaFactory classes construct a SAXParserFactory without the necessary JAXP hardening configurations, enabling out-of-band (OOB) external entity resolution. Users are recommended to upgrade to versions 4.2.2 or 4.1.7 or 3.6.12, which fix this issue.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -44,10 +44,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.0.0"
             },
             {
               "fixed": "4.1.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.cxf:cxf-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.12"
             }
           ]
         }

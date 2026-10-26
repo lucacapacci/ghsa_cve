@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-757x-6rpx-jpwf",
-  "modified": "2026-05-12T18:30:35Z",
+  "modified": "2026-10-26T18:31:47Z",
   "published": "2026-05-11T21:31:38Z",
   "aliases": [
     "CVE-2026-28940"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/127120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-314"
     }
   ],
   "database_specific": {

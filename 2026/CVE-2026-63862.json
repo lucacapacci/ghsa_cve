@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3mw-3vxw-g4f9",
-  "modified": "2026-07-19T15:30:27Z",
+  "modified": "2026-10-26T18:32:39Z",
   "published": "2026-07-19T15:30:27Z",
   "aliases": [
     "CVE-2026-63862"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI: mediatek-gen3: Prevent leaking IRQ domains when IRQ not found\n\nIn mtk_pcie_setup_irq(), the IRQ domains are allocated before the\ncontroller's IRQ is fetched. If the latter fails, the function\ndirectly returns an error, without cleaning up the allocated domains.\n\nHence, reverse the order so that the IRQ domains are allocated after the\ncontroller's IRQ is found.\n\nThis was flagged by Sashiko during a review of \"[PATCH v6 0/7] PCI:\nmediatek-gen3: add power control support\".",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-07-19T15:16:53Z"

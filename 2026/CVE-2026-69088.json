@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pgq-cr25-xvc8",
-  "modified": "2026-09-17T17:16:39Z",
+  "modified": "2026-10-26T14:43:42Z",
   "published": "2026-09-17T17:16:39Z",
   "aliases": [
     "CVE-2026-69088"
@@ -48,8 +48,16 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69088"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/getgrav/grav/commit/446d7f8f255918c8234634fe1dc2c9c77a0c673e"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/getgrav/grav"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/getgrav/grav/releases/tag/2.0.11"
     },
     {
       "type": "WEB",

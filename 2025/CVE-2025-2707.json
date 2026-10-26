@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4gqh-r946-jvgc",
-  "modified": "2025-03-24T21:30:33Z",
+  "modified": "2026-10-26T18:31:30Z",
   "published": "2025-03-24T21:30:33Z",
   "aliases": [
     "CVE-2025-2707"
@@ -25,6 +25,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://gitee.com/zhijiantianya/ruoyi-vue-pro"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/zhijiantianya/ruoyi-vue-pro/commit/4ae3f6b2c9883978837638c14e3d18419819eeb0"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/uglory-gll/javasec/blob/main/ruoyi-vue-pro.md#3file-path-traversal-front-end"
     },
     {
@@ -38,6 +46,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.517029"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-2707"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/517029"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/300728"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/300728/cti"
     }
   ],
   "database_specific": {

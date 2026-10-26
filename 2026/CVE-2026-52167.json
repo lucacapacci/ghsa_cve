@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj7j-gp2j-7mc2",
-  "modified": "2026-10-15T18:32:38Z",
+  "modified": "2026-10-26T18:32:45Z",
   "published": "2026-10-15T18:32:38Z",
   "aliases": [
     "CVE-2026-52167"
   ],
   "details": "A stack overflow in the gensub_ParsePsb() function of AOC LC32D1320 v2.05 allows attackers to cause a Denial of Service (DoS) via supplying a crafted .PSB subtitle file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-15T16:18:12Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pwq-q9jf-539h",
-  "modified": "2026-08-18T20:09:59Z",
+  "modified": "2026-10-26T14:45:07Z",
   "published": "2026-08-18T20:09:59Z",
   "aliases": [
     "CVE-2026-55107"
@@ -44,12 +44,24 @@
       "url": "https://github.com/elct9620/kobako/security/advisories/GHSA-7pwq-q9jf-539h"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55107"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/elct9620/kobako/commit/64f84700c81f44902bed9211318d5362f44987b3"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/elct9620/kobako"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/elct9620/kobako/releases/tag/v0.9.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/kobako/GHSA-7pwq-q9jf-539h.yml"
     }
   ],
   "database_specific": {
@@ -60,6 +72,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-08-18T20:09:59Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-09-30T18:18:37Z"
   }
 }

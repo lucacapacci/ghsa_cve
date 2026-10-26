@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h383-gmxw-35v2",
-  "modified": "2026-04-14T00:10:59Z",
+  "modified": "2026-10-26T15:16:49Z",
   "published": "2026-04-10T18:31:18Z",
   "aliases": [
     "CVE-2026-34479"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.logging.log4j:log4j-1.2-api"
+        "name": "org.apache.logging.log4j:log4j-core"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.logging.log4j:log4j-1.2-api"
+        "name": "org.apache.logging.log4j:log4j-core"
       },
       "ranges": [
         {

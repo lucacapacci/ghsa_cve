@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jmj-p7j2-pm54",
-  "modified": "2026-10-22T15:32:50Z",
+  "modified": "2026-10-26T18:32:46Z",
   "published": "2026-10-22T15:32:50Z",
   "aliases": [
     "CVE-2026-78801"
   ],
   "details": "An issue in SKYWORTH DIGITAL CO., LTD SK-WR6640X Wi-Fi 6 Dual-Band Fiber Router (AX1800M) V1.0.3 allows a remote attacker to obtain sensitive information via the hidden_factory_switch.gch",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-22T15:17:06Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r78c-v88p-w43h",
-  "modified": "2026-03-30T21:31:04Z",
+  "modified": "2026-10-26T18:31:30Z",
   "published": "2026-03-30T21:31:04Z",
   "aliases": [
     "CVE-2026-5147"
@@ -25,11 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://gitee.com/zhijiantianya/yudao-cloud/commit/bccf7c79e5f93f027a021172a18e8876cc6c1062"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/NarcherAlter/Security_Note/blob/main/Vulnerability_Discovery/yudaoCloudv2026.01.md"
     },
     {
       "type": "WEB",
       "url": "https://github.com/NarcherAlter/Security_Note/blob/main/Vulnerability_Discovery/yudaoCloudv2026.01.md#admin-apisystemtenantget-by-website"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2026-5147"
     },
     {
       "type": "WEB",

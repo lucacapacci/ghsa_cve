@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69f2-6mjq-5xcx",
-  "modified": "2025-09-12T03:33:06Z",
+  "modified": "2026-10-26T18:31:30Z",
   "published": "2025-09-12T03:33:06Z",
   "aliases": [
     "CVE-2025-10277"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://gitee.com/zhijiantianya/yudao-cloud/commit/0f573e1d8e1a895e1bcbb7740ef75306412c3f9d"
+    },
+    {
+      "type": "WEB",
       "url": "https://vuldb.com/?ctiid.323647"
     },
     {
@@ -34,6 +38,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.643808"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-10277"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/643808"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/323647"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/323647/cti"
     },
     {
       "type": "WEB",

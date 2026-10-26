@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rj75-hqrm-r3gf",
-  "modified": "2026-10-05T22:53:54Z",
+  "modified": "2026-10-26T14:07:54Z",
   "published": "2026-10-05T22:53:54Z",
   "aliases": [
     "CVE-2026-104844"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "7.0.0"
             },
             {
               "fixed": "7.1.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "postcss-selector-parser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.1.5"
             }
           ]
         }
@@ -46,11 +65,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/postcss/postcss-selector-parser/pull/346"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/postcss/postcss-selector-parser/commit/62b191792df0a0bc56062e5a875bc74aae2a51cd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/postcss/postcss-selector-parser/commit/70b0779c843462197380d25daa02d1528bf7eae5"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/postcss/postcss-selector-parser"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/postcss/postcss-selector-parser/releases/tag/6.1.5"
     },
     {
       "type": "WEB",

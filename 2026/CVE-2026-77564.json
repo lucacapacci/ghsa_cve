@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cxh-94cf-mfp6",
-  "modified": "2026-10-15T20:20:16Z",
+  "modified": "2026-10-26T14:41:03Z",
   "published": "2026-10-15T20:20:16Z",
   "aliases": [
     "CVE-2026-77564"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/talos-systems/talos"
+        "name": "github.com/siderolabs/talos"
       },
       "ranges": [
         {

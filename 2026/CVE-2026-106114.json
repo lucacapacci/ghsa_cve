@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwg2-r3hj-4w44",
-  "modified": "2026-10-07T20:24:19Z",
+  "modified": "2026-10-26T14:17:37Z",
   "published": "2026-10-07T20:24:19Z",
   "aliases": [
     "CVE-2026-106114"
@@ -25,17 +25,33 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.0.0-beta0001"
+              "introduced": "4.0.0"
             },
             {
               "fixed": "4.1.2"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 4.1.1"
-      }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "NuGet",
+        "name": "SixLabors.ImageSharp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.0-beta0001"
+            },
+            {
+              "fixed": "3.2.0"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -53,11 +69,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/SixLabors/ImageSharp/pull/3208"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/SixLabors/ImageSharp/commit/8de892a7623aa8a09ba2333b624c8d2eb98325df"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SixLabors/ImageSharp/commit/baa37cd19077b2a2a0c5667535111cf31d48c019"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/SixLabors/ImageSharp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SixLabors/ImageSharp/releases/tag/v3.2.0"
     },
     {
       "type": "WEB",
