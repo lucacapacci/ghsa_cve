@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fc6-q4cm-p67h",
-  "modified": "2026-05-04T00:30:25Z",
+  "modified": "2026-10-27T09:30:58Z",
   "published": "2026-05-04T00:30:25Z",
   "aliases": [
     "CVE-2026-7710"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/9str0IL/CVE/issues/5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2026-7710"
     },
     {
       "type": "WEB",

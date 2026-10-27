@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26rh-24rg-j3vv",
-  "modified": "2026-07-07T23:42:12Z",
+  "modified": "2026-10-27T15:13:01Z",
   "published": "2026-07-07T23:42:12Z",
   "aliases": [
     "CVE-2026-53552"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.17.5"
+              "fixed": "1.18.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.17.5"
+      }
     }
   ],
   "references": [
@@ -41,8 +44,20 @@
       "url": "https://github.com/zhenorzz/goploy/security/advisories/GHSA-26rh-24rg-j3vv"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53552"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zhenorzz/goploy/commit/b49eabe903c7d7df1a3763385f5067676da4fdd3"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/zhenorzz/goploy"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zhenorzz/goploy/releases/tag/v1.18.0"
     }
   ],
   "database_specific": {
@@ -53,6 +68,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-07-07T23:42:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-08-31T19:16:50Z"
   }
 }

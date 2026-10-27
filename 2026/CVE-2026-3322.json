@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fg6-gvjw-377p",
-  "modified": "2026-10-26T15:34:47Z",
+  "modified": "2026-10-27T09:30:58Z",
   "published": "2026-10-26T15:34:47Z",
   "aliases": [
     "CVE-2026-3322"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.schutzwerk.com/en/blog/schutzwerk-sa-2025-002"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Oct/35"
     }
   ],
   "database_specific": {
