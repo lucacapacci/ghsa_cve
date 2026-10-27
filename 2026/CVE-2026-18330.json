@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x43-g54r-9p4x",
-  "modified": "2026-09-04T00:31:06Z",
+  "modified": "2026-10-27T18:31:16Z",
   "published": "2026-09-04T00:31:06Z",
   "aliases": [
     "CVE-2026-18330"
@@ -21,11 +21,31 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/archer-c7/v5/#Firmware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/re305/v3/#Firmware"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.tp-link.com/us/support/download/archer-ax55/v4/#Firmware"
     },
     {
       "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/download/archer-c7/v5/#Firmware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/download/re305/v3/#Firmware"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.tp-link.com/us/support/faq/5279"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/faq/5362"
     }
   ],
   "database_specific": {

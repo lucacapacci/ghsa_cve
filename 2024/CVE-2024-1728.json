@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m842-4qm8-7gpq",
-  "modified": "2026-02-03T17:39:09Z",
+  "modified": "2026-10-27T16:34:17Z",
   "published": "2024-09-25T21:48:24Z",
   "aliases": [
     "CVE-2024-1728"
@@ -58,7 +58,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/gradio/PYSEC-2026-345.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://huntr.com/bounties/9bb33b71-7995-425d-91cc-2c2a2f2a068a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/gradio"
     }
   ],
   "database_specific": {
