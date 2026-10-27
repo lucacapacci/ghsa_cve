@@ -1,23 +1,44 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcqx-w48m-w2h4",
-  "modified": "2026-09-18T18:31:44Z",
+  "modified": "2026-10-27T21:34:55Z",
   "published": "2026-09-18T18:31:44Z",
   "aliases": [
     "CVE-2026-93753"
   ],
+  "summary": "deepmerge mergeObject() allows prototype poisoning of returned objects",
   "details": "deepmerge through 4.3.1 contains a prototype poisoning vulnerability in the mergeObject() function that fails to properly validate keys being written to target objects. Attackers can supply malicious source objects in merge operations to inject attacker-controlled properties into the returned object's prototype, causing applications to inherit unintended values when accessing properties without own-property checks.",
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:U"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "deepmerge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.2.0"
+            },
+            {
+              "last_affected": "4.3.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,7 +49,7 @@
       "url": "https://github.com/TehShrike/deepmerge/issues/273"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/TehShrike/deepmerge"
     },
     {
@@ -44,9 +65,9 @@
     "cwe_ids": [
       "CWE-1321"
     ],
-    "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-10-27T21:34:55Z",
     "nvd_published_at": "2026-09-18T18:18:34Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4crp-78g8-rgh8",
-  "modified": "2026-10-27T15:33:03Z",
+  "modified": "2026-10-27T21:33:40Z",
   "published": "2026-10-27T15:33:03Z",
   "aliases": [
     "CVE-2026-118009"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-118"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-121"
     }
   ],
   "database_specific": {

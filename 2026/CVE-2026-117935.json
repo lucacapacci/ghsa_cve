@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr97-mvg4-wrvx",
-  "modified": "2026-10-27T15:32:54Z",
+  "modified": "2026-10-27T21:33:36Z",
   "published": "2026-10-27T15:32:54Z",
   "aliases": [
     "CVE-2026-117935"
@@ -29,6 +29,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-122"
     }
   ],
   "database_specific": {
