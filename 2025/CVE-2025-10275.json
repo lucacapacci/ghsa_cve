@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vcj-8cj2-68x6",
-  "modified": "2025-09-12T03:33:05Z",
+  "modified": "2026-10-27T09:30:57Z",
   "published": "2025-09-12T03:33:05Z",
   "aliases": [
     "CVE-2025-10275"
@@ -34,6 +34,22 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.643384"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2025-10275"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/643384"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/323645"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/323645/cti"
     },
     {
       "type": "WEB",
