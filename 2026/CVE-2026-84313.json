@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfrc-g87h-7h5w",
-  "modified": "2026-10-15T20:11:32Z",
+  "modified": "2026-10-28T15:04:55Z",
   "published": "2026-10-15T20:11:32Z",
   "aliases": [
     "CVE-2026-84313"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "Nginx-UI"
+        "name": "github.com/0xJacky/Nginx-UI"
       },
       "ranges": [
         {

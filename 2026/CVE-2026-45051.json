@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c99-87fr-6q7r",
-  "modified": "2026-06-24T17:25:28Z",
+  "modified": "2026-10-28T15:25:29Z",
   "published": "2026-06-24T17:25:28Z",
   "aliases": [
     "CVE-2026-45051"
@@ -44,8 +44,20 @@
       "url": "https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-6c99-87fr-6q7r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45051"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenIdentityPlatform/OpenAM/commit/8b02328d36bc9cd40602128a6d399d1eda9e6753"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/OpenIdentityPlatform/OpenAM"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenIdentityPlatform/OpenAM/releases/tag/16.1.1"
     }
   ],
   "database_specific": {
@@ -55,6 +67,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-24T17:25:28Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-09-15T10:17:04Z"
   }
 }

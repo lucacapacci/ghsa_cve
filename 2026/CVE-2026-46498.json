@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj8f-2fhf-826r",
-  "modified": "2026-06-25T17:07:58Z",
+  "modified": "2026-10-28T15:27:28Z",
   "published": "2026-06-25T17:07:58Z",
   "aliases": [
     "CVE-2026-46498"
@@ -41,6 +41,14 @@
       "url": "https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-cj8f-2fhf-826r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46498"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenIdentityPlatform/OpenAM/commit/e047b01f24ce5006dbd62b3084b17df2d7835763"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/OpenIdentityPlatform/OpenAM"
     },
@@ -56,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-25T17:07:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-09-15T10:17:04Z"
   }
 }

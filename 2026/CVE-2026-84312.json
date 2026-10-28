@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44xr-mrhh-qm78",
-  "modified": "2026-10-15T20:12:52Z",
+  "modified": "2026-10-28T15:04:15Z",
   "published": "2026-10-15T20:12:52Z",
   "aliases": [
     "CVE-2026-84312"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "Nginx-UI"
+        "name": "github.com/0xJacky/Nginx-UI"
       },
       "ranges": [
         {
@@ -26,13 +26,13 @@
           "events": [
             {
               "introduced": "0"
+            },
+            {
+              "fixed": "1.9.10-0.20260703131214-23d1934099b0"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 1.9.10-0.20260703131214-23d1934099b0"
-      }
+      ]
     }
   ],
   "references": [

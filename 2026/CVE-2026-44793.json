@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhrq-3gmx-p879",
-  "modified": "2026-06-22T20:39:06Z",
+  "modified": "2026-10-28T15:27:52Z",
   "published": "2026-06-22T20:39:06Z",
   "aliases": [
     "CVE-2026-44793"
@@ -41,6 +41,14 @@
       "url": "https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-fhrq-3gmx-p879"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44793"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenIdentityPlatform/OpenAM/commit/2f5e9bf4c28a4c9e97ded6ebd75e4e1ec241c894"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/OpenIdentityPlatform/OpenAM"
     },
@@ -56,6 +64,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-22T20:39:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-09-15T10:17:03Z"
   }
 }

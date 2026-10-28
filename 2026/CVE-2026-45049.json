@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9pv-5rpp-vm8g",
-  "modified": "2026-06-23T17:33:14Z",
+  "modified": "2026-10-28T15:30:43Z",
   "published": "2026-06-23T17:33:14Z",
   "aliases": [
     "CVE-2026-45049"
@@ -44,8 +44,16 @@
       "url": "https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-r9pv-5rpp-vm8g"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/OpenIdentityPlatform/OpenAM/commit/bda647f8540d8fb28aaaed716914692678c5a0a7"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/OpenIdentityPlatform/OpenAM"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenIdentityPlatform/OpenAM/releases/tag/16.1.1"
     }
   ],
   "database_specific": {

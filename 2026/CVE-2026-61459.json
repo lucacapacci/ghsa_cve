@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmg3-h8mf-wgvr",
-  "modified": "2026-08-12T19:26:54Z",
+  "modified": "2026-10-28T15:08:24Z",
   "published": "2026-07-10T21:32:32Z",
   "aliases": [
     "CVE-2026-61459"
@@ -21,7 +21,7 @@
   "affected": [
     {
       "package": {
-        "ecosystem": "PyPI",
+        "ecosystem": "npm",
         "name": "mcp-server-kubernetes"
       },
       "ranges": [

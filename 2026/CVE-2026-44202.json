@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c556-q2mh-477v",
-  "modified": "2026-06-22T20:10:55Z",
+  "modified": "2026-10-28T15:26:32Z",
   "published": "2026-06-22T20:10:55Z",
   "aliases": [
     "CVE-2026-44202"
@@ -44,6 +44,14 @@
       "url": "https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-c556-q2mh-477v"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44202"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenIdentityPlatform/OpenAM/commit/a13a4b63ae0e0670c63cbcfa79586407408b3920"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/OpenIdentityPlatform/OpenAM"
     },
@@ -59,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-06-22T20:10:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-09-15T10:17:03Z"
   }
 }

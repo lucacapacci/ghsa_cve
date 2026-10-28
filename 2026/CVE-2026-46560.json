@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-386j-6m86-78f9",
-  "modified": "2026-06-25T17:22:24Z",
+  "modified": "2026-10-28T15:20:05Z",
   "published": "2026-06-25T17:22:24Z",
   "aliases": [
     "CVE-2026-46560"
@@ -39,6 +39,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-386j-6m86-78f9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenIdentityPlatform/OpenAM/commit/5a0c10eccd1d45aaeb5575bbe7f7b1d01964a775"
     },
     {
       "type": "PACKAGE",
