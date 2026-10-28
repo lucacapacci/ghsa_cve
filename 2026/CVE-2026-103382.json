@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c348-5968-fp8m",
-  "modified": "2026-10-28T06:30:26Z",
+  "modified": "2026-10-28T18:31:55Z",
   "published": "2026-10-28T06:30:26Z",
   "aliases": [
     "CVE-2026-103382"
   ],
   "details": "The Casso Flow  WordPress plugin before 4.2.0 does not properly authenticate incoming bank-transfer payment notifications, as the token used to verify them is empty on a default installation, allowing unauthenticated attackers to forge a notification and mark any pending WooCommerce order as paid, regardless of its payment method.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-28T06:16:32Z"

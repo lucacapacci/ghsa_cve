@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fq4-286q-f47x",
-  "modified": "2026-10-28T06:30:26Z",
+  "modified": "2026-10-28T18:31:55Z",
   "published": "2026-10-28T06:30:26Z",
   "aliases": [
     "CVE-2026-103372"
   ],
   "details": "The Payconiq WordPress plugin through 1.0.4 does not check that a visitor is allowed to see an order before returning its confirmation link, allowing unauthenticated users to obtain any paid order's key and, for recent guest orders, view the customer's personal details.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-28T06:16:31Z"

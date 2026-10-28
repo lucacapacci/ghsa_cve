@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v689-9j43-xq5j",
-  "modified": "2026-10-28T06:30:27Z",
+  "modified": "2026-10-28T18:31:56Z",
   "published": "2026-10-28T06:30:27Z",
   "aliases": [
     "CVE-2026-107100"
   ],
   "details": "The Royal Addons for Elementor  WordPress plugin before 1.7.1070 does not verify that a requested post is publicly viewable before returning its content via an unauthenticated AJAX action, relying only on the published status and not on the post type's visibility, allowing unauthenticated users to disclose the content of posts stored in non-public post types, for example captured contact-form submissions containing names, email addresses and messages.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-28T06:16:33Z"

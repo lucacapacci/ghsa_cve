@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rmh-w7g6-4jgh",
-  "modified": "2026-10-28T06:30:27Z",
+  "modified": "2026-10-28T18:31:56Z",
   "published": "2026-10-28T06:30:27Z",
   "aliases": [
     "CVE-2026-111032"
   ],
   "details": "The Welcart e-Commerce WordPress plugin before 2.12.6 does not properly verify authorization against the targeted product before processing SKU changes, because its capability check is not tied to the product being edited, allowing any authenticated user with Author-level access or higher to read, modify, create, delete and re-order the SKU data (including prices, confidential cost prices and stock levels) of any product, including those belonging to other users.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-28T06:16:34Z"
