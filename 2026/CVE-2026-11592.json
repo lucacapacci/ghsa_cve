@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7qrc-923r-c8cr",
-  "modified": "2026-07-02T06:34:05Z",
+  "modified": "2026-10-28T03:31:44Z",
   "published": "2026-07-02T06:34:05Z",
   "aliases": [
     "CVE-2026-11592"
@@ -62,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3584584%40email-subscribers&new=3584584%40email-subscribers&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
+      "url": "https://research.cleantalk.org/cve-2026-11592"
     },
     {
       "type": "WEB",

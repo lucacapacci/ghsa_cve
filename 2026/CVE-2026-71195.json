@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xm2x-8fhq-8hpv",
-  "modified": "2026-10-21T09:30:29Z",
+  "modified": "2026-10-28T00:30:29Z",
   "published": "2026-10-21T06:31:15Z",
   "aliases": [
     "CVE-2026-71195"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71195"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.launchpad.net/ossa/+bug/2161412"
     },
     {
       "type": "WEB",
