@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-23ph-p5ph-6wph",
+  "modified": "2026-10-28T06:30:27Z",
+  "published": "2026-10-28T06:30:26Z",
+  "aliases": [
+    "CVE-2026-106003"
+  ],
+  "details": "The Court Reservation  WordPress plugin before 1.12.4 does not perform any authorization, authentication or nonce validation on one of its AJAX actions, allowing unauthenticated users to add or delete reservation types in the Court Reservation  WordPress plugin before 1.12.4's configuration.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106003"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/1aa4c6a3-e82a-44c2-a267-4f95b657a1aa"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-28T06:16:32Z"
+  }
+}
