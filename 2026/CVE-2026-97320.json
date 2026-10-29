@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-228m-p28v-qwvj",
-  "modified": "2026-09-24T21:32:49Z",
+  "modified": "2026-10-29T09:31:25Z",
   "published": "2026-09-24T21:32:48Z",
   "aliases": [
     "CVE-2026-97320"
@@ -22,6 +22,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97320"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/YunaiV/ruoyi-vue-pro/issues/1176"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/YunaiV/ruoyi-vue-pro/issues/1176#issuecomment-6442824858"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/YunaiV/ruoyi-vue-pro"
     },
     {
       "type": "WEB",

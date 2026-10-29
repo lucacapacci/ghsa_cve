@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v794-5r9j-cqr4",
-  "modified": "2026-10-29T06:30:38Z",
+  "modified": "2026-10-29T12:30:35Z",
   "published": "2026-10-29T06:30:38Z",
   "aliases": [
     "CVE-2026-78396"
   ],
   "details": "The Link Library WordPress plugin before 7.10.0 does not verify that a requested link belongs to the settings set whose display template is used to render it, allowing unauthenticated users to disclose the telephone number, e-mail address and submitter name stored with links that the settings set is configured not to display.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-29T06:17:24Z"
