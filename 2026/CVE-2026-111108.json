@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppj6-m59w-vr92",
-  "modified": "2026-10-28T18:32:03Z",
+  "modified": "2026-10-28T21:31:13Z",
   "published": "2026-10-28T18:32:03Z",
   "aliases": [
     "CVE-2026-111108"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://kafka.apache.org/cve-list"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/28/10"
     }
   ],
   "database_specific": {

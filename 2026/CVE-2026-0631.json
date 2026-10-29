@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6g9-f586-p93v",
-  "modified": "2026-09-30T21:31:33Z",
+  "modified": "2026-10-29T00:31:23Z",
   "published": "2026-02-02T18:31:33Z",
   "aliases": [
     "CVE-2026-0631"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/archer-ax10/v3/#Firmware"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.tp-link.com/en/support/download/archer-axe75/v1/#Firmware"
     },
     {
@@ -42,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://www.tp-link.com/sg/support/download/archer-be230/v1.20/#Firmware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/download/archer-ax10/v3/#Firmware"
     },
     {
       "type": "WEB",

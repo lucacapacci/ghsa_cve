@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr6w-hqp3-cg59",
-  "modified": "2026-10-14T06:30:55Z",
+  "modified": "2026-10-28T21:30:50Z",
   "published": "2026-08-21T18:34:58Z",
   "aliases": [
     "CVE-2026-74580"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f1e21108e3ddfcce62f6cad4ebd7b5674543c9e6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/YounesHfa/CVE-2026-74580"
     },
     {
       "type": "WEB",

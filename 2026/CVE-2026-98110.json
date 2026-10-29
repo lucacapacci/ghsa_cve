@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mj5-jcph-6x3p",
-  "modified": "2026-09-25T12:31:37Z",
+  "modified": "2026-10-28T21:30:51Z",
   "published": "2026-09-25T12:31:36Z",
   "aliases": [
     "CVE-2026-98110"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btintel: bound firmware ID by TLV length\n\nThe firmware ID is treated as a NUL-terminated string even though the\nTLV length is its only boundary. If the value does not contain a NUL\nterminator, snprintf() can read beyond the received response.\n\nLimit the conversion to the advertised TLV value length.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T11:17:42Z"

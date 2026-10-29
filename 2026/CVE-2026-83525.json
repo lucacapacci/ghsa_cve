@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-34hc-fwhq-c7v8",
-  "modified": "2026-10-28T18:32:10Z",
+  "modified": "2026-10-28T21:31:14Z",
   "published": "2026-10-28T18:32:10Z",
   "aliases": [
     "CVE-2026-83525"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://kafka.apache.org/cve-list"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/28/7"
     }
   ],
   "database_specific": {

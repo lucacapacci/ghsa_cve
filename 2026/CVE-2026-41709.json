@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vpqj-56x2-gp9p",
-  "modified": "2026-07-30T15:31:51Z",
+  "modified": "2026-10-28T21:30:47Z",
   "published": "2026-07-30T15:31:51Z",
   "aliases": [
     "CVE-2026-41709"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-41709"
     }
   ],
   "database_specific": {
