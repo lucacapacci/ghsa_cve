@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6g72-vg82-8fxw",
+  "modified": "2026-10-29T18:31:13Z",
+  "published": "2026-10-29T18:31:13Z",
+  "aliases": [
+    "CVE-2026-51905"
+  ],
+  "details": "TransformerOptimus SuperAGI v0.0.14 is vulnerable to Incorrect Access Control in get_agent_execution_configuration in superagi/controllers/agent_execution_config.py. A remote authenticated attacker from one organization can read another organization's agent execution configuration by supplying the victim agent_id and agent_execution_id to /agent_executions_configs/details/agent_id/{agent_id}/agent_execution_id/{agent_execution_id}. The endpoint lacks an organization ownership check on the selected agent and execution.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51905"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/TransformerOptimus/SuperAGI/issues/1559"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Ro1ME/f803bb0db782428b212492c8157290db"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-29T18:17:32Z"
+  }
+}

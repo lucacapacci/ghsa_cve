@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8p8g-2492-c33h",
+  "modified": "2026-10-29T15:30:55Z",
+  "published": "2026-10-29T15:30:55Z",
+  "aliases": [
+    "CVE-2026-107023"
+  ],
+  "details": "Insecure permissions in the ContentProvider component of mhss1 MyBrain v3.1.0 allows unauthorized attackers to arbitrarily read another user's private notes/tasks/diary content.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107023"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FFG0d/fdroid-android-advisories/blob/main/advisories/CVE-2026-107023.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mhss1/MyBrain"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-29T15:17:16Z"
+  }
+}
