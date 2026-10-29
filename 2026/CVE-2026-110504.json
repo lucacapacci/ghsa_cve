@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-898g-xh4c-5hhj",
+  "modified": "2026-10-29T06:30:37Z",
+  "published": "2026-10-29T06:30:37Z",
+  "aliases": [
+    "CVE-2026-110504"
+  ],
+  "details": "The Enable SVG, WebP, and ICO Upload WordPress plugin before 1.1.6 does not sanitize uploaded SVG files whose content is not detected as SVG, while still storing and serving them as SVG images, which could allow users with the author role and above to perform Stored Cross-Site Scripting attacks.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110504"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/d13d96d9-2ce7-4f83-9738-eb430f9dfb32"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-29T06:17:18Z"
+  }
+}

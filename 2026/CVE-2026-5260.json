@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hj5-4cv5-f46x",
-  "modified": "2026-10-22T21:32:00Z",
+  "modified": "2026-10-29T06:30:30Z",
   "published": "2026-05-27T00:31:27Z",
   "aliases": [
     "CVE-2026-5260"
@@ -22,14 +22,6 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:13274"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:60019"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:67837"
     },
     {
       "type": "WEB",
@@ -74,6 +66,22 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:82888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:89197"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:89232"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:89333"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:89651"
     },
     {
       "type": "WEB",
@@ -154,6 +162,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:59831"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:60019"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:67837"
     }
   ],
   "database_specific": {
