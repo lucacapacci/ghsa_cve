@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fp8-3j4p-x5h2",
-  "modified": "2026-10-30T06:31:57Z",
+  "modified": "2026-10-30T21:32:04Z",
   "published": "2026-10-30T06:31:56Z",
   "aliases": [
     "CVE-2026-114572"
   ],
   "details": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Drupal Domain Login Restrict allows Authentication Bypass. This issue affects Domain Login Restrict versions: from 0.0.0 to 1.5.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-288"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-30T04:18:17Z"

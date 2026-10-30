@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcjj-6cqw-9rh5",
-  "modified": "2026-10-30T06:31:56Z",
+  "modified": "2026-10-30T21:32:04Z",
   "published": "2026-10-30T06:31:56Z",
   "aliases": [
     "CVE-2026-114555"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal Data field allows Stored XSS. This issue affects Data field versions: from 0.0.0 to 2.0.14.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-30T04:18:16Z"
