@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q27h-3599-9x7j",
-  "modified": "2026-10-29T21:31:25Z",
+  "modified": "2026-10-30T03:31:59Z",
   "published": "2026-10-29T18:31:12Z",
   "aliases": [
     "CVE-2026-116566"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/pull/160899"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/131a3a66c5f400b588f9fd2732a5ed4e89623ee3"
     },
     {
       "type": "WEB",
