@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq6x-j3g6-xx83",
-  "modified": "2026-10-23T15:31:40Z",
+  "modified": "2026-10-30T15:29:22Z",
   "published": "2026-10-23T15:31:40Z",
   "aliases": [
     "CVE-2026-106765"
   ],
+  "summary": "@rog0x/mcp-docker-tools: executes arbitrary code via the handleImageList function",
   "details": "An issue in @rog0x/mcp-docker-tools 1.0.1 allows a remote attacker to execute arbitrary code via the handleImageList function.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@rog0x/mcp-docker-tools"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rog0x/mcp-git-tools/issues/1"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/rog0x/mcp-docker-tools"
     },
     {
       "type": "WEB",
@@ -33,10 +58,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-77"
+    ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-10-30T15:29:22Z",
     "nvd_published_at": "2026-10-23T15:17:23Z"
   }
 }
