@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq56-qcfx-62xr",
-  "modified": "2026-10-31T00:30:32Z",
+  "modified": "2026-10-31T03:30:27Z",
   "published": "2026-10-31T00:30:32Z",
   "aliases": [
     "CVE-2026-111578"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
