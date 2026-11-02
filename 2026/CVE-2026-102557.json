@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc8r-xmg7-v58h",
-  "modified": "2026-11-02T09:30:26Z",
+  "modified": "2026-11-02T15:31:21Z",
   "published": "2026-09-29T18:31:49Z",
   "aliases": [
     "CVE-2026-102557"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:93583"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:93716"
     },
     {
       "type": "WEB",
