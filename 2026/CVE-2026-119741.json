@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56w4-j8c7-xvrw",
-  "modified": "2026-11-03T18:31:01Z",
+  "modified": "2026-11-04T15:32:23Z",
   "published": "2026-11-03T18:31:01Z",
   "aliases": [
     "CVE-2026-119741"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/RsyncProject/rsync/blob/a7404a9a633cff28ee1602f328b9c3fa69cdbd04/testsuite/hashsearch-collision-skip_test.py"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RsyncProject/rsync/releases/tag/v3.5.2"
     },
     {
       "type": "WEB",

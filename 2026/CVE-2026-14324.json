@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-529g-ppv4-566r",
-  "modified": "2026-11-03T18:30:30Z",
+  "modified": "2026-11-04T15:32:02Z",
   "published": "2026-07-01T15:35:20Z",
   "aliases": [
     "CVE-2026-14324"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:94437"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:94997"
     },
     {
       "type": "WEB",

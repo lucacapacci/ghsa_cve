@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h834-34fg-fmfp",
-  "modified": "2026-11-04T00:31:35Z",
+  "modified": "2026-11-04T18:30:31Z",
   "published": "2026-10-19T12:32:46Z",
   "aliases": [
     "CVE-2026-108833"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-1188"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
