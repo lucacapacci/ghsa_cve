@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c425-pjx7-2qq4",
+  "modified": "2026-11-05T06:34:38Z",
+  "published": "2026-11-05T06:34:38Z",
+  "aliases": [
+    "CVE-2026-86795"
+  ],
+  "details": "The Community Events WordPress plugin before 1.6.0 does not have authorisation or nonce checks in one of its AJAX actions, allowing unauthenticated users to retrieve details of event submissions awaiting moderation, which are not available anywhere on the public site.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86795"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/ab9ca7bc-e5a0-4a7b-b60b-4c3740c07214"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-05T06:17:09Z"
+  }
+}
