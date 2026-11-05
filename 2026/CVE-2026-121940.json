@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66jm-x353-x3mc",
-  "modified": "2026-11-04T15:32:30Z",
+  "modified": "2026-11-04T21:32:27Z",
   "published": "2026-11-04T15:32:30Z",
   "aliases": [
     "CVE-2026-121940"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://hackmd.io/@hieuPenguinnn/ai-fusion-video-idor-bola-project-asset"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@hieuPenguinnn/cve-2026-121940-ai-fusion-video-idor-bola-project-asset"
     },
     {
       "type": "WEB",

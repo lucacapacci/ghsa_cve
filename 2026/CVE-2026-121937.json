@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h6j-f6mw-p7qh",
-  "modified": "2026-11-04T15:32:30Z",
+  "modified": "2026-11-04T21:32:26Z",
   "published": "2026-11-04T15:32:29Z",
   "aliases": [
     "CVE-2026-121937"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/blackholll/loonflow/blob/r3.2.2/backend/apps/ticket/views.py#L265-L286"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@hieuPenguinnn/cve-2026-121937-loonflow-ticket-flow-history-idor"
     },
     {
       "type": "WEB",

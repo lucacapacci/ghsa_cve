@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5gc-wvrm-78hc",
-  "modified": "2026-11-04T15:32:30Z",
+  "modified": "2026-11-04T21:32:27Z",
   "published": "2026-11-04T15:32:29Z",
   "aliases": [
     "CVE-2026-121938"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/moyangzhan/langchain4j-aideepin/blob/v3.30.0/server/adi-common/src/main/java/com/moyz/adi/common/service/CharacterService.java#L105-L125"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@hieuPenguinnn/cve-2026-121938-langchain4j-aideepin-character-conversation-cross-user-idor"
     },
     {
       "type": "WEB",

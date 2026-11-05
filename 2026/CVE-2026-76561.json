@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pp8g-7wxg-9php",
-  "modified": "2026-11-04T15:32:02Z",
+  "modified": "2026-11-05T00:32:56Z",
   "published": "2026-09-08T09:35:37Z",
   "aliases": [
     "CVE-2026-76561"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:95181"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:95182"
     },
     {
       "type": "WEB",

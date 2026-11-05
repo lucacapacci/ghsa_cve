@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wr4-785p-23qx",
-  "modified": "2026-11-04T15:32:30Z",
+  "modified": "2026-11-04T21:32:27Z",
   "published": "2026-11-04T15:32:30Z",
   "aliases": [
     "CVE-2026-121944"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/irontec/sngrep/blob/v1.9.0/src/capture.c#L581-L598"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-121943-121944-sngrep-sip-payload-missing-nul-oob-read"
     },
     {
       "type": "WEB",

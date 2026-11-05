@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wwm-g25c-cpx8",
-  "modified": "2026-11-04T18:30:55Z",
+  "modified": "2026-11-04T21:32:27Z",
   "published": "2026-11-04T18:30:55Z",
   "aliases": [
     "CVE-2026-122054"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0026"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/04/10"
     }
   ],
   "database_specific": {

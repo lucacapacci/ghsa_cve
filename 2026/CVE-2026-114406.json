@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrx5-4fv3-4mcq",
-  "modified": "2026-11-04T18:30:38Z",
+  "modified": "2026-11-05T00:33:03Z",
   "published": "2026-10-21T21:32:38Z",
   "aliases": [
     "CVE-2026-114406"
@@ -21,7 +21,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2556046"
+      "url": "https://access.redhat.com/errata/RHSA-2026:94468"
     },
     {
       "type": "WEB",
@@ -97,6 +97,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2556046"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/vulnerabilities/RHSB-2026-012"
     },
     {
@@ -106,6 +110,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:95090"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:95058"
     },
     {
       "type": "WEB",
@@ -162,10 +170,6 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:94474"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:94468"
     },
     {
       "type": "WEB",

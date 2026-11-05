@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qw3h-2hqv-29vq",
-  "modified": "2026-11-04T15:32:30Z",
+  "modified": "2026-11-04T21:32:27Z",
   "published": "2026-11-04T15:32:30Z",
   "aliases": [
     "CVE-2026-121941"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/munt/munt/blob/libmt32emu_2_8_3/mt32emu/src/MidiStreamParser.cpp#L223-L257"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-121941-munt-midistreamparser-oversized-sysex-heap-overflow"
     },
     {
       "type": "WEB",

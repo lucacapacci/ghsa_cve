@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j2c-q47c-c6w5",
-  "modified": "2026-11-04T12:31:29Z",
+  "modified": "2026-11-05T00:33:04Z",
   "published": "2026-11-04T12:31:29Z",
   "aliases": [
     "CVE-2026-108949"
   ],
   "details": "Denial of Service via OOM vulnerability in Apache ActiveMQ, ActiveMQ Broker.\n\n\n\nAn authenticated OpenWire client that sends a ConsumerInfo for a temporary queue/topic owned by another connection is rejected with InvalidDestinationException, but the rejected Subscription is left behind in the region's subscriptions map. Repeating the request leaks broker heap until OOM because the broker does not clean up the rejected subscriptions in the map.\n\n\n\nThis issue affects Apache ActiveMQ: from 6.0.0 before 6.3.3, before 5.19.12; ActiveMQ Broker: from 6.0.0 before 6.3.3, before 5.19.12.\n\n\n\nUsers are recommended to upgrade to version 6.4.0, 6.3.3, or 5.19.12, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-401"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-04T10:17:24Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcxw-xh39-2qjq",
-  "modified": "2026-11-04T15:32:30Z",
+  "modified": "2026-11-04T21:32:27Z",
   "published": "2026-11-04T15:32:30Z",
   "aliases": [
     "CVE-2026-121942"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mchehab/zbar/blob/0.23.95/zbar/sqcode.c#L529-L567"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-121942-zbar-sqcode-sampling-oob-read"
     },
     {
       "type": "WEB",
