@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmmf-wccr-xrrh",
-  "modified": "2026-11-03T09:31:45Z",
+  "modified": "2026-11-06T21:31:09Z",
   "published": "2026-11-03T09:31:45Z",
   "aliases": [
     "CVE-2026-92610"
   ],
   "details": "In esmf-sdk-py-aspect-model-loader versions 2.1.2 to 2.2.1, the Aspect Model loader resolves cross-file model references by extracting the third and fourth colon-separated components of any urn:samm:… namespace declared in a parsed Turtle file to build a directory to scan. A model file containing @prefix x: <urn:samm:../../../foo:bar#> or @prefix x: <urn:samm:/abs/path:bar#> causes the loader to glob and parse *.ttl files from arbitrary directories outside the intended models root, merging their contents into the returned graph.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-22"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-03T09:17:13Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xg4-7vg6-wc2m",
-  "modified": "2026-11-06T12:30:35Z",
+  "modified": "2026-11-06T18:35:07Z",
   "published": "2026-11-06T06:30:22Z",
   "aliases": [
     "CVE-2026-107124"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:95761"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:95762"
     },
     {
       "type": "WEB",

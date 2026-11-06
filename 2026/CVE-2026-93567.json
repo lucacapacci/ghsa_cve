@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xf8w-rc87-x5gw",
-  "modified": "2026-11-06T12:30:29Z",
+  "modified": "2026-11-06T18:34:51Z",
   "published": "2026-09-18T15:32:20Z",
   "aliases": [
     "CVE-2026-93567"
@@ -41,11 +41,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:95759"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:95760"
     },
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:95761"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:95762"
     },
     {
       "type": "WEB",

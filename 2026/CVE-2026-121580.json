@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vf8-5cw6-wvpx",
-  "modified": "2026-11-03T21:32:29Z",
+  "modified": "2026-11-06T21:31:10Z",
   "published": "2026-11-03T21:32:29Z",
   "aliases": [
     "CVE-2026-121580"
   ],
   "details": "Server-side request forgery in the Jira ticketing filter lookup in Devolutions Server 2026.2.22.0 and earlier allows an authenticated low-privileged user to obtain the stored Jira service account credentials via an attacker-controlled server address in the request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-918"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-03T21:17:37Z"

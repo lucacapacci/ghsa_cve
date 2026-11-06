@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7j7p-grhm-j8xq",
-  "modified": "2026-11-06T12:30:47Z",
+  "modified": "2026-11-06T21:31:20Z",
   "published": "2026-11-06T12:30:47Z",
   "aliases": [
     "CVE-2026-85108"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/twktm00gmc8lt7tlqrrj16xw7kzbx16s"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/06/18"
     }
   ],
   "database_specific": {

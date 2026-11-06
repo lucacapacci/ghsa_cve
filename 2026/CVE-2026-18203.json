@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wx5m-whr8-48h5",
-  "modified": "2026-11-06T12:30:28Z",
+  "modified": "2026-11-06T18:34:29Z",
   "published": "2026-07-31T09:31:18Z",
   "aliases": [
     "CVE-2026-18203"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:95761"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:95762"
     },
     {
       "type": "WEB",

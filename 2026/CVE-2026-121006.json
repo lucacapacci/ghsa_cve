@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4c2-m2fq-wp7w",
-  "modified": "2026-11-06T09:31:31Z",
+  "modified": "2026-11-06T21:31:19Z",
   "published": "2026-11-06T09:31:31Z",
   "aliases": [
     "CVE-2026-121006"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/GETTY/HTTP-Body-1.24_02/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/06/8"
     }
   ],
   "database_specific": {
