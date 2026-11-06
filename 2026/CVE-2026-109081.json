@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g6f-qmff-3rjc",
-  "modified": "2026-11-06T06:30:22Z",
+  "modified": "2026-11-06T12:30:35Z",
   "published": "2026-11-06T06:30:22Z",
   "aliases": [
     "CVE-2026-109081"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109081"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:95761"
     },
     {
       "type": "WEB",

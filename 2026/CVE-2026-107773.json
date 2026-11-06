@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-59gw-w7gg-prj6",
-  "modified": "2026-11-05T06:34:37Z",
+  "modified": "2026-11-06T15:31:23Z",
   "published": "2026-11-05T06:34:37Z",
   "aliases": [
     "CVE-2026-107773"
   ],
   "details": "The Dokan: AI Powered WooCommerce Multivendor Marketplace Solution  WordPress plugin before 5.3.3 does not correctly verify authorization when serving a single order and its order notes, allowing unauthenticated attackers to read customer and order information and to add or delete order notes for a subset of orders.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-05T06:17:06Z"

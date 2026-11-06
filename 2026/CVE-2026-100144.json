@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8q9v-ph95-jh42",
-  "modified": "2026-11-05T06:34:37Z",
+  "modified": "2026-11-06T15:31:22Z",
   "published": "2026-11-05T06:34:37Z",
   "aliases": [
     "CVE-2026-100144"
   ],
   "details": "The IVPAY payments WordPress plugin through 1.0.8 does not sanitise a value from its payment callback before using it in a SQL statement, and treats an empty API key, which is its own default, as valid authentication, allowing unauthenticated attackers to read arbitrary data from the database.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-05T06:17:06Z"
