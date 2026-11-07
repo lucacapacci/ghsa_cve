@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6hvc-jpr4-hmmg",
+  "modified": "2026-11-07T06:31:24Z",
+  "published": "2026-11-07T06:31:24Z",
+  "aliases": [
+    "CVE-2026-121379"
+  ],
+  "details": "The Tournamatch WordPress plugin before 4.7.1 does not validate or restrict the path of a previously stored profile or team image before deleting it when a new image is uploaded, allowing users with a role as low as Subscriber to delete arbitrary files on the server, such as wp-config.php, which can lead to a full site takeover.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121379"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/1caba876-0753-4eaf-9127-455f23be6c9a"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-07T06:16:58Z"
+  }
+}

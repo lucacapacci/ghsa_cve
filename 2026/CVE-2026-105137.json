@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r2hw-g35f-pfw5",
-  "modified": "2026-10-04T09:30:21Z",
+  "modified": "2026-11-07T09:30:39Z",
   "published": "2026-10-04T09:30:21Z",
   "aliases": [
     "CVE-2026-105137"
@@ -22,6 +22,22 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105137"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/laradock/laradock/pull/3853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/laradock/laradock/commit/c3494f432668472056aa0a9134ff4e0d9d2e8cea"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/laradock/laradock"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/laradock/laradock/releases/tag/v20.5"
     },
     {
       "type": "WEB",
