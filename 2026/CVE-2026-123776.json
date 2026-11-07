@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx75-vp6j-73h2",
-  "modified": "2026-11-07T12:31:53Z",
+  "modified": "2026-11-07T21:31:13Z",
   "published": "2026-11-07T12:31:53Z",
   "aliases": [
     "CVE-2026-123776"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://security.metacpan.org/patches/R/RRD-CGI-Image/0.01/CVE-2026-123776-r1.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/07/11"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r78-26qx-3q7m",
-  "modified": "2026-11-07T06:31:24Z",
+  "modified": "2026-11-07T21:31:12Z",
   "published": "2026-11-07T06:31:24Z",
   "aliases": [
     "CVE-2026-97189"
   ],
   "details": "The Advanced Custom Fields (ACF®) WordPress plugin before 6.8.11 does not perform a read-permission check when it renders and formats the values of its relational fields, allowing users with post-editing access (Contributor and above) to disclose the titles and non-public statuses of other users' unpublished posts.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-07T06:16:59Z"

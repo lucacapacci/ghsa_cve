@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-929q-6qm3-gx8h",
-  "modified": "2026-11-07T12:31:52Z",
+  "modified": "2026-11-07T21:31:13Z",
   "published": "2026-11-07T12:31:52Z",
   "aliases": [
     "CVE-2026-121265"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/GETTY/SQL-Abstract-2.000003/diff/GETTY/SQL-Abstract-2.000001_04"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/07/10"
     }
   ],
   "database_specific": {
