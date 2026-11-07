@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9ffr-55f5-qhvm",
-  "modified": "2026-10-07T18:32:11Z",
+  "modified": "2026-11-07T18:31:27Z",
   "published": "2026-10-07T18:32:11Z",
   "aliases": [
     "CVE-2026-76467"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/Media/News/item/blog/2026/06/16/Preserving-Vulnerability-Level-Identification"
     }
   ],
   "database_specific": {

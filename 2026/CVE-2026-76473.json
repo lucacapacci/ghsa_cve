@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g392-rjcx-4cp4",
-  "modified": "2026-10-21T18:33:19Z",
+  "modified": "2026-11-07T18:31:33Z",
   "published": "2026-10-21T18:33:19Z",
   "aliases": [
     "CVE-2026-76473"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/Media/News/item/blog/2026/06/16/Preserving-Vulnerability-Level-Identification"
     }
   ],
   "database_specific": {

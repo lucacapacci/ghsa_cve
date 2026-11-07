@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-787c-75gx-5xvm",
-  "modified": "2026-10-10T03:30:20Z",
+  "modified": "2026-11-07T18:31:28Z",
   "published": "2026-10-07T21:33:31Z",
   "aliases": [
     "CVE-2026-76284"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://advisory.splunk.com/advisories/SVD-2026-1002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/Media/News/item/blog/2026/06/16/Preserving-Vulnerability-Level-Identification"
     }
   ],
   "database_specific": {

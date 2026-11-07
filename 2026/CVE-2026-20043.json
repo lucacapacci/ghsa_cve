@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvf5-h9mp-fw5q",
-  "modified": "2026-10-21T18:33:17Z",
+  "modified": "2026-11-07T18:31:33Z",
   "published": "2026-10-21T18:33:17Z",
   "aliases": [
     "CVE-2026-20043"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-snort3-ybgmhTQe"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/Media/News/item/blog/2026/06/16/Preserving-Vulnerability-Level-Identification"
     }
   ],
   "database_specific": {
