@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qx7-ff8p-6j2r",
-  "modified": "2024-07-05T15:32:06Z",
+  "modified": "2026-11-07T00:31:16Z",
   "published": "2024-07-05T15:32:06Z",
   "aliases": [
     "CVE-2024-6505"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2295760"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240816-0006"
     }
   ],
   "database_specific": {
