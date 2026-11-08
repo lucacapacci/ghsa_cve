@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-237f-p9h6-wq4r",
-  "modified": "2026-11-08T03:30:38Z",
+  "modified": "2026-11-08T12:33:41Z",
   "published": "2026-11-08T03:30:38Z",
   "aliases": [
     "CVE-2026-114713"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.unrealircd.org/index/news"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/08/1"
     }
   ],
   "database_specific": {
