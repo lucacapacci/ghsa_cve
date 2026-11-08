@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fcc-vm97-gx3x",
-  "modified": "2026-11-05T21:34:49Z",
+  "modified": "2026-11-08T03:30:22Z",
   "published": "2026-11-05T18:33:14Z",
   "aliases": [
     "CVE-2026-123158"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/panubo/docker-sshd/issues/93"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/google/goonami-scanner/pull/277"
     },
     {
@@ -30,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/coollabsio/coolify/discussions/12484"
     },
     {
       "type": "WEB",
