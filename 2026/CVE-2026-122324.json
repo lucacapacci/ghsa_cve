@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fpp-f9vq-796f",
-  "modified": "2026-11-05T18:33:13Z",
+  "modified": "2026-11-09T18:31:52Z",
   "published": "2026-11-05T18:33:13Z",
   "aliases": [
     "CVE-2026-122324"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/oss-apps/split-pro/blob/v2.1.6/src/server/api/routers/expense.ts#L351-L424"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@hieund/cve-2026-122317-122324-splitpro-trpc-idor-user-expense-disclosure"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frh8-6rpp-rx74",
-  "modified": "2026-11-03T21:31:43Z",
+  "modified": "2026-11-09T12:31:38Z",
   "published": "2026-10-14T18:32:27Z",
   "aliases": [
     "CVE-2026-86565"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:94630"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:96083"
     },
     {
       "type": "WEB",

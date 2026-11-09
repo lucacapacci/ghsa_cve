@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h6w-ccjh-5jhr",
-  "modified": "2026-10-07T15:31:59Z",
+  "modified": "2026-11-09T09:31:41Z",
   "published": "2026-10-07T15:31:59Z",
   "aliases": [
     "CVE-2026-107181"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/telegramdesktop/tdesktop/releases/tag/v7.2.9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/11/msg00013.html"
     },
     {
       "type": "WEB",

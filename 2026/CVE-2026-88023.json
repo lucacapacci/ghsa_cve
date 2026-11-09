@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8fxw-fmj8-xp7j",
-  "modified": "2026-10-05T23:26:58Z",
+  "modified": "2026-11-09T16:49:12Z",
   "published": "2026-10-05T23:26:58Z",
   "aliases": [
     "CVE-2026-88023"
@@ -28,14 +28,11 @@
               "introduced": "1.1.0"
             },
             {
-              "fixed": "1.24.5"
+              "fixed": "1.21.5"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 1.21.5"
-      }
+      ]
     },
     {
       "package": {
@@ -92,7 +89,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-943"
+    ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-10-05T23:26:58Z",

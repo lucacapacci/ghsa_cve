@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-662g-qcpv-pf65",
-  "modified": "2026-11-03T18:31:05Z",
+  "modified": "2026-11-09T18:31:46Z",
   "published": "2026-11-03T18:31:05Z",
   "aliases": [
     "CVE-2026-121558"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Ricky-7-Yan/intelligent-audit-system/blob/e4f1bf1c92cb14dd18bf0e11f4688fd1e346c9b9/web/main.py#L1197-L1206"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@hieuPenguinnn/cve-2026-121558-auditpilot-rag-project-scope-idor-knowledge-query"
     },
     {
       "type": "WEB",

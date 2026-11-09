@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgwg-gwg9-92cx",
-  "modified": "2026-11-07T00:31:24Z",
+  "modified": "2026-11-09T12:31:38Z",
   "published": "2026-11-07T00:31:24Z",
   "aliases": [
     "CVE-2026-50240"
@@ -16,8 +16,16 @@
   "affected": [],
   "references": [
     {
+      "type": "WEB",
+      "url": "https://github.com/tektoncd/pipelines-as-code/security/advisories/GHSA-8m5v-wh4r-5j96"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50240"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openshift-pipelines/pipelines-as-code/commit/ac1ff2337fce1ffdf888f513c6202caa95853927"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fcc-vm97-gx3x",
-  "modified": "2026-11-08T03:30:22Z",
+  "modified": "2026-11-09T18:31:52Z",
   "published": "2026-11-05T18:33:14Z",
   "aliases": [
     "CVE-2026-123158"
@@ -33,39 +33,15 @@
     },
     {
       "type": "WEB",
-      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass"
+      "url": "https://www.openssh.org/releasenotes.html#10.6p2"
     },
     {
       "type": "WEB",
-      "url": "https://github.com/coollabsio/coolify/discussions/12484"
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123158"
     },
     {
       "type": "WEB",
-      "url": "https://github.com/leonjza/sshhole-lab"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/predkambrij/sshhole-repro"
-    },
-    {
-      "type": "WEB",
-      "url": "https://hachyderm.io/@damienmiller/117563026759098135"
-    },
-    {
-      "type": "WEB",
-      "url": "https://marc.info/?l=openssh-unix-dev&m=179388064263131&w=2"
-    },
-    {
-      "type": "WEB",
-      "url": "https://news.ycombinator.com/item?id=50377976"
-    },
-    {
-      "type": "WEB",
-      "url": "https://news.ycombinator.com/item?id=50378228"
-    },
-    {
-      "type": "WEB",
-      "url": "https://news.ycombinator.com/item?id=50379704"
+      "url": "https://sshole.events.greynoise.io"
     },
     {
       "type": "WEB",
@@ -73,7 +49,43 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.openssh.org/releasenotes.html#10.6p2"
+      "url": "https://news.ycombinator.com/item?id=50379704"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=50378228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=50377976"
+    },
+    {
+      "type": "WEB",
+      "url": "https://marc.info/?l=openssh-unix-dev&m=179388064263131&w=2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://isc.sans.edu/diary.html?storyid=33498"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hachyderm.io/@damienmiller/117563026759098135"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/predkambrij/sshhole-repro"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/leonjza/sshhole-lab"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/coollabsio/coolify/discussions/12484"
+    },
+    {
+      "type": "WEB",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass"
     }
   ],
   "database_specific": {
