@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-425r-vwq2-26qv",
-  "modified": "2026-06-19T06:31:56Z",
+  "modified": "2026-11-10T15:32:44Z",
   "published": "2026-06-19T06:31:56Z",
   "aliases": [
     "CVE-2026-56132"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/1272"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     }
   ],
   "database_specific": {

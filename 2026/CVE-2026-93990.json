@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfp9-ffqc-h4x8",
-  "modified": "2026-09-28T18:31:08Z",
+  "modified": "2026-11-10T15:32:56Z",
   "published": "2026-09-20T00:30:23Z",
   "aliases": [
     "CVE-2026-93990"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://blog.hartwork.org/posts/expat-2-8-5-released"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

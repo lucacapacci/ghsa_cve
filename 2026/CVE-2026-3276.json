@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jg6j-874m-wgjj",
-  "modified": "2026-08-11T03:31:50Z",
+  "modified": "2026-11-10T15:32:43Z",
   "published": "2026-06-03T18:33:09Z",
   "aliases": [
     "CVE-2026-3276"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/e322a1857084d521f79f45181b776f62e6acfc2c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfgp-2986-rm7g",
-  "modified": "2026-08-20T06:32:27Z",
+  "modified": "2026-11-10T15:32:56Z",
   "published": "2026-08-20T06:32:27Z",
   "aliases": [
     "CVE-2026-76957"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/1329"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     }
   ],
   "database_specific": {

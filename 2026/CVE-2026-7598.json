@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jhp3-h4hp-2c3p",
-  "modified": "2026-09-01T15:30:37Z",
+  "modified": "2026-11-10T15:32:36Z",
   "published": "2026-05-02T00:31:21Z",
   "aliases": [
     "CVE-2026-7598"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2464597"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

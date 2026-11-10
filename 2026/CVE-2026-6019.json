@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2755-2mm4-rm5c",
-  "modified": "2026-05-18T18:31:23Z",
+  "modified": "2026-11-10T15:32:30Z",
   "published": "2026-04-22T21:32:11Z",
   "aliases": [
     "CVE-2026-6019"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/f795e042043dfe26c42e1971d4502c1cdc4c65b8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

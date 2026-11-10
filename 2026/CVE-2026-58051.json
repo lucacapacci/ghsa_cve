@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5f3-hwj2-xp5p",
-  "modified": "2026-06-28T03:33:40Z",
+  "modified": "2026-11-10T15:32:51Z",
   "published": "2026-06-28T03:33:40Z",
   "aliases": [
     "CVE-2026-58051"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58051"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7r74-gcw3-3fcc",
-  "modified": "2026-11-05T03:30:36Z",
+  "modified": "2026-11-10T15:33:14Z",
   "published": "2026-11-05T03:30:36Z",
   "aliases": [
     "CVE-2026-69043"
   ],
   "details": "In the Samsung Exynos GPU driver, improper synchronization during buffer object creation and closing can lead to memory corruption",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-416"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-05T03:17:32Z"

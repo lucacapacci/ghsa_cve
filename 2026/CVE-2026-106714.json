@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7ff-33g6-pww5",
-  "modified": "2026-11-05T15:32:37Z",
+  "modified": "2026-11-10T15:33:14Z",
   "published": "2026-11-05T15:32:37Z",
   "aliases": [
     "CVE-2026-106714"
   ],
   "details": "Chewy for Android version 26.23.0 does not adequately validate the host of a product-details deep link before loading it in a Hybrid WebView. An attacker-controlled page with a /dp/<number> path can access the injected nma_petmd_bridge JavaScript interface and invoke getPetProfiles, disclosing a signed-in user's pet profile information after the user opens the crafted link.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-601"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-05T15:17:16Z"

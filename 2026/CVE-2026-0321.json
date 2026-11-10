@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5f3h-q3pp-xh59",
-  "modified": "2026-10-14T21:33:47Z",
+  "modified": "2026-11-10T15:33:03Z",
   "published": "2026-10-14T21:33:47Z",
   "aliases": [
     "CVE-2026-0321"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0321"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-104023.html"
     },
     {
       "type": "WEB",

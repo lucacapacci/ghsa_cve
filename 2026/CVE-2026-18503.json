@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2345-wr3r-cxf2",
-  "modified": "2026-08-12T03:31:16Z",
+  "modified": "2026-11-10T15:32:56Z",
   "published": "2026-08-10T15:33:51Z",
   "aliases": [
     "CVE-2026-18503"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/fd78b565d7c326f96ae903ab945b47f35d829cf4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-857q-6v86-xp84",
-  "modified": "2026-06-02T15:31:51Z",
+  "modified": "2026-11-10T15:32:05Z",
   "published": "2026-01-30T09:30:55Z",
   "aliases": [
     "CVE-2026-25210"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-253495.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgc4-5jjm-7rr7",
-  "modified": "2026-07-07T21:31:35Z",
+  "modified": "2026-11-10T15:32:51Z",
   "published": "2026-07-07T21:31:35Z",
   "aliases": [
     "CVE-2026-7017"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Perl-Toolchain-Gang/HTTP-Tiny/commit/e7a03aedf2395158f2b0d3bad2df943349227bb3.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

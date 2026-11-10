@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv7p-q6xv-2496",
-  "modified": "2026-11-05T03:30:35Z",
+  "modified": "2026-11-10T15:33:12Z",
   "published": "2026-11-05T03:30:35Z",
   "aliases": [
     "CVE-2026-68984"
   ],
   "details": "In the Samsung Exynos NPU kernel driver, an integer overflow allows an unprivileged application to trigger memory corruption.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-190"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-05T03:17:31Z"

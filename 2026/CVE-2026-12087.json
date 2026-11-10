@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q5cv-5vf6-95gp",
-  "modified": "2026-06-16T18:32:33Z",
+  "modified": "2026-11-10T15:32:43Z",
   "published": "2026-06-16T00:34:24Z",
   "aliases": [
     "CVE-2026-12087"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Perl/perl5/commit/de19a0b0ad1900fef976c5c1400bd8f11ec6c6cb.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

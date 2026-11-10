@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c656-phfm-x7g8",
-  "modified": "2026-11-04T15:32:31Z",
+  "modified": "2026-11-10T15:33:09Z",
   "published": "2026-11-04T15:32:31Z",
   "aliases": [
     "CVE-2026-121009"
   ],
   "details": "SQL::Abstract versions from 1.90_01 before 2.000001_04 for Perl skip the injection_guard check for function names given with -func.\n\ninjection_guard is documented to apply to every function name, but only the { -name => ... } shorthand goes through it. The explicit { -func => [ $name, ... ] } form puts $name into the SQL unchecked.\n\nAn application that relies on injection_guard to reject an untrusted function name passed with -func allows SQL injection.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-04T15:17:42Z"

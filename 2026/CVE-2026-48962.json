@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q6wx-vhvq-x7h6",
-  "modified": "2026-08-05T15:31:57Z",
+  "modified": "2026-11-10T15:32:40Z",
   "published": "2026-05-27T06:31:34Z",
   "aliases": [
     "CVE-2026-48962"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/PMQS/IO-Compress-2.220/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3gq-g37j-r82w",
-  "modified": "2026-11-05T03:30:35Z",
+  "modified": "2026-11-10T15:33:11Z",
   "published": "2026-11-05T03:30:35Z",
   "aliases": [
     "CVE-2026-48173"
   ],
   "details": "In the NAS message handler, improper validation of the length field in NAS message causes memory corruption",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-120"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-05T03:17:27Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4h8f-fwpc-hwwf",
-  "modified": "2026-09-29T18:31:44Z",
+  "modified": "2026-11-10T15:32:57Z",
   "published": "2026-09-29T18:31:44Z",
   "aliases": [
     "CVE-2026-75806"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssl/openssl/commit/5af82fefbaf2b5fec2fc0e1d87f112844902f01d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

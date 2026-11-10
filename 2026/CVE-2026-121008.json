@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcg4-533h-9xx3",
-  "modified": "2026-11-04T15:32:31Z",
+  "modified": "2026-11-10T15:33:09Z",
   "published": "2026-11-04T15:32:31Z",
   "aliases": [
     "CVE-2026-121008"
   ],
   "details": "SQL::Abstract::Tree versions before 2.000001_04 for Perl allow cross-site scripting via unescaped SQL text and bind values in the html profile.\n\nThe html profile wraps keywords and placeholders in span elements and breaks lines with br elements, so its output is meant to go into a page as is. The format method does not HTML-escape the SQL text or the bind values it fills in around that markup.\n\nAn application that renders SQL formatted with the html profile, such as in a debug panel or query log, allows an attacker who controls a bind value or part of the SQL text to embed JavaScript in the page.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-04T15:17:41Z"

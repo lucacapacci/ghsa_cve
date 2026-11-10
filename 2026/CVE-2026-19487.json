@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg68-cm33-8vqv",
-  "modified": "2026-08-13T21:36:04Z",
+  "modified": "2026-11-10T15:32:56Z",
   "published": "2026-08-13T18:31:37Z",
   "aliases": [
     "CVE-2026-19487"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Perl/perl5/commit/1a21abacaf6f684928bae8baaa153733c8c238eb.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

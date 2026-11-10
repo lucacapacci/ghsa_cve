@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f953-7679-xc38",
-  "modified": "2026-06-30T12:31:51Z",
+  "modified": "2026-11-10T15:32:51Z",
   "published": "2026-06-30T12:31:51Z",
   "aliases": [
     "CVE-2026-12610"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/SSSD/sssd/issues/8796"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:97077"
     },
     {
       "type": "WEB",

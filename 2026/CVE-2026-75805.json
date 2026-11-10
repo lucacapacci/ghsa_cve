@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpg3-m652-f2vc",
-  "modified": "2026-09-29T18:31:44Z",
+  "modified": "2026-11-10T15:32:57Z",
   "published": "2026-09-29T18:31:44Z",
   "aliases": [
     "CVE-2026-75805"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssl/openssl/commit/abf02872a4b71767ecc72293424420f5b009190f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

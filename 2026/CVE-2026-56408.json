@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9jq5-63hm-6q5g",
-  "modified": "2026-06-21T18:32:21Z",
+  "modified": "2026-11-10T15:32:45Z",
   "published": "2026-06-21T18:32:21Z",
   "aliases": [
     "CVE-2026-56408"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/commit/16e2efd867ea8567ffa012210b52ef5918e20817"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     }
   ],
   "database_specific": {

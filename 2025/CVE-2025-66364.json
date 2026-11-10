@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cxc-8932-7hjx",
-  "modified": "2026-11-05T03:30:28Z",
+  "modified": "2026-11-10T15:33:09Z",
   "published": "2026-11-05T03:30:28Z",
   "aliases": [
     "CVE-2025-66364"
   ],
   "details": "Continuously sending control‑plane messages causes the baseband to crashes.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-754"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-05T02:16:57Z"

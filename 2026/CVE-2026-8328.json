@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j989-fggp-qgp5",
-  "modified": "2026-06-30T18:31:32Z",
+  "modified": "2026-11-10T15:32:38Z",
   "published": "2026-05-13T21:32:07Z",
   "aliases": [
     "CVE-2026-8328"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/ef12d0dc824baccf737bba1458e5eed3d1e0fceb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

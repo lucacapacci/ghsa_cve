@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68vw-xv3c-52vp",
-  "modified": "2026-06-21T18:32:21Z",
+  "modified": "2026-11-10T15:32:45Z",
   "published": "2026-06-21T18:32:21Z",
   "aliases": [
     "CVE-2026-56411"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/1263"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     }
   ],
   "database_specific": {

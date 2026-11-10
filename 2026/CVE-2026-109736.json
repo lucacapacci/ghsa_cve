@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hp2-r6fq-j3w8",
-  "modified": "2026-10-19T12:32:20Z",
+  "modified": "2026-11-10T15:32:58Z",
   "published": "2026-10-13T15:32:15Z",
   "aliases": [
     "CVE-2026-109736"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-110"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-126"
     }
   ],
   "database_specific": {

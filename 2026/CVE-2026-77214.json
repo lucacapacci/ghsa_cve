@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xfx-9m5m-pgcp",
-  "modified": "2026-10-07T15:32:01Z",
+  "modified": "2026-11-10T15:32:58Z",
   "published": "2026-10-07T15:32:01Z",
   "aliases": [
     "CVE-2026-77214"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/commit/13c5f63a7f1c52c2feee3b16a1134d4fb68e9ea0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",
