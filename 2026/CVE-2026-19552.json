@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrvr-m27m-jc99",
-  "modified": "2026-11-09T15:32:11Z",
+  "modified": "2026-11-10T00:31:33Z",
   "published": "2026-11-09T15:32:11Z",
   "aliases": [
     "CVE-2026-19552"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/SXBD6BGHDBTGM4KSUMQEWYIQ5RO4BQ76"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/09/25"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crhc-4fp3-m233",
-  "modified": "2026-11-07T15:30:29Z",
+  "modified": "2026-11-09T21:31:46Z",
   "published": "2026-11-07T15:30:29Z",
   "aliases": [
     "CVE-2026-124307"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/fraunhofer-hhi-vvdec-before-3.2.1-heap-use-after-free-via-alf-aps-redefinition"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/09/21"
     }
   ],
   "database_specific": {

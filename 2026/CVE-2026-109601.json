@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cf9-2fpp-3v7v",
-  "modified": "2026-10-13T00:31:25Z",
+  "modified": "2026-11-09T21:31:35Z",
   "published": "2026-10-13T00:31:25Z",
   "aliases": [
     "CVE-2026-109601"
@@ -26,6 +26,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://notes.netbytesec.com/2026/10/cve-2026-109601-unauthenticated.html"
     },
     {
       "type": "WEB",

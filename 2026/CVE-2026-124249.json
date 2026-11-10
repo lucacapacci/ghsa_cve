@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chc2-vx2q-cwqf",
-  "modified": "2026-11-09T15:32:11Z",
+  "modified": "2026-11-10T00:31:32Z",
   "published": "2026-11-09T15:32:10Z",
   "aliases": [
     "CVE-2026-124249"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/Y6IKNZ2VZUS2L6CLQICSFUEMCLT7OLTY"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/09/24"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29m7-hw74-2gwc",
-  "modified": "2026-11-07T06:31:14Z",
+  "modified": "2026-11-10T00:31:32Z",
   "published": "2026-11-07T06:31:14Z",
   "aliases": [
     "CVE-2026-123218"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123218"
     },
     {
       "type": "WEB",

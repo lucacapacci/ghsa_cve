@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrh3-cwwj-g5mg",
-  "modified": "2026-07-15T15:33:06Z",
+  "modified": "2026-11-09T21:46:35Z",
   "published": "2026-07-15T15:33:06Z",
   "aliases": [
     "CVE-2026-43637"
   ],
+  "summary": "Cornac: Path Traversal via _extract_archive() in download.py",
   "details": "Cornac before 2.6.0 contains a path traversal (Tar Slip) vulnerability that allows attackers to write arbitrary files outside the intended cache directory by supplying a crafted TAR archive containing ../ sequences, absolute paths, or symlink/hardlink entries to the _extract_archive() function in cornac/utils/download.py. Attackers can trigger this vulnerability through the built-in dataset loaders, which automatically download and extract archives, causing archive.extractall() to write files to arbitrary locations on the filesystem accessible to the running process.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "cornac"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -30,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/PreferredAI/cornac/commit/8a50be72c11569b6747c6b96d6e31a0a1962f1a8"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/PreferredAI/cornac"
     },
     {
       "type": "WEB",
@@ -45,8 +70,8 @@
       "CWE-22"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-11-09T21:46:35Z",
     "nvd_published_at": "2026-07-15T14:18:10Z"
   }
 }
