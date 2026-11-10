@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgj6-7826-r7m5",
-  "modified": "2026-07-20T21:21:18Z",
+  "modified": "2026-11-10T19:33:43Z",
   "published": "2026-06-23T21:22:54Z",
   "aliases": [
     "CVE-2026-54514"
@@ -38,44 +38,6 @@
       "package": {
         "ecosystem": "Maven",
         "name": "com.fasterxml.jackson.core:jackson-databind"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.19.0"
-            },
-            {
-              "fixed": "2.21.4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "com.fasterxml.jackson.core:jackson-databind"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.0.0"
-            },
-            {
-              "fixed": "3.1.4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "tools.jackson.core:jackson-databind"
       },
       "ranges": [
         {

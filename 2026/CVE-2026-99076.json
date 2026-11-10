@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r224-867j-vfxf",
-  "modified": "2026-11-06T18:34:56Z",
+  "modified": "2026-11-10T21:31:42Z",
   "published": "2026-10-23T15:31:37Z",
   "aliases": [
     "CVE-2026-99076"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8c9b310c958be33ba8fb9d0e6b77811d013e10c0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9b88f0fcbd4b746de0478b4fd99fa495eb26b857"
     },
     {
       "type": "WEB",

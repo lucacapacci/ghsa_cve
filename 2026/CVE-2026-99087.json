@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-458p-v4rq-r32g",
-  "modified": "2026-10-23T15:31:37Z",
+  "modified": "2026-11-10T21:31:42Z",
   "published": "2026-10-23T15:31:37Z",
   "aliases": [
     "CVE-2026-99087"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/69ed43ed8a174465fca1ba6bfbde53e4618c8956"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/73e5b7b14df0430ef2135e9bd9fa3f5b253ef789"
     },
     {
       "type": "WEB",

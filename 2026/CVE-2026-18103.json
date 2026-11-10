@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq4j-5vp3-jcrx",
-  "modified": "2026-08-05T00:30:40Z",
+  "modified": "2026-11-10T21:31:35Z",
   "published": "2026-08-05T00:30:40Z",
   "aliases": [
     "CVE-2026-18103"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18103"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:97486"
     },
     {
       "type": "WEB",

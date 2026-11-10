@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-935v-p3rc-7qm7",
-  "modified": "2026-11-10T15:33:07Z",
+  "modified": "2026-11-10T21:31:43Z",
   "published": "2026-10-27T15:33:04Z",
   "aliases": [
     "CVE-2026-118024"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-127"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-129"
     }
   ],
   "database_specific": {

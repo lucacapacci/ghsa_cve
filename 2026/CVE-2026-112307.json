@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-457h-p88w-wq8p",
-  "modified": "2026-10-19T18:32:12Z",
+  "modified": "2026-11-10T21:31:41Z",
   "published": "2026-10-19T18:32:12Z",
   "aliases": [
     "CVE-2026-112307"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/sqlparse-through-0.6.0-php-code-injection-via-output-format-php"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/10/20"
     }
   ],
   "database_specific": {

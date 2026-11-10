@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm5p-7w5h-jm5q",
-  "modified": "2026-07-29T16:24:28Z",
+  "modified": "2026-11-10T19:27:28Z",
   "published": "2026-07-29T16:24:27Z",
   "aliases": [
     "CVE-2026-52840"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.5.2"
+              "fixed": "1.6.1"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.5.2"
+      }
     }
   ],
   "references": [

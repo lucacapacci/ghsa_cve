@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mfx-g38v-95fm",
-  "modified": "2026-11-10T15:33:34Z",
+  "modified": "2026-11-10T21:32:14Z",
   "published": "2026-11-10T15:33:34Z",
   "aliases": [
     "CVE-2026-124940"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-127"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-128"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-129"
     }
   ],
   "database_specific": {

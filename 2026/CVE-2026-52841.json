@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8hm4-r66f-29wr",
-  "modified": "2026-07-29T16:29:26Z",
+  "modified": "2026-11-10T19:25:40Z",
   "published": "2026-07-29T16:29:26Z",
   "aliases": [
     "CVE-2026-52841"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.5.2"
+              "fixed": "1.6.1"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.5.2"
+      }
     }
   ],
   "references": [

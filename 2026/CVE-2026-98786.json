@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7r8j-xcf8-cxq6",
-  "modified": "2026-11-06T18:34:53Z",
+  "modified": "2026-11-10T21:31:41Z",
   "published": "2026-10-18T18:32:03Z",
   "aliases": [
     "CVE-2026-98786"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-98786"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0189f725242087679bc9f1bbf77ad086f56a72c8"
     },
     {
       "type": "WEB",

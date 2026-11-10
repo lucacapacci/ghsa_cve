@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frh9-7wfp-w73p",
-  "modified": "2026-10-14T21:31:56Z",
+  "modified": "2026-11-10T21:31:28Z",
   "published": "2025-12-10T09:30:25Z",
   "aliases": [
     "CVE-2025-14087"
@@ -21,7 +21,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:29197"
+      "url": "https://access.redhat.com/errata/RHSA-2026:15953"
     },
     {
       "type": "WEB",
@@ -73,6 +73,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:97163"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-14087"
     },
     {
@@ -82,10 +86,6 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/glib/-/issues/3834"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:15953"
     },
     {
       "type": "WEB",
@@ -150,6 +150,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:25096"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:29197"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99x3-rpwc-xh78",
-  "modified": "2026-10-31T15:30:21Z",
+  "modified": "2026-11-10T21:31:44Z",
   "published": "2026-10-28T12:31:03Z",
   "aliases": [
     "CVE-2026-99122"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c027f8b429dbb2157fc1b503df196e272d947c89"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cdd1f99eaa4d4db82d506eb50e724460671c7cac"
     }
   ],
   "database_specific": {

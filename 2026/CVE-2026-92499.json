@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fwr-5mg2-3p42",
-  "modified": "2026-09-17T18:32:06Z",
+  "modified": "2026-11-10T21:31:37Z",
   "published": "2026-09-17T18:32:06Z",
   "aliases": [
     "CVE-2026-92499"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92499"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/094e8139cf5a5e37b363ac984f628359558415e6"
     },
     {
       "type": "WEB",

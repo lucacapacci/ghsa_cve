@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-279w-fv9v-x7wv",
-  "modified": "2026-11-05T03:30:36Z",
+  "modified": "2026-11-10T18:31:14Z",
   "published": "2026-11-05T03:30:36Z",
   "aliases": [
     "CVE-2026-68993"
   ],
   "details": "A double free vulnerability in NPU driver due to improper pointer management  (940)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-415"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-05T03:17:31Z"

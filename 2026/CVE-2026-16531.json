@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g52-w93h-w9v5",
-  "modified": "2026-07-30T06:32:37Z",
+  "modified": "2026-11-10T18:31:09Z",
   "published": "2026-07-30T06:32:37Z",
   "aliases": [
     "CVE-2026-16531"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16531"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:97299"
     },
     {
       "type": "WEB",

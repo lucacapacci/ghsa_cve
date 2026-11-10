@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29j7-h7qg-q9xv",
-  "modified": "2026-11-05T15:32:33Z",
+  "modified": "2026-11-10T18:31:15Z",
   "published": "2026-11-05T15:32:33Z",
   "aliases": [
     "CVE-2026-100228"
   ],
   "details": "Improper Input Validation in Order Returns in Apache OFBiz 24.09.07 on all platforms allows an authenticated user without the ORDERMGR_CREATE permission to persist an arbitrary price on a return item via the createReturnItem service, bypassing the intended server-computed price ceiling. Users are recommended to upgrade to version 24.09.08, which fixes this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-20"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-05T14:16:58Z"
