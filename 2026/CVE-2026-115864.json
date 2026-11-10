@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m665-77qg-8m85",
-  "modified": "2026-11-10T00:31:38Z",
+  "modified": "2026-11-10T03:30:24Z",
   "published": "2026-11-10T00:31:38Z",
   "aliases": [
     "CVE-2026-115864"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/KAZEBURO/Monoceros-0.30/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/09/32"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fcc-vm97-gx3x",
-  "modified": "2026-11-09T18:31:52Z",
+  "modified": "2026-11-10T03:30:23Z",
   "published": "2026-11-05T18:33:14Z",
   "aliases": [
     "CVE-2026-123158"
@@ -86,6 +86,10 @@
     {
       "type": "WEB",
       "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/09/27"
     }
   ],
   "database_specific": {

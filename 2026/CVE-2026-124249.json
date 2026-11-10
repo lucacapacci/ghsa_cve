@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chc2-vx2q-cwqf",
-  "modified": "2026-11-10T00:31:32Z",
+  "modified": "2026-11-10T03:30:24Z",
   "published": "2026-11-09T15:32:10Z",
   "aliases": [
     "CVE-2026-124249"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/pull/161570"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/4e9d037f1cfc8e29efcb1f67bc668e06ff2b6643"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/8eb3d2c1c41ca7ce628554413981c1eb763a1494"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/ac1d49f4fbb33941475c5aa3cb663ab39d64cb73"
     },
     {
       "type": "WEB",

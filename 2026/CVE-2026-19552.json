@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrvr-m27m-jc99",
-  "modified": "2026-11-10T00:31:33Z",
+  "modified": "2026-11-10T03:30:24Z",
   "published": "2026-11-09T15:32:11Z",
   "aliases": [
     "CVE-2026-19552"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/pull/161507"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/8dde46eaa6baf5f027a7234845b20d50b509624e"
     },
     {
       "type": "WEB",

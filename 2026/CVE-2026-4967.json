@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fx8-7mc9-6rhf",
-  "modified": "2026-07-03T09:31:26Z",
+  "modified": "2026-11-10T03:30:23Z",
   "published": "2026-07-03T09:31:26Z",
   "aliases": [
     "CVE-2026-4967"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4967"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ssd-disclosure.com/unisoc-t612-lpe"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ssd-disclosure.com/unisoc-t612-rce"
     },
     {
       "type": "WEB",
