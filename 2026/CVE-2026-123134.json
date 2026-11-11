@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f5q9-9f53-pc34",
+  "modified": "2026-11-11T06:32:41Z",
+  "published": "2026-11-11T06:32:41Z",
+  "aliases": [
+    "CVE-2026-123134"
+  ],
+  "details": "The Smoove abandoned cart trigger for WooCommerce WordPress plugin before 4.3.6 does not sanitise and escape abandoned-cart data submitted by visitors before outputting it in the admin dashboard, allowing unauthenticated users to perform Stored Cross-Site Scripting attacks against administrators.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123134"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/ad3a49ed-4740-4503-9c08-8c0fac5fc270"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-11T06:17:17Z"
+  }
+}

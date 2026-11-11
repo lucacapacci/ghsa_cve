@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8hg5-rmfq-grr7",
+  "modified": "2026-11-11T06:32:39Z",
+  "published": "2026-11-11T06:32:39Z",
+  "aliases": [
+    "CVE-2026-109871"
+  ],
+  "details": "The User Registration & Membership  WordPress plugin before 5.3.2 does not verify that a payment has actually been completed before extending a paid membership subscription, allowing authenticated users with an active paid subscription to renew it indefinitely without paying.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109871"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/444889b1-ae92-45b6-a13b-e76a5fa7ce58"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-11T06:17:10Z"
+  }
+}

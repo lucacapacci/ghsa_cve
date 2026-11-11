@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8j5v-9pw2-99cj",
+  "modified": "2026-11-11T06:32:40Z",
+  "published": "2026-11-11T06:32:40Z",
+  "aliases": [
+    "CVE-2026-118439"
+  ],
+  "details": "The Limit Login Attempts Security  WordPress plugin before 3.4.2 does not validate the destination of a server-side request built from a user-supplied setup value, allowing users with administrator privileges to make the site issue requests to arbitrary hosts, including internal ones (SSRF).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118439"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/9f7a9969-354c-4b9e-b56f-d832d89741b5"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-11T06:17:15Z"
+  }
+}
