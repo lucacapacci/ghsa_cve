@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpqp-cp85-47rm",
-  "modified": "2026-11-11T06:32:41Z",
+  "modified": "2026-11-11T12:31:38Z",
   "published": "2026-11-11T06:32:40Z",
   "aliases": [
     "CVE-2026-119035"
   ],
   "details": "The Schema & Structured Data for WP & AMP WordPress plugin before 1.70 does not safely encode its structured data output when the Pretty Print option is enabled, allowing users with a role as low as Contributor to perform Stored Cross-Site Scripting attacks when the site maps a schema property to a custom field.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-11T06:17:15Z"

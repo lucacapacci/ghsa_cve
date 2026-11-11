@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrm4-gfg8-pgx8",
-  "modified": "2026-11-11T06:32:41Z",
+  "modified": "2026-11-11T12:31:39Z",
   "published": "2026-11-11T06:32:41Z",
   "aliases": [
     "CVE-2026-122061"
   ],
   "details": "The Event Tickets and Registration WordPress plugin before 5.30.3.1 does not correctly check whether an event displays a public attendee list before returning one of its attendees over the REST API, allowing unauthenticated users to retrieve the names of attendees of events that do not show a public attendee list.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-11-11T06:17:17Z"

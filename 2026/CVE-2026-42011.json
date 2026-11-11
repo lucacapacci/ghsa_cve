@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-568w-37qx-3qc6",
-  "modified": "2026-11-11T09:31:24Z",
+  "modified": "2026-11-11T15:30:33Z",
   "published": "2026-05-07T15:38:42Z",
   "aliases": [
     "CVE-2026-42011"
@@ -21,7 +21,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:60019"
+      "url": "https://access.redhat.com/errata/RHSA-2026:13274"
     },
     {
       "type": "WEB",
@@ -81,6 +81,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:95755"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-42011"
     },
     {
@@ -90,10 +94,6 @@
     {
       "type": "WEB",
       "url": "https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-6"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:13274"
     },
     {
       "type": "WEB",
@@ -166,6 +166,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:59831"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:60019"
     }
   ],
   "database_specific": {
