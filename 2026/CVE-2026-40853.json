@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rfp-fjvf-86m8",
-  "modified": "2026-11-11T15:31:04Z",
+  "modified": "2026-11-11T21:32:55Z",
   "published": "2026-11-11T15:31:04Z",
   "aliases": [
     "CVE-2026-40853"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/donct9w5lp5rlvl1p7m8cfx380d2wy4c"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/11/16"
     }
   ],
   "database_specific": {

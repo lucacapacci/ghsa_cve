@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjhf-gpg9-qqfj",
-  "modified": "2026-11-11T15:31:06Z",
+  "modified": "2026-11-11T21:32:55Z",
   "published": "2026-11-11T15:31:05Z",
   "aliases": [
     "CVE-2026-119618"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://httpd.apache.org/security/vulnerabilities_24.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/11/13"
     }
   ],
   "database_specific": {

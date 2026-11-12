@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh99-829x-wxx2",
-  "modified": "2026-11-11T15:31:04Z",
+  "modified": "2026-11-11T21:32:55Z",
   "published": "2026-11-11T15:31:04Z",
   "aliases": [
     "CVE-2026-49236"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/xpysqx09ycpj23qk6b10k87pssqx0dk2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/11/18"
     }
   ],
   "database_specific": {

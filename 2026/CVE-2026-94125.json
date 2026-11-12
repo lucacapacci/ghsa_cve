@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qjxp-p86m-p4wv",
-  "modified": "2026-11-11T15:31:02Z",
+  "modified": "2026-11-11T21:32:55Z",
   "published": "2026-11-11T15:31:02Z",
   "aliases": [
     "CVE-2026-94125"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/8of7kv48thj82bb8vqrz6wbglmyldyvv"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/11/3"
     }
   ],
   "database_specific": {

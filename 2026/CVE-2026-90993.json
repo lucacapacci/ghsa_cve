@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvwg-fmfm-j3jw",
-  "modified": "2026-11-11T12:31:40Z",
+  "modified": "2026-11-11T21:32:55Z",
   "published": "2026-11-11T12:31:40Z",
   "aliases": [
     "CVE-2026-90993"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/cnl5g2os5w048h32x50v1xgjnyo8y6vs"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/11/20"
     }
   ],
   "database_specific": {

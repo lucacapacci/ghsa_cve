@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hh26-8w49-8vg3",
-  "modified": "2026-11-11T12:31:40Z",
+  "modified": "2026-11-11T21:32:55Z",
   "published": "2026-11-11T12:31:40Z",
   "aliases": [
     "CVE-2026-111792"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/dn70ltz1o9sg88dd87wcyh4v73fk2tnm"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/11/14"
     }
   ],
   "database_specific": {

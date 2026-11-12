@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-538h-76qv-3vqw",
-  "modified": "2026-11-11T15:31:05Z",
+  "modified": "2026-11-11T21:32:55Z",
   "published": "2026-11-11T15:31:05Z",
   "aliases": [
     "CVE-2026-71395"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/nsb89to1r0vzdh3t4w7x10q4z3xk5jqf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/11/19"
     }
   ],
   "database_specific": {
