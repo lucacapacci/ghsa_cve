@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g9v-wrq3-g54m",
-  "modified": "2026-11-11T21:32:56Z",
+  "modified": "2026-11-12T03:30:27Z",
   "published": "2026-11-11T21:32:55Z",
   "aliases": [
     "CVE-2026-108472"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2548925"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/11/11/27"
     }
   ],
   "database_specific": {
