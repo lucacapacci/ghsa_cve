@@ -1,4 +1,4 @@
-name: API-Only CVE Sync
+name: GHSA CVE Sync
 on:
   schedule:
     - cron: '*/30 * * * *'
@@ -12,45 +12,65 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Fetch and Process
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 1. Get last processed SHA (default to a recent one if empty)
-          LAST_SHA=$(cat last_sync_sha.txt 2>/dev/null || echo "HEAD~10")
-          
-          # 2. Get all commits since that SHA
-          # We use the 'compare' API which is the most reliable way to get a list of changed files
-          # between two points without cloning.
-          curl -s -H "Authorization: token $GH_TOKEN" \
-            "https://api.github.com/repos/github/advisory-database/compare/$LAST_SHA...main" > diff.json
-          
-          # 3. Extract JSON file URLs from the 'files' array
-          jq -r '.files[] | select(.status != "removed" and (.filename | endswith(".json"))) | .raw_url' diff.json > files_to_download.txt
-          
-          # 4. Download and process
+          REPO_FULL="github/advisory-database"
+          LAST_TIMESTAMP=$(cat last_sync_timestamp.txt 2>/dev/null || date -u -d "1 hour ago" +"%Y-%m-%dT%H:%M:%SZ")
+          NEW_TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+          : > changed_files.tmp
+          PAGE=1
+          while true; do
+            COMMITS_JSON=$(curl -sf -H "Authorization: token $GH_TOKEN" \
+              "https://api.github.com/repos/$REPO_FULL/commits?since=$LAST_TIMESTAMP&per_page=100&page=$PAGE") || exit 1
+
+            SHAS=$(echo "$COMMITS_JSON" | jq -r '.[].sha? // empty')
+            if [ -z "$SHAS" ]; then
+              break
+            fi
+
+            for SHA in $SHAS; do
+              curl -sf -H "Authorization: token $GH_TOKEN" \
+                "https://api.github.com/repos/$REPO_FULL/commits/$SHA" | \
+                jq -r '.files[]? | select(.status != "removed" and (.filename | endswith(".json"))) | .filename' \
+                >> changed_files.tmp
+            done
+
+            PAGE=$((PAGE + 1))
+          done
+
+          sort -u changed_files.tmp > files_to_download.txt
+          rm -f changed_files.tmp
+
           if [ -s files_to_download.txt ]; then
             mkdir -p temp_data
-            while read -r url; do
-              curl -s -L -H "Authorization: token $GH_TOKEN" "$url" > "temp_data/$(basename "$url")"
+            while read -r filepath; do
+              [ -z "$filepath" ] && continue
+              curl -sfL -H "Authorization: token $GH_TOKEN" \
+                -H "Accept: application/vnd.github.v3.raw" \
+                "https://api.github.com/repos/$REPO_FULL/contents/$filepath" \
+                -o "temp_data/$(basename "$filepath")" || true
             done < files_to_download.txt
-            
-            # Run your python script
-            python3 sync_advisories.py temp_data/*.json
-            
-            # Update last_sync_sha
-            curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/github/advisory-database/commits/main?per_page=1" | jq -r '.sha' > last_sync_sha.txt
-            
-            # Cleanup
-            rm -rf temp_data diff.json files_to_download.txt
-            
-            # Commit results
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add .
-            git commit -m "Sync: Updated CVEs from API" || echo "No changes to commit"
-            git push
+
+            if compgen -G "temp_data/*.json" > /dev/null; then
+              python3 sync_advisories.py temp_data/*.json
+            else
+              echo "No advisory JSON files downloaded."
+            fi
+
+            rm -rf temp_data
           else
             echo "No new changes found."
           fi
+
+          rm -f files_to_download.txt
+          echo "$NEW_TIMESTAMP" > last_sync_timestamp.txt
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Sync: Updated GHSA advisories via paginated commits" || echo "No changes to commit"
+          git push
