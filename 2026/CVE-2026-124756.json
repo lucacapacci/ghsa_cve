@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fc7g-fgwq-p4m6",
+  "modified": "2026-11-26T15:31:25Z",
+  "published": "2026-11-26T15:31:25Z",
+  "aliases": [
+    "CVE-2026-124756"
+  ],
+  "details": "Allocation of Resources Without Limits or Throttling vulnerability in Takashi Kitajima MW WP Form mw-wp-form allows HTTP DoS.This issue affects MW WP Form: from n/a through 5.1.8.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124756"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/mw-wp-form/vulnerability/wordpress-mw-wp-form-plugin-5-1-8-denial-of-service-attack-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-770"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T13:16:37Z"
+  }
+}

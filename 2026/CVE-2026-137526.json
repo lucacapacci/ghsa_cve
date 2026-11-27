@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5fxf-g8ff-92fc",
+  "modified": "2026-11-26T18:30:35Z",
+  "published": "2026-11-26T18:30:35Z",
+  "aliases": [
+    "CVE-2026-137526"
+  ],
+  "details": "ToolJet before 3.21.96-LTS contains an authorization bypass in the internal database (TJDB) PostgREST proxy, which grants proxy access to every logged-in user and derives the database role and schema from the client-supplied tj-workspace-id header. Any authenticated workspace member can send requests to /api/tooljet-db/proxy/<tableId> to read and modify TJDB tables, bypassing app, query, and table permissions, and in SQL-mode-disabled (Cloud) deployments can access all tenants' tables.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/ToolJet/ToolJet/security/advisories/GHSA-r8q6-5wq4-p659"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137526"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/tooljet-before-3.21.96-lts-authorization-bypass-via-tjdb-postgrest-proxy"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T16:18:05Z"
+  }
+}

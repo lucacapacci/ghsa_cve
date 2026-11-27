@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5cfh-jv7m-w7qx",
+  "modified": "2026-11-26T18:30:34Z",
+  "published": "2026-11-26T18:30:34Z",
+  "aliases": [
+    "CVE-2026-137510"
+  ],
+  "details": "Scriban and Scriban.Signed before 7.6.0 allow template authors to bypass the LimitToString string length limit because the string.literal, string.base64_encode, html.escape, html.newline_to_br, html.url_encode, and html.url_escape builtins lack allocation guards. An attacker who can supply a small template can repeatedly call these builtins under the default TemplateContext to force multi-gigabyte allocations and exhaust host memory.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/scriban/scriban/security/advisories/GHSA-28wr-xhqr-9mf4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/scriban/scriban/security/advisories/GHSA-wmmr-qjc6-rp53"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137510"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/scriban-before-7.6.0-memory-exhaustion-via-unguarded-string-and-html-builtins"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-400"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T16:18:02Z"
+  }
+}

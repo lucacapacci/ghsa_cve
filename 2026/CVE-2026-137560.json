@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9q9p-8vpf-7266",
+  "modified": "2026-11-26T18:30:37Z",
+  "published": "2026-11-26T18:30:37Z",
+  "aliases": [
+    "CVE-2026-137560"
+  ],
+  "details": "Web-token jwt-framework and jwt-library before 3.4.13, 4.0.x before 4.0.9, 4.1.x before 4.1.11, and 4.2.x before 4.2.6 contain a denial of service vulnerability in RSAKey, which accepts RSA keys with a modulus and public exponent of unbounded length. Remote attackers can supply a crafted key, such as in the jwk header of a DPoP proof, to force seconds of CPU per PS256/PS384/PS512 verification or RSA encryption, or per any RSA operation when GMP is unavailable.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/web-token/jwt-framework/security/advisories/GHSA-96f8-m4jr-72xj"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137560"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/web-token-jwt-framework-before-3.4.13-denial-of-service-via-unbounded-rsa-key-size"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-400"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T16:18:10Z"
+  }
+}

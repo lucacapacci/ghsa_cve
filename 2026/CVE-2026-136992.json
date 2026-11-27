@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hvf6-q9vx-rgmv",
+  "modified": "2026-11-27T03:30:27Z",
+  "published": "2026-11-27T03:30:27Z",
+  "aliases": [
+    "CVE-2026-136992"
+  ],
+  "details": "The All-in-One Video Gallery – Video Player & Galleries for YouTube, Vimeo & Self-Hosted Videos plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'embedcode' parameter in all versions up to, and including, 5.2.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The plugin grants the Subscriber role the edit_aiovg_videos and edit_published_aiovg_videos capabilities on activation, and save_meta_data() accepts the 'embedcode' type without checking current_user_can('unfiltered_html'), meaning any Subscriber can store a malicious shortcode containing a data: URI in the hls attribute that hls.js later processes and Plyr writes into the DOM via innerHTML.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/all-in-one-video-gallery/tags/5.2.0/admin/videos.php#L491"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/all-in-one-video-gallery/tags/5.2.0/includes/helpers/functions.php#L3311"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/all-in-one-video-gallery/tags/5.2.0/includes/player/base.php#L1047"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/all-in-one-video-gallery/tags/5.2.0/includes/player/vidstack.php#L410"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/all-in-one-video-gallery/tags/5.2.0/includes/roles.php#L69"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/all-in-one-video-gallery/tags/5.2.0/public/video.php#L151"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3826337/all-in-one-video-gallery/trunk/public/video.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/cda18383-695e-42a0-b538-1498bae3b3fe?source=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-27T03:17:03Z"
+  }
+}

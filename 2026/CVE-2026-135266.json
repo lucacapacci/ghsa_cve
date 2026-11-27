@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8h75-j8wx-h792",
+  "modified": "2026-11-26T12:30:33Z",
+  "published": "2026-11-26T12:30:32Z",
+  "aliases": [
+    "CVE-2026-135266"
+  ],
+  "details": "The Music Player for WooCommerce plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 1.9.4 via the '_downloadable_files' parameter parameter. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information. Staging the attack requires storing a crafted downloadable file URL against a product, which requires the edit_products capability (Shop Manager or above); however, triggering the file read via the ?wcmp-action=play handler is fully unauthenticated once the crafted URL is saved to a published product.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135266"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/music-player-for-woocommerce/tags/1.9.4/wcmp.php#L1994"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/music-player-for-woocommerce/tags/1.9.4/wcmp.php#L2209"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/music-player-for-woocommerce/tags/1.9.4/wcmp.php#L2308"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/music-player-for-woocommerce/tags/1.9.4/wcmp.php#L293"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/music-player-for-woocommerce/tags/1.9.4/wcmp.php#L309"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/music-player-for-woocommerce/tags/1.9.5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/b82af9c2-f646-476a-8ce7-49284a93b865?source=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T10:17:08Z"
+  }
+}

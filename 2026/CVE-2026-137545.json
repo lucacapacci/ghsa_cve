@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-24jr-42m3-934j",
+  "modified": "2026-11-26T18:30:36Z",
+  "published": "2026-11-26T18:30:36Z",
+  "aliases": [
+    "CVE-2026-137545"
+  ],
+  "details": "Coder 2.9.0 before 2.29.27, 2.30.0 before 2.34.12, 2.35.0 before 2.35.9, 2.36.0 before 2.36.7, and 2.37.0 before 2.37.3 contains a nil pointer dereference in the tailnet coordinator, which reads UpdateSelf.Node fields during authorization without checking that Node is set. An authenticated user or workspace agent token holder can send a CoordinateRequest with UpdateSelf present but Node empty to crash coderd, disconnecting all users on the affected replica.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/coder/coder/security/advisories/GHSA-7hf9-gp2x-ppfm"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137545"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/coder-2.37.0-before-2.37.3-dos-via-nil-node-in-tailnet-updateself"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T16:18:07Z"
+  }
+}

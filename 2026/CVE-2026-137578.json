@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-228w-8qfv-4jx4",
+  "modified": "2026-11-26T15:31:32Z",
+  "published": "2026-11-26T15:31:32Z",
+  "aliases": [
+    "CVE-2026-137578"
+  ],
+  "details": "FacturaONE para WooCommerce con VeriFactu before 5.61 contains an authenticated SQL injection vulnerability that allows Contributor-level users to inject SQL through the fone_client_id user meta value. Attackers can store a payload in their own profile via FONE_update_tarifa_user(), which FONE_product_ids_ocultos_para_usuario() concatenates unquoted, enabling time-based blind extraction of password hashes.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137578"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/wp-facturaone/tags/5.60/wp-facturaone.php#L2688"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3826586/wp-facturaone"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wordpress.org/plugins/wp-facturaone"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/facturaone-para-woocommerce-con-verifactu-before-5.61-sql-injection-via-fone-client-id"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T14:17:26Z"
+  }
+}

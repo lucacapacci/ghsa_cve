@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7h3m-5762-62f9",
+  "modified": "2026-11-26T18:30:37Z",
+  "published": "2026-11-26T18:30:37Z",
+  "aliases": [
+    "CVE-2026-137561"
+  ],
+  "details": "Web-Token jwt-framework and jwt-library before 3.4.13, 4.0.0 before 4.0.9, 4.1.0 before 4.1.11, and 4.2.0 before 4.2.6, and jwt-encryption through 3.2.10, contain a token malleability flaw because JWEDecrypter does not reject a non-empty JWE Encrypted Key with the dir, ECDH-ES and ECDH-SS algorithms, which the authentication tag does not cover. Attackers holding one token can fill the Encrypted Key with arbitrary bytes to derive unlimited distinct token strings that still decrypt, bypassing replay caches, single-use registries or revocation deny-lists keyed on the token string.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/web-token/jwt-framework/security/advisories/GHSA-5cc5-v8qv-6cw7"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137561"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/web-token-jwt-framework-before-3.4.13-jwe-token-malleability-via-non-empty-encrypted-key"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-345"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T16:18:10Z"
+  }
+}

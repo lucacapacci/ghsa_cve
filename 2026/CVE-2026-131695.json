@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6r36-wgc5-pc97",
+  "modified": "2026-11-26T15:31:37Z",
+  "published": "2026-11-26T15:31:36Z",
+  "aliases": [
+    "CVE-2026-131695"
+  ],
+  "details": "The LiteSpeed Cache plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment' parameter in all versions up to, and including, 7.9.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Exploitation requires CDN Mapping to be enabled with at least one Original URLs entry containing a '*' wildcard character, a non-default configuration; the attacker's comment must also be approved, which is satisfied immediately when moderation is disabled or automatically after one prior approved comment from the same name and email address.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131695"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/litespeedtech/lscache_wp/commit/ebffeecbcc977f4503af439c1ed09cc89c5af011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/litespeed-cache/tags/7.9.3/src/cdn.cls.php#L394"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/litespeed-cache/tags/7.9.3/src/cdn.cls.php#L421"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/litespeed-cache/tags/7.9.3/src/cdn.cls.php#L744"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/litespeed-cache/tags/7.9.3/src/utility.cls.php#L297"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/litespeed-cache/tags/7.9.4/src/cdn.cls.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/e08d1dc8-4d36-4237-a6c9-56c0ff248cf9?source=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T15:17:24Z"
+  }
+}

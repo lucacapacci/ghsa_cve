@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9g5c-9qjm-j2ww",
+  "modified": "2026-11-26T09:31:18Z",
+  "published": "2026-11-26T09:31:18Z",
+  "aliases": [
+    "CVE-2026-135772"
+  ],
+  "details": "RTL8762C MCU developed by Realtek Semiconductor Corporation has an Improper Protection Against Voltage and Clock Glitches vulnerability. Unauthenticated attackers with physical access can use specialized equipment to perform voltage fault injection and bypass SWD debug authentication, thereby accessing protected data and modifying the chip's execution flow.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:P/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135772"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.twcert.org.tw/en/cp-139-11439-aef22-2.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.twcert.org.tw/tw/cp-132-11438-70f69-1.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1247"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T08:17:07Z"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5hmp-mcjq-36j6",
+  "modified": "2026-11-26T15:31:26Z",
+  "published": "2026-11-26T15:31:26Z",
+  "aliases": [
+    "CVE-2026-124841"
+  ],
+  "details": "SEPPmail Secure Email Gateway before 15.1.2 permits LDAP wildcard characters in legacy GINA identifiers and inserts those values into account, token, certificate, and key lookup filters without escaping. An unauthenticated remote attacker can alter which directory entry is selected and may disclose account existence or cause later workflow logic to use an unintended entry.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124841"
+    },
+    {
+      "type": "WEB",
+      "url": "https://downloads.seppmail.com/extrelnotes/151/ERN15.1.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-90"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T13:16:37Z"
+  }
+}

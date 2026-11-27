@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fw76-2fv4-fm48",
+  "modified": "2026-11-26T15:31:27Z",
+  "published": "2026-11-26T15:31:27Z",
+  "aliases": [
+    "CVE-2026-127113"
+  ],
+  "details": "The GeoDirectory – WP Business Directory Plugin and Classified Listings Directory plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'post_content' parameter in all versions up to, and including, 2.8.205 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Unauthenticated exploitation requires the plugin's \"Allow posting without logging in\" (post_logged_out) option to be enabled; on default installs the vulnerability is exploitable by Subscriber-level users and above.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/AyeCode/geodirectory/commit/6352d7438c18dc5703a8fbddb10e68429c52f74d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/geodirectory/tags/2.8.205/assets/js/libraries/gd_lity.js#L286"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/geodirectory/tags/2.8.205/assets/js/libraries/gd_lity.js#L715"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/geodirectory/tags/2.8.205/includes/class-geodir-ajax.php#L830"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/geodirectory/tags/2.8.205/includes/class-geodir-post-data.php#L1732"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/geodirectory/tags/2.8.205/includes/class-geodir-post-data.php#L1833"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3798796/geodirectory/trunk/assets/js/libraries/gd_lity.js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/5dd8a9c9-5235-4f3a-9e21-e5de584aa7d5?source=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T13:16:38Z"
+  }
+}

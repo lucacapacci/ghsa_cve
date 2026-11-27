@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5vp6-w83p-hqw4",
+  "modified": "2026-11-26T00:30:26Z",
+  "published": "2026-11-26T00:30:26Z",
+  "aliases": [
+    "CVE-2026-136831"
+  ],
+  "details": "A vulnerability was determined in WPExperts New User Approve Plugin up to 3.3 on WordPress. Impacted is the function update_user_role of the file includes/end-points/class-users-api.php of the component REST API. Executing a manipulation can lead to missing authorization. It is possible to launch the attack remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136831"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2026-136831"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/1059412"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/443801"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/443801/cti"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-25T22:17:20Z"
+  }
+}

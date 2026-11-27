@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2c2h-6xhg-6pq3",
+  "modified": "2026-11-26T00:30:27Z",
+  "published": "2026-11-26T00:30:27Z",
+  "aliases": [
+    "CVE-2026-133975"
+  ],
+  "details": "Authenticated SQL injection vulnerabilities in the web-based management interface and API of HPE Networking Management Software (Airwave) could allow a low-privileged authenticated remote attacker to execute arbitrary SQL statements against HPE Networking Management Software (Airwave). Successful exploitation could allow an attacker to obtain sensitive information from and modify data on the affected system.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133975"
+    },
+    {
+      "type": "WEB",
+      "url": "https://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05186.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05186en_us&docLocale=en_US"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-25T23:17:22Z"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2rr5-8jvr-hv3c",
+  "modified": "2026-11-26T18:30:34Z",
+  "published": "2026-11-26T18:30:34Z",
+  "aliases": [
+    "CVE-2026-137520"
+  ],
+  "details": "ToolJet before 3.21.96-LTS is missing the ValidateDataSourceGuard on the dependent-queries route of the data-sources controller and does not scope the datasource lookup to the caller's organization. An authenticated admin or builder with dataSourceDelete can request /api/data-sources/dependent-queries/<datasource_uuid> to confirm a datasource exists in another organization and learn its dependent-query count.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/ToolJet/ToolJet/security/advisories/GHSA-g69g-2vhg-x75g"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137520"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/tooljet-before-3.21.96-lts-cross-organization-information-disclosure-via-dependent-queries-route"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T16:18:04Z"
+  }
+}

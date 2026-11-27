@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7f26-m8hc-2xj9",
+  "modified": "2026-11-26T15:31:34Z",
+  "published": "2026-11-26T15:31:34Z",
+  "aliases": [
+    "CVE-2026-71410"
+  ],
+  "details": "GNU Screen is vulnerable to a Use-After-Free in the utf8_handle_comb() function in encoding.c. Due to improper error handling during memory allocation failure, the global combchars pointer is freed but not reset to NULL. When a subsequent combining Unicode character arrives at the terminal, the function dereferences the freed pointer. An attacker who controls terminal content sent to the screen session, such as via a rogue SSH server or crafted escape sequences, can exploit this vulnerability to perform heap grooming and achieve arbitrary code execution.\n\n\n\nThis issue was fixed in version 5.0.2.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:L/SI:L/SA:L/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71410"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert.pl/en/posts/2026/11/CVE-2026-71409"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cgit.git.savannah.gnu.org/cgit/screen.git/commit/?h=screen-v5&id=15a1481ad85309835c466a49f99a55537a78d596"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cgit.git.savannah.gnu.org/cgit/screen.git/commit/?h=screen-v5&id=3dea5ff20c58ad497062d094b6a9b80a7535a7db"
+    },
+    {
+      "type": "WEB",
+      "url": "https://savannah.gnu.org/git/?group=screen"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T14:17:37Z"
+  }
+}

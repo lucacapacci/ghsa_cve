@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-39vw-7rhc-wc4w",
+  "modified": "2026-11-26T21:31:17Z",
+  "published": "2026-11-26T21:31:17Z",
+  "aliases": [
+    "CVE-2026-137506"
+  ],
+  "details": "ezdxf through 1.4.5 contains a code injection vulnerability in the dxf2code add-on that allows attackers to inject Python code via unescaped single quotes in DXF table entry names. Attackers can craft a DXF file whose layer, linetype, style, or appid names break out of quoted strings in generated scripts, executing code with the privileges of the user running them.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137506"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mozman/ezdxf/issues/1489"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mozman/ezdxf/commit/8cde125a7370afb5988f73b978599172c05f53fd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mozman/ezdxf/blob/84ae31976940f99e6d5f4d3b2e9131da02b574fe/src/ezdxf/addons/dxf2code.py#L477-L481"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/ezdxf-through-1.4.5-code-injection-via-dxf2code-dxf-table-entry-names"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T20:17:23Z"
+  }
+}

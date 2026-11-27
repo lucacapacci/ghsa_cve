@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5r8q-v6j9-5c72",
+  "modified": "2026-11-26T03:30:22Z",
+  "published": "2026-11-26T03:30:22Z",
+  "aliases": [
+    "CVE-2026-122078"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal Extended HTML Filter allows Cross-Site Scripting (XSS). This issue affects Extended HTML Filter versions: from 0.0.0 to 1.0.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122078"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.drupal.org/sa-contrib-2026-309"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T01:17:06Z"
+  }
+}

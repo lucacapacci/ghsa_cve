@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c38r-4gm4-wfjg",
+  "modified": "2026-11-26T03:30:30Z",
+  "published": "2026-11-26T03:30:30Z",
+  "aliases": [
+    "CVE-2026-123683"
+  ],
+  "details": "A SQL injection vulnerability exists in an Accounts Manager service of StellarOne running inside a container due to improper handling of user-supplied input in SQL queries. An attacker with command execution access to the host system or another container with network connectivity to the affected service can send crafted requests to manipulate backend database queries. This issue affects StellarOne: before 5.0.3232.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123683"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.encyclopedia.txone.com/en-us/support/psirt/CVE-2026-123683"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T03:16:35Z"
+  }
+}

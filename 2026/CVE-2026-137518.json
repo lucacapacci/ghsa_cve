@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c8vx-whw9-wmwf",
+  "modified": "2026-11-26T21:31:17Z",
+  "published": "2026-11-26T21:31:17Z",
+  "aliases": [
+    "CVE-2026-137518"
+  ],
+  "details": "pyfda through 0.9.5 contains an insecure deserialization vulnerability in load_filter() that allows attackers to execute code by supplying crafted .npz or .pkl filter files. Attackers can embed a __reduce__ gadget that runs via np.load with allow_pickle=True or pickle.load before validation, executing code with the user's privileges.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137518"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/chipmuenk/pyfda/issues/277"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/chipmuenk/pyfda/commit/621abcbe41f7e5391b1a93fa945eed7c4aec4169"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/chipmuenk/pyfda/commit/cd498b48cb85b6696dd35af6f3a94538d5dd783c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/chipmuenk/pyfda/blob/24104d691dc8116c3f39f0b3da40bff230af4114/pyfda/libs/pyfda_io_lib.py#L1636-L1652"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/pyfda-through-0.9.5-code-execution-via-insecure-deserialization-in-load-filter"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T20:17:23Z"
+  }
+}

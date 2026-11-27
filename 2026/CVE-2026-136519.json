@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7853-qf3j-2r9w",
+  "modified": "2026-11-26T12:30:37Z",
+  "published": "2026-11-26T12:30:37Z",
+  "aliases": [
+    "CVE-2026-136519"
+  ],
+  "details": "The Advanced Product Fields (Product Addons) for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'wapf[field_<id>]' parameter in all versions up to, and including, 1.7.4 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The payload survives sanitization via a whitespace-prefixed tag gadget, is normalized into real HTML elements by wp_kses_post() and force_balance_tags() at render time, and is then executed by WordPress core's tags-box.js when it encounters the forged #tagsdiv-post_tag element on the order screen.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136519"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/advanced-product-fields-for-woocommerce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/advanced-product-fields-for-woocommerce/tags/1.7.4/includes/classes/class-fields.php#L488"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/advanced-product-fields-for-woocommerce/tags/1.7.4/includes/classes/class-fields.php#L499"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/advanced-product-fields-for-woocommerce/tags/1.7.4/includes/controllers/class-product-controller.php#L205"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/advanced-product-fields-for-woocommerce/tags/1.7.4/includes/controllers/class-product-controller.php#L322"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/advanced-product-fields-for-woocommerce/tags/1.7.4/includes/controllers/class-product-controller.php#L437"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3822311/advanced-product-fields-for-woocommerce/trunk/includes/controllers/class-product-controller.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/6883d441-4bdd-4305-b471-a00e880b0249?source=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T12:17:12Z"
+  }
+}

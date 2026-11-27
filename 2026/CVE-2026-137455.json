@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-633w-53mc-h2jw",
+  "modified": "2026-11-26T18:30:27Z",
+  "published": "2026-11-26T18:30:27Z",
+  "aliases": [
+    "CVE-2026-137455"
+  ],
+  "details": "The FreeRDP proxy in FreeRDP before 3.33.0 dereferences a NULL backend client context in pf_server_refresh_rect and pf_server_suppress_output, which are guarded only by a debug-only WINPR_ASSERT, when a REFRESH_RECT or SUPPRESS_OUTPUT data PDU arrives before connection activation. An unauthenticated remote client that completes licensing without sending Confirm Active can crash the proxy process, terminating all hosted sessions.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-hj6g-r86h-wrcg"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137455"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/freerdp-before-3.33.0-proxy-null-pointer-dereference-via-early-refresh-rect-pdu"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T16:17:53Z"
+  }
+}

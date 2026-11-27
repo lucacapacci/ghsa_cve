@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4vmm-v2cg-wj72",
+  "modified": "2026-11-26T00:30:27Z",
+  "published": "2026-11-26T00:30:27Z",
+  "aliases": [
+    "CVE-2026-133979"
+  ],
+  "details": "Improper certificate validation vulnerabilities in the web-based management interface of HPE Networking Management Software (Airwave) allow an unauthenticated remote attacker to circumvent existing authentication controls if certain preconditions outside of the attacker's control are met. Successful exploitation could allow an attacker to gain administrative access to the affected system.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133979"
+    },
+    {
+      "type": "WEB",
+      "url": "https://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05186.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05186en_us&docLocale=en_US"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-25T23:17:22Z"
+  }
+}

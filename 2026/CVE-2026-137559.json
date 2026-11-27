@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cqg3-2763-9f6x",
+  "modified": "2026-11-26T18:30:37Z",
+  "published": "2026-11-26T18:30:37Z",
+  "aliases": [
+    "CVE-2026-137559"
+  ],
+  "details": "web-token jwt-framework and jwt-library before 3.4.13, 4.0.x before 4.0.9, 4.1.x before 4.1.11, and 4.2.x before 4.2.6 allow CPU exhaustion because, on PHP without GMP, AbstractECDH falls back to pure PHP curve code that converts unbounded ECDH-ES epk x and y coordinates to big integers before any length check. Unauthenticated attackers who know only the recipient key's curve can send small JWEs with oversized epk coordinates, keeping workers busy for seconds to minutes per token.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/web-token/jwt-framework/security/advisories/GHSA-wwq7-mh3q-hwrh"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137559"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/web-token-jwt-framework-before-3.4.13-ecdh-es-dos-via-oversized-epk-coordinate"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-405"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T16:18:10Z"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-646c-2jmp-28jg",
+  "modified": "2026-11-26T15:31:25Z",
+  "published": "2026-11-26T15:31:25Z",
+  "aliases": [
+    "CVE-2026-120746"
+  ],
+  "details": "The MW WP Form plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 5.1.8 via the 'mw-wp-form_session_mw-wp-form-<FORM_ID>' parameter due to missing validation on a user controlled key. This makes it possible for unauthenticated attackers to overwrite or delete arbitrary WordPress transients in wp_options — including core-managed transients such as wp_styles_for_blocks — enabling injection of attacker-controlled CSS into every front-end page and permanent anchoring of poisoned transient values that never re-expire. The plugin's CSRF check does not prevent exploitation because MW_WP_Form_Data::__construct() registers _save_to_session() on the PHP shutdown hook before the CSRF check runs, causing the transient write to fire even after wp_safe_redirect()+exit; the GET path via the [mwform_formkey] shortcode has no CSRF check at all.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120746"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/web-soudan/mw-wp-form/pull/55/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/mw-wp-form/tags/5.1.8/classes/controllers/class.main.php#L141"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/mw-wp-form/tags/5.1.8/classes/models/class.data.php#L90"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/mw-wp-form/tags/5.1.8/classes/models/class.data.php#L96"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/mw-wp-form/tags/5.1.8/classes/models/class.session.php#L186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/mw-wp-form/tags/5.1.8/classes/models/class.session.php#L40"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/mw-wp-form/tags/5.1.8/classes/models/class.session.php#L99"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/mw-wp-form/tags/5.1.8/classes/services/class.exec-shortcode.php#L74"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/mw-wp-form/tags/5.1.9/classes/models/class.session.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/0becfaf1-7d53-4803-a255-1eeacd0566f5?source=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-639"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T13:16:36Z"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c4v3-x2v9-w6g6",
+  "modified": "2026-11-26T12:30:34Z",
+  "published": "2026-11-26T12:30:34Z",
+  "aliases": [
+    "CVE-2026-123911"
+  ],
+  "details": "ESX contains a use-after-free vulnerability in the I/O filter service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8.\nAffected versions:\nVMware ESX 9.1.x.x: fixed in ESXi-9.1.2.0-25946735\nVMware ESX 9.0.x.x: fixed in ESXi-9.0.2.0200-25953133\nVMware ESX 8.0: fixed in ESXi80U3m-25926933\nVMware Cloud Foundation 5.x: fixed in 5.2.5\nVMware Telco Cloud Platform 5.0.x: fixed in KB463501\nVMware Telco Cloud Platform 5.1.x: fixed in KB463501",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123911"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39626"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T11:17:01Z"
+  }
+}

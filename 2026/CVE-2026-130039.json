@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-39vq-fqfv-5rmp",
+  "modified": "2026-11-27T03:30:27Z",
+  "published": "2026-11-27T03:30:27Z",
+  "aliases": [
+    "CVE-2026-130039"
+  ],
+  "details": "The LiteSpeed Cache plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'REQUEST_URI' parameter in all versions up to, and including, 7.9.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Successful exploitation requires comments to be open, a comment author name containing a literal quotation mark stored via WordPress's ENT_NOQUOTES save pipeline, a raw HTTP client capable of sending unencoded \" and > characters in the request path, and — under default WordPress moderation — prior moderator approval of the crafted comment.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130039"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/litespeedtech/lscache_wp/commit/ac5e4c32c27ccc6fb16a68ec648de549db8873a4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/litespeed-cache/tags/7.9.3/src/core.cls.php#L219"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/litespeed-cache/tags/7.9.3/src/core.cls.php#L600"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/litespeed-cache/tags/7.9.3/src/core.cls.php#L645"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3821060/litespeed-cache/trunk/src/core.cls.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/9b164170-5527-4792-a070-71fd8e270d56?source=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-27T03:17:02Z"
+  }
+}

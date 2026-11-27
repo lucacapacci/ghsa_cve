@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2qcw-qqhw-r653",
+  "modified": "2026-11-27T00:30:24Z",
+  "published": "2026-11-27T00:30:24Z",
+  "aliases": [
+    "CVE-2026-137621"
+  ],
+  "details": "A weakness has been identified in RT-Thread up to 5.3.0. Affected by this vulnerability is the function bl_adc_get_value of the file bsp/bouffalo_lab/libraries/rt_drivers/drv_adc.c of the component Bouffalo ADC Driver. This manipulation of the argument channel causes improper validation of array index. The attack requires local access. Patch name: b3a0eb5e12c6dca8145fc49d76c4785478c9e55b. It is suggested to install a patch to address this issue.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137621"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RT-Thread/rt-thread/issues/11949"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RT-Thread/rt-thread/pull/12003"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RT-Thread/rt-thread/commit/b3a0eb5e12c6dca8145fc49d76c4785478c9e55b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RT-Thread/rt-thread"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2026-137621"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/1064279"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/444434"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/444434/cti"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-119"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-26T22:17:55Z"
+  }
+}

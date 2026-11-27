@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-x58g-mffg-rf6g",
+  "modified": "2026-11-27T03:30:26Z",
+  "published": "2026-11-19T18:31:58Z",
+  "aliases": [
+    "CVE-2026-133274"
+  ],
+  "details": "THC-Hydra through 9.7 contains a stack buffer overflow vulnerability in analyze_server_response() of hydra-http-form.c that allows malicious HTTP servers to corrupt memory via crafted Set-Cookie headers. Attackers can send a Set-Cookie header with an extra leading space followed by a repeated cookie name, causing a negative strncpy length that overflows tmpcookie and crashes Hydra.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133274"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vanhauser-thc/thc-hydra/commit/6ab9ad860ff92a18196566172a197070b3977f6e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/VulnSVNC/CVE-2026-133274"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vanhauser-thc/thc-hydra"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vanhauser-thc/thc-hydra/blob/v9.7/hydra-http-form.c#L790-L804"
+    },
+    {
+      "type": "WEB",
+      "url": "https://umutsevinc.com/cve/cve-2026-133274"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/thc-hydra-through-9.7-stack-buffer-overflow-via-hydra-http-form-c-cookie-handling"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-19T16:21:30Z"
+  }
+}

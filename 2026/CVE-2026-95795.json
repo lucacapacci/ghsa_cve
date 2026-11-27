@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fc98-w97q-2cjg",
+  "modified": "2026-11-26T00:30:28Z",
+  "published": "2026-11-26T00:30:28Z",
+  "aliases": [
+    "CVE-2026-95795"
+  ],
+  "details": "Missing authorization vulnerabilities exist in the API of HPE Networking Management Software (Airwave). Successful exploitation could allow an authenticated attacker with low privileges to modify data on the affected system.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95795"
+    },
+    {
+      "type": "WEB",
+      "url": "https://csaf.arubanetworking.hpe.com/2026/hpe_networking_-_hpesbnw05186.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05186en_us&docLocale=en_US"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-25T23:17:26Z"
+  }
+}
