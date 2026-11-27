@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2q8q-85vw-pcm6",
+  "modified": "2026-11-27T06:31:08Z",
+  "published": "2026-11-27T06:31:08Z",
+  "aliases": [
+    "CVE-2026-111315"
+  ],
+  "details": "The Smaily Connect plugin for WordPress is vulnerable to Insecure Direct Object Reference in versions up to, and including, 3.24.0 This is due to the smaily_get_edit_user_id() function reading an attacker-controlled $_GET['user_id'] parameter without performing any ownership or capability check, and then feeding that id into smaily_get_userdata() (which calls get_user_meta()) when rendering the WooCommerce My Account 'edit-account' form via the smaily_print_user_frontend_fields() handler on the woocommerce_edit_account_form action. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read other users' personally identifiable profile data (phone number, date of birth, and gender — including administrators') by appending ?user_id=<target> to the account-details URL.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111315"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sendsmaily/smaily-wordpress-plugin/releases#release-3.24.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/smaily-connect/tags/3.17.1/integrations/woocommerce/profile-settings.class.php#L245"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/smaily-connect/tags/3.17.1/integrations/woocommerce/profile-settings.class.php#L257"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/smaily-connect/tags/3.17.1/integrations/woocommerce/profile-settings.class.php#L79"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/b223c0de-eed1-47dd-9ce9-04e2baf6af89?source=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-639"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-27T04:16:39Z"
+  }
+}

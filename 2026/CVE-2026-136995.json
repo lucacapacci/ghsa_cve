@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gjxh-vr2m-wq58",
+  "modified": "2026-11-27T06:31:11Z",
+  "published": "2026-11-27T06:31:11Z",
+  "aliases": [
+    "CVE-2026-136995"
+  ],
+  "details": "The Upsell Funnel Builder for WooCommerce – Create Upsells, Cross-Sells, Order Bumps, Frequently Bought, and Popups. plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'form_data' parameter in all versions up to, and including, 3.1.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The nonce gating the vulnerable AJAX endpoint is publicly emitted to any visitor loading a cart, checkout, or shortcode page, making the endpoint fully exploitable by unauthenticated attackers without any prior account or login.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136995"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/upsell-order-bump-offer-for-woocommerce/tags/3.1.7/includes/class-upsell-order-bump-offer-for-woocommerce.php#L368"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/upsell-order-bump-offer-for-woocommerce/tags/3.1.7/public/class-upsell-order-bump-offer-for-woocommerce-public.php#L1622"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/upsell-order-bump-offer-for-woocommerce/tags/3.1.7/public/class-upsell-order-bump-offer-for-woocommerce-public.php#L1656"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/upsell-order-bump-offer-for-woocommerce/tags/3.1.7/public/class-upsell-order-bump-offer-for-woocommerce-public.php#L213"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/upsell-order-bump-offer-for-woocommerce/tags/3.1.7/public/class-upsell-order-bump-offer-for-woocommerce-public.php#L503"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/upsell-order-bump-offer-for-woocommerce/tags/3.1.8/public/class-upsell-order-bump-offer-for-woocommerce-public.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/ab2b5729-47db-4575-8ae6-b78e5aff3549?source=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-27T05:19:01Z"
+  }
+}

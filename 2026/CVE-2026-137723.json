@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4mrf-9g4c-fgw6",
+  "modified": "2026-11-27T06:31:12Z",
+  "published": "2026-11-27T06:31:12Z",
+  "aliases": [
+    "CVE-2026-137723"
+  ],
+  "details": "A vulnerability in the Platform component of Mitel OpenScape 4000 and OpenScape 4000 Manager could allow an attacker to conduct a command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the system. This vulnerability affects OpenScape 4000, versions V11 R0.22 through V11 R2.11 and V10 R1.68 and earlier, and OpenScape 4000 Manager, versions V11 R0.22 through V11 R2.11 and V10 R1.34 through V10 R1.68. This is MTLVULN-1793.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137723"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0013"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-78"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-27T06:17:09Z"
+  }
+}

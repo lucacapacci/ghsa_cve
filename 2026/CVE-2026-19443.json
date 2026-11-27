@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5h64-r7mq-3fvv",
+  "modified": "2026-11-27T06:31:09Z",
+  "published": "2026-11-27T06:31:09Z",
+  "aliases": [
+    "CVE-2026-19443"
+  ],
+  "details": "A flaw was found in CRI-O. An attacker with access to the kubelet or CRI-O socket can exploit a path traversal vulnerability in the checkpoint restore functionality. This allows the attacker to delete arbitrary files and directories on the host filesystem during a checkpoint restore operation. The vulnerability arises because the system processes entries from checkpoint archive metadata without validating that the files are confined to the container's root directory.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2026-19443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2513488"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-27T04:16:40Z"
+  }
+}

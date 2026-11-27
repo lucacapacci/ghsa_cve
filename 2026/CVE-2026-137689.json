@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2576-r595-872p",
+  "modified": "2026-11-27T06:31:12Z",
+  "published": "2026-11-27T06:31:12Z",
+  "aliases": [
+    "CVE-2026-137689"
+  ],
+  "details": "A vulnerability was detected in bayang jelu up to 0.88.2. Affected by this vulnerability is the function addResourceHandlers of the file src/main/kotlin/io/github/bayang/jelu/config/WebMvcConfig.kt of the component CSV Export File Handler. The manipulation results in missing authorization. The attack can be launched remotely. Upgrading to version 0.88.3 addresses this issue. The patch is identified as a4c72815bce084865874ef2d720c01c60b6d0c6c. You should upgrade the affected component.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137689"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/bayang/jelu/commit/a4c72815bce084865874ef2d720c01c60b6d0c6c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/bayang/jelu"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/bayang/jelu/releases/tag/v0.88.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/cve/CVE-2026-137689"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/1066936"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/444643"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/444643/cti"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-27T06:17:09Z"
+  }
+}

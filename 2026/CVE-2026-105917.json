@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5832-mxmq-v37w",
+  "modified": "2026-11-27T06:31:09Z",
+  "published": "2026-11-27T06:31:09Z",
+  "aliases": [
+    "CVE-2026-105917"
+  ],
+  "details": "File Permission Vulnerability in RV3000 Log Monitor for VMware.\n\nThis issue affects RV3000 Log Monitor for VMware(CIM): before 98-09; RV3000 Log Monitor for VMware: before 97-05.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105917"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.hitachi.co.jp/products/it/server/security/info/vulnerable/hitachi_sec_2026_216_en.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-732"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-11-27T05:18:58Z"
+  }
+}
